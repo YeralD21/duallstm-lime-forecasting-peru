@@ -1,0 +1,161 @@
+cultivo,pool,definicion,modelo,n_umbrales,n_primero,robusto_3de4
+dulce,principal_2021_2025,3M,Chronos,4,0,False
+dulce,principal_2021_2025,3M,ElasticNet,4,0,False
+dulce,principal_2021_2025,3M,GC3,4,0,False
+dulce,principal_2021_2025,3M,GE,4,0,False
+dulce,principal_2021_2025,3M,Naive,4,0,False
+dulce,principal_2021_2025,3M,Ridge,4,0,False
+dulce,principal_2021_2025,3M,SARIMA,4,4,True
+dulce,principal_2021_2025,3M,SARIMA-sel,4,3,True
+dulce,principal_2021_2025,3M,Seasonal Naive,4,0,False
+dulce,principal_2021_2025,3M,XGB-37,4,0,False
+dulce,principal_2021_2025,MoM,Chronos,4,0,False
+dulce,principal_2021_2025,MoM,ElasticNet,4,0,False
+dulce,principal_2021_2025,MoM,GC3,4,0,False
+dulce,principal_2021_2025,MoM,GE,4,0,False
+dulce,principal_2021_2025,MoM,Naive,4,0,False
+dulce,principal_2021_2025,MoM,Ridge,4,0,False
+dulce,principal_2021_2025,MoM,SARIMA,4,4,True
+dulce,principal_2021_2025,MoM,SARIMA-sel,4,2,False
+dulce,principal_2021_2025,MoM,Seasonal Naive,4,0,False
+dulce,principal_2021_2025,MoM,XGB-37,4,0,False
+dulce,principal_2021_2025,STL,Chronos,4,2,False
+dulce,principal_2021_2025,STL,ElasticNet,4,0,False
+dulce,principal_2021_2025,STL,GC3,4,0,False
+dulce,principal_2021_2025,STL,GE,4,0,False
+dulce,principal_2021_2025,STL,Naive,4,1,False
+dulce,principal_2021_2025,STL,Ridge,4,0,False
+dulce,principal_2021_2025,STL,SARIMA,4,3,True
+dulce,principal_2021_2025,STL,SARIMA-sel,4,4,True
+dulce,principal_2021_2025,STL,Seasonal Naive,4,3,True
+dulce,principal_2021_2025,STL,XGB-37,4,0,False
+dulce,principal_2021_2025,YoY,Chronos,4,4,True
+dulce,principal_2021_2025,YoY,ElasticNet,4,0,False
+dulce,principal_2021_2025,YoY,GC3,4,0,False
+dulce,principal_2021_2025,YoY,GE,4,0,False
+dulce,principal_2021_2025,YoY,Naive,4,1,False
+dulce,principal_2021_2025,YoY,Ridge,4,0,False
+dulce,principal_2021_2025,YoY,SARIMA,4,3,True
+dulce,principal_2021_2025,YoY,SARIMA-sel,4,3,True
+dulce,principal_2021_2025,YoY,Seasonal Naive,4,0,False
+dulce,principal_2021_2025,YoY,XGB-37,4,1,False
+dulce,sensibilidad_2023_2025,3M,Chronos,4,0,False
+dulce,sensibilidad_2023_2025,3M,ElasticNet,4,0,False
+dulce,sensibilidad_2023_2025,3M,GC3,4,0,False
+dulce,sensibilidad_2023_2025,3M,GE,4,0,False
+dulce,sensibilidad_2023_2025,3M,Naive,4,0,False
+dulce,sensibilidad_2023_2025,3M,Ridge,4,0,False
+dulce,sensibilidad_2023_2025,3M,SARIMA,4,3,True
+dulce,sensibilidad_2023_2025,3M,SARIMA-sel,4,4,True
+dulce,sensibilidad_2023_2025,3M,Seasonal Naive,4,1,False
+dulce,sensibilidad_2023_2025,3M,XGB-37,4,0,False
+dulce,sensibilidad_2023_2025,MoM,Chronos,4,0,False
+dulce,sensibilidad_2023_2025,MoM,ElasticNet,4,0,False
+dulce,sensibilidad_2023_2025,MoM,GC3,4,0,False
+dulce,sensibilidad_2023_2025,MoM,GE,4,0,False
+dulce,sensibilidad_2023_2025,MoM,Naive,4,0,False
+dulce,sensibilidad_2023_2025,MoM,Ridge,4,0,False
+dulce,sensibilidad_2023_2025,MoM,SARIMA,4,3,True
+dulce,sensibilidad_2023_2025,MoM,SARIMA-sel,4,3,True
+dulce,sensibilidad_2023_2025,MoM,Seasonal Naive,4,1,False
+dulce,sensibilidad_2023_2025,MoM,XGB-37,4,0,False
+dulce,sensibilidad_2023_2025,STL,Chronos,4,1,False
+dulce,sensibilidad_2023_2025,STL,ElasticNet,4,0,False
+dulce,sensibilidad_2023_2025,STL,GC3,4,0,False
+dulce,sensibilidad_2023_2025,STL,GE,4,0,False
+dulce,sensibilidad_2023_2025,STL,Naive,4,1,False
+dulce,sensibilidad_2023_2025,STL,Ridge,4,0,False
+dulce,sensibilidad_2023_2025,STL,SARIMA,4,1,False
+dulce,sensibilidad_2023_2025,STL,SARIMA-sel,4,4,True
+dulce,sensibilidad_2023_2025,STL,Seasonal Naive,4,2,False
+dulce,sensibilidad_2023_2025,STL,XGB-37,4,0,False
+dulce,sensibilidad_2023_2025,YoY,Chronos,4,4,True
+dulce,sensibilidad_2023_2025,YoY,ElasticNet,4,0,False
+dulce,sensibilidad_2023_2025,YoY,GC3,4,0,False
+dulce,sensibilidad_2023_2025,YoY,GE,4,0,False
+dulce,sensibilidad_2023_2025,YoY,Naive,4,1,False
+dulce,sensibilidad_2023_2025,YoY,Ridge,4,0,False
+dulce,sensibilidad_2023_2025,YoY,SARIMA,4,3,True
+dulce,sensibilidad_2023_2025,YoY,SARIMA-sel,4,3,True
+dulce,sensibilidad_2023_2025,YoY,Seasonal Naive,4,0,False
+dulce,sensibilidad_2023_2025,YoY,XGB-37,4,2,False
+sutil,principal_2021_2025,3M,Chronos,4,4,True
+sutil,principal_2021_2025,3M,ElasticNet,4,0,False
+sutil,principal_2021_2025,3M,GC3,4,0,False
+sutil,principal_2021_2025,3M,GE,4,0,False
+sutil,principal_2021_2025,3M,Naive,4,0,False
+sutil,principal_2021_2025,3M,Ridge,4,0,False
+sutil,principal_2021_2025,3M,SARIMA,4,2,False
+sutil,principal_2021_2025,3M,SARIMA-sel,4,4,True
+sutil,principal_2021_2025,3M,Seasonal Naive,4,1,False
+sutil,principal_2021_2025,3M,XGB-37,4,0,False
+sutil,principal_2021_2025,MoM,Chronos,4,4,True
+sutil,principal_2021_2025,MoM,ElasticNet,4,0,False
+sutil,principal_2021_2025,MoM,GC3,4,1,False
+sutil,principal_2021_2025,MoM,GE,4,0,False
+sutil,principal_2021_2025,MoM,Naive,4,0,False
+sutil,principal_2021_2025,MoM,Ridge,4,0,False
+sutil,principal_2021_2025,MoM,SARIMA,4,3,True
+sutil,principal_2021_2025,MoM,SARIMA-sel,4,3,True
+sutil,principal_2021_2025,MoM,Seasonal Naive,4,2,False
+sutil,principal_2021_2025,MoM,XGB-37,4,1,False
+sutil,principal_2021_2025,STL,Chronos,4,4,True
+sutil,principal_2021_2025,STL,ElasticNet,4,0,False
+sutil,principal_2021_2025,STL,GC3,4,2,False
+sutil,principal_2021_2025,STL,GE,4,2,False
+sutil,principal_2021_2025,STL,Naive,4,0,False
+sutil,principal_2021_2025,STL,Ridge,4,0,False
+sutil,principal_2021_2025,STL,SARIMA,4,0,False
+sutil,principal_2021_2025,STL,SARIMA-sel,4,1,False
+sutil,principal_2021_2025,STL,Seasonal Naive,4,2,False
+sutil,principal_2021_2025,STL,XGB-37,4,1,False
+sutil,principal_2021_2025,YoY,Chronos,4,4,True
+sutil,principal_2021_2025,YoY,ElasticNet,4,0,False
+sutil,principal_2021_2025,YoY,GC3,4,0,False
+sutil,principal_2021_2025,YoY,GE,4,0,False
+sutil,principal_2021_2025,YoY,Naive,4,4,True
+sutil,principal_2021_2025,YoY,Ridge,4,0,False
+sutil,principal_2021_2025,YoY,SARIMA,4,2,False
+sutil,principal_2021_2025,YoY,SARIMA-sel,4,1,False
+sutil,principal_2021_2025,YoY,Seasonal Naive,4,0,False
+sutil,principal_2021_2025,YoY,XGB-37,4,1,False
+sutil,sensibilidad_2023_2025,3M,Chronos,4,4,True
+sutil,sensibilidad_2023_2025,3M,ElasticNet,4,0,False
+sutil,sensibilidad_2023_2025,3M,GC3,4,0,False
+sutil,sensibilidad_2023_2025,3M,GE,4,0,False
+sutil,sensibilidad_2023_2025,3M,Naive,4,0,False
+sutil,sensibilidad_2023_2025,3M,Ridge,4,0,False
+sutil,sensibilidad_2023_2025,3M,SARIMA,4,3,True
+sutil,sensibilidad_2023_2025,3M,SARIMA-sel,4,4,True
+sutil,sensibilidad_2023_2025,3M,Seasonal Naive,4,1,False
+sutil,sensibilidad_2023_2025,3M,XGB-37,4,0,False
+sutil,sensibilidad_2023_2025,MoM,Chronos,4,4,True
+sutil,sensibilidad_2023_2025,MoM,ElasticNet,4,0,False
+sutil,sensibilidad_2023_2025,MoM,GC3,4,1,False
+sutil,sensibilidad_2023_2025,MoM,GE,4,0,False
+sutil,sensibilidad_2023_2025,MoM,Naive,4,0,False
+sutil,sensibilidad_2023_2025,MoM,Ridge,4,0,False
+sutil,sensibilidad_2023_2025,MoM,SARIMA,4,2,False
+sutil,sensibilidad_2023_2025,MoM,SARIMA-sel,4,4,True
+sutil,sensibilidad_2023_2025,MoM,Seasonal Naive,4,2,False
+sutil,sensibilidad_2023_2025,MoM,XGB-37,4,2,False
+sutil,sensibilidad_2023_2025,STL,Chronos,4,3,True
+sutil,sensibilidad_2023_2025,STL,ElasticNet,4,0,False
+sutil,sensibilidad_2023_2025,STL,GC3,4,1,False
+sutil,sensibilidad_2023_2025,STL,GE,4,1,False
+sutil,sensibilidad_2023_2025,STL,Naive,4,0,False
+sutil,sensibilidad_2023_2025,STL,Ridge,4,0,False
+sutil,sensibilidad_2023_2025,STL,SARIMA,4,1,False
+sutil,sensibilidad_2023_2025,STL,SARIMA-sel,4,1,False
+sutil,sensibilidad_2023_2025,STL,Seasonal Naive,4,2,False
+sutil,sensibilidad_2023_2025,STL,XGB-37,4,1,False
+sutil,sensibilidad_2023_2025,YoY,Chronos,4,4,True
+sutil,sensibilidad_2023_2025,YoY,ElasticNet,4,0,False
+sutil,sensibilidad_2023_2025,YoY,GC3,4,0,False
+sutil,sensibilidad_2023_2025,YoY,GE,4,0,False
+sutil,sensibilidad_2023_2025,YoY,Naive,4,4,True
+sutil,sensibilidad_2023_2025,YoY,Ridge,4,0,False
+sutil,sensibilidad_2023_2025,YoY,SARIMA,4,2,False
+sutil,sensibilidad_2023_2025,YoY,SARIMA-sel,4,2,False
+sutil,sensibilidad_2023_2025,YoY,Seasonal Naive,4,0,False
+sutil,sensibilidad_2023_2025,YoY,XGB-37,4,1,False

@@ -1,0 +1,209 @@
+tabla,fila,columna,valor_tex,valor_generado,valor_csv,coincide
+tab:shock_scaled,Naive,sutil MoM MAE_shock,"8,506","8,506",8506.194999999998,True
+tab:shock_scaled,Naive,sutil MoM MASE_shock,1.45,1.45,1.450817101142748,True
+tab:shock_scaled,Naive,sutil MoM MAE_shock_rel_SNaive,1.69,1.69,1.6895977391610897,True
+tab:shock_scaled,Naive,sutil YoY MAE_shock,"3,172","3,172",3171.8460000000005,True
+tab:shock_scaled,Naive,sutil YoY MASE_shock,0.57,0.57,0.5683718034151284,True
+tab:shock_scaled,Naive,sutil YoY MAE_shock_rel_SNaive,0.25,0.25,0.2535840168755086,True
+tab:shock_scaled,Naive,dulce MoM MAE_shock,131.6,131.6,131.62193333333332,True
+tab:shock_scaled,Naive,dulce MoM MASE_shock,5.00,5.00,5.001263674080872,True
+tab:shock_scaled,Naive,dulce MoM MAE_shock_rel_SNaive,5.37,5.37,5.371724515088114,True
+tab:shock_scaled,Naive,dulce YoY MAE_shock,83.2,83.2,83.175625,True
+tab:shock_scaled,Naive,dulce YoY MASE_shock,3.29,3.29,3.293691421223858,True
+tab:shock_scaled,Naive,dulce YoY MAE_shock_rel_SNaive,1.96,1.96,1.9620305418690165,True
+tab:shock_scaled,Seasonal Naive,sutil MoM MAE_shock,"5,034","5,034",5034.449799999999,True
+tab:shock_scaled,Seasonal Naive,sutil MoM MASE_shock,0.86,0.86,0.8610013667501418,True
+tab:shock_scaled,Seasonal Naive,sutil MoM MAE_shock_rel_SNaive,1.00,1.00,1.0,True
+tab:shock_scaled,Seasonal Naive,sutil YoY MAE_shock,"12,508","12,508",12508.0675,True
+tab:shock_scaled,Seasonal Naive,sutil YoY MASE_shock,2.26,2.26,2.2572916155386817,True
+tab:shock_scaled,Seasonal Naive,sutil YoY MAE_shock_rel_SNaive,1.00,1.00,1.0,True
+tab:shock_scaled,Seasonal Naive,dulce MoM MAE_shock,24.5,24.5,24.502733333333325,True
+tab:shock_scaled,Seasonal Naive,dulce MoM MASE_shock,0.94,0.94,0.938630507243731,True
+tab:shock_scaled,Seasonal Naive,dulce MoM MAE_shock_rel_SNaive,1.00,1.00,1.0,True
+tab:shock_scaled,Seasonal Naive,dulce YoY MAE_shock,42.4,42.4,42.392625,True
+tab:shock_scaled,Seasonal Naive,dulce YoY MASE_shock,1.67,1.67,1.6707690631880845,True
+tab:shock_scaled,Seasonal Naive,dulce YoY MAE_shock_rel_SNaive,1.00,1.00,1.0,True
+tab:shock_scaled,Chronos,sutil MoM MAE_shock,"\textbf{4,784}","\textbf{4,784}",4783.52241171875,True
+tab:shock_scaled,Chronos,sutil MoM MASE_shock,\textbf{0.82},\textbf{0.82},0.8157498552798946,True
+tab:shock_scaled,Chronos,sutil MoM MAE_shock_rel_SNaive,0.95,0.95,0.9501579321972284,True
+tab:shock_scaled,Chronos,sutil YoY MAE_shock,"\textbf{1,864}","\textbf{1,864}",1864.1131476562507,True
+tab:shock_scaled,Chronos,sutil YoY MASE_shock,\textbf{0.33},\textbf{0.33},0.3323915386808291,True
+tab:shock_scaled,Chronos,sutil YoY MAE_shock_rel_SNaive,0.15,0.15,0.1490328660007831,True
+tab:shock_scaled,Chronos,dulce MoM MAE_shock,48.2,48.2,48.19885270996092,True
+tab:shock_scaled,Chronos,dulce MoM MASE_shock,1.87,1.87,1.865985965312109,True
+tab:shock_scaled,Chronos,dulce MoM MAE_shock_rel_SNaive,1.97,1.97,1.9670806539934704,True
+tab:shock_scaled,Chronos,dulce YoY MAE_shock,33.2,33.2,33.1953354034424,True
+tab:shock_scaled,Chronos,dulce YoY MASE_shock,1.32,1.32,1.3175520691372855,True
+tab:shock_scaled,Chronos,dulce YoY MAE_shock_rel_SNaive,0.78,0.78,0.7830450556775478,True
+tab:shock_scaled,SARIMA,sutil MoM MAE_shock,"5,131","5,131",5130.718508945911,True
+tab:shock_scaled,SARIMA,sutil MoM MASE_shock,0.88,0.88,0.8779562574685194,True
+tab:shock_scaled,SARIMA,sutil MoM MAE_shock_rel_SNaive,1.02,1.02,1.0191219920289822,True
+tab:shock_scaled,SARIMA,sutil YoY MAE_shock,"3,233","3,233",3232.7204221251086,True
+tab:shock_scaled,SARIMA,sutil YoY MASE_shock,0.58,0.58,0.579898305991797,True
+tab:shock_scaled,SARIMA,sutil YoY MAE_shock_rel_SNaive,0.26,0.26,0.2584508296045819,True
+tab:shock_scaled,SARIMA,dulce MoM MAE_shock,\textbf{14.0},\textbf{14.0},13.97793976721227,True
+tab:shock_scaled,SARIMA,dulce MoM MASE_shock,\textbf{0.54},\textbf{0.54},0.5446756960708599,True
+tab:shock_scaled,SARIMA,dulce MoM MAE_shock_rel_SNaive,0.57,0.57,0.5704645101041357,True
+tab:shock_scaled,SARIMA,dulce YoY MAE_shock,\textbf{27.4},\textbf{27.4},27.390608093375285,True
+tab:shock_scaled,SARIMA,dulce YoY MASE_shock,\textbf{1.08},\textbf{1.08},1.0817243634603513,True
+tab:shock_scaled,SARIMA,dulce YoY MAE_shock_rel_SNaive,0.65,0.65,0.646117292651146,True
+tab:shock_scaled,SARIMA-sel,sutil MoM MAE_shock,"4,936","4,936",4935.734381763662,True
+tab:shock_scaled,SARIMA-sel,sutil MoM MASE_shock,0.84,0.84,0.8437203413283662,True
+tab:shock_scaled,SARIMA-sel,sutil MoM MAE_shock_rel_SNaive,0.98,0.98,0.9803920145879024,True
+tab:shock_scaled,SARIMA-sel,sutil YoY MAE_shock,"4,079","4,079",4078.830435935708,True
+tab:shock_scaled,SARIMA-sel,sutil YoY MASE_shock,0.73,0.73,0.731530238865843,True
+tab:shock_scaled,SARIMA-sel,sutil YoY MAE_shock_rel_SNaive,0.33,0.33,0.326095972534183,True
+tab:shock_scaled,SARIMA-sel,dulce MoM MAE_shock,19.7,19.7,19.690761196375583,True
+tab:shock_scaled,SARIMA-sel,dulce MoM MASE_shock,0.72,0.72,0.7214369647084614,True
+tab:shock_scaled,SARIMA-sel,dulce MoM MAE_shock_rel_SNaive,0.80,0.80,0.8036148836337549,True
+tab:shock_scaled,SARIMA-sel,dulce YoY MAE_shock,28.4,28.4,28.37674997273917,True
+tab:shock_scaled,SARIMA-sel,dulce YoY MASE_shock,1.11,1.11,1.1145000530562177,True
+tab:shock_scaled,SARIMA-sel,dulce YoY MAE_shock_rel_SNaive,0.67,0.67,0.6693794020242713,True
+tab:shock_scaled,Ridge,sutil MoM MAE_shock,"8,557","8,557",8556.90241342448,True
+tab:shock_scaled,Ridge,sutil MoM MASE_shock,1.47,1.47,1.4714475183280062,True
+tab:shock_scaled,Ridge,sutil MoM MAE_shock_rel_SNaive,1.70,1.70,1.6996698255734877,True
+tab:shock_scaled,Ridge,sutil YoY MAE_shock,"4,946","4,946",4946.067579252124,True
+tab:shock_scaled,Ridge,sutil YoY MASE_shock,0.88,0.88,0.8830861676505389,True
+tab:shock_scaled,Ridge,sutil YoY MAE_shock_rel_SNaive,0.40,0.40,0.3954301956918704,True
+tab:shock_scaled,Ridge,dulce MoM MAE_shock,69.7,69.7,69.69398928244418,True
+tab:shock_scaled,Ridge,dulce MoM MASE_shock,2.71,2.71,2.7149649526368043,True
+tab:shock_scaled,Ridge,dulce MoM MAE_shock_rel_SNaive,2.84,2.84,2.844335296570078,True
+tab:shock_scaled,Ridge,dulce YoY MAE_shock,66.4,66.4,66.4166891392413,True
+tab:shock_scaled,Ridge,dulce YoY MASE_shock,2.62,2.62,2.624927189586718,True
+tab:shock_scaled,Ridge,dulce YoY MAE_shock_rel_SNaive,1.57,1.57,1.566703858023449,True
+tab:shock_scaled,ElasticNet,sutil MoM MAE_shock,"8,154","8,154",8153.740083113635,True
+tab:shock_scaled,ElasticNet,sutil MoM MASE_shock,1.40,1.40,1.4023676609231075,True
+tab:shock_scaled,ElasticNet,sutil MoM MAE_shock_rel_SNaive,1.62,1.62,1.619589112421706,True
+tab:shock_scaled,ElasticNet,sutil YoY MAE_shock,"5,404","5,404",5403.723473770138,True
+tab:shock_scaled,ElasticNet,sutil YoY MASE_shock,0.97,0.97,0.9661636280768952,True
+tab:shock_scaled,ElasticNet,sutil YoY MAE_shock_rel_SNaive,0.43,0.43,0.4320190528049307,True
+tab:shock_scaled,ElasticNet,dulce MoM MAE_shock,67.2,67.2,67.2297063529753,True
+tab:shock_scaled,ElasticNet,dulce MoM MASE_shock,2.61,2.61,2.6144488493449947,True
+tab:shock_scaled,ElasticNet,dulce MoM MAE_shock_rel_SNaive,2.74,2.74,2.743763540107443,True
+tab:shock_scaled,ElasticNet,dulce YoY MAE_shock,57.3,57.3,57.32178887897726,True
+tab:shock_scaled,ElasticNet,dulce YoY MASE_shock,2.26,2.26,2.2608328337736303,True
+tab:shock_scaled,ElasticNet,dulce YoY MAE_shock_rel_SNaive,1.35,1.35,1.3521641766457553,True
+tab:shock_scaled,XGB-37,sutil MoM MAE_shock,"5,955","5,955",5955.200768938888,True
+tab:shock_scaled,XGB-37,sutil MoM MASE_shock,1.02,1.02,1.017522852241915,True
+tab:shock_scaled,XGB-37,sutil MoM MAE_shock_rel_SNaive,1.18,1.18,1.1828900883943445,True
+tab:shock_scaled,XGB-37,sutil YoY MAE_shock,"4,816","4,816",4816.485138653821,True
+tab:shock_scaled,XGB-37,sutil YoY MASE_shock,0.87,0.87,0.8695976771887949,True
+tab:shock_scaled,XGB-37,sutil YoY MAE_shock_rel_SNaive,0.39,0.39,0.3850702867292506,True
+tab:shock_scaled,XGB-37,dulce MoM MAE_shock,65.8,65.8,65.84926088998452,True
+tab:shock_scaled,XGB-37,dulce MoM MASE_shock,2.53,2.53,2.530168285996248,True
+tab:shock_scaled,XGB-37,dulce MoM MAE_shock_rel_SNaive,2.69,2.69,2.687425112707883,True
+tab:shock_scaled,XGB-37,dulce YoY MAE_shock,42.3,42.3,42.311647139108246,True
+tab:shock_scaled,XGB-37,dulce YoY MASE_shock,1.66,1.66,1.6616607177647822,True
+tab:shock_scaled,XGB-37,dulce YoY MAE_shock_rel_SNaive,1.00,1.00,0.998089812534804,True
+tab:shock_scaled,GC3,sutil MoM MAE_shock,"6,074","6,074",6074.45951665352,True
+tab:shock_scaled,GC3,sutil MoM MASE_shock,1.04,1.04,1.0398792825269676,True
+tab:shock_scaled,GC3,sutil MoM MAE_shock_rel_SNaive,1.21,1.21,1.206578624868505,True
+tab:shock_scaled,GC3,sutil YoY MAE_shock,"9,166","9,166",9166.11635405671,True
+tab:shock_scaled,GC3,sutil YoY MASE_shock,1.65,1.65,1.6529891963493146,True
+tab:shock_scaled,GC3,sutil YoY MAE_shock_rel_SNaive,0.73,0.73,0.7328163486531161,True
+tab:shock_scaled,GC3,dulce MoM MAE_shock,60.7,60.7,60.74803512654015,True
+tab:shock_scaled,GC3,dulce MoM MASE_shock,2.38,2.38,2.377455268913584,True
+tab:shock_scaled,GC3,dulce MoM MAE_shock_rel_SNaive,2.48,2.48,2.479235042888011,True
+tab:shock_scaled,GC3,dulce YoY MAE_shock,58.2,58.2,58.191484820727965,True
+tab:shock_scaled,GC3,dulce YoY MASE_shock,2.32,2.32,2.324539659172263,True
+tab:shock_scaled,GC3,dulce YoY MAE_shock_rel_SNaive,1.37,1.37,1.3726794417832813,True
+tab:shock_scaled,GE,sutil MoM MAE_shock,"6,827","6,827",6826.646182115476,True
+tab:shock_scaled,GE,sutil MoM MASE_shock,1.17,1.17,1.1689419203059614,True
+tab:shock_scaled,GE,sutil MoM MAE_shock_rel_SNaive,1.36,1.36,1.355986543378678,True
+tab:shock_scaled,GE,sutil YoY MAE_shock,"9,796","9,796",9796.02674079026,True
+tab:shock_scaled,GE,sutil YoY MASE_shock,1.77,1.77,1.7692988261984517,True
+tab:shock_scaled,GE,sutil YoY MAE_shock_rel_SNaive,0.78,0.78,0.7831766770358619,True
+tab:shock_scaled,GE,dulce MoM MAE_shock,57.9,57.9,57.88306912892643,True
+tab:shock_scaled,GE,dulce MoM MASE_shock,2.25,2.25,2.2517492525364142,True
+tab:shock_scaled,GE,dulce MoM MAE_shock_rel_SNaive,2.36,2.36,2.3623106998508923,True
+tab:shock_scaled,GE,dulce YoY MAE_shock,56.1,56.1,56.061925083027205,True
+tab:shock_scaled,GE,dulce YoY MASE_shock,2.25,2.25,2.245398791141347,True
+tab:shock_scaled,GE,dulce YoY MAE_shock_rel_SNaive,1.32,1.32,1.3224452386005163,True
+tab:shock_scaled,(caption),n shock months sutil MoM,10,10,10.0,True
+tab:shock_scaled,(caption),n shock months sutil YoY,10,10,10.0,True
+tab:shock_scaled,(caption),n shock months dulce MoM,15,15,15.0,True
+tab:shock_scaled,(caption),n shock months dulce YoY,16,16,16.0,True
+tab:diag_experiments,Reference,sutil MAE,"2,649","2,649",2648.546662239583,True
+tab:diag_experiments,GC3 (protocol),sutil MAE,"6,361","6,361",6361.304515526975,True
+tab:diag_experiments,Reference,dulce MAE,20.6,20.6,20.62870104413105,True
+tab:diag_experiments,GC3 (protocol),dulce MAE,56.7,56.7,56.66933291278365,True
+tab:diag_experiments,GC3-Y1,sutil MAE,"6,384","6,384",6383.753874496654,True
+tab:diag_experiments,GC3-Y1,sutil d,"+3,735","+3,735",3735.207212257071,True
+tab:diag_experiments,GC3-Y1,sutil p,$<$0.001,$<$0.001,1.803071607575646e-07,True
+tab:diag_experiments,GC3-Y1,dulce MAE,49.4,49.4,49.37537995379749,True
+tab:diag_experiments,GC3-Y1,dulce d,+28.7,+28.7,28.74667890966645,True
+tab:diag_experiments,GC3-Y1,dulce p,$<$0.001,$<$0.001,2.123502004458544e-06,True
+tab:diag_experiments,GE-Y1,sutil MAE,"6,540","6,540",6540.0377574271015,True
+tab:diag_experiments,GE-Y1,sutil d,"+3,891","+3,891",3891.491095187519,True
+tab:diag_experiments,GE-Y1,sutil p,$<$0.001,$<$0.001,3.226924483179517e-07,True
+tab:diag_experiments,GE-Y1,dulce MAE,50.3,50.3,50.28735182045921,True
+tab:diag_experiments,GE-Y1,dulce d,+29.7,+29.7,29.658650776328155,True
+tab:diag_experiments,GE-Y1,dulce p,$<$0.001,$<$0.001,7.177307568273505e-07,True
+tab:diag_experiments,XGB-37-Y1,sutil MAE,"4,127","4,127",4127.4188485081695,True
+tab:diag_experiments,XGB-37-Y1,sutil d,"+1,479","+1,479",1478.8721862685857,True
+tab:diag_experiments,XGB-37-Y1,sutil p,0.001,$<$0.001,0.0009042780421304,False
+tab:diag_experiments,XGB-37-Y1,dulce MAE,38.6,38.6,38.62372035415299,True
+tab:diag_experiments,XGB-37-Y1,dulce d,+18.0,+18.0,17.99501931002195,True
+tab:diag_experiments,XGB-37-Y1,dulce p,$<$0.001,$<$0.001,0.0001491595820934,True
+tab:diag_experiments,Ridge-Y1,sutil MAE,"4,691","4,691",4690.984705367518,True
+tab:diag_experiments,Ridge-Y1,sutil d,"+2,042","+2,042",2042.4380431279344,True
+tab:diag_experiments,Ridge-Y1,sutil p,0.008,0.008,0.0075964285743912,True
+tab:diag_experiments,Ridge-Y1,dulce MAE,44.2,44.2,44.19116902539699,True
+tab:diag_experiments,Ridge-Y1,dulce d,+23.6,+23.6,23.562467981265943,True
+tab:diag_experiments,Ridge-Y1,dulce p,$<$0.001,$<$0.001,1.478143726618697e-05,True
+tab:diag_experiments,ElasticNet-Y1,sutil MAE,"4,376","4,376",4376.020391237705,True
+tab:diag_experiments,ElasticNet-Y1,sutil d,"+1,727","+1,727",1727.473728998122,True
+tab:diag_experiments,ElasticNet-Y1,sutil p,0.012,0.012,0.0115545065674955,True
+tab:diag_experiments,ElasticNet-Y1,dulce MAE,42.3,42.3,42.342788433959626,True
+tab:diag_experiments,ElasticNet-Y1,dulce d,+21.7,+21.7,21.714087389828585,True
+tab:diag_experiments,ElasticNet-Y1,dulce p,$<$0.001,$<$0.001,4.251994098303236e-05,True
+tab:diag_experiments,SARIMA-Y1,sutil MAE,"3,325","3,325",3325.354992681769,True
+tab:diag_experiments,SARIMA-Y1,sutil d,+677,+677,676.8083304421849,True
+tab:diag_experiments,SARIMA-Y1,sutil p,0.022,0.022,0.0218262964680477,True
+tab:diag_experiments,SARIMA-Y1,dulce MAE,18.3,18.3,18.278988513150424,True
+tab:diag_experiments,SARIMA-Y1,dulce d,$-$2.3,$-$2.3,-2.349712530980624,True
+tab:diag_experiments,SARIMA-Y1,dulce p,0.178,0.178,0.1781407864976456,True
+tab:diag_experiments,SARIMA-sel-Y1,sutil MAE,"17,463$^{a}$","17,463$^{a}$",17463.328436900778,True
+tab:diag_experiments,SARIMA-sel-Y1,sutil d,"+14,815","+14,815",14814.7817746612,True
+tab:diag_experiments,SARIMA-sel-Y1,sutil p,0.002,0.002,0.0023819291570386,True
+tab:diag_experiments,SARIMA-sel-Y1,dulce MAE,20.0,20.0,19.967527546327226,True
+tab:diag_experiments,SARIMA-sel-Y1,dulce d,$-$0.7,$-$0.7,-0.66117349780382,True
+tab:diag_experiments,SARIMA-sel-Y1,dulce p,0.146,0.146,0.1460265297472767,True
+tab:diag_experiments,LSTM-U,sutil MAE,"6,811","6,811",6810.59910146167,True
+tab:diag_experiments,LSTM-U,sutil d,"+4,162","+4,162",4162.052439222087,True
+tab:diag_experiments,LSTM-U,sutil p,$<$0.001,$<$0.001,3.5701066547488836e-09,True
+tab:diag_experiments,LSTM-U,dulce MAE,40.3,40.3,40.27610181059409,True
+tab:diag_experiments,LSTM-U,dulce d,+19.6,+19.6,19.647400766463036,True
+tab:diag_experiments,LSTM-U,dulce p,$<$0.001,$<$0.001,8.639639556062839e-05,True
+tab:diag_experiments,LSTM-U-Y1,sutil MAE,"6,306","6,306",6305.84186027197,True
+tab:diag_experiments,LSTM-U-Y1,sutil d,"+3,657","+3,657",3657.2951980323865,True
+tab:diag_experiments,LSTM-U-Y1,sutil p,$<$0.001,$<$0.001,5.958362692126683e-10,True
+tab:diag_experiments,LSTM-U-Y1,dulce MAE,36.6,36.6,36.59375257652224,True
+tab:diag_experiments,LSTM-U-Y1,dulce d,+16.0,+16.0,15.965051532391186,True
+tab:diag_experiments,LSTM-U-Y1,dulce p,0.001,$<$0.001,0.0007946003740439,False
+tab:diag_experiments,GC3-R,sutil MAE,"6,056","6,056",6055.800078308396,True
+tab:diag_experiments,GC3-R,sutil d,"+3,407","+3,407",3407.2534160688137,True
+tab:diag_experiments,GC3-R,sutil p,$<$0.001,$<$0.001,1.911128180154265e-07,True
+tab:diag_experiments,GC3-R,dulce MAE,23.9,23.9,23.92429699951708,True
+tab:diag_experiments,GC3-R,dulce d,+3.3,+3.3,3.2955959553860312,True
+tab:diag_experiments,GC3-R,dulce p,0.148,0.148,0.1478211799580768,True
+tab:diag_experiments,GC3-R-Y1,sutil MAE,"6,428","6,428",6428.076284297055,True
+tab:diag_experiments,GC3-R-Y1,sutil d,"+3,780","+3,780",3779.529622057472,True
+tab:diag_experiments,GC3-R-Y1,sutil p,$<$0.001,$<$0.001,3.500342193873962e-08,True
+tab:diag_experiments,GC3-R-Y1,dulce MAE,23.7,23.7,23.713637375469958,True
+tab:diag_experiments,GC3-R-Y1,dulce d,+3.1,+3.1,3.0849363313389078,True
+tab:diag_experiments,GC3-R-Y1,dulce p,0.161,0.161,0.1606729123500194,True
+tab:diag_experiments,Chronos-small,sutil MAE,"2,453","2,453",2452.8050712239587,True
+tab:diag_experiments,Chronos-small,sutil d,$-$196,$-$196,-195.74159101562483,True
+tab:diag_experiments,Chronos-small,sutil p,0.093,0.093,0.0932071216639256,True
+tab:diag_experiments,Chronos-small,dulce MAE,29.0,29.0,28.986783925374336,True
+tab:diag_experiments,Chronos-small,dulce d,+8.4,+8.4,8.358082881243298,True
+tab:diag_experiments,Chronos-small,dulce p,0.015,0.015,0.0154626515284397,True
+tab:diag_experiments,Chronos-base,sutil MAE,"2,579","2,579",2579.144973958333,True
+tab:diag_experiments,Chronos-base,sutil d,$-$69,$-$69,-69.40168828124987,True
+tab:diag_experiments,Chronos-base,sutil p,0.573,0.573,0.5733199077376794,True
+tab:diag_experiments,Chronos-base,dulce MAE,24.3,24.3,24.253897609456374,True
+tab:diag_experiments,Chronos-base,dulce d,+3.6,+3.6,3.6251965653253295,True
+tab:diag_experiments,Chronos-base,dulce p,0.241,0.241,0.2413131253062712,True
+tab:diag_experiments,note (a),MAE SARIMA-sel-Y1 sour lime 2021,"73,706","73,706",73706.10831682802,True
+tab:diag_experiments,note (a),pooled MAE with original SARIMA-sel in 2021,"3,183","3,183",3182.9886179346263,True

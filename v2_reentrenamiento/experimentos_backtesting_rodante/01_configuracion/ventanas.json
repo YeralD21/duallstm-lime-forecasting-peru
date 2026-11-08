@@ -1,0 +1,14 @@
+{
+  "descripcion": "Ventanas rolling-origin. Origen = diciembre de Y-1; test = enero..diciembre de Y; train hasta diciembre de Y-2; validacion = ano Y-1 (DA1 aprobada).",
+  "anios_test": [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025],
+  "minimo_train_meses": 36,
+  "ventanas_ranking": [2021, 2022, 2023, 2024, 2025],
+  "ventanas_sensibilidad_DA2": [2023, 2024, 2025],
+  "inicio_serie": "2016-01",
+  "inicio_features": "2016-07",
+  "lookback_lstm": 6,
+  "primer_objetivo_lstm": "2017-01",
+  "primer_objetivo_tabular": "2016-08",
+  "inicio_train_sarima": "2016-07",
+  "anio_excluido": 2026
+}

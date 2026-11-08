@@ -1,0 +1,2421 @@
+{
+  "artifacts": {
+    "audit": "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\auditorias\\AUDITORIA_EVALUACION_TEST_GC2_XGBOOST.md",
+    "figures": [
+      "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_gc2_xgboost\\figuras\\sutil_real_vs_pred_seed_mediana_mae.png",
+      "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_gc2_xgboost\\figuras\\sutil_distribucion_mae_seeds.png",
+      "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_gc2_xgboost\\figuras\\sutil_error_shock_vs_nonshock.png",
+      "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_gc2_xgboost\\figuras\\dulce_real_vs_pred_seed_mediana_mae.png",
+      "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_gc2_xgboost\\figuras\\dulce_distribucion_mae_seeds.png",
+      "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_gc2_xgboost\\figuras\\dulce_error_shock_vs_nonshock.png"
+    ],
+    "metrics_by_seed": "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_gc2_xgboost\\metricas_test_por_seed_gc2_xgboost.csv",
+    "predictions": "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_gc2_xgboost\\predicciones_test_gc2_xgboost.csv",
+    "shock_by_seed": "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_gc2_xgboost\\metricas_shock_por_seed_gc2_xgboost.csv",
+    "shock_summary": "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_gc2_xgboost\\resumen_shock_multiseed_gc2_xgboost.csv",
+    "summary_multiseed": "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_gc2_xgboost\\resumen_test_multiseed_gc2_xgboost.csv"
+  },
+  "authorization": "APERTURA UNICA Y FINAL DE TEST 2025 para GC2/XGBoost v2",
+  "controls": [
+    {
+      "detail": "20",
+      "name": "20 modelos oficiales encontrados",
+      "ok": true
+    },
+    {
+      "detail": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",
+      "name": "seeds 0..9 completas para Sutil",
+      "ok": true
+    },
+    {
+      "detail": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",
+      "name": "seeds 0..9 completas para Dulce",
+      "ok": true
+    },
+    {
+      "detail": "[('dulce', 0), ('dulce', 1), ('dulce', 2), ('dulce', 3), ('dulce', 4), ('dulce', 5), ('dulce', 6), ('dulce', 7), ('dulce', 8), ('dulce', 9), ('sutil', 0), ('sutil', 1), ('sutil', 2), ('sutil', 3), ('sutil', 4), ('sutil', 5), ('sutil', 6), ('sutil', 7), ('sutil', 8), ('sutil', 9)]",
+      "name": "solo pares cultivar/seed oficiales",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "sutil 37 features exactas",
+      "ok": true
+    },
+    {
+      "detail": "[]",
+      "name": "sutil variables prohibidas ausentes",
+      "ok": true
+    },
+    {
+      "detail": "12",
+      "name": "sutil TEST n=12",
+      "ok": true
+    },
+    {
+      "detail": "['2025-01', '2025-02', '2025-03', '2025-04', '2025-05', '2025-06', '2025-07', '2025-08', '2025-09', '2025-10', '2025-11', '2025-12']",
+      "name": "sutil fechas Jan-Dec 2025 exactas",
+      "ok": true
+    },
+    {
+      "detail": "2024-12 -> 2025-01",
+      "name": "sutil primer forecast = Dec2024 -> Jan2025",
+      "ok": true
+    },
+    {
+      "detail": "scaler_sutil_v2c.joblib",
+      "name": "sutil scaler TRAIN-only congelado",
+      "ok": true
+    },
+    {
+      "detail": "scaler cargado desde joblib",
+      "name": "sutil no refit scaler",
+      "ok": true
+    },
+    {
+      "detail": "comparado contra master_dataset_v2_features",
+      "name": "sutil y_true inverse transform correcto",
+      "ok": true
+    },
+    {
+      "detail": "3",
+      "name": "sutil n_shock=3",
+      "ok": true
+    },
+    {
+      "detail": "9",
+      "name": "sutil n_nonshock=9",
+      "ok": true
+    },
+    {
+      "detail": "[np.str_('2025-01'), np.str_('2025-07'), np.str_('2025-11')]",
+      "name": "sutil mascara shock congelada",
+      "ok": true
+    },
+    {
+      "detail": "{'best_seed_selection': False, 'booster': 'gbtree', 'colsample_bytree': 0.8, 'cv_performed': False, 'early_stopping': False, 'eval_metric': 'mae', 'gamma': 0.0, 'hpo_performed': False, 'learning_rate': 0.05, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200, 'n_jobs': 1, 'objective': 'reg:squarederror', 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'subsample': 0.8, 'tree_method': 'hist'}",
+      "name": "sutil seed_00 config congelada",
+      "ok": true
+    },
+    {
+      "detail": "0",
+      "name": "sutil seed_00 random_state = seed",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "sutil seed_00 features = 37",
+      "ok": true
+    },
+    {
+      "detail": "reg:squarederror",
+      "name": "sutil seed_00 objective",
+      "ok": true
+    },
+    {
+      "detail": "mae",
+      "name": "sutil seed_00 eval_metric",
+      "ok": true
+    },
+    {
+      "detail": "gbtree",
+      "name": "sutil seed_00 booster",
+      "ok": true
+    },
+    {
+      "detail": "200",
+      "name": "sutil seed_00 n_estimators",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "sutil seed_00 max_depth",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_00 min_child_weight",
+      "ok": true
+    },
+    {
+      "detail": "0.05",
+      "name": "sutil seed_00 learning_rate",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "sutil seed_00 subsample",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "sutil seed_00 colsample_bytree",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "sutil seed_00 reg_alpha",
+      "ok": true
+    },
+    {
+      "detail": "1.0",
+      "name": "sutil seed_00 reg_lambda",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "sutil seed_00 gamma",
+      "ok": true
+    },
+    {
+      "detail": "hist",
+      "name": "sutil seed_00 tree_method",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_00 n_jobs",
+      "ok": true
+    },
+    {
+      "detail": "False",
+      "name": "sutil seed_00 metadata no TEST pre-run",
+      "ok": true
+    },
+    {
+      "detail": "false/false/false/false",
+      "name": "sutil seed_00 no HPO/CV/early/best seed",
+      "ok": true
+    },
+    {
+      "detail": "XGBRegressor",
+      "name": "sutil seed_00 modelo no v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "0",
+      "name": "sutil seed_00 modelo random_state",
+      "ok": true
+    },
+    {
+      "detail": "{'best_seed_selection': False, 'booster': 'gbtree', 'colsample_bytree': 0.8, 'cv_performed': False, 'early_stopping': False, 'eval_metric': 'mae', 'gamma': 0.0, 'hpo_performed': False, 'learning_rate': 0.05, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200, 'n_jobs': 1, 'objective': 'reg:squarederror', 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'subsample': 0.8, 'tree_method': 'hist'}",
+      "name": "sutil seed_01 config congelada",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_01 random_state = seed",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "sutil seed_01 features = 37",
+      "ok": true
+    },
+    {
+      "detail": "reg:squarederror",
+      "name": "sutil seed_01 objective",
+      "ok": true
+    },
+    {
+      "detail": "mae",
+      "name": "sutil seed_01 eval_metric",
+      "ok": true
+    },
+    {
+      "detail": "gbtree",
+      "name": "sutil seed_01 booster",
+      "ok": true
+    },
+    {
+      "detail": "200",
+      "name": "sutil seed_01 n_estimators",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "sutil seed_01 max_depth",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_01 min_child_weight",
+      "ok": true
+    },
+    {
+      "detail": "0.05",
+      "name": "sutil seed_01 learning_rate",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "sutil seed_01 subsample",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "sutil seed_01 colsample_bytree",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "sutil seed_01 reg_alpha",
+      "ok": true
+    },
+    {
+      "detail": "1.0",
+      "name": "sutil seed_01 reg_lambda",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "sutil seed_01 gamma",
+      "ok": true
+    },
+    {
+      "detail": "hist",
+      "name": "sutil seed_01 tree_method",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_01 n_jobs",
+      "ok": true
+    },
+    {
+      "detail": "False",
+      "name": "sutil seed_01 metadata no TEST pre-run",
+      "ok": true
+    },
+    {
+      "detail": "false/false/false/false",
+      "name": "sutil seed_01 no HPO/CV/early/best seed",
+      "ok": true
+    },
+    {
+      "detail": "XGBRegressor",
+      "name": "sutil seed_01 modelo no v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_01 modelo random_state",
+      "ok": true
+    },
+    {
+      "detail": "{'best_seed_selection': False, 'booster': 'gbtree', 'colsample_bytree': 0.8, 'cv_performed': False, 'early_stopping': False, 'eval_metric': 'mae', 'gamma': 0.0, 'hpo_performed': False, 'learning_rate': 0.05, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200, 'n_jobs': 1, 'objective': 'reg:squarederror', 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'subsample': 0.8, 'tree_method': 'hist'}",
+      "name": "sutil seed_02 config congelada",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "sutil seed_02 random_state = seed",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "sutil seed_02 features = 37",
+      "ok": true
+    },
+    {
+      "detail": "reg:squarederror",
+      "name": "sutil seed_02 objective",
+      "ok": true
+    },
+    {
+      "detail": "mae",
+      "name": "sutil seed_02 eval_metric",
+      "ok": true
+    },
+    {
+      "detail": "gbtree",
+      "name": "sutil seed_02 booster",
+      "ok": true
+    },
+    {
+      "detail": "200",
+      "name": "sutil seed_02 n_estimators",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "sutil seed_02 max_depth",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_02 min_child_weight",
+      "ok": true
+    },
+    {
+      "detail": "0.05",
+      "name": "sutil seed_02 learning_rate",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "sutil seed_02 subsample",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "sutil seed_02 colsample_bytree",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "sutil seed_02 reg_alpha",
+      "ok": true
+    },
+    {
+      "detail": "1.0",
+      "name": "sutil seed_02 reg_lambda",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "sutil seed_02 gamma",
+      "ok": true
+    },
+    {
+      "detail": "hist",
+      "name": "sutil seed_02 tree_method",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_02 n_jobs",
+      "ok": true
+    },
+    {
+      "detail": "False",
+      "name": "sutil seed_02 metadata no TEST pre-run",
+      "ok": true
+    },
+    {
+      "detail": "false/false/false/false",
+      "name": "sutil seed_02 no HPO/CV/early/best seed",
+      "ok": true
+    },
+    {
+      "detail": "XGBRegressor",
+      "name": "sutil seed_02 modelo no v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "sutil seed_02 modelo random_state",
+      "ok": true
+    },
+    {
+      "detail": "{'best_seed_selection': False, 'booster': 'gbtree', 'colsample_bytree': 0.8, 'cv_performed': False, 'early_stopping': False, 'eval_metric': 'mae', 'gamma': 0.0, 'hpo_performed': False, 'learning_rate': 0.05, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200, 'n_jobs': 1, 'objective': 'reg:squarederror', 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'subsample': 0.8, 'tree_method': 'hist'}",
+      "name": "sutil seed_03 config congelada",
+      "ok": true
+    },
+    {
+      "detail": "3",
+      "name": "sutil seed_03 random_state = seed",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "sutil seed_03 features = 37",
+      "ok": true
+    },
+    {
+      "detail": "reg:squarederror",
+      "name": "sutil seed_03 objective",
+      "ok": true
+    },
+    {
+      "detail": "mae",
+      "name": "sutil seed_03 eval_metric",
+      "ok": true
+    },
+    {
+      "detail": "gbtree",
+      "name": "sutil seed_03 booster",
+      "ok": true
+    },
+    {
+      "detail": "200",
+      "name": "sutil seed_03 n_estimators",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "sutil seed_03 max_depth",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_03 min_child_weight",
+      "ok": true
+    },
+    {
+      "detail": "0.05",
+      "name": "sutil seed_03 learning_rate",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "sutil seed_03 subsample",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "sutil seed_03 colsample_bytree",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "sutil seed_03 reg_alpha",
+      "ok": true
+    },
+    {
+      "detail": "1.0",
+      "name": "sutil seed_03 reg_lambda",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "sutil seed_03 gamma",
+      "ok": true
+    },
+    {
+      "detail": "hist",
+      "name": "sutil seed_03 tree_method",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_03 n_jobs",
+      "ok": true
+    },
+    {
+      "detail": "False",
+      "name": "sutil seed_03 metadata no TEST pre-run",
+      "ok": true
+    },
+    {
+      "detail": "false/false/false/false",
+      "name": "sutil seed_03 no HPO/CV/early/best seed",
+      "ok": true
+    },
+    {
+      "detail": "XGBRegressor",
+      "name": "sutil seed_03 modelo no v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "3",
+      "name": "sutil seed_03 modelo random_state",
+      "ok": true
+    },
+    {
+      "detail": "{'best_seed_selection': False, 'booster': 'gbtree', 'colsample_bytree': 0.8, 'cv_performed': False, 'early_stopping': False, 'eval_metric': 'mae', 'gamma': 0.0, 'hpo_performed': False, 'learning_rate': 0.05, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200, 'n_jobs': 1, 'objective': 'reg:squarederror', 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'subsample': 0.8, 'tree_method': 'hist'}",
+      "name": "sutil seed_04 config congelada",
+      "ok": true
+    },
+    {
+      "detail": "4",
+      "name": "sutil seed_04 random_state = seed",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "sutil seed_04 features = 37",
+      "ok": true
+    },
+    {
+      "detail": "reg:squarederror",
+      "name": "sutil seed_04 objective",
+      "ok": true
+    },
+    {
+      "detail": "mae",
+      "name": "sutil seed_04 eval_metric",
+      "ok": true
+    },
+    {
+      "detail": "gbtree",
+      "name": "sutil seed_04 booster",
+      "ok": true
+    },
+    {
+      "detail": "200",
+      "name": "sutil seed_04 n_estimators",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "sutil seed_04 max_depth",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_04 min_child_weight",
+      "ok": true
+    },
+    {
+      "detail": "0.05",
+      "name": "sutil seed_04 learning_rate",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "sutil seed_04 subsample",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "sutil seed_04 colsample_bytree",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "sutil seed_04 reg_alpha",
+      "ok": true
+    },
+    {
+      "detail": "1.0",
+      "name": "sutil seed_04 reg_lambda",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "sutil seed_04 gamma",
+      "ok": true
+    },
+    {
+      "detail": "hist",
+      "name": "sutil seed_04 tree_method",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_04 n_jobs",
+      "ok": true
+    },
+    {
+      "detail": "False",
+      "name": "sutil seed_04 metadata no TEST pre-run",
+      "ok": true
+    },
+    {
+      "detail": "false/false/false/false",
+      "name": "sutil seed_04 no HPO/CV/early/best seed",
+      "ok": true
+    },
+    {
+      "detail": "XGBRegressor",
+      "name": "sutil seed_04 modelo no v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "4",
+      "name": "sutil seed_04 modelo random_state",
+      "ok": true
+    },
+    {
+      "detail": "{'best_seed_selection': False, 'booster': 'gbtree', 'colsample_bytree': 0.8, 'cv_performed': False, 'early_stopping': False, 'eval_metric': 'mae', 'gamma': 0.0, 'hpo_performed': False, 'learning_rate': 0.05, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200, 'n_jobs': 1, 'objective': 'reg:squarederror', 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'subsample': 0.8, 'tree_method': 'hist'}",
+      "name": "sutil seed_05 config congelada",
+      "ok": true
+    },
+    {
+      "detail": "5",
+      "name": "sutil seed_05 random_state = seed",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "sutil seed_05 features = 37",
+      "ok": true
+    },
+    {
+      "detail": "reg:squarederror",
+      "name": "sutil seed_05 objective",
+      "ok": true
+    },
+    {
+      "detail": "mae",
+      "name": "sutil seed_05 eval_metric",
+      "ok": true
+    },
+    {
+      "detail": "gbtree",
+      "name": "sutil seed_05 booster",
+      "ok": true
+    },
+    {
+      "detail": "200",
+      "name": "sutil seed_05 n_estimators",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "sutil seed_05 max_depth",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_05 min_child_weight",
+      "ok": true
+    },
+    {
+      "detail": "0.05",
+      "name": "sutil seed_05 learning_rate",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "sutil seed_05 subsample",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "sutil seed_05 colsample_bytree",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "sutil seed_05 reg_alpha",
+      "ok": true
+    },
+    {
+      "detail": "1.0",
+      "name": "sutil seed_05 reg_lambda",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "sutil seed_05 gamma",
+      "ok": true
+    },
+    {
+      "detail": "hist",
+      "name": "sutil seed_05 tree_method",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_05 n_jobs",
+      "ok": true
+    },
+    {
+      "detail": "False",
+      "name": "sutil seed_05 metadata no TEST pre-run",
+      "ok": true
+    },
+    {
+      "detail": "false/false/false/false",
+      "name": "sutil seed_05 no HPO/CV/early/best seed",
+      "ok": true
+    },
+    {
+      "detail": "XGBRegressor",
+      "name": "sutil seed_05 modelo no v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "5",
+      "name": "sutil seed_05 modelo random_state",
+      "ok": true
+    },
+    {
+      "detail": "{'best_seed_selection': False, 'booster': 'gbtree', 'colsample_bytree': 0.8, 'cv_performed': False, 'early_stopping': False, 'eval_metric': 'mae', 'gamma': 0.0, 'hpo_performed': False, 'learning_rate': 0.05, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200, 'n_jobs': 1, 'objective': 'reg:squarederror', 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'subsample': 0.8, 'tree_method': 'hist'}",
+      "name": "sutil seed_06 config congelada",
+      "ok": true
+    },
+    {
+      "detail": "6",
+      "name": "sutil seed_06 random_state = seed",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "sutil seed_06 features = 37",
+      "ok": true
+    },
+    {
+      "detail": "reg:squarederror",
+      "name": "sutil seed_06 objective",
+      "ok": true
+    },
+    {
+      "detail": "mae",
+      "name": "sutil seed_06 eval_metric",
+      "ok": true
+    },
+    {
+      "detail": "gbtree",
+      "name": "sutil seed_06 booster",
+      "ok": true
+    },
+    {
+      "detail": "200",
+      "name": "sutil seed_06 n_estimators",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "sutil seed_06 max_depth",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_06 min_child_weight",
+      "ok": true
+    },
+    {
+      "detail": "0.05",
+      "name": "sutil seed_06 learning_rate",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "sutil seed_06 subsample",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "sutil seed_06 colsample_bytree",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "sutil seed_06 reg_alpha",
+      "ok": true
+    },
+    {
+      "detail": "1.0",
+      "name": "sutil seed_06 reg_lambda",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "sutil seed_06 gamma",
+      "ok": true
+    },
+    {
+      "detail": "hist",
+      "name": "sutil seed_06 tree_method",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_06 n_jobs",
+      "ok": true
+    },
+    {
+      "detail": "False",
+      "name": "sutil seed_06 metadata no TEST pre-run",
+      "ok": true
+    },
+    {
+      "detail": "false/false/false/false",
+      "name": "sutil seed_06 no HPO/CV/early/best seed",
+      "ok": true
+    },
+    {
+      "detail": "XGBRegressor",
+      "name": "sutil seed_06 modelo no v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "6",
+      "name": "sutil seed_06 modelo random_state",
+      "ok": true
+    },
+    {
+      "detail": "{'best_seed_selection': False, 'booster': 'gbtree', 'colsample_bytree': 0.8, 'cv_performed': False, 'early_stopping': False, 'eval_metric': 'mae', 'gamma': 0.0, 'hpo_performed': False, 'learning_rate': 0.05, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200, 'n_jobs': 1, 'objective': 'reg:squarederror', 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'subsample': 0.8, 'tree_method': 'hist'}",
+      "name": "sutil seed_07 config congelada",
+      "ok": true
+    },
+    {
+      "detail": "7",
+      "name": "sutil seed_07 random_state = seed",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "sutil seed_07 features = 37",
+      "ok": true
+    },
+    {
+      "detail": "reg:squarederror",
+      "name": "sutil seed_07 objective",
+      "ok": true
+    },
+    {
+      "detail": "mae",
+      "name": "sutil seed_07 eval_metric",
+      "ok": true
+    },
+    {
+      "detail": "gbtree",
+      "name": "sutil seed_07 booster",
+      "ok": true
+    },
+    {
+      "detail": "200",
+      "name": "sutil seed_07 n_estimators",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "sutil seed_07 max_depth",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_07 min_child_weight",
+      "ok": true
+    },
+    {
+      "detail": "0.05",
+      "name": "sutil seed_07 learning_rate",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "sutil seed_07 subsample",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "sutil seed_07 colsample_bytree",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "sutil seed_07 reg_alpha",
+      "ok": true
+    },
+    {
+      "detail": "1.0",
+      "name": "sutil seed_07 reg_lambda",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "sutil seed_07 gamma",
+      "ok": true
+    },
+    {
+      "detail": "hist",
+      "name": "sutil seed_07 tree_method",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_07 n_jobs",
+      "ok": true
+    },
+    {
+      "detail": "False",
+      "name": "sutil seed_07 metadata no TEST pre-run",
+      "ok": true
+    },
+    {
+      "detail": "false/false/false/false",
+      "name": "sutil seed_07 no HPO/CV/early/best seed",
+      "ok": true
+    },
+    {
+      "detail": "XGBRegressor",
+      "name": "sutil seed_07 modelo no v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "7",
+      "name": "sutil seed_07 modelo random_state",
+      "ok": true
+    },
+    {
+      "detail": "{'best_seed_selection': False, 'booster': 'gbtree', 'colsample_bytree': 0.8, 'cv_performed': False, 'early_stopping': False, 'eval_metric': 'mae', 'gamma': 0.0, 'hpo_performed': False, 'learning_rate': 0.05, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200, 'n_jobs': 1, 'objective': 'reg:squarederror', 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'subsample': 0.8, 'tree_method': 'hist'}",
+      "name": "sutil seed_08 config congelada",
+      "ok": true
+    },
+    {
+      "detail": "8",
+      "name": "sutil seed_08 random_state = seed",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "sutil seed_08 features = 37",
+      "ok": true
+    },
+    {
+      "detail": "reg:squarederror",
+      "name": "sutil seed_08 objective",
+      "ok": true
+    },
+    {
+      "detail": "mae",
+      "name": "sutil seed_08 eval_metric",
+      "ok": true
+    },
+    {
+      "detail": "gbtree",
+      "name": "sutil seed_08 booster",
+      "ok": true
+    },
+    {
+      "detail": "200",
+      "name": "sutil seed_08 n_estimators",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "sutil seed_08 max_depth",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_08 min_child_weight",
+      "ok": true
+    },
+    {
+      "detail": "0.05",
+      "name": "sutil seed_08 learning_rate",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "sutil seed_08 subsample",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "sutil seed_08 colsample_bytree",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "sutil seed_08 reg_alpha",
+      "ok": true
+    },
+    {
+      "detail": "1.0",
+      "name": "sutil seed_08 reg_lambda",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "sutil seed_08 gamma",
+      "ok": true
+    },
+    {
+      "detail": "hist",
+      "name": "sutil seed_08 tree_method",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_08 n_jobs",
+      "ok": true
+    },
+    {
+      "detail": "False",
+      "name": "sutil seed_08 metadata no TEST pre-run",
+      "ok": true
+    },
+    {
+      "detail": "false/false/false/false",
+      "name": "sutil seed_08 no HPO/CV/early/best seed",
+      "ok": true
+    },
+    {
+      "detail": "XGBRegressor",
+      "name": "sutil seed_08 modelo no v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "8",
+      "name": "sutil seed_08 modelo random_state",
+      "ok": true
+    },
+    {
+      "detail": "{'best_seed_selection': False, 'booster': 'gbtree', 'colsample_bytree': 0.8, 'cv_performed': False, 'early_stopping': False, 'eval_metric': 'mae', 'gamma': 0.0, 'hpo_performed': False, 'learning_rate': 0.05, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200, 'n_jobs': 1, 'objective': 'reg:squarederror', 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'subsample': 0.8, 'tree_method': 'hist'}",
+      "name": "sutil seed_09 config congelada",
+      "ok": true
+    },
+    {
+      "detail": "9",
+      "name": "sutil seed_09 random_state = seed",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "sutil seed_09 features = 37",
+      "ok": true
+    },
+    {
+      "detail": "reg:squarederror",
+      "name": "sutil seed_09 objective",
+      "ok": true
+    },
+    {
+      "detail": "mae",
+      "name": "sutil seed_09 eval_metric",
+      "ok": true
+    },
+    {
+      "detail": "gbtree",
+      "name": "sutil seed_09 booster",
+      "ok": true
+    },
+    {
+      "detail": "200",
+      "name": "sutil seed_09 n_estimators",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "sutil seed_09 max_depth",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_09 min_child_weight",
+      "ok": true
+    },
+    {
+      "detail": "0.05",
+      "name": "sutil seed_09 learning_rate",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "sutil seed_09 subsample",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "sutil seed_09 colsample_bytree",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "sutil seed_09 reg_alpha",
+      "ok": true
+    },
+    {
+      "detail": "1.0",
+      "name": "sutil seed_09 reg_lambda",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "sutil seed_09 gamma",
+      "ok": true
+    },
+    {
+      "detail": "hist",
+      "name": "sutil seed_09 tree_method",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "sutil seed_09 n_jobs",
+      "ok": true
+    },
+    {
+      "detail": "False",
+      "name": "sutil seed_09 metadata no TEST pre-run",
+      "ok": true
+    },
+    {
+      "detail": "false/false/false/false",
+      "name": "sutil seed_09 no HPO/CV/early/best seed",
+      "ok": true
+    },
+    {
+      "detail": "XGBRegressor",
+      "name": "sutil seed_09 modelo no v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "9",
+      "name": "sutil seed_09 modelo random_state",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "dulce 37 features exactas",
+      "ok": true
+    },
+    {
+      "detail": "[]",
+      "name": "dulce variables prohibidas ausentes",
+      "ok": true
+    },
+    {
+      "detail": "12",
+      "name": "dulce TEST n=12",
+      "ok": true
+    },
+    {
+      "detail": "['2025-01', '2025-02', '2025-03', '2025-04', '2025-05', '2025-06', '2025-07', '2025-08', '2025-09', '2025-10', '2025-11', '2025-12']",
+      "name": "dulce fechas Jan-Dec 2025 exactas",
+      "ok": true
+    },
+    {
+      "detail": "2024-12 -> 2025-01",
+      "name": "dulce primer forecast = Dec2024 -> Jan2025",
+      "ok": true
+    },
+    {
+      "detail": "scaler_dulce_v2c.joblib",
+      "name": "dulce scaler TRAIN-only congelado",
+      "ok": true
+    },
+    {
+      "detail": "scaler cargado desde joblib",
+      "name": "dulce no refit scaler",
+      "ok": true
+    },
+    {
+      "detail": "comparado contra master_dataset_v2_features",
+      "name": "dulce y_true inverse transform correcto",
+      "ok": true
+    },
+    {
+      "detail": "3",
+      "name": "dulce n_shock=3",
+      "ok": true
+    },
+    {
+      "detail": "9",
+      "name": "dulce n_nonshock=9",
+      "ok": true
+    },
+    {
+      "detail": "[np.str_('2025-01'), np.str_('2025-02'), np.str_('2025-03')]",
+      "name": "dulce mascara shock congelada",
+      "ok": true
+    },
+    {
+      "detail": "{'best_seed_selection': False, 'booster': 'gbtree', 'colsample_bytree': 0.8, 'cv_performed': False, 'early_stopping': False, 'eval_metric': 'mae', 'gamma': 0.0, 'hpo_performed': False, 'learning_rate': 0.05, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200, 'n_jobs': 1, 'objective': 'reg:squarederror', 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'subsample': 0.8, 'tree_method': 'hist'}",
+      "name": "dulce seed_00 config congelada",
+      "ok": true
+    },
+    {
+      "detail": "0",
+      "name": "dulce seed_00 random_state = seed",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "dulce seed_00 features = 37",
+      "ok": true
+    },
+    {
+      "detail": "reg:squarederror",
+      "name": "dulce seed_00 objective",
+      "ok": true
+    },
+    {
+      "detail": "mae",
+      "name": "dulce seed_00 eval_metric",
+      "ok": true
+    },
+    {
+      "detail": "gbtree",
+      "name": "dulce seed_00 booster",
+      "ok": true
+    },
+    {
+      "detail": "200",
+      "name": "dulce seed_00 n_estimators",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "dulce seed_00 max_depth",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_00 min_child_weight",
+      "ok": true
+    },
+    {
+      "detail": "0.05",
+      "name": "dulce seed_00 learning_rate",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "dulce seed_00 subsample",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "dulce seed_00 colsample_bytree",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "dulce seed_00 reg_alpha",
+      "ok": true
+    },
+    {
+      "detail": "1.0",
+      "name": "dulce seed_00 reg_lambda",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "dulce seed_00 gamma",
+      "ok": true
+    },
+    {
+      "detail": "hist",
+      "name": "dulce seed_00 tree_method",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_00 n_jobs",
+      "ok": true
+    },
+    {
+      "detail": "False",
+      "name": "dulce seed_00 metadata no TEST pre-run",
+      "ok": true
+    },
+    {
+      "detail": "false/false/false/false",
+      "name": "dulce seed_00 no HPO/CV/early/best seed",
+      "ok": true
+    },
+    {
+      "detail": "XGBRegressor",
+      "name": "dulce seed_00 modelo no v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "0",
+      "name": "dulce seed_00 modelo random_state",
+      "ok": true
+    },
+    {
+      "detail": "{'best_seed_selection': False, 'booster': 'gbtree', 'colsample_bytree': 0.8, 'cv_performed': False, 'early_stopping': False, 'eval_metric': 'mae', 'gamma': 0.0, 'hpo_performed': False, 'learning_rate': 0.05, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200, 'n_jobs': 1, 'objective': 'reg:squarederror', 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'subsample': 0.8, 'tree_method': 'hist'}",
+      "name": "dulce seed_01 config congelada",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_01 random_state = seed",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "dulce seed_01 features = 37",
+      "ok": true
+    },
+    {
+      "detail": "reg:squarederror",
+      "name": "dulce seed_01 objective",
+      "ok": true
+    },
+    {
+      "detail": "mae",
+      "name": "dulce seed_01 eval_metric",
+      "ok": true
+    },
+    {
+      "detail": "gbtree",
+      "name": "dulce seed_01 booster",
+      "ok": true
+    },
+    {
+      "detail": "200",
+      "name": "dulce seed_01 n_estimators",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "dulce seed_01 max_depth",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_01 min_child_weight",
+      "ok": true
+    },
+    {
+      "detail": "0.05",
+      "name": "dulce seed_01 learning_rate",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "dulce seed_01 subsample",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "dulce seed_01 colsample_bytree",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "dulce seed_01 reg_alpha",
+      "ok": true
+    },
+    {
+      "detail": "1.0",
+      "name": "dulce seed_01 reg_lambda",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "dulce seed_01 gamma",
+      "ok": true
+    },
+    {
+      "detail": "hist",
+      "name": "dulce seed_01 tree_method",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_01 n_jobs",
+      "ok": true
+    },
+    {
+      "detail": "False",
+      "name": "dulce seed_01 metadata no TEST pre-run",
+      "ok": true
+    },
+    {
+      "detail": "false/false/false/false",
+      "name": "dulce seed_01 no HPO/CV/early/best seed",
+      "ok": true
+    },
+    {
+      "detail": "XGBRegressor",
+      "name": "dulce seed_01 modelo no v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_01 modelo random_state",
+      "ok": true
+    },
+    {
+      "detail": "{'best_seed_selection': False, 'booster': 'gbtree', 'colsample_bytree': 0.8, 'cv_performed': False, 'early_stopping': False, 'eval_metric': 'mae', 'gamma': 0.0, 'hpo_performed': False, 'learning_rate': 0.05, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200, 'n_jobs': 1, 'objective': 'reg:squarederror', 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'subsample': 0.8, 'tree_method': 'hist'}",
+      "name": "dulce seed_02 config congelada",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "dulce seed_02 random_state = seed",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "dulce seed_02 features = 37",
+      "ok": true
+    },
+    {
+      "detail": "reg:squarederror",
+      "name": "dulce seed_02 objective",
+      "ok": true
+    },
+    {
+      "detail": "mae",
+      "name": "dulce seed_02 eval_metric",
+      "ok": true
+    },
+    {
+      "detail": "gbtree",
+      "name": "dulce seed_02 booster",
+      "ok": true
+    },
+    {
+      "detail": "200",
+      "name": "dulce seed_02 n_estimators",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "dulce seed_02 max_depth",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_02 min_child_weight",
+      "ok": true
+    },
+    {
+      "detail": "0.05",
+      "name": "dulce seed_02 learning_rate",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "dulce seed_02 subsample",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "dulce seed_02 colsample_bytree",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "dulce seed_02 reg_alpha",
+      "ok": true
+    },
+    {
+      "detail": "1.0",
+      "name": "dulce seed_02 reg_lambda",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "dulce seed_02 gamma",
+      "ok": true
+    },
+    {
+      "detail": "hist",
+      "name": "dulce seed_02 tree_method",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_02 n_jobs",
+      "ok": true
+    },
+    {
+      "detail": "False",
+      "name": "dulce seed_02 metadata no TEST pre-run",
+      "ok": true
+    },
+    {
+      "detail": "false/false/false/false",
+      "name": "dulce seed_02 no HPO/CV/early/best seed",
+      "ok": true
+    },
+    {
+      "detail": "XGBRegressor",
+      "name": "dulce seed_02 modelo no v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "dulce seed_02 modelo random_state",
+      "ok": true
+    },
+    {
+      "detail": "{'best_seed_selection': False, 'booster': 'gbtree', 'colsample_bytree': 0.8, 'cv_performed': False, 'early_stopping': False, 'eval_metric': 'mae', 'gamma': 0.0, 'hpo_performed': False, 'learning_rate': 0.05, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200, 'n_jobs': 1, 'objective': 'reg:squarederror', 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'subsample': 0.8, 'tree_method': 'hist'}",
+      "name": "dulce seed_03 config congelada",
+      "ok": true
+    },
+    {
+      "detail": "3",
+      "name": "dulce seed_03 random_state = seed",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "dulce seed_03 features = 37",
+      "ok": true
+    },
+    {
+      "detail": "reg:squarederror",
+      "name": "dulce seed_03 objective",
+      "ok": true
+    },
+    {
+      "detail": "mae",
+      "name": "dulce seed_03 eval_metric",
+      "ok": true
+    },
+    {
+      "detail": "gbtree",
+      "name": "dulce seed_03 booster",
+      "ok": true
+    },
+    {
+      "detail": "200",
+      "name": "dulce seed_03 n_estimators",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "dulce seed_03 max_depth",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_03 min_child_weight",
+      "ok": true
+    },
+    {
+      "detail": "0.05",
+      "name": "dulce seed_03 learning_rate",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "dulce seed_03 subsample",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "dulce seed_03 colsample_bytree",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "dulce seed_03 reg_alpha",
+      "ok": true
+    },
+    {
+      "detail": "1.0",
+      "name": "dulce seed_03 reg_lambda",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "dulce seed_03 gamma",
+      "ok": true
+    },
+    {
+      "detail": "hist",
+      "name": "dulce seed_03 tree_method",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_03 n_jobs",
+      "ok": true
+    },
+    {
+      "detail": "False",
+      "name": "dulce seed_03 metadata no TEST pre-run",
+      "ok": true
+    },
+    {
+      "detail": "false/false/false/false",
+      "name": "dulce seed_03 no HPO/CV/early/best seed",
+      "ok": true
+    },
+    {
+      "detail": "XGBRegressor",
+      "name": "dulce seed_03 modelo no v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "3",
+      "name": "dulce seed_03 modelo random_state",
+      "ok": true
+    },
+    {
+      "detail": "{'best_seed_selection': False, 'booster': 'gbtree', 'colsample_bytree': 0.8, 'cv_performed': False, 'early_stopping': False, 'eval_metric': 'mae', 'gamma': 0.0, 'hpo_performed': False, 'learning_rate': 0.05, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200, 'n_jobs': 1, 'objective': 'reg:squarederror', 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'subsample': 0.8, 'tree_method': 'hist'}",
+      "name": "dulce seed_04 config congelada",
+      "ok": true
+    },
+    {
+      "detail": "4",
+      "name": "dulce seed_04 random_state = seed",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "dulce seed_04 features = 37",
+      "ok": true
+    },
+    {
+      "detail": "reg:squarederror",
+      "name": "dulce seed_04 objective",
+      "ok": true
+    },
+    {
+      "detail": "mae",
+      "name": "dulce seed_04 eval_metric",
+      "ok": true
+    },
+    {
+      "detail": "gbtree",
+      "name": "dulce seed_04 booster",
+      "ok": true
+    },
+    {
+      "detail": "200",
+      "name": "dulce seed_04 n_estimators",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "dulce seed_04 max_depth",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_04 min_child_weight",
+      "ok": true
+    },
+    {
+      "detail": "0.05",
+      "name": "dulce seed_04 learning_rate",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "dulce seed_04 subsample",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "dulce seed_04 colsample_bytree",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "dulce seed_04 reg_alpha",
+      "ok": true
+    },
+    {
+      "detail": "1.0",
+      "name": "dulce seed_04 reg_lambda",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "dulce seed_04 gamma",
+      "ok": true
+    },
+    {
+      "detail": "hist",
+      "name": "dulce seed_04 tree_method",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_04 n_jobs",
+      "ok": true
+    },
+    {
+      "detail": "False",
+      "name": "dulce seed_04 metadata no TEST pre-run",
+      "ok": true
+    },
+    {
+      "detail": "false/false/false/false",
+      "name": "dulce seed_04 no HPO/CV/early/best seed",
+      "ok": true
+    },
+    {
+      "detail": "XGBRegressor",
+      "name": "dulce seed_04 modelo no v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "4",
+      "name": "dulce seed_04 modelo random_state",
+      "ok": true
+    },
+    {
+      "detail": "{'best_seed_selection': False, 'booster': 'gbtree', 'colsample_bytree': 0.8, 'cv_performed': False, 'early_stopping': False, 'eval_metric': 'mae', 'gamma': 0.0, 'hpo_performed': False, 'learning_rate': 0.05, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200, 'n_jobs': 1, 'objective': 'reg:squarederror', 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'subsample': 0.8, 'tree_method': 'hist'}",
+      "name": "dulce seed_05 config congelada",
+      "ok": true
+    },
+    {
+      "detail": "5",
+      "name": "dulce seed_05 random_state = seed",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "dulce seed_05 features = 37",
+      "ok": true
+    },
+    {
+      "detail": "reg:squarederror",
+      "name": "dulce seed_05 objective",
+      "ok": true
+    },
+    {
+      "detail": "mae",
+      "name": "dulce seed_05 eval_metric",
+      "ok": true
+    },
+    {
+      "detail": "gbtree",
+      "name": "dulce seed_05 booster",
+      "ok": true
+    },
+    {
+      "detail": "200",
+      "name": "dulce seed_05 n_estimators",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "dulce seed_05 max_depth",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_05 min_child_weight",
+      "ok": true
+    },
+    {
+      "detail": "0.05",
+      "name": "dulce seed_05 learning_rate",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "dulce seed_05 subsample",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "dulce seed_05 colsample_bytree",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "dulce seed_05 reg_alpha",
+      "ok": true
+    },
+    {
+      "detail": "1.0",
+      "name": "dulce seed_05 reg_lambda",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "dulce seed_05 gamma",
+      "ok": true
+    },
+    {
+      "detail": "hist",
+      "name": "dulce seed_05 tree_method",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_05 n_jobs",
+      "ok": true
+    },
+    {
+      "detail": "False",
+      "name": "dulce seed_05 metadata no TEST pre-run",
+      "ok": true
+    },
+    {
+      "detail": "false/false/false/false",
+      "name": "dulce seed_05 no HPO/CV/early/best seed",
+      "ok": true
+    },
+    {
+      "detail": "XGBRegressor",
+      "name": "dulce seed_05 modelo no v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "5",
+      "name": "dulce seed_05 modelo random_state",
+      "ok": true
+    },
+    {
+      "detail": "{'best_seed_selection': False, 'booster': 'gbtree', 'colsample_bytree': 0.8, 'cv_performed': False, 'early_stopping': False, 'eval_metric': 'mae', 'gamma': 0.0, 'hpo_performed': False, 'learning_rate': 0.05, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200, 'n_jobs': 1, 'objective': 'reg:squarederror', 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'subsample': 0.8, 'tree_method': 'hist'}",
+      "name": "dulce seed_06 config congelada",
+      "ok": true
+    },
+    {
+      "detail": "6",
+      "name": "dulce seed_06 random_state = seed",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "dulce seed_06 features = 37",
+      "ok": true
+    },
+    {
+      "detail": "reg:squarederror",
+      "name": "dulce seed_06 objective",
+      "ok": true
+    },
+    {
+      "detail": "mae",
+      "name": "dulce seed_06 eval_metric",
+      "ok": true
+    },
+    {
+      "detail": "gbtree",
+      "name": "dulce seed_06 booster",
+      "ok": true
+    },
+    {
+      "detail": "200",
+      "name": "dulce seed_06 n_estimators",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "dulce seed_06 max_depth",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_06 min_child_weight",
+      "ok": true
+    },
+    {
+      "detail": "0.05",
+      "name": "dulce seed_06 learning_rate",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "dulce seed_06 subsample",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "dulce seed_06 colsample_bytree",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "dulce seed_06 reg_alpha",
+      "ok": true
+    },
+    {
+      "detail": "1.0",
+      "name": "dulce seed_06 reg_lambda",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "dulce seed_06 gamma",
+      "ok": true
+    },
+    {
+      "detail": "hist",
+      "name": "dulce seed_06 tree_method",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_06 n_jobs",
+      "ok": true
+    },
+    {
+      "detail": "False",
+      "name": "dulce seed_06 metadata no TEST pre-run",
+      "ok": true
+    },
+    {
+      "detail": "false/false/false/false",
+      "name": "dulce seed_06 no HPO/CV/early/best seed",
+      "ok": true
+    },
+    {
+      "detail": "XGBRegressor",
+      "name": "dulce seed_06 modelo no v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "6",
+      "name": "dulce seed_06 modelo random_state",
+      "ok": true
+    },
+    {
+      "detail": "{'best_seed_selection': False, 'booster': 'gbtree', 'colsample_bytree': 0.8, 'cv_performed': False, 'early_stopping': False, 'eval_metric': 'mae', 'gamma': 0.0, 'hpo_performed': False, 'learning_rate': 0.05, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200, 'n_jobs': 1, 'objective': 'reg:squarederror', 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'subsample': 0.8, 'tree_method': 'hist'}",
+      "name": "dulce seed_07 config congelada",
+      "ok": true
+    },
+    {
+      "detail": "7",
+      "name": "dulce seed_07 random_state = seed",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "dulce seed_07 features = 37",
+      "ok": true
+    },
+    {
+      "detail": "reg:squarederror",
+      "name": "dulce seed_07 objective",
+      "ok": true
+    },
+    {
+      "detail": "mae",
+      "name": "dulce seed_07 eval_metric",
+      "ok": true
+    },
+    {
+      "detail": "gbtree",
+      "name": "dulce seed_07 booster",
+      "ok": true
+    },
+    {
+      "detail": "200",
+      "name": "dulce seed_07 n_estimators",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "dulce seed_07 max_depth",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_07 min_child_weight",
+      "ok": true
+    },
+    {
+      "detail": "0.05",
+      "name": "dulce seed_07 learning_rate",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "dulce seed_07 subsample",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "dulce seed_07 colsample_bytree",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "dulce seed_07 reg_alpha",
+      "ok": true
+    },
+    {
+      "detail": "1.0",
+      "name": "dulce seed_07 reg_lambda",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "dulce seed_07 gamma",
+      "ok": true
+    },
+    {
+      "detail": "hist",
+      "name": "dulce seed_07 tree_method",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_07 n_jobs",
+      "ok": true
+    },
+    {
+      "detail": "False",
+      "name": "dulce seed_07 metadata no TEST pre-run",
+      "ok": true
+    },
+    {
+      "detail": "false/false/false/false",
+      "name": "dulce seed_07 no HPO/CV/early/best seed",
+      "ok": true
+    },
+    {
+      "detail": "XGBRegressor",
+      "name": "dulce seed_07 modelo no v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "7",
+      "name": "dulce seed_07 modelo random_state",
+      "ok": true
+    },
+    {
+      "detail": "{'best_seed_selection': False, 'booster': 'gbtree', 'colsample_bytree': 0.8, 'cv_performed': False, 'early_stopping': False, 'eval_metric': 'mae', 'gamma': 0.0, 'hpo_performed': False, 'learning_rate': 0.05, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200, 'n_jobs': 1, 'objective': 'reg:squarederror', 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'subsample': 0.8, 'tree_method': 'hist'}",
+      "name": "dulce seed_08 config congelada",
+      "ok": true
+    },
+    {
+      "detail": "8",
+      "name": "dulce seed_08 random_state = seed",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "dulce seed_08 features = 37",
+      "ok": true
+    },
+    {
+      "detail": "reg:squarederror",
+      "name": "dulce seed_08 objective",
+      "ok": true
+    },
+    {
+      "detail": "mae",
+      "name": "dulce seed_08 eval_metric",
+      "ok": true
+    },
+    {
+      "detail": "gbtree",
+      "name": "dulce seed_08 booster",
+      "ok": true
+    },
+    {
+      "detail": "200",
+      "name": "dulce seed_08 n_estimators",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "dulce seed_08 max_depth",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_08 min_child_weight",
+      "ok": true
+    },
+    {
+      "detail": "0.05",
+      "name": "dulce seed_08 learning_rate",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "dulce seed_08 subsample",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "dulce seed_08 colsample_bytree",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "dulce seed_08 reg_alpha",
+      "ok": true
+    },
+    {
+      "detail": "1.0",
+      "name": "dulce seed_08 reg_lambda",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "dulce seed_08 gamma",
+      "ok": true
+    },
+    {
+      "detail": "hist",
+      "name": "dulce seed_08 tree_method",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_08 n_jobs",
+      "ok": true
+    },
+    {
+      "detail": "False",
+      "name": "dulce seed_08 metadata no TEST pre-run",
+      "ok": true
+    },
+    {
+      "detail": "false/false/false/false",
+      "name": "dulce seed_08 no HPO/CV/early/best seed",
+      "ok": true
+    },
+    {
+      "detail": "XGBRegressor",
+      "name": "dulce seed_08 modelo no v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "8",
+      "name": "dulce seed_08 modelo random_state",
+      "ok": true
+    },
+    {
+      "detail": "{'best_seed_selection': False, 'booster': 'gbtree', 'colsample_bytree': 0.8, 'cv_performed': False, 'early_stopping': False, 'eval_metric': 'mae', 'gamma': 0.0, 'hpo_performed': False, 'learning_rate': 0.05, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200, 'n_jobs': 1, 'objective': 'reg:squarederror', 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'subsample': 0.8, 'tree_method': 'hist'}",
+      "name": "dulce seed_09 config congelada",
+      "ok": true
+    },
+    {
+      "detail": "9",
+      "name": "dulce seed_09 random_state = seed",
+      "ok": true
+    },
+    {
+      "detail": "37",
+      "name": "dulce seed_09 features = 37",
+      "ok": true
+    },
+    {
+      "detail": "reg:squarederror",
+      "name": "dulce seed_09 objective",
+      "ok": true
+    },
+    {
+      "detail": "mae",
+      "name": "dulce seed_09 eval_metric",
+      "ok": true
+    },
+    {
+      "detail": "gbtree",
+      "name": "dulce seed_09 booster",
+      "ok": true
+    },
+    {
+      "detail": "200",
+      "name": "dulce seed_09 n_estimators",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "dulce seed_09 max_depth",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_09 min_child_weight",
+      "ok": true
+    },
+    {
+      "detail": "0.05",
+      "name": "dulce seed_09 learning_rate",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "dulce seed_09 subsample",
+      "ok": true
+    },
+    {
+      "detail": "0.8",
+      "name": "dulce seed_09 colsample_bytree",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "dulce seed_09 reg_alpha",
+      "ok": true
+    },
+    {
+      "detail": "1.0",
+      "name": "dulce seed_09 reg_lambda",
+      "ok": true
+    },
+    {
+      "detail": "0.0",
+      "name": "dulce seed_09 gamma",
+      "ok": true
+    },
+    {
+      "detail": "hist",
+      "name": "dulce seed_09 tree_method",
+      "ok": true
+    },
+    {
+      "detail": "1",
+      "name": "dulce seed_09 n_jobs",
+      "ok": true
+    },
+    {
+      "detail": "False",
+      "name": "dulce seed_09 metadata no TEST pre-run",
+      "ok": true
+    },
+    {
+      "detail": "false/false/false/false",
+      "name": "dulce seed_09 no HPO/CV/early/best seed",
+      "ok": true
+    },
+    {
+      "detail": "XGBRegressor",
+      "name": "dulce seed_09 modelo no v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "9",
+      "name": "dulce seed_09 modelo random_state",
+      "ok": true
+    },
+    {
+      "detail": "240",
+      "name": "240 predicciones totales",
+      "ok": true
+    },
+    {
+      "detail": "group sizes all 12",
+      "name": "12 predicciones por modelo/seed",
+      "ok": true
+    },
+    {
+      "detail": "solo official_gc2_xgboost",
+      "name": "no modelo v1/piloto",
+      "ok": true
+    },
+    {
+      "detail": "solo joblib.load + predict",
+      "name": "no retraining",
+      "ok": true
+    },
+    {
+      "detail": "config hpo_performed=false verificado",
+      "name": "no HPO",
+      "ok": true
+    },
+    {
+      "detail": "config cv_performed=false verificado",
+      "name": "no CV",
+      "ok": true
+    },
+    {
+      "detail": "config early_stopping=false verificado",
+      "name": "no early stopping",
+      "ok": true
+    },
+    {
+      "detail": "todas las seeds reportadas",
+      "name": "no best seed",
+      "ok": true
+    },
+    {
+      "detail": "modelos cargados desde artefactos oficiales",
+      "name": "no modificacion de modelos",
+      "ok": true
+    },
+    {
+      "detail": "lectura solamente",
+      "name": "no modificacion de datasets",
+      "ok": true
+    },
+    {
+      "detail": "feature spec congelado",
+      "name": "no modificacion de features",
+      "ok": true
+    },
+    {
+      "detail": "D35/D35-b congelados",
+      "name": "no modificacion de metricas/shocks",
+      "ok": true
+    }
+  ],
+  "denominators": {
+    "D_MASE1": {
+      "dulce": 73.338,
+      "sutil": 3374.5715
+    },
+    "D_RMSSE1": {
+      "dulce": 7404.7927,
+      "sutil": 18749601.6694
+    },
+    "NAIVE_TEST_MAE": {
+      "dulce": 84.70083333333332,
+      "sutil": 4704.292916666665
+    },
+    "P75_SHOCK": {
+      "dulce": 0.320281354618397,
+      "sutil": 0.240834900212216
+    },
+    "SHOCK_MONTHS": {
+      "dulce": [
+        "2025-01",
+        "2025-02",
+        "2025-03"
+      ],
+      "sutil": [
+        "2025-01",
+        "2025-07",
+        "2025-11"
+      ]
+    }
+  },
+  "environment": {
+    "cpu": "AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",
+    "os": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.9"
+  },
+  "finished_utc": "2026-09-12T22:29:00.902068+00:00",
+  "git_commit": "44fe6eafca927ba22d97bf8e46d6ad530cc1a47a",
+  "hashes": {
+    "datasets": {
+      "dulce": {
+        "raw_features_for_inverse_check": "c0e7cbe99fdf514cf3bde3c3f735b7d14fc63b27c7f3f163ec665ae25696a188",
+        "scaled": "38466a4f9581f7d8058962248161d7cb1d467a82e7c2092de73364920dd84f80"
+      },
+      "sutil": {
+        "raw_features_for_inverse_check": "a6f23d0eb3178514c75f6851f3c2039837a192acc5f2b008bc445dda35968cc9",
+        "scaled": "d664fd728798d52e5c1bbe702745d40d49b8761513cef148e0a56f2481ca7941"
+      }
+    },
+    "models": {
+      "dulce_seed_00": "d71f71406fc98f1f52bd73eba9f17a7af01ea9ef1e67e099da20cc94a2e34d20",
+      "dulce_seed_01": "6450745f2864468bba570c6bdf5adf05d950cca3e2e5f377867b48ee8a323206",
+      "dulce_seed_02": "8694ef4c908b5ae13e7892516d04b1bf2c1aa60d5b6676ddda2ca6f0b5a3f5c3",
+      "dulce_seed_03": "67b9c56acd70ddb67c5ca16379dfeeb1b07f1c3a2a3f4afa21415d4cb0685be5",
+      "dulce_seed_04": "33acd07923b0d1a93ea9c0c0ab56dd5d5efd8eb881e32c6080b248c28ba269c8",
+      "dulce_seed_05": "06ba01afd7d718008c3362b8fa4568939472c1eefcda09103dc7701fb986330f",
+      "dulce_seed_06": "409389419182e439caa8a726ab964c4fec31d0c38411a37fca2fe83bdda1800e",
+      "dulce_seed_07": "eff56ad3dda7a6fb40dbe18fc15057cfb4e88b87f7e0032a13b69d3ad1249e7f",
+      "dulce_seed_08": "6dde157f7fe3061ad89c57dd402adf61691f9c93a32d9272f78449deca584474",
+      "dulce_seed_09": "d15cc99e6e49aaefa2d4845cb5af013d809eb76985ff4c00dbd4025e92cfc43f",
+      "sutil_seed_00": "acaf1d44edc01823febf6aa95ce4b3ea89a7cea694bdc7cfbe8365304e443e8b",
+      "sutil_seed_01": "ef322b4cc6e8689d067c8b3a07a175730a2a8ba006f2cf6e45a59230d279b225",
+      "sutil_seed_02": "4d18262bf29c94df9944893eede19ab5b20e67275cdb152301ae568038d31426",
+      "sutil_seed_03": "6a94eb25eb1e09ceb70de96475ef9aa695ebedd9973526da835e6621e2bd530f",
+      "sutil_seed_04": "7997fae68e6f97370c41b24ceaeef2416a72c523240fde9074d63788f9bd9b28",
+      "sutil_seed_05": "0134f39afa9d167dcb7392f35c80d494bd33cb35dc601a24731ff539bd3a207f",
+      "sutil_seed_06": "d66ba0cdaa5571f3c41daa4c056a824d636505eb024a377c0e4c5ef2c2cc9c5d",
+      "sutil_seed_07": "61f29a78afb76e9de9fbfb8cbfea1ef3d7a2a6e57e76ac4dd5136d0e58c96e8a",
+      "sutil_seed_08": "b3e892a273a4a3648f75b9e3b3c422daa32c08f889e9b8200d8a6d21ef12d2c6",
+      "sutil_seed_09": "17dd9848c14e3d186792c4d7bf83b524257ebe9997c6fbe3440fdd931d4a988f"
+    },
+    "scalers": {
+      "dulce": "1bf919b4c00d236801f12df420b79a16f47c4fe4df3b711472cdc36428eb962b",
+      "sutil": "ba51666f00ded716c63698dd04e29068d58d3cab064202384bfbd4435fbf350e"
+    }
+  },
+  "models_evaluated": 20,
+  "official_cultivars": [
+    "sutil",
+    "dulce"
+  ],
+  "official_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "predictions": 240,
+  "representation": "X_t -> y_(t+1)",
+  "started_utc": "2026-09-12T22:28:58.707112+00:00",
+  "status": "approved",
+  "test_target_dates": [
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12"
+  ]
+}

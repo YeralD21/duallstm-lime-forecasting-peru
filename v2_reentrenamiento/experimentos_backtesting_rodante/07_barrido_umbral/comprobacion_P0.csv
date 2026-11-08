@@ -1,0 +1,241 @@
+cultivar,tipo,modelo,ventana,n_shock,Delta_s,Delta_s_es_0_exacto,n_shock_esperado
+sutil,mensual,Naive,2021,12,0,True,12
+sutil,mensual,Naive,2022,12,0,True,12
+sutil,mensual,Naive,2023,12,0,True,12
+sutil,mensual,Naive,2024,12,0,True,12
+sutil,mensual,Naive,2025,12,0,True,12
+sutil,mensual,Naive,agregado,60,0,True,60
+sutil,mensual,Seasonal Naive,2021,12,0,True,12
+sutil,mensual,Seasonal Naive,2022,12,0,True,12
+sutil,mensual,Seasonal Naive,2023,12,0,True,12
+sutil,mensual,Seasonal Naive,2024,12,0,True,12
+sutil,mensual,Seasonal Naive,2025,12,0,True,12
+sutil,mensual,Seasonal Naive,agregado,60,0,True,60
+sutil,mensual,Chronos,2021,12,0,True,12
+sutil,mensual,Chronos,2022,12,0,True,12
+sutil,mensual,Chronos,2023,12,0,True,12
+sutil,mensual,Chronos,2024,12,0,True,12
+sutil,mensual,Chronos,2025,12,0,True,12
+sutil,mensual,Chronos,agregado,60,0,True,60
+sutil,mensual,SARIMA,2021,12,0,True,12
+sutil,mensual,SARIMA,2022,12,0,True,12
+sutil,mensual,SARIMA,2023,12,0,True,12
+sutil,mensual,SARIMA,2024,12,0,True,12
+sutil,mensual,SARIMA,2025,12,0,True,12
+sutil,mensual,SARIMA,agregado,60,0,True,60
+sutil,mensual,SARIMA-sel,2021,12,0,True,12
+sutil,mensual,SARIMA-sel,2022,12,0,True,12
+sutil,mensual,SARIMA-sel,2023,12,0,True,12
+sutil,mensual,SARIMA-sel,2024,12,0,True,12
+sutil,mensual,SARIMA-sel,2025,12,0,True,12
+sutil,mensual,SARIMA-sel,agregado,60,0,True,60
+sutil,mensual,Ridge,2021,12,0,True,12
+sutil,mensual,Ridge,2022,12,0,True,12
+sutil,mensual,Ridge,2023,12,0,True,12
+sutil,mensual,Ridge,2024,12,0,True,12
+sutil,mensual,Ridge,2025,12,0,True,12
+sutil,mensual,Ridge,agregado,60,0,True,60
+sutil,mensual,ElasticNet,2021,12,0,True,12
+sutil,mensual,ElasticNet,2022,12,0,True,12
+sutil,mensual,ElasticNet,2023,12,0,True,12
+sutil,mensual,ElasticNet,2024,12,0,True,12
+sutil,mensual,ElasticNet,2025,12,0,True,12
+sutil,mensual,ElasticNet,agregado,60,0,True,60
+sutil,mensual,XGB-37,2021,12,0,True,12
+sutil,mensual,XGB-37,2022,12,0,True,12
+sutil,mensual,XGB-37,2023,12,0,True,12
+sutil,mensual,XGB-37,2024,12,0,True,12
+sutil,mensual,XGB-37,2025,12,0,True,12
+sutil,mensual,XGB-37,agregado,60,0,True,60
+sutil,mensual,GC3,2021,12,0,True,12
+sutil,mensual,GC3,2022,12,0,True,12
+sutil,mensual,GC3,2023,12,0,True,12
+sutil,mensual,GC3,2024,12,0,True,12
+sutil,mensual,GC3,2025,12,0,True,12
+sutil,mensual,GC3,agregado,60,0,True,60
+sutil,mensual,GE,2021,12,0,True,12
+sutil,mensual,GE,2022,12,0,True,12
+sutil,mensual,GE,2023,12,0,True,12
+sutil,mensual,GE,2024,12,0,True,12
+sutil,mensual,GE,2025,12,0,True,12
+sutil,mensual,GE,agregado,60,0,True,60
+sutil,interanual,Naive,2021,12,0,True,12
+sutil,interanual,Naive,2022,12,0,True,12
+sutil,interanual,Naive,2023,12,0,True,12
+sutil,interanual,Naive,2024,12,0,True,12
+sutil,interanual,Naive,2025,12,0,True,12
+sutil,interanual,Naive,agregado,60,0,True,60
+sutil,interanual,Seasonal Naive,2021,12,0,True,12
+sutil,interanual,Seasonal Naive,2022,12,0,True,12
+sutil,interanual,Seasonal Naive,2023,12,0,True,12
+sutil,interanual,Seasonal Naive,2024,12,0,True,12
+sutil,interanual,Seasonal Naive,2025,12,0,True,12
+sutil,interanual,Seasonal Naive,agregado,60,0,True,60
+sutil,interanual,Chronos,2021,12,0,True,12
+sutil,interanual,Chronos,2022,12,0,True,12
+sutil,interanual,Chronos,2023,12,0,True,12
+sutil,interanual,Chronos,2024,12,0,True,12
+sutil,interanual,Chronos,2025,12,0,True,12
+sutil,interanual,Chronos,agregado,60,0,True,60
+sutil,interanual,SARIMA,2021,12,0,True,12
+sutil,interanual,SARIMA,2022,12,0,True,12
+sutil,interanual,SARIMA,2023,12,0,True,12
+sutil,interanual,SARIMA,2024,12,0,True,12
+sutil,interanual,SARIMA,2025,12,0,True,12
+sutil,interanual,SARIMA,agregado,60,0,True,60
+sutil,interanual,SARIMA-sel,2021,12,0,True,12
+sutil,interanual,SARIMA-sel,2022,12,0,True,12
+sutil,interanual,SARIMA-sel,2023,12,0,True,12
+sutil,interanual,SARIMA-sel,2024,12,0,True,12
+sutil,interanual,SARIMA-sel,2025,12,0,True,12
+sutil,interanual,SARIMA-sel,agregado,60,0,True,60
+sutil,interanual,Ridge,2021,12,0,True,12
+sutil,interanual,Ridge,2022,12,0,True,12
+sutil,interanual,Ridge,2023,12,0,True,12
+sutil,interanual,Ridge,2024,12,0,True,12
+sutil,interanual,Ridge,2025,12,0,True,12
+sutil,interanual,Ridge,agregado,60,0,True,60
+sutil,interanual,ElasticNet,2021,12,0,True,12
+sutil,interanual,ElasticNet,2022,12,0,True,12
+sutil,interanual,ElasticNet,2023,12,0,True,12
+sutil,interanual,ElasticNet,2024,12,0,True,12
+sutil,interanual,ElasticNet,2025,12,0,True,12
+sutil,interanual,ElasticNet,agregado,60,0,True,60
+sutil,interanual,XGB-37,2021,12,0,True,12
+sutil,interanual,XGB-37,2022,12,0,True,12
+sutil,interanual,XGB-37,2023,12,0,True,12
+sutil,interanual,XGB-37,2024,12,0,True,12
+sutil,interanual,XGB-37,2025,12,0,True,12
+sutil,interanual,XGB-37,agregado,60,0,True,60
+sutil,interanual,GC3,2021,12,0,True,12
+sutil,interanual,GC3,2022,12,0,True,12
+sutil,interanual,GC3,2023,12,0,True,12
+sutil,interanual,GC3,2024,12,0,True,12
+sutil,interanual,GC3,2025,12,0,True,12
+sutil,interanual,GC3,agregado,60,0,True,60
+sutil,interanual,GE,2021,12,0,True,12
+sutil,interanual,GE,2022,12,0,True,12
+sutil,interanual,GE,2023,12,0,True,12
+sutil,interanual,GE,2024,12,0,True,12
+sutil,interanual,GE,2025,12,0,True,12
+sutil,interanual,GE,agregado,60,0,True,60
+dulce,mensual,Naive,2021,12,0,True,12
+dulce,mensual,Naive,2022,12,0,True,12
+dulce,mensual,Naive,2023,12,0,True,12
+dulce,mensual,Naive,2024,12,0,True,12
+dulce,mensual,Naive,2025,12,0,True,12
+dulce,mensual,Naive,agregado,60,0,True,60
+dulce,mensual,Seasonal Naive,2021,12,0,True,12
+dulce,mensual,Seasonal Naive,2022,12,0,True,12
+dulce,mensual,Seasonal Naive,2023,12,0,True,12
+dulce,mensual,Seasonal Naive,2024,12,0,True,12
+dulce,mensual,Seasonal Naive,2025,12,0,True,12
+dulce,mensual,Seasonal Naive,agregado,60,0,True,60
+dulce,mensual,Chronos,2021,12,0,True,12
+dulce,mensual,Chronos,2022,12,0,True,12
+dulce,mensual,Chronos,2023,12,0,True,12
+dulce,mensual,Chronos,2024,12,0,True,12
+dulce,mensual,Chronos,2025,12,0,True,12
+dulce,mensual,Chronos,agregado,60,0,True,60
+dulce,mensual,SARIMA,2021,12,0,True,12
+dulce,mensual,SARIMA,2022,12,0,True,12
+dulce,mensual,SARIMA,2023,12,0,True,12
+dulce,mensual,SARIMA,2024,12,0,True,12
+dulce,mensual,SARIMA,2025,12,0,True,12
+dulce,mensual,SARIMA,agregado,60,0,True,60
+dulce,mensual,SARIMA-sel,2021,12,0,True,12
+dulce,mensual,SARIMA-sel,2022,12,0,True,12
+dulce,mensual,SARIMA-sel,2023,12,0,True,12
+dulce,mensual,SARIMA-sel,2024,12,0,True,12
+dulce,mensual,SARIMA-sel,2025,12,0,True,12
+dulce,mensual,SARIMA-sel,agregado,60,0,True,60
+dulce,mensual,Ridge,2021,12,0,True,12
+dulce,mensual,Ridge,2022,12,0,True,12
+dulce,mensual,Ridge,2023,12,0,True,12
+dulce,mensual,Ridge,2024,12,0,True,12
+dulce,mensual,Ridge,2025,12,0,True,12
+dulce,mensual,Ridge,agregado,60,0,True,60
+dulce,mensual,ElasticNet,2021,12,0,True,12
+dulce,mensual,ElasticNet,2022,12,0,True,12
+dulce,mensual,ElasticNet,2023,12,0,True,12
+dulce,mensual,ElasticNet,2024,12,0,True,12
+dulce,mensual,ElasticNet,2025,12,0,True,12
+dulce,mensual,ElasticNet,agregado,60,0,True,60
+dulce,mensual,XGB-37,2021,12,0,True,12
+dulce,mensual,XGB-37,2022,12,0,True,12
+dulce,mensual,XGB-37,2023,12,0,True,12
+dulce,mensual,XGB-37,2024,12,0,True,12
+dulce,mensual,XGB-37,2025,12,0,True,12
+dulce,mensual,XGB-37,agregado,60,0,True,60
+dulce,mensual,GC3,2021,12,0,True,12
+dulce,mensual,GC3,2022,12,0,True,12
+dulce,mensual,GC3,2023,12,0,True,12
+dulce,mensual,GC3,2024,12,0,True,12
+dulce,mensual,GC3,2025,12,0,True,12
+dulce,mensual,GC3,agregado,60,0,True,60
+dulce,mensual,GE,2021,12,0,True,12
+dulce,mensual,GE,2022,12,0,True,12
+dulce,mensual,GE,2023,12,0,True,12
+dulce,mensual,GE,2024,12,0,True,12
+dulce,mensual,GE,2025,12,0,True,12
+dulce,mensual,GE,agregado,60,0,True,60
+dulce,interanual,Naive,2021,12,0,True,12
+dulce,interanual,Naive,2022,12,0,True,12
+dulce,interanual,Naive,2023,12,0,True,12
+dulce,interanual,Naive,2024,12,0,True,12
+dulce,interanual,Naive,2025,12,0,True,12
+dulce,interanual,Naive,agregado,60,0,True,60
+dulce,interanual,Seasonal Naive,2021,12,0,True,12
+dulce,interanual,Seasonal Naive,2022,12,0,True,12
+dulce,interanual,Seasonal Naive,2023,12,0,True,12
+dulce,interanual,Seasonal Naive,2024,12,0,True,12
+dulce,interanual,Seasonal Naive,2025,12,0,True,12
+dulce,interanual,Seasonal Naive,agregado,60,0,True,60
+dulce,interanual,Chronos,2021,12,0,True,12
+dulce,interanual,Chronos,2022,12,0,True,12
+dulce,interanual,Chronos,2023,12,0,True,12
+dulce,interanual,Chronos,2024,12,0,True,12
+dulce,interanual,Chronos,2025,12,0,True,12
+dulce,interanual,Chronos,agregado,60,0,True,60
+dulce,interanual,SARIMA,2021,12,0,True,12
+dulce,interanual,SARIMA,2022,12,0,True,12
+dulce,interanual,SARIMA,2023,12,0,True,12
+dulce,interanual,SARIMA,2024,12,0,True,12
+dulce,interanual,SARIMA,2025,12,0,True,12
+dulce,interanual,SARIMA,agregado,60,0,True,60
+dulce,interanual,SARIMA-sel,2021,12,0,True,12
+dulce,interanual,SARIMA-sel,2022,12,0,True,12
+dulce,interanual,SARIMA-sel,2023,12,0,True,12
+dulce,interanual,SARIMA-sel,2024,12,0,True,12
+dulce,interanual,SARIMA-sel,2025,12,0,True,12
+dulce,interanual,SARIMA-sel,agregado,60,0,True,60
+dulce,interanual,Ridge,2021,12,0,True,12
+dulce,interanual,Ridge,2022,12,0,True,12
+dulce,interanual,Ridge,2023,12,0,True,12
+dulce,interanual,Ridge,2024,12,0,True,12
+dulce,interanual,Ridge,2025,12,0,True,12
+dulce,interanual,Ridge,agregado,60,0,True,60
+dulce,interanual,ElasticNet,2021,12,0,True,12
+dulce,interanual,ElasticNet,2022,12,0,True,12
+dulce,interanual,ElasticNet,2023,12,0,True,12
+dulce,interanual,ElasticNet,2024,12,0,True,12
+dulce,interanual,ElasticNet,2025,12,0,True,12
+dulce,interanual,ElasticNet,agregado,60,0,True,60
+dulce,interanual,XGB-37,2021,12,0,True,12
+dulce,interanual,XGB-37,2022,12,0,True,12
+dulce,interanual,XGB-37,2023,12,0,True,12
+dulce,interanual,XGB-37,2024,12,0,True,12
+dulce,interanual,XGB-37,2025,12,0,True,12
+dulce,interanual,XGB-37,agregado,60,0,True,60
+dulce,interanual,GC3,2021,12,0,True,12
+dulce,interanual,GC3,2022,12,0,True,12
+dulce,interanual,GC3,2023,12,0,True,12
+dulce,interanual,GC3,2024,12,0,True,12
+dulce,interanual,GC3,2025,12,0,True,12
+dulce,interanual,GC3,agregado,60,0,True,60
+dulce,interanual,GE,2021,12,0,True,12
+dulce,interanual,GE,2022,12,0,True,12
+dulce,interanual,GE,2023,12,0,True,12
+dulce,interanual,GE,2024,12,0,True,12
+dulce,interanual,GE,2025,12,0,True,12
+dulce,interanual,GE,agregado,60,0,True,60

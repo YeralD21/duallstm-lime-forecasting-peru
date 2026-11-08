@@ -1,0 +1,25 @@
+{
+  "alpha": 10,
+  "l1_ratio": null,
+  "hiperparametros_de": "04_modelos/ridge/sutil/2022/info.json (validacion Y-1)",
+  "pesos_geograficos_fin": "2021-12",
+  "estandarizador_filas": 65,
+  "train_objetivos": [
+    "2016-08",
+    "2021-12"
+  ],
+  "test_objetivos": [
+    "2022-01",
+    "2022-12"
+  ],
+  "test_x_fecha": [
+    "2021-12",
+    "2022-11"
+  ],
+  "modelo": "Ridge-Y1",
+  "cultivar": "sutil",
+  "anio_test": 2022,
+  "semilla": null,
+  "segundos_unidad": 5.898882900000899,
+  "utc": "2026-10-31T18:24:44.217326+00:00"
+}

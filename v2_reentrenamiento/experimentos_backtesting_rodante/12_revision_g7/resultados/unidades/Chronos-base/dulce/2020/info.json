@@ -1,0 +1,11 @@
+{
+  "model_id": "amazon/chronos-bolt-base",
+  "revision": "5d9f166d69f47aef3401367a7b842e78fe97b121",
+  "modulo_chronos": "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v4_benchmark_moderno\\vendor\\chronos\\__init__.py",
+  "modelo": "Chronos-base",
+  "cultivar": "dulce",
+  "anio_test": 2020,
+  "semilla": null,
+  "segundos_unidad": 11.009923800000252,
+  "utc": "2026-10-31T18:41:30.722888+00:00"
+}

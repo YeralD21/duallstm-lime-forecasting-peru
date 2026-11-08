@@ -1,0 +1,21 @@
+{
+  "unidad": {
+    "modelo": "Chronos",
+    "cultivar": "dulce",
+    "anio": 2018,
+    "semilla": null
+  },
+  "ventana": {
+    "anio_test": 2018,
+    "origen": "2017-12",
+    "fin_train": "2016-12",
+    "val_inicio": "2017-01",
+    "val_fin": "2017-12",
+    "test_inicio": "2018-01",
+    "test_fin": "2018-12",
+    "en_ranking": false,
+    "en_sensibilidad_2023_2025": false
+  },
+  "modulo_chronos": "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v4_benchmark_moderno\\vendor\\chronos\\__init__.py",
+  "n_contexto_primer_mes": 24
+}

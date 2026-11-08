@@ -1,0 +1,28 @@
+{
+  "order": [
+    3,
+    1,
+    2
+  ],
+  "seasonal_order": [
+    2,
+    1,
+    2,
+    12
+  ],
+  "orden_de": "04_modelos/sarima_sel/sutil/2022/info.json (orden elegido con train Y-2 y validacion Y-1)",
+  "train_inicio": "2016-07",
+  "train_fin": "2021-12",
+  "n_train": 66,
+  "avisos": [
+    "UserWarning"
+  ],
+  "convergio": true,
+  "parametros_invariantes_en_test": true,
+  "modelo": "SARIMA-sel-Y1",
+  "cultivar": "sutil",
+  "anio_test": 2022,
+  "semilla": null,
+  "segundos_unidad": 2.903051000001142,
+  "utc": "2026-10-31T18:26:40.709324+00:00"
+}

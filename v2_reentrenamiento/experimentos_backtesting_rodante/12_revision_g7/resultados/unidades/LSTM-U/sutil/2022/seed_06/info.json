@@ -1,0 +1,56 @@
+{
+  "n_params": 2417,
+  "entradas_rama_a": [
+    "produccion_t_sutil",
+    "produccion_t_sutil_lag1",
+    "produccion_t_sutil_lag3",
+    "produccion_t_sutil_lag6",
+    "mes_sin",
+    "mes_cos"
+  ],
+  "entradas_rama_b": null,
+  "protocolo": "orig",
+  "scaler_fechas_ajuste": [
+    "2016-07",
+    "2020-12"
+  ],
+  "pesos_geograficos_fin": "2020-12",
+  "train_objetivos": [
+    "2017-01",
+    "2020-12"
+  ],
+  "train_contexto_max": [
+    "2016-12",
+    "2020-11"
+  ],
+  "val_objetivos": [
+    "2021-01",
+    "2021-12"
+  ],
+  "test_objetivos": [
+    "2022-01",
+    "2022-12"
+  ],
+  "test_contexto_max": [
+    "2021-12",
+    "2022-11"
+  ],
+  "fit_seconds": 16.422787999999855,
+  "mejor_epoca": 111,
+  "epocas_corridas": 126,
+  "determinismo": {
+    "seed": 6,
+    "pythonhashseed": "6",
+    "tf_enable_onednn_opts": "0",
+    "tf_deterministic_ops": "1",
+    "tensorflow_previously_loaded": false,
+    "keras_set_random_seed_used": true,
+    "enable_op_determinism_used": true
+  },
+  "modelo": "LSTM-U",
+  "cultivar": "sutil",
+  "anio_test": 2022,
+  "semilla": 6,
+  "segundos_unidad": 24.527908500000194,
+  "utc": "2026-10-31T18:34:02.311570+00:00"
+}

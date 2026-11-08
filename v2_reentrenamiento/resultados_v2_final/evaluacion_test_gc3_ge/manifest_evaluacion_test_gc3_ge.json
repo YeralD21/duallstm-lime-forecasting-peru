@@ -1,0 +1,188 @@
+{
+  "alignment": {
+    "dulce/GC3": {
+      "dates": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12"
+      ],
+      "first_test_context_end": "2024-12-01",
+      "inverse_y_true_max_abs_diff": 1.1368683772161603e-13,
+      "shock_dates": [
+        "2025-01",
+        "2025-02",
+        "2025-03"
+      ]
+    },
+    "dulce/GE": {
+      "dates": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12"
+      ],
+      "first_test_context_end": "2024-12-01",
+      "inverse_y_true_max_abs_diff": 1.1368683772161603e-13,
+      "shock_dates": [
+        "2025-01",
+        "2025-02",
+        "2025-03"
+      ]
+    },
+    "sutil/GC3": {
+      "dates": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12"
+      ],
+      "first_test_context_end": "2024-12-01",
+      "inverse_y_true_max_abs_diff": 0.0,
+      "shock_dates": [
+        "2025-01",
+        "2025-07",
+        "2025-11"
+      ]
+    },
+    "sutil/GE": {
+      "dates": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12"
+      ],
+      "first_test_context_end": "2024-12-01",
+      "inverse_y_true_max_abs_diff": 0.0,
+      "shock_dates": [
+        "2025-01",
+        "2025-07",
+        "2025-11"
+      ]
+    }
+  },
+  "checkpoints_evaluated": 40,
+  "d35_denominators": {
+    "D_MASE1": {
+      "dulce": 73.338,
+      "sutil": 3374.5715
+    },
+    "D_RMSSE1": {
+      "dulce": 7404.7927,
+      "sutil": 18749601.6694
+    }
+  },
+  "duration_seconds": 14.233468,
+  "environment": {
+    "keras": "3.14.0",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "tensorflow": "2.21.0"
+  },
+  "figures": [
+    "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_gc3_ge\\figures\\real_vs_pred_test_2025_sutil.png",
+    "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_gc3_ge\\figures\\real_vs_pred_test_2025_dulce.png",
+    "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_gc3_ge\\figures\\distribucion_mae_test_2025_sutil.png",
+    "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_gc3_ge\\figures\\distribucion_mae_test_2025_dulce.png",
+    "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_gc3_ge\\figures\\shock_diagnostico_test_2025_sutil.png",
+    "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_gc3_ge\\figures\\shock_diagnostico_test_2025_dulce.png"
+  ],
+  "finished_utc": "2026-09-11T17:01:45.375706+00:00",
+  "git_status": "## main...origin/main\n?? data/interim/indeci/indeci_temporal_2019_2025.csv\n?? data/interim/nasa/clima_dataset_2019_2020.csv\n?? sources/agraria-pe/sin-unificar/agro_news_2020.csv\n?? sources/agraria-pe/sin-unificar/checkpoint_2019_2020.json\n?? sources/noticias-ampliado/\n?? src/scraping/agronoticias_scraper.py\n?? src/scraping/andina_scraper.py\n?? src/scraping/base_scraper.py\n?? src/scraping/freshfruit_scraper.py\n?? src/scraping/recalcular_sentimiento_v2.py\n?? src/scraping/redagricola_scraper.py\n?? src/scraping/run_expansion.py\n?? src/scraping/unificar_corpus_v2.py\n?? src/weather/nasa_power_downloader.py\n?? v2_reentrenamiento/HANDOFF_CONTEXTO_ACTUAL.md\n?? v2_reentrenamiento/auditorias/AUDITORIA_ENTRENAMIENTO_OFICIAL_GC3_GE.md\n?? v2_reentrenamiento/auditorias/AUDITORIA_POST_RUN_GC3_GE.md\n?? v2_reentrenamiento/auditorias/AUDITORIA_RUNNER_OFICIAL_GC3_GE.md\n?? v2_reentrenamiento/auditorias/auditar_entrenamiento_oficial_gc3_ge.py\n?? v2_reentrenamiento/auditorias/auditar_post_run_final_gc3_ge.py\n?? v2_reentrenamiento/auditorias/auditar_runner_oficial_gc3_ge.py\n?? v2_reentrenamiento/auditorias/ejecutar_entrenamiento_oficial_gc3_ge.py\n?? v2_reentrenamiento/auditorias/entrenamiento_oficial_gc3_ge_manifest.json\n?? v2_reentrenamiento/auditorias/evaluar_test_gc3_ge.py\n?? v2_reentrenamiento/auditorias/resumen_entrenamiento_oficial_gc3_ge.csv\n?? v2_reentrenamiento/auditorias/resumen_entrenamiento_oficial_gc3_ge.json\n?? v2_reentrenamiento/auditorias/resumen_post_run_gc3_ge.csv\n?? v2_reentrenamiento/auditorias/resumen_post_run_gc3_ge.json\n?? v2_reentrenamiento/auditorias/runner_oficial_gc3_ge_dry_run.json\n?? v2_reentrenamiento/resultados_v2_final/evaluacion_test_gc3_ge/\n?? v2_reentrenamiento/resultados_v2_final/official_gc3_ge/\n?? v2_reentrenamiento/resultados_v2_final/technical_pilot/\n?? v2_reentrenamiento/resultados_v2_final/technical_pilot_scaled/\n?? v2_reentrenamiento/src/training/official_runner_gc3_ge.py",
+  "input_hashes": {
+    "dulce": {
+      "dataset_hash": "38466a4f9581f7d8058962248161d7cb1d467a82e7c2092de73364920dd84f80",
+      "dataset_path": "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\data\\processed\\master_dataset_dulce_v2_escalado.csv",
+      "scaler_hash": "1bf919b4c00d236801f12df420b79a16f47c4fe4df3b711472cdc36428eb962b",
+      "scaler_params_hash": "e62e44ba9e60c79ed4f72b242fe0c90e7ade5648613b6025f61e4a8b2aac3f64",
+      "scaler_path": "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\scalers\\scaler_dulce_v2c.joblib"
+    },
+    "sutil": {
+      "dataset_hash": "d664fd728798d52e5c1bbe702745d40d49b8761513cef148e0a56f2481ca7941",
+      "dataset_path": "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\data\\processed\\master_dataset_sutil_v2_escalado.csv",
+      "scaler_hash": "ba51666f00ded716c63698dd04e29068d58d3cab064202384bfbd4435fbf350e",
+      "scaler_params_hash": "4e4d0e1fa6555d605e71cf9c378c4a33e6a8a6b0d238024be6d447f813fee80e",
+      "scaler_path": "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\scalers\\scaler_sutil_v2c.joblib"
+    }
+  },
+  "no_hpo": true,
+  "no_retraining": true,
+  "no_seed_selection": true,
+  "predictions_total": 480,
+  "sanity_checks": {
+    "10_seeds_por_cultivar_modelo": true,
+    "12_meses_por_corrida": true,
+    "40_corridas_evaluadas": true,
+    "480_predicciones_totales": true,
+    "checkpoint_oficial_correcto": true,
+    "denominadores_mase_rmsse_correctos": true,
+    "inverse_transform_correcto": true,
+    "jan_dec_2025": true,
+    "mascara_shock_exacta": true,
+    "n_nonshock_9_siempre": true,
+    "n_shock_3_siempre": true,
+    "ningun_checkpoint_modificado": true,
+    "ninguna_corrida_reentrenada": true,
+    "ninguna_ruta_pilot_usada": true,
+    "params_6273_6657": true,
+    "scaler_correcto_por_cultivar": true,
+    "sin_nan_inf_metricas": true,
+    "sin_nan_inf_predicciones": true,
+    "y_true_identico_entre_seeds": true,
+    "y_true_identico_gc3_ge": true
+  },
+  "shock_protocol": {
+    "OFFICIAL_TEST_SHOCKS_2025": {
+      "dulce": [
+        "2025-01",
+        "2025-02",
+        "2025-03"
+      ],
+      "sutil": [
+        "2025-01",
+        "2025-07",
+        "2025-11"
+      ]
+    },
+    "P75_TRAIN_ONLY": {
+      "dulce": 0.320281354618397,
+      "sutil": 0.240834900212216
+    }
+  },
+  "started_utc": "2026-09-11T17:01:31.142238+00:00",
+  "test_opened_for_final_evaluation": true
+}

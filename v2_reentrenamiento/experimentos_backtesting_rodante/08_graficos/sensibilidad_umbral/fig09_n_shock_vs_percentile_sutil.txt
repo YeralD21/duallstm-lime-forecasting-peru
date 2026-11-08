@@ -1,0 +1,4 @@
+Caption (suggested): Number of shock months in the pooled 2021–2025 test set versus threshold percentile, sour lime (limón sutil); solid: month-on-month change, dashed: year-on-year change.
+
+Reading: At P75 there are 10 monthly and 10 year-on-year shock months out of 60; at P95 only 3 and 3.
+Results at high percentiles rest on very few months and have wide uncertainty.

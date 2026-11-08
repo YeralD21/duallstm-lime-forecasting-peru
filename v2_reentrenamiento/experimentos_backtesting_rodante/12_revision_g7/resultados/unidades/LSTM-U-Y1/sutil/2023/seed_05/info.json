@@ -1,0 +1,58 @@
+{
+  "n_params": 2417,
+  "entradas_rama_a": [
+    "produccion_t_sutil",
+    "produccion_t_sutil_lag1",
+    "produccion_t_sutil_lag3",
+    "produccion_t_sutil_lag6",
+    "mes_sin",
+    "mes_cos"
+  ],
+  "entradas_rama_b": null,
+  "protocolo": "Y1",
+  "scaler_fechas_ajuste": [
+    "2016-07",
+    "2022-12"
+  ],
+  "pesos_geograficos_fin": "2022-12",
+  "train_objetivos": [
+    "2017-01",
+    "2022-12"
+  ],
+  "train_contexto_max": [
+    "2016-12",
+    "2022-11"
+  ],
+  "val_objetivos": null,
+  "test_objetivos": [
+    "2023-01",
+    "2023-12"
+  ],
+  "test_contexto_max": [
+    "2022-12",
+    "2023-11"
+  ],
+  "fit_seconds": 5.217991699999402,
+  "epocas_fijas": 54,
+  "epocas_de": "12_revision_g7\\resultados\\unidades\\LSTM-U\\sutil\\2023\\seed_05",
+  "lr_por_epoca_de": "12_revision_g7\\resultados\\unidades\\LSTM-U\\sutil\\2023\\seed_05/history.csv (columna learning_rate)",
+  "lr_primera_ultima": [
+    0.0010000000474974,
+    0.0010000000474974
+  ],
+  "determinismo": {
+    "seed": 5,
+    "pythonhashseed": "5",
+    "tf_enable_onednn_opts": "0",
+    "tf_deterministic_ops": "1",
+    "tensorflow_previously_loaded": false,
+    "keras_set_random_seed_used": true,
+    "enable_op_determinism_used": true
+  },
+  "modelo": "LSTM-U-Y1",
+  "cultivar": "sutil",
+  "anio_test": 2023,
+  "semilla": 5,
+  "segundos_unidad": 12.847676900000806,
+  "utc": "2026-10-31T18:42:34.914745+00:00"
+}

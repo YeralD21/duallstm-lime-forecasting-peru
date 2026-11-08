@@ -1,0 +1,759 @@
+{
+  "all_controls_ok": true,
+  "artifacts": {
+    "audit": "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\auditorias\\AUDITORIA_EVALUACION_TEST_SARIMA_ROLLING.md",
+    "figures": [
+      "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_sarima_rolling\\figuras\\sutil_real_vs_predicted.png",
+      "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_sarima_rolling\\figuras\\dulce_real_vs_predicted.png",
+      "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_sarima_rolling\\figuras\\shock_vs_nonshock_abs_error.png"
+    ],
+    "manifest": "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_sarima_rolling\\manifest_evaluacion_test_sarima_rolling.json",
+    "metrics": "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_sarima_rolling\\metricas_test_sarima_rolling.csv",
+    "predictions": "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_sarima_rolling\\predicciones_test_sarima_rolling.csv",
+    "shock_metrics": "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v2_reentrenamiento\\resultados_v2_final\\evaluacion_test_sarima_rolling\\metricas_shock_sarima_rolling.csv"
+  },
+  "authorization": "APERTURA UNICA Y FINAL DE TEST 2025 para GC1/SARIMA rolling one-step",
+  "controls": [
+    {
+      "detail": "0.14.6",
+      "name": "statsmodels=0.14.6",
+      "ok": true
+    },
+    {
+      "detail": "(1, 1, 1)(1, 1, 0, 12)",
+      "name": "sutil especificacion correcta",
+      "ok": true
+    },
+    {
+      "detail": "2016-07..2023-12, n=90",
+      "name": "sutil TRAIN original correcto",
+      "ok": true
+    },
+    {
+      "detail": "allclose atol=1e-10",
+      "name": "sutil parametros iniciales = despues de VAL",
+      "ok": true
+    },
+    {
+      "detail": "2024-12",
+      "name": "sutil estado inicial TEST llega a Dec-2024",
+      "ok": true
+    },
+    {
+      "detail": "['2025-01', '2025-02', '2025-03', '2025-04', '2025-05', '2025-06', '2025-07', '2025-08', '2025-09', '2025-10', '2025-11', '2025-12']",
+      "name": "sutil TEST Jan-Dec 2025",
+      "ok": true
+    },
+    {
+      "detail": "12",
+      "name": "sutil 12 predicciones",
+      "ok": true
+    },
+    {
+      "detail": "2024-12->2025-01",
+      "name": "sutil primer forecast Dec2024 -> Jan2025",
+      "ok": true
+    },
+    {
+      "detail": "2025-11->2025-12",
+      "name": "sutil ultimo forecast Nov2025 -> Dec2025",
+      "ok": true
+    },
+    {
+      "detail": "all 1",
+      "name": "sutil forecast steps=1 siempre",
+      "ok": true
+    },
+    {
+      "detail": "all false",
+      "name": "sutil append refit=False siempre",
+      "ok": true
+    },
+    {
+      "detail": "solo append(refit=False)",
+      "name": "sutil ningun fit/refit durante TEST",
+      "ok": true
+    },
+    {
+      "detail": "[True, True, True, True, True, True, True, True, True, True, True, True]",
+      "name": "sutil parametros invariantes tras cada append TEST",
+      "ok": true
+    },
+    {
+      "detail": "sin HPO",
+      "name": "sutil no HPO",
+      "ok": true
+    },
+    {
+      "detail": "sin CV",
+      "name": "sutil no CV",
+      "ok": true
+    },
+    {
+      "detail": "orden verificado contra config GC1",
+      "name": "sutil no seleccion de ordenes",
+      "ok": true
+    },
+    {
+      "detail": "no import/call",
+      "name": "sutil no auto_arima",
+      "ok": true
+    },
+    {
+      "detail": "lectura solamente",
+      "name": "sutil no modificacion dataset",
+      "ok": true
+    },
+    {
+      "detail": "denominadores constantes",
+      "name": "sutil no modificacion D35",
+      "ok": true
+    },
+    {
+      "detail": "mascaras congeladas",
+      "name": "sutil no modificacion shocks",
+      "ok": true
+    },
+    {
+      "detail": "3",
+      "name": "sutil n_shock=3",
+      "ok": true
+    },
+    {
+      "detail": "9",
+      "name": "sutil n_nonshock=9",
+      "ok": true
+    },
+    {
+      "detail": "(1, 0, 0)(0, 1, 0, 12)",
+      "name": "dulce especificacion correcta",
+      "ok": true
+    },
+    {
+      "detail": "2016-07..2023-12, n=90",
+      "name": "dulce TRAIN original correcto",
+      "ok": true
+    },
+    {
+      "detail": "allclose atol=1e-10",
+      "name": "dulce parametros iniciales = despues de VAL",
+      "ok": true
+    },
+    {
+      "detail": "2024-12",
+      "name": "dulce estado inicial TEST llega a Dec-2024",
+      "ok": true
+    },
+    {
+      "detail": "['2025-01', '2025-02', '2025-03', '2025-04', '2025-05', '2025-06', '2025-07', '2025-08', '2025-09', '2025-10', '2025-11', '2025-12']",
+      "name": "dulce TEST Jan-Dec 2025",
+      "ok": true
+    },
+    {
+      "detail": "12",
+      "name": "dulce 12 predicciones",
+      "ok": true
+    },
+    {
+      "detail": "2024-12->2025-01",
+      "name": "dulce primer forecast Dec2024 -> Jan2025",
+      "ok": true
+    },
+    {
+      "detail": "2025-11->2025-12",
+      "name": "dulce ultimo forecast Nov2025 -> Dec2025",
+      "ok": true
+    },
+    {
+      "detail": "all 1",
+      "name": "dulce forecast steps=1 siempre",
+      "ok": true
+    },
+    {
+      "detail": "all false",
+      "name": "dulce append refit=False siempre",
+      "ok": true
+    },
+    {
+      "detail": "solo append(refit=False)",
+      "name": "dulce ningun fit/refit durante TEST",
+      "ok": true
+    },
+    {
+      "detail": "[True, True, True, True, True, True, True, True, True, True, True, True]",
+      "name": "dulce parametros invariantes tras cada append TEST",
+      "ok": true
+    },
+    {
+      "detail": "sin HPO",
+      "name": "dulce no HPO",
+      "ok": true
+    },
+    {
+      "detail": "sin CV",
+      "name": "dulce no CV",
+      "ok": true
+    },
+    {
+      "detail": "orden verificado contra config GC1",
+      "name": "dulce no seleccion de ordenes",
+      "ok": true
+    },
+    {
+      "detail": "no import/call",
+      "name": "dulce no auto_arima",
+      "ok": true
+    },
+    {
+      "detail": "lectura solamente",
+      "name": "dulce no modificacion dataset",
+      "ok": true
+    },
+    {
+      "detail": "denominadores constantes",
+      "name": "dulce no modificacion D35",
+      "ok": true
+    },
+    {
+      "detail": "mascaras congeladas",
+      "name": "dulce no modificacion shocks",
+      "ok": true
+    },
+    {
+      "detail": "3",
+      "name": "dulce n_shock=3",
+      "ok": true
+    },
+    {
+      "detail": "9",
+      "name": "dulce n_nonshock=9",
+      "ok": true
+    },
+    {
+      "detail": "2",
+      "name": "2 modelos oficiales encontrados",
+      "ok": true
+    },
+    {
+      "detail": "12",
+      "name": "12 predicciones Sutil",
+      "ok": true
+    },
+    {
+      "detail": "12",
+      "name": "12 predicciones Dulce",
+      "ok": true
+    },
+    {
+      "detail": "24",
+      "name": "24 predicciones totales",
+      "ok": true
+    },
+    {
+      "detail": "manifest no existia antes de iniciar",
+      "name": "no segunda evaluacion TEST",
+      "ok": true
+    }
+  ],
+  "cultivars": {
+    "dulce": {
+      "code_hash": "91181d5a5e3de596eb0c0ee50fcb325d7aed0e4d469edd4d53722ee5576d6b65",
+      "cultivar": "dulce",
+      "dataset_hash": "547443d1a117217b8f01f723f345749d530597b45210922a7e609469521934d0",
+      "experiment": "exp_002_sarima_dulce",
+      "final_state_last_observed": "2025-12",
+      "fit_kwargs": {
+        "enforce_invertibility": false,
+        "enforce_stationarity": false,
+        "initialization": "approximate_diffuse",
+        "trend": "c"
+      },
+      "fit_params_after_test": [
+        1.7449298972217306,
+        0.5806836224222154,
+        555.587410313313
+      ],
+      "fit_params_after_val": [
+        1.7449298972217306,
+        0.5806836224222154,
+        555.587410313313
+      ],
+      "fit_params_initial": [
+        1.7449298972217306,
+        0.5806836224222154,
+        555.587410313313
+      ],
+      "git_hash": "44fe6eafca927ba22d97bf8e46d6ad530cc1a47a",
+      "initial_test_state_last_observed": "2024-12",
+      "no_scaling_inverse_transform": true,
+      "order": [
+        1,
+        0,
+        0
+      ],
+      "scaling_note": "SARIMA GC1 was fit directly on raw toneladas from master_dataset_{cultivar}_v2.csv.",
+      "seasonal_order": [
+        0,
+        1,
+        0,
+        12
+      ],
+      "statsmodels_version": "0.14.6",
+      "test_first": "2025-01",
+      "test_last": "2025-12",
+      "test_n": 12,
+      "test_updates": [
+        {
+          "append_refit": false,
+          "forecast_origin": "2024-12",
+          "forecast_target": "2025-01",
+          "observed_date": "2025-01",
+          "observed_y": 337.94,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-01",
+          "forecast_target": "2025-02",
+          "observed_date": "2025-02",
+          "observed_y": 474.59,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-02",
+          "forecast_target": "2025-03",
+          "observed_date": "2025-03",
+          "observed_y": 658.42,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-03",
+          "forecast_target": "2025-04",
+          "observed_date": "2025-04",
+          "observed_y": 730.43,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-04",
+          "forecast_target": "2025-05",
+          "observed_date": "2025-05",
+          "observed_y": 684.6,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-05",
+          "forecast_target": "2025-06",
+          "observed_date": "2025-06",
+          "observed_y": 655.17,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-06",
+          "forecast_target": "2025-07",
+          "observed_date": "2025-07",
+          "observed_y": 495.03,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-07",
+          "forecast_target": "2025-08",
+          "observed_date": "2025-08",
+          "observed_y": 415.32,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-08",
+          "forecast_target": "2025-09",
+          "observed_date": "2025-09",
+          "observed_y": 374.23,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-09",
+          "forecast_target": "2025-10",
+          "observed_date": "2025-10",
+          "observed_y": 302.72,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-10",
+          "forecast_target": "2025-11",
+          "observed_date": "2025-11",
+          "observed_y": 228.65,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-11",
+          "forecast_target": "2025-12",
+          "observed_date": "2025-12",
+          "observed_y": 256.5,
+          "params_invariant_after_append": true
+        }
+      ],
+      "timestamp": "2026-09-12T23:22:22.280460+00:00",
+      "train_first": "2016-07",
+      "train_last": "2023-12",
+      "train_n": 90,
+      "val_first": "2024-01",
+      "val_last": "2024-12",
+      "val_n": 12,
+      "val_updates": [
+        {
+          "append_refit": false,
+          "observed_date": "2024-01",
+          "observed_y": 322.41,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-02",
+          "observed_y": 444.66,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-03",
+          "observed_y": 626.2,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-04",
+          "observed_y": 675.798,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-05",
+          "observed_y": 650.529,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-06",
+          "observed_y": 616.329,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-07",
+          "observed_y": 454.679,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-08",
+          "observed_y": 382.099,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-09",
+          "observed_y": 439.59,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-10",
+          "observed_y": 294.14,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-11",
+          "observed_y": 229.4,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-12",
+          "observed_y": 243.65,
+          "params_invariant_after_append": true
+        }
+      ]
+    },
+    "sutil": {
+      "code_hash": "91181d5a5e3de596eb0c0ee50fcb325d7aed0e4d469edd4d53722ee5576d6b65",
+      "cultivar": "sutil",
+      "dataset_hash": "220d9a9aabf6e41a31ee5950223eab3a74ddeadba18b8a8e281021b2af84b3f8",
+      "experiment": "exp_002b_sarima_sutil_simple",
+      "final_state_last_observed": "2025-12",
+      "fit_kwargs": {
+        "enforce_invertibility": false,
+        "enforce_stationarity": false,
+        "initialization": "approximate_diffuse",
+        "trend": "c"
+      },
+      "fit_params_after_test": [
+        207.9869971004901,
+        -0.05483771744209054,
+        0.22441134712817645,
+        -0.47318291608103935,
+        20258571.196003255
+      ],
+      "fit_params_after_val": [
+        207.9869971004901,
+        -0.05483771744209054,
+        0.22441134712817645,
+        -0.47318291608103935,
+        20258571.196003255
+      ],
+      "fit_params_initial": [
+        207.9869971004901,
+        -0.05483771744209054,
+        0.22441134712817645,
+        -0.47318291608103935,
+        20258571.196003255
+      ],
+      "git_hash": "44fe6eafca927ba22d97bf8e46d6ad530cc1a47a",
+      "initial_test_state_last_observed": "2024-12",
+      "no_scaling_inverse_transform": true,
+      "order": [
+        1,
+        1,
+        1
+      ],
+      "scaling_note": "SARIMA GC1 was fit directly on raw toneladas from master_dataset_{cultivar}_v2.csv.",
+      "seasonal_order": [
+        1,
+        1,
+        0,
+        12
+      ],
+      "statsmodels_version": "0.14.6",
+      "test_first": "2025-01",
+      "test_last": "2025-12",
+      "test_n": 12,
+      "test_updates": [
+        {
+          "append_refit": false,
+          "forecast_origin": "2024-12",
+          "forecast_target": "2025-01",
+          "observed_date": "2025-01",
+          "observed_y": 38325.524,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-01",
+          "forecast_target": "2025-02",
+          "observed_date": "2025-02",
+          "observed_y": 40092.876,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-02",
+          "forecast_target": "2025-03",
+          "observed_date": "2025-03",
+          "observed_y": 42119.744,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-03",
+          "forecast_target": "2025-04",
+          "observed_date": "2025-04",
+          "observed_y": 41178.818,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-04",
+          "forecast_target": "2025-05",
+          "observed_date": "2025-05",
+          "observed_y": 37552.279,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-05",
+          "forecast_target": "2025-06",
+          "observed_date": "2025-06",
+          "observed_y": 34500.774,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-06",
+          "forecast_target": "2025-07",
+          "observed_date": "2025-07",
+          "observed_y": 23417.927,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-07",
+          "forecast_target": "2025-08",
+          "observed_date": "2025-08",
+          "observed_y": 18017.175,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-08",
+          "forecast_target": "2025-09",
+          "observed_date": "2025-09",
+          "observed_y": 18304.83,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-09",
+          "forecast_target": "2025-10",
+          "observed_date": "2025-10",
+          "observed_y": 21230.276,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-10",
+          "forecast_target": "2025-11",
+          "observed_date": "2025-11",
+          "observed_y": 33357.521,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "forecast_origin": "2025-11",
+          "forecast_target": "2025-12",
+          "observed_date": "2025-12",
+          "observed_y": 34801.521,
+          "params_invariant_after_append": true
+        }
+      ],
+      "timestamp": "2026-09-12T23:22:22.157167+00:00",
+      "train_first": "2016-07",
+      "train_last": "2023-12",
+      "train_n": 90,
+      "val_first": "2024-01",
+      "val_last": "2024-12",
+      "val_n": 12,
+      "val_updates": [
+        {
+          "append_refit": false,
+          "observed_date": "2024-01",
+          "observed_y": 36531.883,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-02",
+          "observed_y": 43992.447,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-03",
+          "observed_y": 44161.843,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-04",
+          "observed_y": 43176.231,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-05",
+          "observed_y": 39200.488,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-06",
+          "observed_y": 30460.085,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-07",
+          "observed_y": 24936.369,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-08",
+          "observed_y": 25176.553,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-09",
+          "observed_y": 24222.32,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-10",
+          "observed_y": 23811.288,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-11",
+          "observed_y": 24280.547,
+          "params_invariant_after_append": true
+        },
+        {
+          "append_refit": false,
+          "observed_date": "2024-12",
+          "observed_y": 26555.144,
+          "params_invariant_after_append": true
+        }
+      ]
+    }
+  },
+  "denominators": {
+    "D_MASE1": {
+      "dulce": 73.338,
+      "sutil": 3374.5715
+    },
+    "D_RMSSE1": {
+      "dulce": 7404.7927,
+      "sutil": 18749601.6694
+    },
+    "NAIVE_TEST_MAE": {
+      "dulce": 84.70083333333332,
+      "sutil": 4704.292916666665
+    },
+    "SHOCK_MONTHS": {
+      "dulce": [
+        "2025-01",
+        "2025-02",
+        "2025-03"
+      ],
+      "sutil": [
+        "2025-01",
+        "2025-07",
+        "2025-11"
+      ]
+    }
+  },
+  "environment": {
+    "cpu": "AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",
+    "os": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.9",
+    "statsmodels": "0.14.6"
+  },
+  "finished_utc": "2026-09-12T23:22:22.777175+00:00",
+  "git_hash": "44fe6eafca927ba22d97bf8e46d6ad530cc1a47a",
+  "git_status_sb": "## main...origin/main\n M v2_reentrenamiento/DECISIONES_METODOLOGICAS.md\n?? data/interim/indeci/indeci_temporal_2019_2025.csv\n?? data/interim/nasa/clima_dataset_2019_2020.csv\n?? sources/agraria-pe/sin-unificar/agro_news_2020.csv\n?? sources/agraria-pe/sin-unificar/checkpoint_2019_2020.json\n?? sources/noticias-ampliado/\n?? src/scraping/agronoticias_scraper.py\n?? src/scraping/andina_scraper.py\n?? src/scraping/base_scraper.py\n?? src/scraping/freshfruit_scraper.py\n?? src/scraping/recalcular_sentimiento_v2.py\n?? src/scraping/redagricola_scraper.py\n?? src/scraping/run_expansion.py\n?? src/scraping/unificar_corpus_v2.py\n?? src/weather/nasa_power_downloader.py\n?? v2_reentrenamiento/HANDOFF_CONTEXTO_ACTUAL.md\n?? v2_reentrenamiento/auditorias/AUDITORIA_ENTRENAMIENTO_OFICIAL_GC3_GE.md\n?? v2_reentrenamiento/auditorias/AUDITORIA_EVALUACION_TEST_GC2_XGBOOST.md\n?? v2_reentrenamiento/auditorias/AUDITORIA_EVALUACION_TEST_GC3_GE.md\n?? v2_reentrenamiento/auditorias/AUDITORIA_METODOLOGICA_GC2_XGBOOST.md\n?? v2_reentrenamiento/auditorias/AUDITORIA_METODOLOGICA_SARIMA_ROLLING.md\n?? v2_reentrenamiento/auditorias/AUDITORIA_POST_RUN_GC2_XGBOOST.md\n?? v2_reentrenamiento/auditorias/AUDITORIA_POST_RUN_GC3_GE.md\n?? v2_reentrenamiento/auditorias/AUDITORIA_PREFLIGHT_FINAL_SARIMA_ROLLING.md\n?? v2_reentrenamiento/auditorias/AUDITORIA_PREFLIGHT_GC2_XGBOOST.md\n?? v2_reentrenamiento/auditorias/AUDITORIA_PREFLIGHT_SARIMA_ROLLING.md\n?? v2_reentrenamiento/auditorias/AUDITORIA_RUNNER_OFICIAL_GC3_GE.md\n?? v2_reentrenamiento/auditorias/auditar_entrenamiento_oficial_gc3_ge.py\n?? v2_reentrenamiento/auditorias/auditar_post_run_final_gc3_ge.py\n?? v2_reentrenamiento/auditorias/auditar_post_run_gc2_xgboost.py\n?? v2_reentrenamiento/auditorias/auditar_runner_oficial_gc3_ge.py\n?? v2_reentrenamiento/auditorias/auditar_sarima_rolling_preflight.py\n?? v2_reentrenamiento/auditorias/auditar_sarima_rolling_preflight_final.py\n?? v2_reentrenamiento/auditorias/ejecutar_entrenamiento_oficial_gc2_xgboost.py\n?? v2_reentrenamiento/auditorias/ejecutar_entrenamiento_oficial_gc3_ge.py\n?? v2_reentrenamiento/auditorias/entrenamiento_oficial_gc2_xgboost_manifest.json\n?? v2_reentrenamiento/auditorias/entrenamiento_oficial_gc3_ge_manifest.json\n?? v2_reentrenamiento/auditorias/evaluar_test_gc2_xgboost.py\n?? v2_reentrenamiento/auditorias/evaluar_test_gc3_ge.py\n?? v2_reentrenamiento/auditorias/evaluar_test_sarima_rolling.py\n?? v2_reentrenamiento/auditorias/gc2_xgboost_preflight_dry_run.json\n?? v2_reentrenamiento/auditorias/resumen_entrenamiento_oficial_gc3_ge.csv\n?? v2_reentrenamiento/auditorias/resumen_entrenamiento_oficial_gc3_ge.json\n?? v2_reentrenamiento/auditorias/resumen_post_run_gc2_xgboost.csv\n?? v2_reentrenamiento/auditorias/resumen_post_run_gc2_xgboost.json\n?? v2_reentrenamiento/auditorias/resumen_post_run_gc3_ge.csv\n?? v2_reentrenamiento/auditorias/resumen_post_run_gc3_ge.json\n?? v2_reentrenamiento/auditorias/runner_oficial_gc3_ge_dry_run.json\n?? v2_reentrenamiento/auditorias/sarima_rolling_preflight_dry_run.json\n?? v2_reentrenamiento/auditorias/sarima_rolling_preflight_final.json\n?? v2_reentrenamiento/resultados_v2_final/evaluacion_test_gc2_xgboost/\n?? v2_reentrenamiento/resultados_v2_final/evaluacion_test_gc3_ge/\n?? v2_reentrenamiento/resultados_v2_final/evaluacion_test_sarima_rolling/\n?? v2_reentrenamiento/resultados_v2_final/official_gc2_xgboost/\n?? v2_reentrenamiento/resultados_v2_final/official_gc3_ge/\n?? v2_reentrenamiento/resultados_v2_final/technical_pilot/\n?? v2_reentrenamiento/resultados_v2_final/technical_pilot_scaled/\n?? v2_reentrenamiento/src/models/features_gc2_xgboost.py\n?? v2_reentrenamiento/src/training/config_gc2_xgboost.py\n?? v2_reentrenamiento/src/training/official_runner_gc2_xgboost.py\n?? v2_reentrenamiento/src/training/official_runner_gc3_ge.py\n?? v2_reentrenamiento/src/training/tabular_gc2_xgboost.py",
+  "models_evaluated": 2,
+  "predictions_total": 24,
+  "protocol": "fit TRAIN, append VAL refit=False, rolling TEST forecast(steps=1)+append(refit=False)",
+  "started_utc": "2026-09-12T23:22:21.889081+00:00",
+  "status": "approved",
+  "test_period": "2025-01..2025-12"
+}

@@ -1,0 +1,24 @@
+{
+  "unidad": {
+    "modelo": "SARIMA-sel",
+    "cultivar": "dulce",
+    "anio": 2023,
+    "semilla": null
+  },
+  "etapa": "04_sarima",
+  "hash_config": "461f56a61c306ab03da341128ceef8b4986a5db1514adb125aa07c28fd3e9d68",
+  "hash_codigo": "bfb836d909ff2451e37e6b3e003fcf339845d7245b00cff4e78edf27f0bea742",
+  "archivos": {
+    "candidatos.csv": "e289f2ee1f9609426d98512545bf21c577d45d7ea1c3c87a2ad37ff70805c39e",
+    "info.json": "b4eb60a639d9504e5ef3f1d6d069acbb4fe599f8310c6dd7fccc0f1aff6716a1",
+    "predicciones.csv": "a0f4dc432a6c021a002c3e8b5e8c7ab65c66f38e34cd0a3aa414090e5f8899a4",
+    "rejilla.csv": "3fdb20a7211f1b1b0e6fa0931ecd0fb8dc6eb799a53339f60576da6d171c4979"
+  },
+  "segundos": 264.3723862000006,
+  "fin": "2026-10-28T19:20:06-05:00",
+  "resumen": {
+    "elegido": "(2, 0, 0)(0, 1, 0, 12)[AIC#4]",
+    "MAE_val": 11.98,
+    "convergio": true
+  }
+}

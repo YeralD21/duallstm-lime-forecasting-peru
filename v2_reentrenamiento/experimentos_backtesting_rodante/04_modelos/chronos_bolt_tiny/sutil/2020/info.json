@@ -1,0 +1,21 @@
+{
+  "unidad": {
+    "modelo": "Chronos",
+    "cultivar": "sutil",
+    "anio": 2020,
+    "semilla": null
+  },
+  "ventana": {
+    "anio_test": 2020,
+    "origen": "2019-12",
+    "fin_train": "2018-12",
+    "val_inicio": "2019-01",
+    "val_fin": "2019-12",
+    "test_inicio": "2020-01",
+    "test_fin": "2020-12",
+    "en_ranking": false,
+    "en_sensibilidad_2023_2025": false
+  },
+  "modulo_chronos": "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v4_benchmark_moderno\\vendor\\chronos\\__init__.py",
+  "n_contexto_primer_mes": 48
+}

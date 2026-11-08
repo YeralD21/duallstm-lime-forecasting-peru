@@ -1,0 +1,14 @@
+# Text files are stored and checked out with LF, so that the SHA-256 of the frozen tables equals the bytes
+# written by the ETL scripts on every platform (the integrity checks also normalise CRLF -> LF).
+*.csv  text eol=lf
+*.py   text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.tex  text eol=lf
+*.ipynb text eol=lf
+*.pdf  binary
+*.png  binary
+*.zip  binary
+*.joblib binary
+*.safetensors binary

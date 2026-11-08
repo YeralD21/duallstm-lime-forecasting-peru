@@ -1,0 +1,44 @@
+{
+  "unidad": {
+    "modelo": "SARIMA-sel",
+    "cultivar": "dulce",
+    "anio": 2022,
+    "semilla": null
+  },
+  "ventana": {
+    "anio_test": 2022,
+    "origen": "2021-12",
+    "fin_train": "2020-12",
+    "val_inicio": "2021-01",
+    "val_fin": "2021-12",
+    "test_inicio": "2022-01",
+    "test_fin": "2022-12",
+    "en_ranking": true,
+    "en_sensibilidad_2023_2025": false
+  },
+  "n_train": 54,
+  "train_inicio": "2016-07",
+  "train_fin": "2020-12",
+  "convergio": true,
+  "aic_train": 594.2764479537491,
+  "parametros_invariantes": true,
+  "avisos": [],
+  "order": [
+    1,
+    0,
+    0
+  ],
+  "seasonal_order": [
+    0,
+    1,
+    0,
+    12
+  ],
+  "posicion_aic_elegido": 2,
+  "aic_elegido": 594.2764479537491,
+  "MAE_val_elegido": 13.561981123845902,
+  "n_ordenes": 576,
+  "n_fallidos": 0,
+  "n_aic_no_finito": 0,
+  "n_no_convergidos_rejilla": 82
+}

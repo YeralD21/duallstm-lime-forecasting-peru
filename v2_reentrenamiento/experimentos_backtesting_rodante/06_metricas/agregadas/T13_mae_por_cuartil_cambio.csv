@@ -1,0 +1,155 @@
+cultivar,agrupacion,grupo,rango_cambio,n_meses,modelo,MAE,exploratorio
+sutil,cuartil,1,0.003-0.037,15,Naive,411.594,False
+sutil,cuartil,1,0.003-0.037,15,Seasonal Naive,6940.988067,False
+sutil,cuartil,1,0.003-0.037,15,Chronos,1798.519104,False
+sutil,cuartil,1,0.003-0.037,15,SARIMA,3073.101038,False
+sutil,cuartil,1,0.003-0.037,15,SARIMA-sel,3516.600683,False
+sutil,cuartil,1,0.003-0.037,15,Ridge,3337.612118,False
+sutil,cuartil,1,0.003-0.037,15,ElasticNet,3296.288315,False
+sutil,cuartil,1,0.003-0.037,15,XGB-37,5014.734899,False
+sutil,cuartil,1,0.003-0.037,15,GC3,6627.583315,False
+sutil,cuartil,1,0.003-0.037,15,GE,6998.055278,False
+sutil,cuartil,1,0.003-0.037,15,XGB-43,5356.378916,True
+sutil,cuartil,2,0.037-0.097,15,Naive,2240.114533,False
+sutil,cuartil,2,0.037-0.097,15,Seasonal Naive,5308.5976,False
+sutil,cuartil,2,0.037-0.097,15,Chronos,1854.370377,False
+sutil,cuartil,2,0.037-0.097,15,SARIMA,3334.109013,False
+sutil,cuartil,2,0.037-0.097,15,SARIMA-sel,2730.107718,False
+sutil,cuartil,2,0.037-0.097,15,Ridge,2757.320365,False
+sutil,cuartil,2,0.037-0.097,15,ElasticNet,2598.303931,False
+sutil,cuartil,2,0.037-0.097,15,XGB-37,4749.091948,False
+sutil,cuartil,2,0.037-0.097,15,GC3,6527.030407,False
+sutil,cuartil,2,0.037-0.097,15,GE,7822.766776,False
+sutil,cuartil,2,0.037-0.097,15,XGB-43,4926.752293,True
+sutil,cuartil,3,0.097-0.192,15,Naive,4095.5724,False
+sutil,cuartil,3,0.097-0.192,15,Seasonal Naive,6474.9396,False
+sutil,cuartil,3,0.097-0.192,15,Chronos,2642.122023,False
+sutil,cuartil,3,0.097-0.192,15,SARIMA,2903.539918,False
+sutil,cuartil,3,0.097-0.192,15,SARIMA-sel,3024.495846,False
+sutil,cuartil,3,0.097-0.192,15,Ridge,4984.618865,False
+sutil,cuartil,3,0.097-0.192,15,ElasticNet,5252.044975,False
+sutil,cuartil,3,0.097-0.192,15,XGB-37,4313.818797,False
+sutil,cuartil,3,0.097-0.192,15,GC3,5598.049151,False
+sutil,cuartil,3,0.097-0.192,15,GE,4975.881193,False
+sutil,cuartil,3,0.097-0.192,15,XGB-43,4162.886157,True
+sutil,cuartil,4,0.192-0.571,15,Naive,7749.000733,False
+sutil,cuartil,4,0.192-0.571,15,Seasonal Naive,5575.018333,False
+sutil,cuartil,4,0.192-0.571,15,Chronos,4299.175145,False
+sutil,cuartil,4,0.192-0.571,15,SARIMA,4132.39871,False
+sutil,cuartil,4,0.192-0.571,15,SARIMA-sel,3552.301113,False
+sutil,cuartil,4,0.192-0.571,15,Ridge,8620.992187,False
+sutil,cuartil,4,0.192-0.571,15,ElasticNet,8341.007919,False
+sutil,cuartil,4,0.192-0.571,15,XGB-37,5448.153317,False
+sutil,cuartil,4,0.192-0.571,15,GC3,6692.555189,False
+sutil,cuartil,4,0.192-0.571,15,GE,7177.416738,False
+sutil,cuartil,4,0.192-0.571,15,XGB-43,5601.725069,True
+sutil,tercio,1,0.003-0.050,20,Naive,640.3983,False
+sutil,tercio,1,0.003-0.050,20,Seasonal Naive,6771.16735,False
+sutil,tercio,1,0.003-0.050,20,Chronos,1786.533366,False
+sutil,tercio,1,0.003-0.050,20,SARIMA,3369.462037,False
+sutil,tercio,1,0.003-0.050,20,SARIMA-sel,3329.046838,False
+sutil,tercio,1,0.003-0.050,20,Ridge,2989.700941,False
+sutil,tercio,1,0.003-0.050,20,ElasticNet,2927.647551,False
+sutil,tercio,1,0.003-0.050,20,XGB-37,4189.052525,False
+sutil,tercio,1,0.003-0.050,20,GC3,6011.468405,False
+sutil,tercio,1,0.003-0.050,20,GE,6757.589225,False
+sutil,tercio,1,0.003-0.050,20,XGB-43,4440.5043,True
+sutil,tercio,2,0.050-0.164,20,Naive,3206.43895,False
+sutil,tercio,2,0.050-0.164,20,Seasonal Naive,5310.3435,False
+sutil,tercio,2,0.050-0.164,20,Chronos,2142.699963,False
+sutil,tercio,2,0.050-0.164,20,SARIMA,3195.895061,False
+sutil,tercio,2,0.050-0.164,20,SARIMA-sel,3060.345697,False
+sutil,tercio,2,0.050-0.164,20,Ridge,3204.875387,False
+sutil,tercio,2,0.050-0.164,20,ElasticNet,3280.599372,False
+sutil,tercio,2,0.050-0.164,20,XGB-37,4974.00851,False
+sutil,tercio,2,0.050-0.164,20,GC3,6132.065409,False
+sutil,tercio,2,0.050-0.164,20,GE,6285.723287,False
+sutil,tercio,2,0.050-0.164,20,XGB-43,5070.534778,True
+sutil,tercio,3,0.164-0.571,20,Naive,7025.374,False
+sutil,tercio,3,0.164-0.571,20,Seasonal Naive,6143.14685,False
+sutil,tercio,3,0.164-0.571,20,Chronos,4016.406657,False
+sutil,tercio,3,0.164-0.571,20,SARIMA,3517.004412,False
+sutil,tercio,3,0.164-0.571,20,SARIMA-sel,3228.236485,False
+sutil,tercio,3,0.164-0.571,20,Ridge,8580.831324,False
+sutil,tercio,3,0.164-0.571,20,ElasticNet,8407.486932,False
+sutil,tercio,3,0.164-0.571,20,XGB-37,5481.288185,False
+sutil,tercio,3,0.164-0.571,20,GC3,6940.379733,False
+sutil,tercio,3,0.164-0.571,20,GE,7187.277477,False
+sutil,tercio,3,0.164-0.571,20,XGB-43,5524.767748,True
+dulce,cuartil,1,0.007-0.090,15,Naive,23.27853333,False
+dulce,cuartil,1,0.007-0.090,15,Seasonal Naive,22.06393333,False
+dulce,cuartil,1,0.007-0.090,15,Chronos,17.88451856,False
+dulce,cuartil,1,0.007-0.090,15,SARIMA,13.32186998,False
+dulce,cuartil,1,0.007-0.090,15,SARIMA-sel,18.38186545,False
+dulce,cuartil,1,0.007-0.090,15,Ridge,43.54845532,False
+dulce,cuartil,1,0.007-0.090,15,ElasticNet,42.61949192,False
+dulce,cuartil,1,0.007-0.090,15,XGB-37,49.38245105,False
+dulce,cuartil,1,0.007-0.090,15,GC3,66.408486,False
+dulce,cuartil,1,0.007-0.090,15,GE,68.67408258,False
+dulce,cuartil,1,0.007-0.090,15,XGB-43,48.47113452,True
+dulce,cuartil,2,0.090-0.165,15,Naive,59.92693333,False
+dulce,cuartil,2,0.090-0.165,15,Seasonal Naive,36.05946667,False
+dulce,cuartil,2,0.090-0.165,15,Chronos,28.83627899,False
+dulce,cuartil,2,0.090-0.165,15,SARIMA,30.12633512,False
+dulce,cuartil,2,0.090-0.165,15,SARIMA-sel,28.65292631,False
+dulce,cuartil,2,0.090-0.165,15,Ridge,55.73048083,False
+dulce,cuartil,2,0.090-0.165,15,ElasticNet,52.39670958,False
+dulce,cuartil,2,0.090-0.165,15,XGB-37,49.65719843,False
+dulce,cuartil,2,0.090-0.165,15,GC3,65.61289414,False
+dulce,cuartil,2,0.090-0.165,15,GE,66.1021118,False
+dulce,cuartil,2,0.090-0.165,15,XGB-43,49.26878131,True
+dulce,cuartil,3,0.165-0.327,15,Naive,95.2618,False
+dulce,cuartil,3,0.165-0.327,15,Seasonal Naive,15.386,False
+dulce,cuartil,3,0.165-0.327,15,Chronos,28.35549682,False
+dulce,cuartil,3,0.165-0.327,15,SARIMA,16.222132,False
+dulce,cuartil,3,0.165-0.327,15,SARIMA-sel,15.78925121,False
+dulce,cuartil,3,0.165-0.327,15,Ridge,43.30627332,False
+dulce,cuartil,3,0.165-0.327,15,ElasticNet,38.74617482,False
+dulce,cuartil,3,0.165-0.327,15,XGB-37,28.15303411,False
+dulce,cuartil,3,0.165-0.327,15,GC3,33.90791638,False
+dulce,cuartil,3,0.165-0.327,15,GE,34.27864217,False
+dulce,cuartil,3,0.165-0.327,15,XGB-43,30.57345845,True
+dulce,cuartil,4,0.327-0.474,15,Naive,131.6219333,False
+dulce,cuartil,4,0.327-0.474,15,Seasonal Naive,24.50273333,False
+dulce,cuartil,4,0.327-0.474,15,Chronos,48.19885271,False
+dulce,cuartil,4,0.327-0.474,15,SARIMA,13.97793977,False
+dulce,cuartil,4,0.327-0.474,15,SARIMA-sel,19.6907612,False
+dulce,cuartil,4,0.327-0.474,15,Ridge,69.69398928,False
+dulce,cuartil,4,0.327-0.474,15,ElasticNet,67.22970635,False
+dulce,cuartil,4,0.327-0.474,15,XGB-37,65.84926089,False
+dulce,cuartil,4,0.327-0.474,15,GC3,60.74803513,False
+dulce,cuartil,4,0.327-0.474,15,GE,57.88306913,False
+dulce,cuartil,4,0.327-0.474,15,XGB-43,62.23402721,True
+dulce,tercio,1,0.007-0.108,20,Naive,31.68495,False
+dulce,tercio,1,0.007-0.108,20,Seasonal Naive,23.6299,False
+dulce,tercio,1,0.007-0.108,20,Chronos,18.63399903,False
+dulce,tercio,1,0.007-0.108,20,SARIMA,18.59548619,False
+dulce,tercio,1,0.007-0.108,20,SARIMA-sel,20.93887258,False
+dulce,tercio,1,0.007-0.108,20,Ridge,42.26692578,False
+dulce,tercio,1,0.007-0.108,20,ElasticNet,41.03366542,False
+dulce,tercio,1,0.007-0.108,20,XGB-37,43.14749422,False
+dulce,tercio,1,0.007-0.108,20,GC3,62.32363881,False
+dulce,tercio,1,0.007-0.108,20,GE,65.41773627,False
+dulce,tercio,1,0.007-0.108,20,XGB-43,41.82961998,True
+dulce,tercio,2,0.108-0.245,20,Naive,75.40305,False
+dulce,tercio,2,0.108-0.245,20,Seasonal Naive,27.0896,False
+dulce,tercio,2,0.108-0.245,20,Chronos,30.83727372,False
+dulce,tercio,2,0.108-0.245,20,SARIMA,22.00534698,False
+dulce,tercio,2,0.108-0.245,20,SARIMA-sel,23.47061344,False
+dulce,tercio,2,0.108-0.245,20,Ridge,52.50000176,False
+dulce,tercio,2,0.108-0.245,20,ElasticNet,48.55254524,False
+dulce,tercio,2,0.108-0.245,20,XGB-37,43.85562064,False
+dulce,tercio,2,0.108-0.245,20,GC3,53.5267353,False
+dulce,tercio,2,0.108-0.245,20,GE,54.12981746,False
+dulce,tercio,2,0.108-0.245,20,XGB-43,46.18970752,True
+dulce,tercio,3,0.245-0.474,20,Naive,125.4789,False
+dulce,tercio,3,0.245-0.474,20,Seasonal Naive,22.7896,False
+dulce,tercio,3,0.245-0.474,20,Chronos,42.98508755,False
+dulce,tercio,3,0.245-0.474,20,SARIMA,14.63537448,False
+dulce,tercio,3,0.245-0.474,20,SARIMA-sel,17.47661711,False
+dulce,tercio,3,0.245-0.474,20,Ridge,64.44247153,False
+dulce,tercio,3,0.245-0.474,20,ElasticNet,61.15785135,False
+dulce,tercio,3,0.245-0.474,20,XGB-37,57.7783435,False
+dulce,tercio,3,0.245-0.474,20,GC3,54.15762463,False
+dulce,tercio,3,0.245-0.474,20,GE,50.65587553,False
+dulce,tercio,3,0.245-0.474,20,XGB-43,54.89122361,True

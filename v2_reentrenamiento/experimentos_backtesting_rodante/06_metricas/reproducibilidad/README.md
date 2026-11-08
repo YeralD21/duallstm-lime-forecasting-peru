@@ -1,0 +1,1 @@
+Re-ejecuciones de control: Fase B (ElasticNet v3 y Chronos v4 frente a TEST 2025 registrado) y Fase D1 (metricas_2025_vs_oficial*: GC3, GE, XGB-37 y SARIMA de la ventana 2025 frente a resultados_v2_final).

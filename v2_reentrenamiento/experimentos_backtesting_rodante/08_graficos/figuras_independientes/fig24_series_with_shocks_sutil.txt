@@ -1,0 +1,4 @@
+Caption (suggested): Monthly national production of sour lime (limón sutil) in Peru, January 2016–December 2025 (MIDAGRI–SISAGRI (accessed [____])). Grey bands and markers: shock months in the test years 2021–2025, i.e. months whose absolute month-on-month relative change |Δy/y| exceeds the 75th percentile of the changes observed up to the forecast origin (December of the previous year); the threshold of each test year is shown above the panel. No month exceeded the threshold in 2021 or 2024.
+
+Reading: 10 shock months in 2021–2025 (2021: 0, 2022: 3, 2023: 4, 2024: 0, 2025: 3); thresholds range from 23.2% to 25.9%.
+Shock months are defined only for the test years; the series before 2021 is shown as context.

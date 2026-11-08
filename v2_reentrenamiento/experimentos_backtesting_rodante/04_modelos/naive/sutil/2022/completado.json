@@ -1,0 +1,20 @@
+{
+  "unidad": {
+    "modelo": "Naive",
+    "cultivar": "sutil",
+    "anio": 2022,
+    "semilla": null
+  },
+  "etapa": "03_modelos_sin_ajuste",
+  "hash_config": "461f56a61c306ab03da341128ceef8b4986a5db1514adb125aa07c28fd3e9d68",
+  "hash_codigo": "a166eb50f84525f3ffd6642da4d9068834731f832880f5beed315d878c721f11",
+  "archivos": {
+    "info.json": "6e26fe114deff34c21807cfc1edd4a5d882e523d4eaaba44a263f9490af1aaa3",
+    "predicciones.csv": "3d87026081573cf005611a8cbd1f98811a6fc2056541cbb5f8e3d91748ee977d"
+  },
+  "segundos": 0.007697099999859347,
+  "fin": "2026-10-28T19:03:23-05:00",
+  "resumen": {
+    "n_test": 12
+  }
+}

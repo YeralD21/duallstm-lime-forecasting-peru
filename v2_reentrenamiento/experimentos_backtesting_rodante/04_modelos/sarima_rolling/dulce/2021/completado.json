@@ -1,0 +1,22 @@
+{
+  "unidad": {
+    "modelo": "SARIMA",
+    "cultivar": "dulce",
+    "anio": 2021,
+    "semilla": null
+  },
+  "etapa": "04_sarima",
+  "hash_config": "461f56a61c306ab03da341128ceef8b4986a5db1514adb125aa07c28fd3e9d68",
+  "hash_codigo": "bfb836d909ff2451e37e6b3e003fcf339845d7245b00cff4e78edf27f0bea742",
+  "archivos": {
+    "info.json": "37ea4acd9713b3391a301d4dd1eadf4474565e10294c8f01b18ac1cc53eb472d",
+    "predicciones.csv": "3df1f3023a0c7c71dcc5416298df315ba67d79404a2338ffc35b59c0c33382b5"
+  },
+  "segundos": 0.09165480000046955,
+  "fin": "2026-10-28T19:04:35-05:00",
+  "resumen": {
+    "elegido": "(1, 0, 0)(0, 1, 0, 12)",
+    "MAE_val": 18.5933,
+    "convergio": true
+  }
+}

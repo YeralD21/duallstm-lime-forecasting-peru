@@ -1,0 +1,23 @@
+{
+  "nota": "Rutas relativas a la raiz del repo. Solo lectura. No se copian datos. {c} = sutil | dulce.",
+  "produccion_nacional": "v2_reentrenamiento/data/interim/limon_{c}_nacional_mensual.csv",
+  "produccion_provincial": "v2_reentrenamiento/data/interim/limon_{c}_provincia.csv",
+  "nasa_provincial": "v2_reentrenamiento/data/raw/nasa_power/por_provincia/clima_nasa_power_2016_2025.csv",
+  "indeci_provincial": "v2_reentrenamiento/data/interim/indeci_limpio_2016_2025.csv",
+  "sentimiento_mensual": "v2_reentrenamiento/data/interim/noticias/sentimiento_mensual_2016_2025.csv",
+  "referencias_oficiales": {
+    "maestro": "v2_reentrenamiento/data/processed/master_dataset_{c}_v2.csv",
+    "features": "v2_reentrenamiento/data/processed/master_dataset_{c}_v2_features.csv",
+    "escalado": "v2_reentrenamiento/data/processed/master_dataset_{c}_v2_escalado.csv",
+    "scaler_v2c": "v2_reentrenamiento/resultados_v2_final/scalers/scaler_{c}_v2c.joblib",
+    "pesos": "v2_reentrenamiento/resultados_v2_final/pesos/pesos_geograficos_train.csv",
+    "pred_gc3_ge_2025": "v2_reentrenamiento/resultados_v2_final/evaluacion_test_gc3_ge/predicciones_test_gc3_ge.csv",
+    "pred_xgb37_2025": "v2_reentrenamiento/resultados_v2_final/evaluacion_test_gc2_xgboost/predicciones_test_gc2_xgboost.csv",
+    "pred_sarima_2025": "v2_reentrenamiento/resultados_v2_final/evaluacion_test_sarima_rolling/predicciones_test_sarima_rolling.csv",
+    "pred_chronos_v4": "v4_benchmark_moderno/resultados/predicciones_chronos_test2025.csv",
+    "metricas_v3": "v3_robustez_metodologica/resultados/resultados_baselines_clasicos.csv"
+  },
+  "codigo_oficial": "v2_reentrenamiento/src",
+  "chronos_vendor": "v4_benchmark_moderno/vendor",
+  "chronos_cache": "~/.cache/huggingface/hub/models--amazon--chronos-bolt-tiny"
+}

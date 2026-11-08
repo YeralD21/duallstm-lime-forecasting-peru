@@ -1,0 +1,4 @@
+Caption (suggested): Δs with all shock months (marker) and its range when one shock month is removed at a time (bar), sweet lime (limón dulce), pooled 2021–2025, monthly P75.
+
+Reading: Dropping one shock month at a time, the widest Δs range is ElasticNet (23.5% to 40.9%); the narrowest is Naive.
+Models whose range crosses 0 can change the sign of Δs by removing a single month.

@@ -1,0 +1,16 @@
+\begin{table}[H]
+\centering
+\small
+\caption{Estabilización del ranking por MAE\_shock (percentil desde el cual el primer lugar no cambia / todos empatan)}
+\label{tab:T_barrido_estabilizacion}
+\begin{tabular}{lllll}
+\toprule
+cultivar & tipo & primer\_lugar\_estable\_desde & modelo\_estable & todos\_empatan\_desde \\
+\midrule
+sutil & mensual & 75 & Chronos & -- \\
+sutil & interanual & 0 & Chronos & -- \\
+dulce & mensual & 0 & SARIMA & -- \\
+dulce & interanual & 95 & Naive & -- \\
+\bottomrule
+\end{tabular}
+\end{table}

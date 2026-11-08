@@ -1,0 +1,4 @@
+Caption (suggested): Ratio of shock-month to normal-month MAE versus threshold percentile, sour lime (limón sutil), 2021–2025. Undefined at P0. Horizontal line: ratio = 1. Logarithmic y-axis, so ratios r and 1/r are equally far from 1.
+
+Reading: At P75 the shock/normal ratio goes from 0.80 (Seasonal Naive) to 3.21 (Naive); a ratio below 1 means smaller errors in shock months.
+The ratio is undefined at P0 (no normal months) and, like Δs, must be read with MAE_shock in tonnes.

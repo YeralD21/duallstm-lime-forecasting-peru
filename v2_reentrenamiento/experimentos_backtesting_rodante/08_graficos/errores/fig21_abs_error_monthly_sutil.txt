@@ -1,0 +1,4 @@
+Caption (suggested): Month-by-month absolute forecast error of each model (mean over seeds for seeded models), sour lime (limón sutil), test months 2021–2025.
+
+Reading: The largest seed-averaged absolute error is Ridge in 2023-11 (26,567.5 t); 10 of 60 months are shocks at monthly P75.
+Vertical white lines separate test years; colour is on a log scale.

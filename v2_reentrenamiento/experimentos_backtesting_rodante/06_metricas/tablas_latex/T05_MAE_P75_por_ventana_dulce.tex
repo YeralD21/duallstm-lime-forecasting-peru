@@ -1,0 +1,23 @@
+\begin{table}[H]
+\centering
+\small
+\caption{MAE por ventana, P75 mensual, Dulce (t)}
+\label{tab:T05_MAE_P75_por_ventana_dulce}
+\begin{tabular}{llllll}
+\toprule
+modelo & 2021 & 2022 & 2023 & 2024 & 2025 \\
+\midrule
+Naive & 67.8 & 73.3 & 76.2 & 85.6 & 84.7 \\
+Seasonal Naive & 18.4 & 19.9 & 11.8 & 41.8 & 30.5 \\
+Chronos & 19.2 & 30.0 & 30.4 & 39.9 & 34.6 \\
+SARIMA & 13.7 & 12.4 & 18.8 & 25.5 & 21.8 \\
+SARIMA-sel & 27.9 & 12.4 & 17.4 & 25.6 & 19.8 \\
+Ridge & 37.9 & 35.5 & 43.6 & 97.7 & 50.6 \\
+ElasticNet & 37.6 & 35.2 & 43.4 & 85.7 & 49.3 \\
+XGB-37 & 25.7 & 52.3 & 45.8 & 58.0 & 59.4 \\
+GC3 & 36.5 & 37.2 & 38.0 & 68.2 & 103.4 \\
+GE & 41.1 & 37.5 & 42.2 & 67.3 & 95.6 \\
+XGB-43 & 26.2 & 52.2 & 44.3 & 54.1 & 61.4 \\
+\bottomrule
+\end{tabular}
+\end{table}

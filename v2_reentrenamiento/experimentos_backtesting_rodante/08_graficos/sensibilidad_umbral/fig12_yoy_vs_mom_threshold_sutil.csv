@@ -1,0 +1,381 @@
+percentil,modelo,n_shock,MAE_shock,tipo
+0,Naive,60,3624.070417,mensual
+10,Naive,51,4228.721216,mensual
+15,Naive,47,4540.889532,mensual
+20,Naive,45,4694.895889,mensual
+25,Naive,43,4868.833744,mensual
+30,Naive,38,5284.029789,mensual
+35,Naive,36,5453.89775,mensual
+40,Naive,32,5747.466781,mensual
+45,Naive,29,6021.010276,mensual
+50,Naive,29,6021.010276,mensual
+55,Naive,28,6131.807821,mensual
+60,Naive,25,6433.8144,mensual
+65,Naive,21,6895.426857,mensual
+70,Naive,12,7807.21375,mensual
+75,Naive,10,8506.195,mensual
+80,Naive,8,8737.194,mensual
+85,Naive,7,9036.655,mensual
+90,Naive,6,8695.623,mensual
+95,Naive,3,9429.234333,mensual
+0,Naive,60,3624.070417,interanual
+10,Naive,52,3630.110231,interanual
+15,Naive,51,3682.539235,interanual
+20,Naive,44,3517.689318,interanual
+25,Naive,42,3537.034024,interanual
+30,Naive,38,3325.685316,interanual
+35,Naive,34,3289.398441,interanual
+40,Naive,33,3215.354273,interanual
+45,Naive,27,3739.40463,interanual
+50,Naive,25,3679.64484,interanual
+55,Naive,21,3913.288381,interanual
+60,Naive,18,3373.593,interanual
+65,Naive,16,3537.289375,interanual
+70,Naive,13,2726.423538,interanual
+75,Naive,10,3171.846,interanual
+80,Naive,7,3821.136286,interanual
+85,Naive,7,3821.136286,interanual
+90,Naive,4,1538.943,interanual
+95,Naive,3,1723.386667,interanual
+0,Seasonal Naive,60,6074.8859,mensual
+10,Seasonal Naive,51,5729.885157,mensual
+15,Seasonal Naive,47,5711.375617,mensual
+20,Seasonal Naive,45,5786.185178,mensual
+25,Seasonal Naive,43,5794.15193,mensual
+30,Seasonal Naive,38,5888.081395,mensual
+35,Seasonal Naive,36,5950.730083,mensual
+40,Seasonal Naive,32,6317.004844,mensual
+45,Seasonal Naive,29,6077.551552,mensual
+50,Seasonal Naive,29,6077.551552,mensual
+55,Seasonal Naive,28,6277.33,mensual
+60,Seasonal Naive,25,6319.78072,mensual
+65,Seasonal Naive,21,5953.179952,mensual
+70,Seasonal Naive,12,5102.587583,mensual
+75,Seasonal Naive,10,5034.4498,mensual
+80,Seasonal Naive,8,5765.15225,mensual
+85,Seasonal Naive,7,6481.888286,mensual
+90,Seasonal Naive,6,7309.129333,mensual
+95,Seasonal Naive,3,6994.790333,mensual
+0,Seasonal Naive,60,6074.8859,interanual
+10,Seasonal Naive,52,6925.327346,interanual
+15,Seasonal Naive,51,7045.707216,interanual
+20,Seasonal Naive,44,7798.888136,interanual
+25,Seasonal Naive,42,8037.723238,interanual
+30,Seasonal Naive,38,8435.470474,interanual
+35,Seasonal Naive,34,8893.243147,interanual
+40,Seasonal Naive,33,9012.171242,interanual
+45,Seasonal Naive,27,9881.423074,interanual
+50,Seasonal Naive,25,10057.02048,interanual
+55,Seasonal Naive,21,10689.99538,interanual
+60,Seasonal Naive,18,10963.06783,interanual
+65,Seasonal Naive,16,11381.20369,interanual
+70,Seasonal Naive,13,11855.41554,interanual
+75,Seasonal Naive,10,12508.0675,interanual
+80,Seasonal Naive,7,13556.72257,interanual
+85,Seasonal Naive,7,13556.72257,interanual
+90,Seasonal Naive,4,15258.75025,interanual
+95,Seasonal Naive,3,14460.96867,interanual
+0,Chronos,60,2648.546662,mensual
+10,Chronos,51,2747.859387,mensual
+15,Chronos,47,2867.830167,mensual
+20,Chronos,45,2931.889182,mensual
+25,Chronos,43,3009.337656,mensual
+30,Chronos,38,3143.154327,mensual
+35,Chronos,36,3259.770454,mensual
+40,Chronos,32,3378.691508,mensual
+45,Chronos,29,3538.684494,mensual
+50,Chronos,29,3538.684494,mensual
+55,Chronos,28,3655.531076,mensual
+60,Chronos,25,3773.724415,mensual
+65,Chronos,21,3737.562827,mensual
+70,Chronos,12,4458.240754,mensual
+75,Chronos,10,4783.522412,mensual
+80,Chronos,8,5125.561874,mensual
+85,Chronos,7,5502.591968,mensual
+90,Chronos,6,5436.358475,mensual
+95,Chronos,3,5678.607245,mensual
+0,Chronos,60,2648.546662,interanual
+10,Chronos,52,2750.78416,interanual
+15,Chronos,51,2784.406775,interanual
+20,Chronos,44,2779.026087,interanual
+25,Chronos,42,2877.360487,interanual
+30,Chronos,38,2848.693371,interanual
+35,Chronos,34,2916.100768,interanual
+40,Chronos,33,2922.460824,interanual
+45,Chronos,27,3224.453408,interanual
+50,Chronos,25,3191.475762,interanual
+55,Chronos,21,3212.862369,interanual
+60,Chronos,18,2710.426047,interanual
+65,Chronos,16,2764.579736,interanual
+70,Chronos,13,2278.172338,interanual
+75,Chronos,10,1864.113148,interanual
+80,Chronos,7,1821.824628,interanual
+85,Chronos,7,1821.824628,interanual
+90,Chronos,4,1116.203695,interanual
+95,Chronos,3,1379.198854,interanual
+0,SARIMA,60,3360.78717,mensual
+10,SARIMA,51,3305.50502,mensual
+15,SARIMA,47,3344.572063,mensual
+20,SARIMA,45,3456.682547,mensual
+25,SARIMA,43,3477.083233,mensual
+30,SARIMA,38,3350.658432,mensual
+35,SARIMA,36,3361.885409,mensual
+40,SARIMA,32,3476.124285,mensual
+45,SARIMA,29,3635.765134,mensual
+50,SARIMA,29,3635.765134,mensual
+55,SARIMA,28,3692.080879,mensual
+60,SARIMA,25,3524.969487,mensual
+65,SARIMA,21,3571.229398,mensual
+70,SARIMA,12,4574.794005,mensual
+75,SARIMA,10,5130.718509,mensual
+80,SARIMA,8,6103.563403,mensual
+85,SARIMA,7,6811.894963,mensual
+90,SARIMA,6,6764.375744,mensual
+95,SARIMA,3,7100.263081,mensual
+0,SARIMA,60,3360.78717,interanual
+10,SARIMA,52,3516.2569,interanual
+15,SARIMA,51,3562.167627,interanual
+20,SARIMA,44,3454.400881,interanual
+25,SARIMA,42,3486.417545,interanual
+30,SARIMA,38,3549.115483,interanual
+35,SARIMA,34,3702.320981,interanual
+40,SARIMA,33,3809.17681,interanual
+45,SARIMA,27,3950.294561,interanual
+50,SARIMA,25,3941.817905,interanual
+55,SARIMA,21,3995.604335,interanual
+60,SARIMA,18,3665.976713,interanual
+65,SARIMA,16,3497.56951,interanual
+70,SARIMA,13,3408.52674,interanual
+75,SARIMA,10,3232.720422,interanual
+80,SARIMA,7,3563.975366,interanual
+85,SARIMA,7,3563.975366,interanual
+90,SARIMA,4,3725.435098,interanual
+95,SARIMA,3,3783.371873,interanual
+0,SARIMA-sel,60,3205.87634,mensual
+10,SARIMA-sel,51,3140.260471,mensual
+15,SARIMA-sel,47,3107.691865,mensual
+20,SARIMA-sel,45,3102.301559,mensual
+25,SARIMA-sel,43,3159.705148,mensual
+30,SARIMA-sel,38,3132.586153,mensual
+35,SARIMA-sel,36,3287.560592,mensual
+40,SARIMA-sel,32,3272.318785,mensual
+45,SARIMA-sel,29,3361.656577,mensual
+50,SARIMA-sel,29,3361.656577,mensual
+55,SARIMA-sel,28,3371.949266,mensual
+60,SARIMA-sel,25,3477.512816,mensual
+65,SARIMA-sel,21,3226.015086,mensual
+70,SARIMA-sel,12,4149.046968,mensual
+75,SARIMA-sel,10,4935.734382,mensual
+80,SARIMA-sel,8,5846.347308,mensual
+85,SARIMA-sel,7,6666.192383,mensual
+90,SARIMA-sel,6,7095.584445,mensual
+95,SARIMA-sel,3,6250.219405,mensual
+0,SARIMA-sel,60,3205.87634,interanual
+10,SARIMA-sel,52,3384.633546,interanual
+15,SARIMA-sel,51,3426.903841,interanual
+20,SARIMA-sel,44,3381.860245,interanual
+25,SARIMA-sel,42,3400.806578,interanual
+30,SARIMA-sel,38,3464.78164,interanual
+35,SARIMA-sel,34,3650.827455,interanual
+40,SARIMA-sel,33,3648.299144,interanual
+45,SARIMA-sel,27,4074.758292,interanual
+50,SARIMA-sel,25,4063.474697,interanual
+55,SARIMA-sel,21,4468.341017,interanual
+60,SARIMA-sel,18,4227.913581,interanual
+65,SARIMA-sel,16,4509.143213,interanual
+70,SARIMA-sel,13,4431.39843,interanual
+75,SARIMA-sel,10,4078.830436,interanual
+80,SARIMA-sel,7,4649.536147,interanual
+85,SARIMA-sel,7,4649.536147,interanual
+90,SARIMA-sel,4,5506.387593,interanual
+95,SARIMA-sel,3,5204.208758,interanual
+0,Ridge,60,4925.135884,mensual
+10,Ridge,51,5198.728361,mensual
+15,Ridge,47,5350.973635,mensual
+20,Ridge,45,5454.310473,mensual
+25,Ridge,43,5592.073527,mensual
+30,Ridge,38,5946.257588,mensual
+35,Ridge,36,5988.982779,mensual
+40,Ridge,32,6629.376277,mensual
+45,Ridge,29,6887.423775,mensual
+50,Ridge,29,6887.423775,mensual
+55,Ridge,28,7093.33415,mensual
+60,Ridge,25,7496.932706,mensual
+65,Ridge,21,7985.893416,mensual
+70,Ridge,12,9390.970938,mensual
+75,Ridge,10,8556.902413,mensual
+80,Ridge,8,10221.22363,mensual
+85,Ridge,7,11135.08217,mensual
+90,Ridge,6,11681.95309,mensual
+95,Ridge,3,7619.570343,mensual
+0,Ridge,60,4925.135884,interanual
+10,Ridge,52,4901.7074,interanual
+15,Ridge,51,4945.713245,interanual
+20,Ridge,44,5034.543125,interanual
+25,Ridge,42,5259.478393,interanual
+30,Ridge,38,5675.951026,interanual
+35,Ridge,34,5973.110738,interanual
+40,Ridge,33,5966.583942,interanual
+45,Ridge,27,5951.362892,interanual
+50,Ridge,25,5834.370393,interanual
+55,Ridge,21,6156.458098,interanual
+60,Ridge,18,5893.280781,interanual
+65,Ridge,16,6049.646701,interanual
+70,Ridge,13,4878.250123,interanual
+75,Ridge,10,4946.067579,interanual
+80,Ridge,7,4403.546338,interanual
+85,Ridge,7,4403.546338,interanual
+90,Ridge,4,4169.104267,interanual
+95,Ridge,3,2900.635452,interanual
+0,ElasticNet,60,4871.911285,mensual
+10,ElasticNet,51,5129.981617,mensual
+15,ElasticNet,47,5260.394412,mensual
+20,ElasticNet,45,5397.118941,mensual
+25,ElasticNet,43,5541.28106,mensual
+30,ElasticNet,38,5941.098387,mensual
+35,ElasticNet,36,6031.832213,mensual
+40,ElasticNet,32,6636.479172,mensual
+45,ElasticNet,29,6898.784736,mensual
+50,ElasticNet,29,6898.784736,mensual
+55,ElasticNet,28,7080.376164,mensual
+60,ElasticNet,25,7426.237183,mensual
+65,ElasticNet,21,7797.522723,mensual
+70,ElasticNet,12,8860.548031,mensual
+75,ElasticNet,10,8153.740083,mensual
+80,ElasticNet,8,9837.658011,mensual
+85,ElasticNet,7,10759.92425,mensual
+90,ElasticNet,6,10856.23466,mensual
+95,ElasticNet,3,6875.058268,mensual
+0,ElasticNet,60,4871.911285,interanual
+10,ElasticNet,52,4948.862649,interanual
+15,ElasticNet,51,5005.067803,interanual
+20,ElasticNet,44,5198.498751,interanual
+25,ElasticNet,42,5415.113678,interanual
+30,ElasticNet,38,5813.946914,interanual
+35,ElasticNet,34,6157.801758,interanual
+40,ElasticNet,33,6128.378157,interanual
+45,ElasticNet,27,6212.692416,interanual
+50,ElasticNet,25,6073.023963,interanual
+55,ElasticNet,21,6423.988577,interanual
+60,ElasticNet,18,6208.985719,interanual
+65,ElasticNet,16,6252.587449,interanual
+70,ElasticNet,13,5206.772348,interanual
+75,ElasticNet,10,5403.723474,interanual
+80,ElasticNet,7,4972.970216,interanual
+85,ElasticNet,7,4972.970216,interanual
+90,ElasticNet,4,4817.704278,interanual
+95,ElasticNet,3,3327.434799,interanual
+0,XGB-37,60,4881.44974,mensual
+10,XGB-37,51,4883.690715,mensual
+15,XGB-37,47,4939.616889,mensual
+20,XGB-37,45,4837.021354,mensual
+25,XGB-37,43,5035.677885,mensual
+30,XGB-37,38,5183.096679,mensual
+35,XGB-37,36,4925.019304,mensual
+40,XGB-37,32,4835.54173,mensual
+45,XGB-37,29,4894.671515,mensual
+50,XGB-37,29,4894.671515,mensual
+55,XGB-37,28,5007.564866,mensual
+60,XGB-37,25,5217.448854,mensual
+65,XGB-37,21,5029.324019,mensual
+70,XGB-37,12,5204.749922,mensual
+75,XGB-37,10,5955.200769,mensual
+80,XGB-37,8,6684.993028,mensual
+85,XGB-37,7,6897.774992,mensual
+90,XGB-37,6,7964.134202,mensual
+95,XGB-37,3,9159.727535,mensual
+0,XGB-37,60,4881.44974,interanual
+10,XGB-37,52,5025.500456,interanual
+15,XGB-37,51,5111.314789,interanual
+20,XGB-37,44,4926.659247,interanual
+25,XGB-37,42,4964.457491,interanual
+30,XGB-37,38,4978.995948,interanual
+35,XGB-37,34,5175.578823,interanual
+40,XGB-37,33,5177.234646,interanual
+45,XGB-37,27,5269.853798,interanual
+50,XGB-37,25,5185.590331,interanual
+55,XGB-37,21,4964.534573,interanual
+60,XGB-37,18,5011.339668,interanual
+65,XGB-37,16,5289.831112,interanual
+70,XGB-37,13,4855.528644,interanual
+75,XGB-37,10,4816.485139,interanual
+80,XGB-37,7,4927.736643,interanual
+85,XGB-37,7,4927.736643,interanual
+90,XGB-37,4,5555.69086,interanual
+95,XGB-37,3,3374.301473,interanual
+0,GC3,60,6361.304516,mensual
+10,GC3,51,6430.616896,mensual
+15,GC3,47,6369.986156,mensual
+20,GC3,45,6272.544916,mensual
+25,GC3,43,6471.265989,mensual
+30,GC3,38,6467.158468,mensual
+35,GC3,36,6334.804423,mensual
+40,GC3,32,6288.05929,mensual
+45,GC3,29,6218.033178,mensual
+50,GC3,29,6218.033178,mensual
+55,GC3,28,6312.041426,mensual
+60,GC3,25,6385.458043,mensual
+65,GC3,21,6555.665894,mensual
+70,GC3,12,5890.889414,mensual
+75,GC3,10,6074.459517,mensual
+80,GC3,8,7057.76511,mensual
+85,GC3,7,7014.717392,mensual
+90,GC3,6,7906.909597,mensual
+95,GC3,3,7240.991501,mensual
+0,GC3,60,6361.304516,interanual
+10,GC3,52,6821.226814,interanual
+15,GC3,51,6924.24418,interanual
+20,GC3,44,6711.918742,interanual
+25,GC3,42,6879.522207,interanual
+30,GC3,38,7032.56067,interanual
+35,GC3,34,7580.458699,interanual
+40,GC3,33,7423.911076,interanual
+45,GC3,27,7861.178361,interanual
+50,GC3,25,7649.417845,interanual
+55,GC3,21,7742.113947,interanual
+60,GC3,18,7969.970086,interanual
+65,GC3,16,8038.905178,interanual
+70,GC3,13,8106.008892,interanual
+75,GC3,10,9166.116354,interanual
+80,GC3,7,9105.299363,interanual
+85,GC3,7,9105.299363,interanual
+90,GC3,4,10211.61472,interanual
+95,GC3,3,7204.722602,interanual
+0,GE,60,6743.529996,mensual
+10,GE,51,6816.594186,mensual
+15,GE,47,6829.151818,mensual
+20,GE,45,6658.688236,mensual
+25,GE,43,6840.843429,mensual
+30,GE,38,6548.173071,mensual
+35,GE,36,6393.63051,mensual
+40,GE,32,6264.310292,mensual
+45,GE,29,6135.792252,mensual
+50,GE,29,6135.792252,mensual
+55,GE,28,6268.532974,mensual
+60,GE,25,6401.772808,mensual
+65,GE,21,6783.727305,mensual
+70,GE,12,6318.271094,mensual
+75,GE,10,6826.646182,mensual
+80,GE,8,8009.61857,mensual
+85,GE,7,7918.072389,mensual
+90,GE,6,8942.23765,mensual
+95,GE,3,9277.918805,mensual
+0,GE,60,6743.529996,interanual
+10,GE,52,7238.890175,interanual
+15,GE,51,7349.146686,interanual
+20,GE,44,6765.64653,interanual
+25,GE,42,7001.313137,interanual
+30,GE,38,7114.669026,interanual
+35,GE,34,7634.222599,interanual
+40,GE,33,7473.468175,interanual
+45,GE,27,7857.552748,interanual
+50,GE,25,7639.40091,interanual
+55,GE,21,7836.914263,interanual
+60,GE,18,8171.084035,interanual
+65,GE,16,8185.040193,interanual
+70,GE,13,8419.464329,interanual
+75,GE,10,9796.026741,interanual
+80,GE,7,9959.702976,interanual
+85,GE,7,9959.702976,interanual
+90,GE,4,11299.37805,interanual
+95,GE,3,8484.474906,interanual

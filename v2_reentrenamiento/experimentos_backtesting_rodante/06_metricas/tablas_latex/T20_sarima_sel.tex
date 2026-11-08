@@ -1,0 +1,22 @@
+\begin{table}[H]
+\centering
+\small
+\caption{SARIMA-sel: orden elegido por ventana (D-BR10) y posición en AIC}
+\label{tab:T20_sarima_sel}
+\begin{tabular}{lllllllllll}
+\toprule
+cultivar & anio\_test & orden & orden\_estacional & posicion\_AIC & AIC & MAE\_val & convergio & fallidos & AIC\_no\_finito & no\_conv\_rejilla \\
+\midrule
+sutil & 2021 & (2, 1, 0) & (2, 1, 1, 12) & 3 & 954.4 & 2,256.7 & sí & 0 & 0 & 30 \\
+sutil & 2022 & (3, 1, 2) & (2, 1, 2, 12) & 4 & 1,183.6 & 1,942.2 & sí & 0 & 0 & 38 \\
+sutil & 2023 & (1, 1, 3) & (2, 1, 1, 12) & 2 & 1,406.3 & 2,514.3 & sí & 0 & 0 & 0 \\
+sutil & 2024 & (1, 1, 2) & (2, 1, 1, 12) & 1 & 1,635.0 & 4,175.2 & sí & 0 & 0 & 36 \\
+sutil & 2025 & (1, 1, 3) & (2, 1, 0, 12) & 4 & 1,874.9 & 2,880.5 & sí & 0 & 0 & 57 \\
+dulce & 2021 & (2, 0, 3) & (0, 0, 0, 12) & 2 & 470.1 & 36.8 & sí & 0 & 0 & 78 \\
+dulce & 2022 & (1, 0, 0) & (0, 1, 0, 12) & 2 & 594.3 & 13.6 & sí & 0 & 0 & 82 \\
+dulce & 2023 & (2, 0, 0) & (0, 1, 0, 12) & 4 & 702.6 & 12.0 & sí & 0 & 0 & 36 \\
+dulce & 2024 & (2, 0, 0) & (0, 1, 0, 12) & 2 & 805.7 & 17.3 & sí & 0 & 0 & 103 \\
+dulce & 2025 & (2, 0, 1) & (0, 1, 0, 12) & 4 & 913.5 & 25.9 & sí & 0 & 0 & 158 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,83 @@
+{
+  "unidad": {
+    "modelo": "ElasticNet",
+    "cultivar": "sutil",
+    "anio": 2025,
+    "semilla": null
+  },
+  "ventana": {
+    "anio_test": 2025,
+    "origen": "2024-12",
+    "fin_train": "2023-12",
+    "val_inicio": "2024-01",
+    "val_fin": "2024-12",
+    "test_inicio": "2025-01",
+    "test_fin": "2025-12",
+    "en_ranking": true,
+    "en_sensibilidad_2023_2025": true
+  },
+  "alpha": 0.1,
+  "l1_ratio": 0.5,
+  "MAE_val_elegido": 1619.1602220871075,
+  "orden_rejilla_elegido": 7,
+  "n": {
+    "train": 89,
+    "val": 12,
+    "test": 12
+  },
+  "train_objetivos": [
+    "2016-08",
+    "2023-12"
+  ],
+  "intercepto": 23481.743359550557,
+  "coeficientes": {
+    "produccion_t_sutil": 4657.115528874452,
+    "produccion_t_sutil_lag1": -217.04753768236614,
+    "produccion_t_sutil_lag3": -542.5147461742996,
+    "produccion_t_sutil_lag6": -809.8937314564836,
+    "mes_sin": 314.8849496465307,
+    "mes_cos": 1124.1006244106798,
+    "t_index": 1691.6733574823318,
+    "T2M_lag1": -315.733756633243,
+    "T2M_lag3": 381.0662500683479,
+    "T2M_lag6": -19.761566569220115,
+    "T2M_MAX_lag1": 226.93559531293187,
+    "T2M_MAX_lag3": -432.5619455607194,
+    "T2M_MAX_lag6": 74.97891742630003,
+    "WS2M_lag1": -116.97220301918489,
+    "WS2M_lag3": 1898.297876517468,
+    "WS2M_lag6": 353.1173534946658,
+    "PRECTOTCORR_lag1": 527.3909938693148,
+    "PRECTOTCORR_lag3": 333.0317947968552,
+    "PRECTOTCORR_lag6": -44.9937106004394,
+    "RH2M_lag1": 246.61253014762494,
+    "RH2M_lag3": -388.6987776356196,
+    "RH2M_lag6": 306.3287295571294,
+    "num_emergencias_lag1": -418.0065958168049,
+    "num_emergencias_lag3": 1157.0050316702525,
+    "num_emergencias_lag6": -118.17733540240701,
+    "personas_afectadas_lag1": -1139.8198606014053,
+    "personas_afectadas_lag3": -824.7114973009868,
+    "personas_afectadas_lag6": -268.5748383830982,
+    "personas_damnificadas_lag1": 503.2276574303908,
+    "personas_damnificadas_lag3": -639.5992486924597,
+    "personas_damnificadas_lag6": -368.9345702679962,
+    "hectareas_cultivo_perdidas_lag1": -212.05904634242927,
+    "hectareas_cultivo_perdidas_lag3": 172.3597738354509,
+    "hectareas_cultivo_perdidas_lag6": -115.7672245477499,
+    "hectareas_cultivo_afectadas_lag1": 213.65903351228357,
+    "hectareas_cultivo_afectadas_lag3": -402.0474591565215,
+    "hectareas_cultivo_afectadas_lag6": 696.4514629891206
+  },
+  "avisos": [],
+  "n_avisos": 0,
+  "control_2025_v3": {
+    "valores_v3": {
+      "alpha": 0.1,
+      "l1_ratio": 0.5
+    },
+    "coincide_con_elegido": true,
+    "MAE_test_con_valores_v3": 3222.8889981231678,
+    "MAE_test_elegido_menos_v3": 0.0
+  }
+}

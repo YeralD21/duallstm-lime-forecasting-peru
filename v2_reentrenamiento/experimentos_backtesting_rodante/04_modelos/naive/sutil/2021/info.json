@@ -1,0 +1,25 @@
+{
+  "unidad": {
+    "modelo": "Naive",
+    "cultivar": "sutil",
+    "anio": 2021,
+    "semilla": null
+  },
+  "ventana": {
+    "anio_test": 2021,
+    "origen": "2020-12",
+    "fin_train": "2019-12",
+    "val_inicio": "2020-01",
+    "val_fin": "2020-12",
+    "test_inicio": "2021-01",
+    "test_fin": "2021-12",
+    "en_ranking": true,
+    "en_sensibilidad_2023_2025": false
+  },
+  "rezago": 1,
+  "n_por_particion": {
+    "train": 47,
+    "val": 12,
+    "test": 12
+  }
+}

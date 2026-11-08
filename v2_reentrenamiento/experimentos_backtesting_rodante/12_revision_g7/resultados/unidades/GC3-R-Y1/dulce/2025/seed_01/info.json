@@ -1,0 +1,97 @@
+{
+  "n_params": 6273,
+  "entradas_rama_a": [
+    "produccion_t_dulce",
+    "produccion_t_dulce_lag1",
+    "produccion_t_dulce_lag3",
+    "produccion_t_dulce_lag6"
+  ],
+  "entradas_rama_b": [
+    "mes_sin",
+    "mes_cos",
+    "t_index",
+    "T2M_lag1",
+    "T2M_lag3",
+    "T2M_lag6",
+    "T2M_MAX_lag1",
+    "T2M_MAX_lag3",
+    "T2M_MAX_lag6",
+    "WS2M_lag1",
+    "WS2M_lag3",
+    "WS2M_lag6",
+    "PRECTOTCORR_lag1",
+    "PRECTOTCORR_lag3",
+    "PRECTOTCORR_lag6",
+    "RH2M_lag1",
+    "RH2M_lag3",
+    "RH2M_lag6",
+    "num_emergencias_lag1",
+    "num_emergencias_lag3",
+    "num_emergencias_lag6",
+    "personas_afectadas_lag1",
+    "personas_afectadas_lag3",
+    "personas_afectadas_lag6",
+    "personas_damnificadas_lag1",
+    "personas_damnificadas_lag3",
+    "personas_damnificadas_lag6",
+    "hectareas_cultivo_perdidas_lag1",
+    "hectareas_cultivo_perdidas_lag3",
+    "hectareas_cultivo_perdidas_lag6",
+    "hectareas_cultivo_afectadas_lag1",
+    "hectareas_cultivo_afectadas_lag3",
+    "hectareas_cultivo_afectadas_lag6"
+  ],
+  "protocolo": "Y1",
+  "scaler_fechas_ajuste": [
+    "2016-07",
+    "2024-12"
+  ],
+  "pesos_geograficos_fin": "2024-12",
+  "train_objetivos": [
+    "2017-01",
+    "2024-12"
+  ],
+  "train_contexto_max": [
+    "2016-12",
+    "2024-11"
+  ],
+  "val_objetivos": null,
+  "test_objetivos": [
+    "2025-01",
+    "2025-12"
+  ],
+  "test_contexto_max": [
+    "2024-12",
+    "2025-11"
+  ],
+  "fit_seconds": 3.515889500002231,
+  "epocas_fijas": 2,
+  "epocas_de": "12_revision_g7\\resultados\\unidades\\GC3-R\\dulce\\2025\\seed_01",
+  "lr_por_epoca_de": "12_revision_g7\\resultados\\unidades\\GC3-R\\dulce\\2025\\seed_01/history.csv (columna learning_rate)",
+  "lr_primera_ultima": [
+    0.0010000000474974,
+    0.0010000000474974
+  ],
+  "objetivo": "r_t = y_t - y_(t-12) estandarizado",
+  "r_media_train": 9.214927083333333,
+  "r_sd_train": 31.3511649697971,
+  "r_estadisticas_meses": [
+    "2017-01",
+    "2024-12"
+  ],
+  "determinismo": {
+    "seed": 1,
+    "pythonhashseed": "1",
+    "tf_enable_onednn_opts": "0",
+    "tf_deterministic_ops": "1",
+    "tensorflow_previously_loaded": false,
+    "keras_set_random_seed_used": true,
+    "enable_op_determinism_used": true
+  },
+  "modelo": "GC3-R-Y1",
+  "cultivar": "dulce",
+  "anio_test": 2025,
+  "semilla": 1,
+  "segundos_unidad": 12.585471700000198,
+  "utc": "2026-10-31T18:47:21.488821+00:00"
+}

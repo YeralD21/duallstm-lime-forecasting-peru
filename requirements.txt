@@ -1,0 +1,44 @@
+# Python 3.11.9 (TensorFlow 2.21 does not support Python 3.13 or later). Tested on Windows 11, CPU only.
+# Exact versions of the environment that produced the published results
+# (v2_reentrenamiento/experimentos_backtesting_rodante/01_configuracion/manifest.json).
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# core
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+scikit-learn==1.8.0
+statsmodels==0.14.6
+pmdarima==2.1.1
+xgboost==3.2.0
+tensorflow==2.21.0
+keras==3.14.0
+h5py==3.14.0
+ml_dtypes==0.5.4
+protobuf==7.34.1
+joblib==1.5.3
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Chronos-Bolt (zero-shot). chronos-forecasting 2.3.2 and einops 0.8.2 are also vendored in
+# v4_benchmark_moderno/vendor/ (the pipeline imports the vendored copy, whose SHA-256 is checked).
+torch==2.11.0
+transformers==5.5.4
+accelerate==1.13.0
+huggingface_hub==1.10.2
+safetensors==0.7.0
+chronos-forecasting==2.3.2
+einops==0.8.2
+
+# ETL (reading the MIDAGRI-SISAGRI workbook) and maps (study-area figure, coordinate validation)
+openpyxl==3.1.5
+geopandas==1.1.3
+shapely==2.1.2
+pyproj==3.7.2
+pyogrio==0.12.1
+
+# News sentiment (only to rebuild the monthly index from a corpus you collect yourself; not needed to reproduce)
+pysentimiento==0.7.3
+requests==2.33.1
+beautifulsoup4==4.14.3
+tqdm==4.67.3

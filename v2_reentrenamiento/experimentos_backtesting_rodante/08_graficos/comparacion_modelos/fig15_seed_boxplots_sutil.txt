@@ -1,0 +1,4 @@
+Caption (suggested): Distribution over the 10 training seeds of (a) MAE and (b) shock-month MAE (monthly P75) per test window and pooled 2021–2025, for the seeded models, sour lime (limón sutil).
+
+Reading: Between-seed SD of pooled MAE: XGB-37 89.5 t, GC3 488.8 t, GE 523.5 t.
+Seed dispersion is reported separately and does not enter the bootstrap intervals. Panel (b) has no boxes for 2021 and 2024 (no P75 shock month).

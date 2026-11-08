@@ -1,0 +1,4 @@
+Caption (suggested): Observed national production and one-step-ahead forecasts of each model, test year 2022, sour lime (limón sutil). Grey: shock months (monthly P75, history to origin). Seeded models: one line per seed (10 seeds). Observed: thick black line; Seasonal Naive: dashed black line with open squares.
+
+Reading: Test year 2022: 3 shock month(s) at monthly P75 (01, 06, 12), computed with the history up to December 2021.
+One-step-ahead forecasts use the observed value of the previous month; seed lines show the spread of the stochastic models.

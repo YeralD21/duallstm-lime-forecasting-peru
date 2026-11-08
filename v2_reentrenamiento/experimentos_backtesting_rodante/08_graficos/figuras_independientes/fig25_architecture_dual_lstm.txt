@@ -1,0 +1,4 @@
+Caption (suggested): Dual-LSTM with additive (Bahdanau) temporal attention used by GC3 and GE (v2 official implementation). Each branch receives the previous 6 months: branch A the production series and its lags 1, 3 and 6; branch B calendar terms, a time index and lagged climate (NASA POWER) and disaster (INDECI) covariates. GE adds six lagged news features to branch B (dashed box): the monthly mean sentiment score of agricultural news, computed with the pysentimiento RoBERTuito sentiment model, and the monthly number of news items. GC3 and GE are otherwise identical. Trainable parameters: GC3 6,273; GE 6,657.
+
+Reading: Branch A: 4 features; branch B: 33 (GC3) and 39 (GE) features; the only parameter difference is the branch-B LSTM (3,200 vs 3,584).
+Parameter counts are read from the Keras model built by the official build_gc3_ge_model and checked against expected_parameter_count.

@@ -1,0 +1,4 @@
+Caption (suggested): Mean absolute error in shock months (tonnes) versus shock-threshold percentile, sweet lime (limón dulce), 2021–2025 pooled. Errors of seeded models are averaged over 10 seeds per month. Dashed lines: P50, P60, P75, P90. Logarithmic y-axis.
+
+Reading: At P75 the lowest MAE_shock is SARIMA (14.0 t) and the highest Naive (131.6 t).
+The first place (lowest MAE_shock) does not change from P0 onwards (SARIMA); ties are in Table T08 and Fig. 7.

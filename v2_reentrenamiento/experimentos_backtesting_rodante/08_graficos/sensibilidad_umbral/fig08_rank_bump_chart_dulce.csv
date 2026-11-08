@@ -1,0 +1,191 @@
+percentil,modelo,posicion,primero
+0,Chronos,4,False
+10,Chronos,4,False
+15,Chronos,4,False
+20,Chronos,4,False
+25,Chronos,4,False
+30,Chronos,4,False
+35,Chronos,4,False
+40,Chronos,4,False
+45,Chronos,4,False
+50,Chronos,4,False
+55,Chronos,4,False
+60,Chronos,4,False
+65,Chronos,4,False
+70,Chronos,4,False
+75,Chronos,4,False
+80,Chronos,4,False
+85,Chronos,4,False
+90,Chronos,4,False
+95,Chronos,5,False
+0,ElasticNet,6,False
+10,ElasticNet,6,False
+15,ElasticNet,6,False
+20,ElasticNet,6,False
+25,ElasticNet,7,False
+30,ElasticNet,8,False
+35,ElasticNet,8,False
+40,ElasticNet,8,False
+45,ElasticNet,8,False
+50,ElasticNet,8,False
+55,ElasticNet,8,False
+60,ElasticNet,8,False
+65,ElasticNet,8,False
+70,ElasticNet,8,False
+75,ElasticNet,8,False
+80,ElasticNet,8,False
+85,ElasticNet,7,False
+90,ElasticNet,7,False
+95,ElasticNet,7,False
+0,GC3,8,False
+10,GC3,9,False
+15,GC3,8,False
+20,GC3,9,False
+25,GC3,8,False
+30,GC3,7,False
+35,GC3,7,False
+40,GC3,7,False
+45,GC3,7,False
+50,GC3,7,False
+55,GC3,6,False
+60,GC3,7,False
+65,GC3,7,False
+70,GC3,6,False
+75,GC3,6,False
+80,GC3,6,False
+85,GC3,6,False
+90,GC3,5,False
+95,GC3,6,False
+0,GE,9,False
+10,GE,8,False
+15,GE,9,False
+20,GE,8,False
+25,GE,6,False
+30,GE,6,False
+35,GE,6,False
+40,GE,6,False
+45,GE,5,False
+50,GE,6,False
+55,GE,5,False
+60,GE,5,False
+65,GE,5,False
+70,GE,5,False
+75,GE,5,False
+80,GE,5,False
+85,GE,5,False
+90,GE,6,False
+95,GE,4,False
+0,Naive,10,False
+10,Naive,10,False
+15,Naive,10,False
+20,Naive,10,False
+25,Naive,10,False
+30,Naive,10,False
+35,Naive,10,False
+40,Naive,10,False
+45,Naive,10,False
+50,Naive,10,False
+55,Naive,10,False
+60,Naive,10,False
+65,Naive,10,False
+70,Naive,10,False
+75,Naive,10,False
+80,Naive,10,False
+85,Naive,10,False
+90,Naive,10,False
+95,Naive,10,False
+0,Ridge,7,False
+10,Ridge,7,False
+15,Ridge,7,False
+20,Ridge,7,False
+25,Ridge,9,False
+30,Ridge,9,False
+35,Ridge,9,False
+40,Ridge,9,False
+45,Ridge,9,False
+50,Ridge,9,False
+55,Ridge,9,False
+60,Ridge,9,False
+65,Ridge,9,False
+70,Ridge,9,False
+75,Ridge,9,False
+80,Ridge,9,False
+85,Ridge,8,False
+90,Ridge,8,False
+95,Ridge,8,False
+0,SARIMA,1,True
+10,SARIMA,1,True
+15,SARIMA,1,True
+20,SARIMA,1,True
+25,SARIMA,1,True
+30,SARIMA,1,True
+35,SARIMA,1,True
+40,SARIMA,1,True
+45,SARIMA,1,True
+50,SARIMA,1,True
+55,SARIMA,1,True
+60,SARIMA,1,True
+65,SARIMA,1,True
+70,SARIMA,1,True
+75,SARIMA,1,True
+80,SARIMA,1,True
+85,SARIMA,1,True
+90,SARIMA,1,True
+95,SARIMA,1,True
+0,SARIMA-sel,2,True
+10,SARIMA-sel,2,True
+15,SARIMA-sel,2,True
+20,SARIMA-sel,2,True
+25,SARIMA-sel,2,True
+30,SARIMA-sel,2,True
+35,SARIMA-sel,2,True
+40,SARIMA-sel,2,True
+45,SARIMA-sel,2,True
+50,SARIMA-sel,2,True
+55,SARIMA-sel,2,True
+60,SARIMA-sel,2,True
+65,SARIMA-sel,2,True
+70,SARIMA-sel,2,False
+75,SARIMA-sel,2,False
+80,SARIMA-sel,2,False
+85,SARIMA-sel,2,False
+90,SARIMA-sel,3,False
+95,SARIMA-sel,9,False
+0,Seasonal Naive,3,False
+10,Seasonal Naive,3,False
+15,Seasonal Naive,3,False
+20,Seasonal Naive,3,False
+25,Seasonal Naive,3,False
+30,Seasonal Naive,3,False
+35,Seasonal Naive,3,False
+40,Seasonal Naive,3,False
+45,Seasonal Naive,3,False
+50,Seasonal Naive,3,False
+55,Seasonal Naive,3,False
+60,Seasonal Naive,3,False
+65,Seasonal Naive,3,False
+70,Seasonal Naive,3,False
+75,Seasonal Naive,3,False
+80,Seasonal Naive,3,False
+85,Seasonal Naive,3,False
+90,Seasonal Naive,2,False
+95,Seasonal Naive,3,False
+0,XGB-37,5,False
+10,XGB-37,5,False
+15,XGB-37,5,False
+20,XGB-37,5,False
+25,XGB-37,5,False
+30,XGB-37,5,False
+35,XGB-37,5,False
+40,XGB-37,5,False
+45,XGB-37,6,False
+50,XGB-37,5,False
+55,XGB-37,7,False
+60,XGB-37,6,False
+65,XGB-37,6,False
+70,XGB-37,7,False
+75,XGB-37,7,False
+80,XGB-37,7,False
+85,XGB-37,9,False
+90,XGB-37,9,False
+95,XGB-37,2,False

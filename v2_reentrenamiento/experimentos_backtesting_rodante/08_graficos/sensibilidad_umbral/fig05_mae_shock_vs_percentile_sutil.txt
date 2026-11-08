@@ -1,0 +1,4 @@
+Caption (suggested): Mean absolute error in shock months (tonnes) versus shock-threshold percentile, sour lime (limón sutil), 2021–2025 pooled. Errors of seeded models are averaged over 10 seeds per month. Dashed lines: P50, P60, P75, P90.
+
+Reading: At P75 the lowest MAE_shock is Chronos (4,783.5 t) and the highest Ridge (8,556.9 t).
+The first place (lowest MAE_shock) does not change from P75 onwards (Chronos); ties are in Table T08 and Fig. 7.

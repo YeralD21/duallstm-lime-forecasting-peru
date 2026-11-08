@@ -1,0 +1,4 @@
+Caption (suggested): Month-by-month absolute forecast error of each model (mean over seeds for seeded models), sweet lime (limón dulce), test months 2021–2025.
+
+Reading: The largest seed-averaged absolute error is GC3 in 2025-04 (209.7 t); 15 of 60 months are shocks at monthly P75.
+Vertical white lines separate test years; colour is on a log scale.

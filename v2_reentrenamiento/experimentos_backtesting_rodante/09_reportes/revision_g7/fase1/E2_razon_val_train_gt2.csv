@@ -1,0 +1,11 @@
+cultivar,modelo,n_unidades,n_razon_gt_2
+dulce,ElasticNet,5,0
+dulce,GC3,50,12
+dulce,GE,50,19
+dulce,Ridge,5,0
+dulce,XGB-37,50,50
+sutil,ElasticNet,5,1
+sutil,GC3,50,31
+sutil,GE,50,28
+sutil,Ridge,5,1
+sutil,XGB-37,50,50

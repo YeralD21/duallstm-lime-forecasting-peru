@@ -1,0 +1,4 @@
+Caption (suggested): Diebold–Mariano tests with the Harvey–Leybourne–Newbold correction (h = 1, absolute loss, seed-averaged errors, pooled windows 2021–2025), sweet lime (limón dulce): Holm-adjusted (exploratory, DESV-07; family = 45 pairs per triangle) p-values. Lower triangle: all test months (n = 60); upper triangle: shock months only (monthly P75, n = 15). '+' = row model has larger error than column model. Holm correction is an exploratory addition, not part of the protocol.
+
+Reading: With Holm-adjusted (exploratory) p-values, 28 of 45 pairs differ at the 5% level over all months (n = 60) and 24 of 45 in shock months only (n = 15).
+Signs: '+' means the row model has a larger mean absolute error than the column model; the shock-only test has low power.

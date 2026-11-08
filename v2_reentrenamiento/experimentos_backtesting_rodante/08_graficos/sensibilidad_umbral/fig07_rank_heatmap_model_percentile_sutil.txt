@@ -1,0 +1,4 @@
+Caption (suggested): Rank of each model by MAE_shock at every threshold percentile (P0–P95), sour lime (limón sutil), 2021–2025: (a) month-on-month and (b) year-on-year change. Numbers are ranks; * marks the first place and statistical ties with it.
+
+Reading: Month-on-month: Chronos is first or tied with the first in 19 of 19 percentiles; models never in the first group: Naive, Ridge, ElasticNet, GE.
+Asterisk = first or tied with the first (paired bootstrap 95% CI of the MAE difference with the best contains 0).

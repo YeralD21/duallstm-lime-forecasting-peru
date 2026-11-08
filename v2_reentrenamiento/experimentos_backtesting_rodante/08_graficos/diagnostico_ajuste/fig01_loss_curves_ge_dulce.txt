@@ -1,0 +1,4 @@
+Caption (suggested): Training and validation loss curves of GE for each test window and the 10 seeds (one line per seed), sweet lime (limón dulce). Dots: epoch with minimum validation loss, whose weights are restored for forecasting.
+
+Reading: Median best epoch per window: 2021 46.0, 2022 33.0, 2023 31.0, 2024 34.5, 2025 35.0; no run reached the 300-epoch cap (early stopping, patience 15).
+Loss is on the standardized target of each window's scaler, so absolute levels are not comparable across windows.

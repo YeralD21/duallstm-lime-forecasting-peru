@@ -1,0 +1,20 @@
+{
+  "paleta": "Okabe-Ito (apta para daltonismo) mas dos tonos de Tol para los modelos 10 y 11",
+  "colores_modelo": {
+    "Naive": "#999999", "Seasonal Naive": "#000000", "SARIMA": "#E69F00", "SARIMA-sel": "#F0E442",
+    "Ridge": "#56B4E9", "ElasticNet": "#0072B2", "Chronos": "#CC79A7", "XGB-37": "#009E73",
+    "GC3": "#D55E00", "GE": "#882255", "XGB-43": "#44AA99"
+  },
+  "marcadores_modelo": {
+    "Naive": "o", "Seasonal Naive": "s", "SARIMA": "^", "SARIMA-sel": "v", "Ridge": "D", "ElasticNet": "d",
+    "Chronos": "P", "XGB-37": "X", "GC3": "*", "GE": "h", "XGB-43": "p"
+  },
+  "fuente": "DejaVu Sans",
+  "tamano_base": 8,
+  "ancho_columna_pulg": 3.5,
+  "ancho_doble_pulg": 7.2,
+  "dpi_png": 300,
+  "sombreado_shock": "#BBBBBB",
+  "titulo_en_imagen": false,
+  "idioma": "en"
+}

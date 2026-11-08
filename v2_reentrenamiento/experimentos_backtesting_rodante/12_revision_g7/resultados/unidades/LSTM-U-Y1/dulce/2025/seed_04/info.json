@@ -1,0 +1,58 @@
+{
+  "n_params": 2417,
+  "entradas_rama_a": [
+    "produccion_t_dulce",
+    "produccion_t_dulce_lag1",
+    "produccion_t_dulce_lag3",
+    "produccion_t_dulce_lag6",
+    "mes_sin",
+    "mes_cos"
+  ],
+  "entradas_rama_b": null,
+  "protocolo": "Y1",
+  "scaler_fechas_ajuste": [
+    "2016-07",
+    "2024-12"
+  ],
+  "pesos_geograficos_fin": "2024-12",
+  "train_objetivos": [
+    "2017-01",
+    "2024-12"
+  ],
+  "train_contexto_max": [
+    "2016-12",
+    "2024-11"
+  ],
+  "val_objetivos": null,
+  "test_objetivos": [
+    "2025-01",
+    "2025-12"
+  ],
+  "test_contexto_max": [
+    "2024-12",
+    "2025-11"
+  ],
+  "fit_seconds": 4.223753899997973,
+  "epocas_fijas": 31,
+  "epocas_de": "12_revision_g7\\resultados\\unidades\\LSTM-U\\dulce\\2025\\seed_04",
+  "lr_por_epoca_de": "12_revision_g7\\resultados\\unidades\\LSTM-U\\dulce\\2025\\seed_04/history.csv (columna learning_rate)",
+  "lr_primera_ultima": [
+    0.0010000000474974,
+    0.0005000000237487
+  ],
+  "determinismo": {
+    "seed": 4,
+    "pythonhashseed": "4",
+    "tf_enable_onednn_opts": "0",
+    "tf_deterministic_ops": "1",
+    "tensorflow_previously_loaded": false,
+    "keras_set_random_seed_used": true,
+    "enable_op_determinism_used": true
+  },
+  "modelo": "LSTM-U-Y1",
+  "cultivar": "dulce",
+  "anio_test": 2025,
+  "semilla": 4,
+  "segundos_unidad": 11.85756389999733,
+  "utc": "2026-10-31T18:44:33.437293+00:00"
+}

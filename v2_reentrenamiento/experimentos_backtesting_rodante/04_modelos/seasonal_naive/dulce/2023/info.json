@@ -1,0 +1,25 @@
+{
+  "unidad": {
+    "modelo": "Seasonal Naive",
+    "cultivar": "dulce",
+    "anio": 2023,
+    "semilla": null
+  },
+  "ventana": {
+    "anio_test": 2023,
+    "origen": "2022-12",
+    "fin_train": "2021-12",
+    "val_inicio": "2022-01",
+    "val_fin": "2022-12",
+    "test_inicio": "2023-01",
+    "test_fin": "2023-12",
+    "en_ranking": true,
+    "en_sensibilidad_2023_2025": true
+  },
+  "rezago": 12,
+  "n_por_particion": {
+    "train": 60,
+    "val": 12,
+    "test": 12
+  }
+}

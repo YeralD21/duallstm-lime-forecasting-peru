@@ -1,0 +1,22 @@
+{
+  "unidad": {
+    "modelo": "ElasticNet",
+    "cultivar": "sutil",
+    "anio": 2024,
+    "semilla": null
+  },
+  "etapa": "05_lineales",
+  "hash_config": "461f56a61c306ab03da341128ceef8b4986a5db1514adb125aa07c28fd3e9d68",
+  "hash_codigo": "0c1553b8e012c69b721e0ab2acdadea294e33d820f4f45a7dc3b515e5fcc564a",
+  "archivos": {
+    "info.json": "f26004ec8adb091e24d834ec7d6dab4fc5a29409cbf93fcad2827a5841500ba1",
+    "predicciones.csv": "5310962a3b044011daf840855d2928e1cc8c0e588efeafb6a00fc5bcb9ddd403",
+    "rejilla.csv": "d9d469a4ace6d357d182ef09a8f680c72d5520d6a6591ef7fe95631b6a912b95"
+  },
+  "segundos": 0.04404699999940931,
+  "fin": "2026-10-28T19:32:51-05:00",
+  "resumen": {
+    "elegido": "a=10,l1=0.8",
+    "MAE_val": 4031.6239
+  }
+}

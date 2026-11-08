@@ -1,0 +1,32 @@
+\begin{table}[H]
+\centering
+\small
+\caption{Ridge y ElasticNet: α (y l1) elegidos con la validación Y-1}
+\label{tab:T21_lineales_hiperparametros}
+\begin{tabular}{lllllll}
+\toprule
+modelo & cultivar & anio\_test & alpha & l1\_ratio & MAE\_val & control\_v3\_coincide \\
+\midrule
+Ridge & sutil & 2021 & 1.00 & -- & 3,504.28 & -- \\
+Ridge & sutil & 2022 & 10.00 & -- & 2,122.62 & -- \\
+Ridge & sutil & 2023 & 1.00 & -- & 2,332.16 & -- \\
+Ridge & sutil & 2024 & 100.00 & -- & 4,050.05 & -- \\
+Ridge & sutil & 2025 & 10.00 & -- & 2,047.11 & sí \\
+Ridge & dulce & 2021 & 10.00 & -- & 36.22 & -- \\
+Ridge & dulce & 2022 & 0.10 & -- & 25.93 & -- \\
+Ridge & dulce & 2023 & 1.00 & -- & 26.21 & -- \\
+Ridge & dulce & 2024 & 10.00 & -- & 40.93 & -- \\
+Ridge & dulce & 2025 & 100.00 & -- & 63.54 & sí \\
+ElasticNet & sutil & 2021 & 0.10 & 0.50 & 3,437.71 & -- \\
+ElasticNet & sutil & 2022 & 0.10 & 0.20 & 2,032.26 & -- \\
+ElasticNet & sutil & 2023 & 0.10 & 0.80 & 2,336.56 & -- \\
+ElasticNet & sutil & 2024 & 10.00 & 0.80 & 4,031.62 & -- \\
+ElasticNet & sutil & 2025 & 0.10 & 0.50 & 1,619.16 & sí \\
+ElasticNet & dulce & 2021 & 1.00 & 0.80 & 33.25 & -- \\
+ElasticNet & dulce & 2022 & 0.01 & 0.80 & 25.93 & -- \\
+ElasticNet & dulce & 2023 & 0.10 & 0.80 & 26.22 & -- \\
+ElasticNet & dulce & 2024 & 1.00 & 0.80 & 38.24 & -- \\
+ElasticNet & dulce & 2025 & 1.00 & 0.20 & 62.17 & sí \\
+\bottomrule
+\end{tabular}
+\end{table}

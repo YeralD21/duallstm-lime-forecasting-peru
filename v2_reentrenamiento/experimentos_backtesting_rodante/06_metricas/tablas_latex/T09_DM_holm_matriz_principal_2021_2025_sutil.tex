@@ -1,0 +1,22 @@
+\begin{table}[H]
+\centering
+\small
+\caption{DM-HLN, p-valor ajustado por Holm (EXPLORATORIO, DESV-07; familia = 45 pares) (principal\_2021\_2025, Sutil). Bajo la diagonal: global (n=60); sobre la diagonal: solo shocks P75 mensual (n=10). Signo: + = el modelo de la fila tiene más error que el de la columna}
+\label{tab:T09_DM_holm_matriz_principal_2021_2025_sutil}
+\begin{tabular}{lllllllllll}
+\toprule
+modelo & Nv & SN & Chr & SAR & SSel & Rdg & EN & X37 & GC3 & GE \\
+\midrule
+Naive & -- & 1.000+ & 0.001+ & 0.062+ & 0.545+ & 1.000- & 1.000+ & 1.000+ & 1.000+ & 1.000+ \\
+Seasonal Naive & 0.029+ & -- & 1.000+ & 1.000- & 1.000+ & 1.000- & 1.000- & 1.000- & 1.000- & 1.000- \\
+Chronos & 0.075- & 0.000- & -- & 1.000- & 1.000- & 1.000- & 1.000- & 1.000- & 1.000- & 1.000- \\
+SARIMA & 1.000- & 0.001- & 0.429+ & -- & 1.000+ & 1.000- & 1.000- & 1.000- & 1.000- & 1.000- \\
+SARIMA-sel & 1.000- & 0.000- & 1.000+ & 1.000- & -- & 1.000- & 1.000- & 1.000- & 1.000- & 1.000- \\
+Ridge & 0.978+ & 1.000- & 0.061+ & 0.598+ & 0.478+ & -- & 1.000+ & 1.000+ & 1.000+ & 1.000+ \\
+ElasticNet & 0.978+ & 1.000- & 0.045+ & 0.598+ & 0.429+ & 1.000- & -- & 1.000+ & 1.000+ & 1.000+ \\
+XGB-37 & 0.429+ & 0.978- & 0.000+ & 0.091+ & 0.019+ & 1.000- & 1.000+ & -- & 1.000- & 1.000- \\
+GC3 & 0.008+ & 1.000+ & 0.000+ & 0.002+ & 0.000+ & 0.978+ & 0.858+ & 0.029+ & -- & 1.000- \\
+GE & 0.004+ & 1.000+ & 0.000+ & 0.001+ & 0.000+ & 0.803+ & 0.598+ & 0.005+ & 0.978+ & -- \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,56 @@
+{
+  "n_params": 2417,
+  "entradas_rama_a": [
+    "produccion_t_dulce",
+    "produccion_t_dulce_lag1",
+    "produccion_t_dulce_lag3",
+    "produccion_t_dulce_lag6",
+    "mes_sin",
+    "mes_cos"
+  ],
+  "entradas_rama_b": null,
+  "protocolo": "orig",
+  "scaler_fechas_ajuste": [
+    "2016-07",
+    "2020-12"
+  ],
+  "pesos_geograficos_fin": "2020-12",
+  "train_objetivos": [
+    "2017-01",
+    "2020-12"
+  ],
+  "train_contexto_max": [
+    "2016-12",
+    "2020-11"
+  ],
+  "val_objetivos": [
+    "2021-01",
+    "2021-12"
+  ],
+  "test_objetivos": [
+    "2022-01",
+    "2022-12"
+  ],
+  "test_contexto_max": [
+    "2021-12",
+    "2022-11"
+  ],
+  "fit_seconds": 8.279257999998663,
+  "mejor_epoca": 32,
+  "epocas_corridas": 47,
+  "determinismo": {
+    "seed": 3,
+    "pythonhashseed": "3",
+    "tf_enable_onednn_opts": "0",
+    "tf_deterministic_ops": "1",
+    "tensorflow_previously_loaded": false,
+    "keras_set_random_seed_used": true,
+    "enable_op_determinism_used": true
+  },
+  "modelo": "LSTM-U",
+  "cultivar": "dulce",
+  "anio_test": 2022,
+  "semilla": 3,
+  "segundos_unidad": 15.835488399996393,
+  "utc": "2026-10-31T18:36:00.845319+00:00"
+}

@@ -1,0 +1,4582 @@
+{
+ "segundos_total": 1020.0309932000018,
+ "procesos": 8,
+ "unidades": [
+  {
+   "modelo": "Ridge-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": null,
+   "estado": "saltada",
+   "segundos": 0.0
+  },
+  {
+   "modelo": "Ridge-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 7.45
+  },
+  {
+   "modelo": "Ridge-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 7.53
+  },
+  {
+   "modelo": "Ridge-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 7.56
+  },
+  {
+   "modelo": "Ridge-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 7.57
+  },
+  {
+   "modelo": "Ridge-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 7.57
+  },
+  {
+   "modelo": "Ridge-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 7.57
+  },
+  {
+   "modelo": "ElasticNet-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": null,
+   "estado": "saltada",
+   "segundos": 0.0
+  },
+  {
+   "modelo": "Ridge-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 7.57
+  },
+  {
+   "modelo": "Ridge-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 7.6
+  },
+  {
+   "modelo": "ElasticNet-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 7.72
+  },
+  {
+   "modelo": "ElasticNet-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 7.72
+  },
+  {
+   "modelo": "Ridge-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 7.85
+  },
+  {
+   "modelo": "ElasticNet-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 7.7
+  },
+  {
+   "modelo": "ElasticNet-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 7.75
+  },
+  {
+   "modelo": "ElasticNet-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 7.73
+  },
+  {
+   "modelo": "ElasticNet-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 7.75
+  },
+  {
+   "modelo": "ElasticNet-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 7.82
+  },
+  {
+   "modelo": "ElasticNet-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 7.54
+  },
+  {
+   "modelo": "ElasticNet-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 7.56
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 8.1
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 8.17
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 8.19
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 8.24
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 8.27
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 8.27
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 7.98
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 8.04
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 7.77
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 7.91
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 7.96
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 7.95
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 7.9
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 8.0
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 7.82
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 7.89
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 7.72
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 7.77
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 7.75
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 7.95
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 7.97
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 7.93
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 7.98
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 0,
+   "estado": "saltada",
+   "segundos": 0.0
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 8.0
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 7.91
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 8.04
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 7.97
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 7.97
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 8.05
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 8.04
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 7.84
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 7.83
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 7.77
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 7.84
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 7.84
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 7.75
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 7.82
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 7.81
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 7.89
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 7.97
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 7.92
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 7.89
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 7.96
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 7.91
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 7.85
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 7.97
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 8.98
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 9.06
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 9.03
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 9.0
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 8.99
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 8.99
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 8.92
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 8.97
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 7.84
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 7.87
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 7.87
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 7.87
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 7.94
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 7.94
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 7.92
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 7.84
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 9.09
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 9.02
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 9.08
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 9.0
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 9.03
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 9.0
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 9.15
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 9.14
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 8.2
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 8.28
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 8.24
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 8.24
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 8.23
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 8.2
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 8.18
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 8.28
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 7.84
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 7.91
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 7.87
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 7.73
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 7.81
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 7.82
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 7.81
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 7.83
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 7.95
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 7.92
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 7.98
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 7.73
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 7.82
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 7.89
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 7.78
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 7.83
+  },
+  {
+   "modelo": "SARIMA-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 2.19
+  },
+  {
+   "modelo": "SARIMA-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": null,
+   "estado": "saltada",
+   "segundos": 0.0
+  },
+  {
+   "modelo": "SARIMA-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 2.25
+  },
+  {
+   "modelo": "SARIMA-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 2.24
+  },
+  {
+   "modelo": "SARIMA-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 2.18
+  },
+  {
+   "modelo": "SARIMA-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 2.08
+  },
+  {
+   "modelo": "SARIMA-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 2.04
+  },
+  {
+   "modelo": "SARIMA-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 2.17
+  },
+  {
+   "modelo": "SARIMA-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 2.13
+  },
+  {
+   "modelo": "SARIMA-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 2.14
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 7.92
+  },
+  {
+   "modelo": "SARIMA-sel-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": null,
+   "estado": "saltada",
+   "segundos": 0.0
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 7.96
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 7.92
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 8.01
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 7.79
+  },
+  {
+   "modelo": "SARIMA-sel-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 2.61
+  },
+  {
+   "modelo": "SARIMA-sel-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 2.28
+  },
+  {
+   "modelo": "SARIMA-sel-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 2.29
+  },
+  {
+   "modelo": "SARIMA-sel-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 2.42
+  },
+  {
+   "modelo": "SARIMA-sel-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 2.31
+  },
+  {
+   "modelo": "SARIMA-sel-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 3.46
+  },
+  {
+   "modelo": "SARIMA-sel-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 3.56
+  },
+  {
+   "modelo": "SARIMA-sel-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 2.97
+  },
+  {
+   "modelo": "SARIMA-sel-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 2.27
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 15.56
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 16.06
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 17.18
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 17.33
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 17.75
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 18.32
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 18.42
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 17.23
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 16.57
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 15.91
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 17.65
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 17.61
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 18.15
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 17.35
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 18.13
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 18.56
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 14.78
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 16.79
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 14.33
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 16.07
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 14.57
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 17.69
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 16.84
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 0,
+   "estado": "saltada",
+   "segundos": 0.0
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 16.81
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 16.26
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 15.38
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 14.61
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 14.72
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 14.92
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 14.24
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 14.36
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 14.44
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 13.79
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 14.28
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 15.14
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 13.76
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 14.64
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 13.79
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 13.93
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 17.1
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 15.61
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 14.8
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 13.41
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 13.68
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 16.5
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 17.01
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 19.66
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 16.18
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 14.82
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 15.22
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 15.97
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 14.89
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 16.49
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 16.08
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 15.81
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 15.35
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 15.0
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 16.29
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 16.45
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 15.28
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 15.06
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 15.73
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 16.52
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 16.97
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 14.54
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 15.73
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 15.55
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 17.54
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 15.37
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 16.2
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 14.11
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 14.58
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 15.78
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 14.06
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 14.19
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 14.97
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 14.97
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 14.69
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 14.41
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 15.38
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 15.16
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 14.97
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 16.57
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 15.0
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 14.74
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 18.77
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 17.04
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 14.87
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 14.07
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 14.89
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 16.68
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 15.75
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 16.38
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 14.97
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 13.88
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 13.84
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 13.76
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 15.77
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 15.45
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 14.78
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 16.14
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 16.36
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 16.45
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 16.14
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 14.67
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 15.49
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 16.44
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 15.72
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 14.91
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 14.49
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 19.18
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 18.02
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 14.72
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 17.6
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 18.27
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 14.82
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 18.99
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 15.08
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 14.06
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 16.38
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 14.38
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 14.92
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 0,
+   "estado": "saltada",
+   "segundos": 0.0
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 14.43
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 14.23
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 14.99
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 16.28
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 13.75
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 14.13
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 14.55
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 13.64
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 14.06
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 13.86
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 14.75
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 14.25
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 13.89
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 13.46
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 13.71
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 13.91
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 12.83
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 13.26
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 13.78
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 15.38
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 13.9
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 16.85
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 13.07
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 13.21
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 13.17
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 16.23
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 15.51
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 14.79
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 15.82
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 14.43
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 17.81
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 13.97
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 13.97
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 15.1
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 17.64
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 14.34
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 16.83
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 16.53
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 17.31
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 16.8
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 16.26
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 14.36
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 15.28
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 15.61
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 15.47
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 14.11
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 13.99
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 14.74
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 15.83
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 13.91
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 15.64
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 13.9
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 14.73
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 14.32
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 14.77
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 14.65
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 15.72
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 15.47
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 16.24
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 16.63
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 16.84
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 15.05
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 14.62
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 15.0
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 17.02
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 15.89
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 15.52
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 14.87
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 15.63
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 16.33
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 14.51
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 18.46
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 15.24
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 15.35
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 15.12
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 16.19
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 22.07
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 17.59
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 20.02
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 19.75
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 18.44
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 22.4
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 18.37
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 24.95
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 18.99
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 16.24
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 22.39
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 17.13
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 25.63
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 28.62
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 25.12
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 22.32
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 16.14
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 26.15
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 20.84
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 19.57
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 17.85
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 22.15
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 31.97
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 0,
+   "estado": "saltada",
+   "segundos": 0.0
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 22.32
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 26.1
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 21.03
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 22.13
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 17.35
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 20.53
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 16.83
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 14.61
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 23.76
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 15.32
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 17.11
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 16.81
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 15.88
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 15.36
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 16.26
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 16.32
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 17.16
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 18.07
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 28.03
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 30.09
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 36.13
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 33.55
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 18.54
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 39.18
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 32.0
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 20.19
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 21.48
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 23.45
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 22.1
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 30.58
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 25.24
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 25.74
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 26.41
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 19.78
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 20.2
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 21.36
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 22.01
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 22.81
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 17.47
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 19.32
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 20.39
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 19.41
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 19.66
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 18.05
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 16.42
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 17.28
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 17.68
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 19.11
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 18.51
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 18.17
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 17.85
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 17.46
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 17.35
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 17.95
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 16.92
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 17.5
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 15.88
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 17.55
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 19.81
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 19.45
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 17.74
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 17.72
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 18.88
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 16.74
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 20.09
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 18.92
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 20.83
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 15.88
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 18.73
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 18.52
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 17.95
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 20.58
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 19.64
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 19.95
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 17.02
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 16.91
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 19.53
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 17.82
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 22.48
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 18.1
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 16.65
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 15.61
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 16.08
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 15.9
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 16.33
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 15.9
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 15.0
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 16.1
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 16.16
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 16.4
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 16.15
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 15.47
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 19.89
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 18.52
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 16.38
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 16.29
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 17.04
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 16.15
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 16.21
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 0,
+   "estado": "saltada",
+   "segundos": 0.0
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 16.41
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 16.81
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 16.09
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 16.05
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 16.22
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 15.59
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 15.96
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 18.12
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 17.65
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 18.07
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 17.63
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 17.83
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 18.15
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 15.64
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 15.49
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 15.2
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 17.12
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 19.77
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 22.49
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 19.83
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 23.99
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 20.19
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 18.61
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 16.67
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 18.33
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 16.75
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 17.52
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 18.39
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 26.44
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 19.71
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 17.49
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 18.58
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 15.75
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 16.36
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 15.89
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 15.05
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 15.09
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 17.15
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 15.02
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 15.23
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 14.95
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 15.33
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 15.24
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 15.01
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 17.13
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 15.19
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 16.33
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 16.03
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 16.91
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 21.2
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 19.65
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 20.95
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 19.77
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 16.75
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 19.48
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 23.58
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 16.5
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 15.62
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 15.88
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 15.28
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 17.3
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 15.6
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 15.38
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 15.15
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 15.23
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 16.04
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 15.68
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 1,
+   "estado": "ok",
+   "segundos": 16.16
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 2,
+   "estado": "ok",
+   "segundos": 15.9
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 4,
+   "estado": "ok",
+   "segundos": 16.02
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 5,
+   "estado": "ok",
+   "segundos": 15.99
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 3,
+   "estado": "ok",
+   "segundos": 22.58
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 6,
+   "estado": "ok",
+   "segundos": 16.18
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 7,
+   "estado": "ok",
+   "segundos": 16.1
+  },
+  {
+   "modelo": "Chronos-small",
+   "cultivar": "sutil",
+   "anio": 2018,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 10.06
+  },
+  {
+   "modelo": "Chronos-small",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": null,
+   "estado": "saltada",
+   "segundos": 0.0
+  },
+  {
+   "modelo": "Chronos-small",
+   "cultivar": "sutil",
+   "anio": 2019,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 10.04
+  },
+  {
+   "modelo": "Chronos-small",
+   "cultivar": "sutil",
+   "anio": 2020,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 10.17
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 8,
+   "estado": "ok",
+   "segundos": 16.62
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": 9,
+   "estado": "ok",
+   "segundos": 16.16
+  },
+  {
+   "modelo": "Chronos-small",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 10.02
+  },
+  {
+   "modelo": "Chronos-small",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 10.37
+  },
+  {
+   "modelo": "Chronos-small",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 10.25
+  },
+  {
+   "modelo": "Chronos-small",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 10.14
+  },
+  {
+   "modelo": "Chronos-small",
+   "cultivar": "dulce",
+   "anio": 2018,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 9.98
+  },
+  {
+   "modelo": "Chronos-small",
+   "cultivar": "dulce",
+   "anio": 2019,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 9.86
+  },
+  {
+   "modelo": "Chronos-small",
+   "cultivar": "dulce",
+   "anio": 2020,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 9.94
+  },
+  {
+   "modelo": "Chronos-small",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 10.02
+  },
+  {
+   "modelo": "Chronos-small",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 9.86
+  },
+  {
+   "modelo": "Chronos-small",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 10.25
+  },
+  {
+   "modelo": "Chronos-small",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 10.24
+  },
+  {
+   "modelo": "Chronos-base",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": null,
+   "estado": "saltada",
+   "segundos": 0.0
+  },
+  {
+   "modelo": "Chronos-small",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 10.12
+  },
+  {
+   "modelo": "Chronos-base",
+   "cultivar": "sutil",
+   "anio": 2018,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 11.65
+  },
+  {
+   "modelo": "Chronos-base",
+   "cultivar": "sutil",
+   "anio": 2019,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 11.48
+  },
+  {
+   "modelo": "Chronos-base",
+   "cultivar": "sutil",
+   "anio": 2020,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 11.58
+  },
+  {
+   "modelo": "Chronos-base",
+   "cultivar": "sutil",
+   "anio": 2021,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 11.84
+  },
+  {
+   "modelo": "Chronos-base",
+   "cultivar": "sutil",
+   "anio": 2022,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 12.09
+  },
+  {
+   "modelo": "Chronos-base",
+   "cultivar": "sutil",
+   "anio": 2023,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 12.68
+  },
+  {
+   "modelo": "Chronos-base",
+   "cultivar": "sutil",
+   "anio": 2025,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 12.65
+  },
+  {
+   "modelo": "Chronos-base",
+   "cultivar": "dulce",
+   "anio": 2018,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 12.48
+  },
+  {
+   "modelo": "Chronos-base",
+   "cultivar": "dulce",
+   "anio": 2019,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 12.39
+  },
+  {
+   "modelo": "Chronos-base",
+   "cultivar": "dulce",
+   "anio": 2020,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 12.39
+  },
+  {
+   "modelo": "Chronos-base",
+   "cultivar": "dulce",
+   "anio": 2021,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 12.38
+  },
+  {
+   "modelo": "Chronos-base",
+   "cultivar": "dulce",
+   "anio": 2022,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 12.05
+  },
+  {
+   "modelo": "Chronos-base",
+   "cultivar": "dulce",
+   "anio": 2023,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 11.36
+  },
+  {
+   "modelo": "Chronos-base",
+   "cultivar": "dulce",
+   "anio": 2025,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 10.58
+  },
+  {
+   "modelo": "Chronos-base",
+   "cultivar": "dulce",
+   "anio": 2024,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 10.69
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+Caption (suggested): MAE in normal months (light) and in shock months (hatched; monthly P75 threshold) for each model, sour lime (limón sutil), pooled 2021–2025, with paired bootstrap 95% CIs.
+
+Reading: Lowest MAE in normal months: Chronos (2,221.6 t); lowest in shock months: Chronos (4,783.5 t).
+Shock months: 10 of 60; error bars are paired bootstrap 95% CIs (resampling within normal or shock months).

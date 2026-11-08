@@ -1,0 +1,25 @@
+{
+  "unidad": {
+    "modelo": "GE",
+    "cultivar": "sutil",
+    "anio": 2024,
+    "semilla": 2
+  },
+  "etapa": "07_lstm",
+  "hash_config": "461f56a61c306ab03da341128ceef8b4986a5db1514adb125aa07c28fd3e9d68",
+  "hash_codigo": "8eed4b4497106d50210c6e9837669079b42edc24abd53079d642b2983b2df94e",
+  "archivos": {
+    "checkpoint_best.keras": "49f22a774bbfaf3eee3f9165ffed2f10970120deb3696ff9459d179a1ea6c18b",
+    "estado_final.json": "e7fe100136a0a9593a4adfc83a5e248c99527d040d6b2899c048790a4ae49423",
+    "history.csv": "4899b3e84167c0d1cd939fd3285891999f0d8a70f19e00b22d17fe1c51577996",
+    "predicciones.csv": "9c79747220d2e151af588b4ef9eee269e8b6e1e79b6484b996c2b76faeaef5d4"
+  },
+  "segundos": 9.709338999997271,
+  "fin": "2026-10-28T19:59:44-05:00",
+  "resumen": {
+    "n_test": 12,
+    "mejor_epoca": 12,
+    "epocas": 27,
+    "fit_seconds": 4.14
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "generado": "2026-09-07 20:51:53",
+  "proposito": "Registro del estado PREVIO a la regeneracion de Fase 2 v2 (D14-D21). Linea base de reproducibilidad.",
+  "convencion_sha256": "NUEVA en v2. No existia en v1 ni en la Fase 2 v2 original.",
+  "artefactos_afectados": [
+    {
+      "ruta": "data/processed/master_dataset_sutil_v2.csv",
+      "existe": true,
+      "nota": "SERA REGENERADO (pesos crop-aware; -precio_chacra_kg, -n_provincias)",
+      "sha256_previo": "149b3a310e5be0d18b019b5441fc4a3c5c55b51dd403aded27e6dfd41d8647cf",
+      "bytes": 14975,
+      "shape_previo": [
+        120,
+        18
+      ]
+    },
+    {
+      "ruta": "data/processed/master_dataset_dulce_v2.csv",
+      "existe": true,
+      "nota": "SERA REGENERADO (idem)",
+      "sha256_previo": "92c7aa2ef00e5c1978a9e9c76e95dc3b998dc52391c8428566abf95dfcffa06a",
+      "bytes": 14640,
+      "shape_previo": [
+        120,
+        18
+      ]
+    },
+    {
+      "ruta": "data/processed/master_dataset_sutil_v2_features.csv",
+      "existe": true,
+      "nota": "SERA REGENERADO (exogenas solo rezagadas + t_index calendario)",
+      "sha256_previo": "246ee6da96096849a04957626d86769de6e393577a7fc5bb4f4c7cc68976b382",
+      "bytes": 29835,
+      "shape_previo": [
+        114,
+        33
+      ]
+    },
+    {
+      "ruta": "data/processed/master_dataset_dulce_v2_features.csv",
+      "existe": true,
+      "nota": "SERA REGENERADO (idem)",
+      "sha256_previo": "491f47b79404994d4cc52f2da5100dba48f72187caca33102e11be42bd7e302b",
+      "bytes": 28570,
+      "shape_previo": [
+        114,
+        33
+      ]
+    },
+    {
+      "ruta": "data/processed/master_dataset_sutil_v2_escalado.csv",
+      "existe": true,
+      "nota": "SERA REGENERADO (scaler nuevo)",
+      "sha256_previo": "fd67799205ce4fb21af230df0d6b176d000be10600ff2cd0d64639aa2f5062fa",
+      "bytes": 69561,
+      "shape_previo": [
+        114,
+        33
+      ]
+    },
+    {
+      "ruta": "data/processed/master_dataset_dulce_v2_escalado.csv",
+      "existe": true,
+      "nota": "SERA REGENERADO (idem)",
+      "sha256_previo": "128c2b7422264c69618a721e7a8df9fd65edb2aa391cbd1526645b253d22d0ec",
+      "bytes": 69561,
+      "shape_previo": [
+        114,
+        33
+      ]
+    },
+    {
+      "ruta": "resultados_v2_final/scalers/scaler_sutil.joblib",
+      "existe": true,
+      "nota": "OBSOLETO — 28 features, pre-t_index",
+      "sha256_previo": "ae56e96629b430caea1e79e1564a640410cf631e566982021db1513697366943",
+      "bytes": 1991
+    },
+    {
+      "ruta": "resultados_v2_final/scalers/scaler_dulce.joblib",
+      "existe": true,
+      "nota": "OBSOLETO — 28 features, pre-t_index",
+      "sha256_previo": "11882a64812d8ffb336fb854b19fc7fd4b89124c489d69ac041c7eb2f4428a91",
+      "bytes": 1991
+    },
+    {
+      "ruta": "resultados_v2_final/scalers/scaler_sutil_v2b_tindex.joblib",
+      "existe": true,
+      "nota": "OBSOLETO — 29 features, esquema de columnas anterior",
+      "sha256_previo": "c7a8848e596e10ca4e651d3aa28094892ee9879d6f5f7815d41b8e8e35e96db3",
+      "bytes": 1999
+    },
+    {
+      "ruta": "resultados_v2_final/scalers/scaler_dulce_v2b_tindex.joblib",
+      "existe": true,
+      "nota": "OBSOLETO — 29 features, esquema de columnas anterior",
+      "sha256_previo": "ecc43061a02f92e5a3ab6507230694097138c91e5ea1fd2496e8964352c4deb8",
+      "bytes": 1999
+    },
+    {
+      "ruta": "notebooks/fase2_features/02_fusion_dataset_maestro.ipynb",
+      "existe": true,
+      "nota": "SERA REESCRITO",
+      "sha256_previo": "2321254dd63093e017cf6745ed961d7b0dadcd444b37ba1349bf3059106f2da5",
+      "bytes": 17920
+    },
+    {
+      "ruta": "notebooks/fase2_features/03_features_temporales.ipynb",
+      "existe": true,
+      "nota": "SERA REESCRITO",
+      "sha256_previo": "78c6a5f0ec0b92e15f922a7ac90a9a999f55c3805fb2e2255e98214809595f30",
+      "bytes": 16820
+    },
+    {
+      "ruta": "notebooks/fase2_features/04_escalado.ipynb",
+      "existe": true,
+      "nota": "SERA REESCRITO",
+      "sha256_previo": "8b82b5d353d46e32e0019c52d9b42c331a38e1f67acd275331a56dbb6ac031fe",
+      "bytes": 28009
+    }
+  ],
+  "inputs_congelados_D21": [
+    {
+      "ruta": "data/interim/limon_sutil_provincia.csv",
+      "sha256": "74566d396566122ce24780a960d77bdf797de00b0ee6d7fe5916ab8dfbe301d2",
+      "bytes": 646749
+    },
+    {
+      "ruta": "data/interim/limon_dulce_provincia.csv",
+      "sha256": "06581dd806c5ffd2f3fd8d1286e0bd34e99955c7c8716d4009a48cc711b4d81c",
+      "bytes": 157531
+    },
+    {
+      "ruta": "data/interim/limon_sutil_nacional_mensual.csv",
+      "sha256": "9e8e06c65296cc1fa2673268db20c66cef4751e08015ba4929b98d2c6f970e31",
+      "bytes": 3797
+    },
+    {
+      "ruta": "data/interim/limon_dulce_nacional_mensual.csv",
+      "sha256": "c1c32eebcca5a42c2ec485bfea560241ee34fb8b22d6887fff2111aa8eced1d4",
+      "bytes": 3558
+    },
+    {
+      "ruta": "data/interim/indeci_limpio_2016_2025.csv",
+      "sha256": "75f021ad693a5ff154f659fff025a239e5b8f25e99bd4b14d4290bff13388be9",
+      "bytes": 574243
+    },
+    {
+      "ruta": "data/raw/nasa_power/por_provincia/clima_nasa_power_2016_2025.csv",
+      "sha256": "fddd0291afd9cbe79dc87be18ad6597bce20d1d9c2d4cb7d35d94b5f9b1d867e",
+      "bytes": 1639413
+    },
+    {
+      "ruta": "data/interim/noticias/sentimiento_mensual_2016_2025.csv",
+      "sha256": "c3424fc11ef77ba9d33157ab0510aec795f8848c18ea5511b7d649e4c134cb7b",
+      "bytes": 2223
+    },
+    {
+      "ruta": "data/raw/midagri/sisagri_2015_2026.xlsx",
+      "sha256": "b7dec236a0d65c7aada297118cab584104863e6f21430fe60e279cf5293e3283",
+      "bytes": 229208492
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+\begin{table}[H]
+\centering
+\small
+\caption{$\Delta$s (\%) agregado 2021-2025 quitando un mes de shock P75 a la vez, Dulce}
+\label{tab:T12_loo_agregado_dulce}
+\begin{tabular}{llllll}
+\toprule
+modelo & n\_shock & Delta\_s & Delta\_s\_loo\_min & Delta\_s\_loo\_max & mes\_que\_mas\_cambia \\
+\midrule
+Naive & 15 & 69.8 & 68.9 & 74.3 & 2021-01 \\
+Seasonal Naive & 15 & -0.0 & -5.4 & 4.7 & 2024-03 \\
+Chronos & 15 & 56.4 & 51.7 & 63.2 & 2021-02 \\
+SARIMA & 15 & -24.1 & -34.5 & -20.4 & 2024-10 \\
+SARIMA-sel & 15 & -4.5 & -11.1 & 0.3 & 2021-01 \\
+Ridge & 15 & 31.3 & 21.7 & 37.7 & 2024-03 \\
+ElasticNet & 15 & 33.8 & 23.5 & 40.9 & 2024-03 \\
+XGB-37 & 15 & 36.4 & 30.4 & 42.9 & 2024-02 \\
+GC3 & 15 & 7.2 & -5.1 & 10.4 & 2025-03 \\
+GE & 15 & 2.0 & -9.5 & 5.5 & 2025-03 \\
+\bottomrule
+\end{tabular}
+\end{table}

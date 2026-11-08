@@ -1,0 +1,66 @@
+{
+  "nota": "Valores congelados del protocolo oficial. Ninguno se afina con ningun test.",
+  "semillas_estocasticas": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "semilla_global": 42,
+  "gc3_ge": {
+    "fuente": ["v2_reentrenamiento/src/training/config_gc3_ge.py", "v2_reentrenamiento/src/models/dual_lstm_attention.py"],
+    "lookback": 6, "batch_size": 8, "max_epochs": 300, "learning_rate": 0.001, "loss": "mse", "shuffle": false,
+    "early_stopping_patience": 15, "reduce_lr_patience": 8, "reduce_lr_factor": 0.5, "min_lr": 1e-06,
+    "parametros_esperados": {"GC3": 6273, "GE": 6657}
+  },
+  "xgb37": {
+    "fuente": "v2_reentrenamiento/src/training/config_gc2_xgboost.py",
+    "objective": "reg:squarederror", "max_depth": 2, "min_child_weight": 1, "learning_rate": 0.05, "n_estimators": 200,
+    "subsample": 0.8, "colsample_bytree": 0.8, "reg_alpha": 0.0, "reg_lambda": 1.0, "gamma": 0.0, "tree_method": "hist", "n_jobs": 1
+  },
+  "sarima_congelado": {
+    "fuente": "D49 (DECISIONES_METODOLOGICAS.md) y auditorias/evaluar_test_sarima_rolling.py:36-57",
+    "sutil": {"order": [1, 1, 1], "seasonal_order": [1, 1, 0, 12]},
+    "dulce": {"order": [1, 0, 0], "seasonal_order": [0, 1, 0, 12]},
+    "opciones": {"enforce_stationarity": false, "enforce_invertibility": false, "initialization": "approximate_diffuse", "trend": "c", "maxiter": 500},
+    "declaracion": "El orden de SARIMA-Sutil se adopto despues de ver TEST 2025 (02b_diagnostico_sarima_sutil.ipynb celdas 0, 14-15, 20)."
+  },
+  "sarima_seleccion_por_ventana_DA9": {
+    "fuente": "02_gc1_sarima_prophet.ipynb celdas 7, 9 y 11 (rejilla y opciones de ajuste); regla de eleccion DA10 = opcion (b)",
+    "rejilla": {"p": [0, 1, 2, 3], "d": [0, 1], "q": [0, 1, 2, 3], "P": [0, 1, 2], "D": [0, 1], "Q": [0, 1, 2], "m": 12},
+    "opciones_ajuste": {"enforce_stationarity": false, "enforce_invertibility": false, "initialization": "approximate_diffuse", "trend": "c"},
+    "maxiter_rejilla": 200,
+    "maxiter_candidatos_y_final": 500,
+    "n_candidatos_por_aic": 5,
+    "regla": "D-BR10: ajustar los 576 ordenes en TRAIN (maxiter 200); descartar los que fallan; ordenar por AIC ascendente (empate: orden de la rejilla); tomar los 5 primeros; reajustar cada candidato en TRAIN con maxiter 500; MAE de validacion a 1 paso sobre el ano Y-1 (forecast(steps=1) y append(refit=False) con el valor real); elegir el de menor MAE de validacion (empate: menor AIC); el modelo final es ese mismo ajuste, que sigue con el test en modo rolling identico al SARIMA congelado",
+    "registrar": ["orden elegido", "posicion en AIC del elegido (1..5) y AIC", "AIC y MAE de validacion de los 5 candidatos", "n ordenes fallidos", "bandera de convergencia"]
+  },
+  "ridge": {
+    "regla_DA4_revisada": "alpha se reelige en cada ventana por MAE en la validacion de esa ventana (ano Y-1) sobre la rejilla de v3; el ajuste final es el ajuste en TRAIN con el alpha elegido (sin reajuste con validacion); empate: primero en el orden de la rejilla",
+    "control_2025_v3": {"sutil": {"alpha": 10}, "dulce": {"alpha": 100}, "fuente": "v3_robustez_metodologica/resultados/resultados_baselines_clasicos.csv (columna selection)"},
+    "implementacion": "sklearn.linear_model.Ridge(fit_intercept=True); X estandarizado con media y desviacion poblacional del TRAIN de la ventana; y en toneladas"
+  },
+  "elasticnet": {
+    "regla_DA4_revisada": "(alpha, l1_ratio) se reeligen en cada ventana por MAE en la validacion de esa ventana (ano Y-1) sobre la rejilla de v3; el ajuste final es el ajuste en TRAIN con los valores elegidos (sin reajuste con validacion); empate: primero en el orden de la rejilla (alpha externo, l1 interno)",
+    "control_2025_v3": {"sutil": {"alpha": 0.1, "l1_ratio": 0.5}, "dulce": {"alpha": 1, "l1_ratio": 0.2}, "fuente": "v3_robustez_metodologica/resultados/resultados_baselines_clasicos.csv (columna selection)"},
+    "implementacion": "sklearn.linear_model.ElasticNet(max_iter=100000, tol=1e-10, selection='cyclic'); X estandarizado con media y desviacion poblacional del TRAIN de la ventana; y en toneladas"
+  },
+  "rejilla_v3_lineales": {
+    "fuente": "v3_robustez_metodologica/configs/config_robustez.json",
+    "alphas": [0.001, 0.01, 0.1, 1, 10, 100], "l1_ratios": [0.2, 0.5, 0.8]
+  },
+  "xgb43_exploratorio": {
+    "fuente": "v2_reentrenamiento/extensiones_posthoc/xgboost_nlp/src/pipeline_xgb43.py:47-48, 126-128",
+    "predictores": "los 37 de XGB-37 + avg_sentiment_lag1/3/6 + n_noticias_lag1/3/6 (43)",
+    "parametros": "identicos a xgb37",
+    "estado": "POST-HOC; tabla aparte; fuera del ranking"
+  },
+  "chronos": {
+    "model_id": "amazon/chronos-bolt-tiny", "snapshot": "a0e552de83495b5c28c14c71c374f3e33280b340",
+    "vendor": "v4_benchmark_moderno/vendor", "prediction_length": 1, "cuantil": 0.5, "contexto": "2016-01..t-1",
+    "torch_threads": 4, "dtype": "float32", "offline": true
+  },
+  "sobreajuste_DA6": {
+    "metrica": "razon = MAE_val / MAE_train en toneladas (LSTM: pesos restaurados de la mejor epoca; resto: ajuste final)",
+    "umbral_sobreajuste": 2.0,
+    "senal_aparte": "no supera al Naive: MAE_train >= MAE_train(Naive) o MAE_val >= MAE_val(Naive)",
+    "advertencia": "En Sutil la validacion 2024 tiene un nivel medio mayor que el train; la razon se infla por escala. Se indica en cada grafico."
+  },
+  "bootstrap": {"B": 10000, "semilla": 42, "tipo": "iid pareado sobre meses, estratificado por ventana", "sensibilidad": "bloques de 3 meses", "nivel": 0.95},
+  "agregacion_semillas_DA8": "promedio mensual del error absoluto entre las 10 semillas; bootstrap y Diebold-Mariano usan ese promedio; la dispersion entre semillas se reporta aparte"
+}

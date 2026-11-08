@@ -1,0 +1,4 @@
+Caption (suggested): Validation/training MAE ratio for each trained model, window and seed (points), sour lime (limón sutil); grey bars: same ratio for the Naive forecast on the training and validation months of the tabular models (on the LSTM months, which start in 2017-01, it differs by at most 0.030); dashed line: overfitting flag at 2.0, specified in the protocol. In Sutil the validation year has a higher mean level than the training period in 2021, 2022, 2023, 2025, which inflates the ratio.
+
+Reading: Runs with ratio > 2: Ridge 1/5, ElasticNet 1/5, XGB-37 50/50, GC3 31/50, GE 28/50; the Naive ratio in the same months ranges 0.59–1.43.
+As specified in the protocol, the 2.0 flag marks almost all XGB runs; it must be read against the Naive ratio, not on its own.

@@ -1,0 +1,25 @@
+{
+  "unidad": {
+    "modelo": "GC3",
+    "cultivar": "dulce",
+    "anio": 2021,
+    "semilla": 4
+  },
+  "etapa": "07_lstm",
+  "hash_config": "461f56a61c306ab03da341128ceef8b4986a5db1514adb125aa07c28fd3e9d68",
+  "hash_codigo": "8eed4b4497106d50210c6e9837669079b42edc24abd53079d642b2983b2df94e",
+  "archivos": {
+    "checkpoint_best.keras": "8e7f143781501b6c770c7ed86caa9be5a572122fc8c5b2d265d2b11fd838d8a0",
+    "estado_final.json": "914086e632012a6b06228417a89312b07ef4d64462dab487897cf54c42d0cfbc",
+    "history.csv": "ab6bb88724dff45cab9b87c5ff2cf8a5dce40b15d38d0fed165d3dac7f57a6ec",
+    "predicciones.csv": "48b596ad20121bb3c2c47faea7c1d9f298e9432ad3558c2b423805e1fa73599b"
+  },
+  "segundos": 11.611139999999068,
+  "fin": "2026-10-28T19:38:47-05:00",
+  "resumen": {
+    "n_test": 12,
+    "mejor_epoca": 32,
+    "epocas": 47,
+    "fit_seconds": 5.95
+  }
+}

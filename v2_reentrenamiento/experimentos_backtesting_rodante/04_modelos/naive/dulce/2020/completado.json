@@ -1,0 +1,20 @@
+{
+  "unidad": {
+    "modelo": "Naive",
+    "cultivar": "dulce",
+    "anio": 2020,
+    "semilla": null
+  },
+  "etapa": "03_modelos_sin_ajuste",
+  "hash_config": "461f56a61c306ab03da341128ceef8b4986a5db1514adb125aa07c28fd3e9d68",
+  "hash_codigo": "a166eb50f84525f3ffd6642da4d9068834731f832880f5beed315d878c721f11",
+  "archivos": {
+    "info.json": "2c92275c7e97d0f55838a39a3c6a9065c2b0b82689014b86acc63a4236f068fd",
+    "predicciones.csv": "cc7d7168303e8f2b6fa2fcdd0410cc1a5f2f4082c89e2532bd9c87f4c2649e8a"
+  },
+  "segundos": 0.00818249999974796,
+  "fin": "2026-10-28T19:03:23-05:00",
+  "resumen": {
+    "n_test": 12
+  }
+}

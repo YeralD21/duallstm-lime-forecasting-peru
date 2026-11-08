@@ -1,0 +1,24 @@
+{
+  "unidad": {
+    "modelo": "SARIMA-sel",
+    "cultivar": "sutil",
+    "anio": 2022,
+    "semilla": null
+  },
+  "etapa": "04_sarima",
+  "hash_config": "461f56a61c306ab03da341128ceef8b4986a5db1514adb125aa07c28fd3e9d68",
+  "hash_codigo": "bfb836d909ff2451e37e6b3e003fcf339845d7245b00cff4e78edf27f0bea742",
+  "archivos": {
+    "candidatos.csv": "46eec39d34b84031521f9d7626246581362a2eae99eac8f2f161212498e36112",
+    "info.json": "7421f31c965a65c0c977f6a0a7a21e4c14a28e73997ed5e2369522d06c8404fd",
+    "predicciones.csv": "66f28e7c4b7c7f955c3a207aaa45adaad87079cdc812f93a7e21c3d70d09f837",
+    "rejilla.csv": "12955eae2fdc7c2eb9b0cda40b690b68dc5570ed8ca66e26d5889eaa0c447c71"
+  },
+  "segundos": 94.36938310000005,
+  "fin": "2026-10-28T19:10:00-05:00",
+  "resumen": {
+    "elegido": "(3, 1, 2)(2, 1, 2, 12)[AIC#4]",
+    "MAE_val": 1942.1816,
+    "convergio": true
+  }
+}

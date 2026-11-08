@@ -1,0 +1,43 @@
+{
+ "ventanas": {
+  "2021/sutil": "OK",
+  "2021/dulce": "OK",
+  "2022/sutil": "OK",
+  "2022/dulce": "OK",
+  "2023/sutil": "OK",
+  "2023/dulce": "OK",
+  "2024/sutil": "OK",
+  "2024/dulce": "OK",
+  "2025/sutil": "OK",
+  "2025/dulce": "OK"
+ },
+ "perturbacion_sarima": {
+  "2021/sutil": "OK",
+  "2021/dulce": "OK",
+  "2022/sutil": "OK",
+  "2022/dulce": "OK",
+  "2023/sutil": "OK",
+  "2023/dulce": "OK",
+  "2024/sutil": "OK",
+  "2024/dulce": "OK",
+  "2025/sutil": "OK",
+  "2025/dulce": "OK"
+ },
+ "controles_negativos": {
+  "sutil": {
+   "scaler_un_ano_extra_detectado": true,
+   "entrada_contemporanea_detectada": true,
+   "train_con_test_detectado": true
+  },
+  "dulce": {
+   "scaler_un_ano_extra_detectado": true,
+   "entrada_contemporanea_detectada": true,
+   "train_con_test_detectado": true
+  }
+ },
+ "artefactos": {
+  "unidades_revisadas": 772,
+  "fallos": "OK"
+ },
+ "OK": true
+}

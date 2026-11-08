@@ -1,0 +1,26 @@
+{
+  "order": [
+    2,
+    0,
+    3
+  ],
+  "seasonal_order": [
+    0,
+    0,
+    0,
+    12
+  ],
+  "orden_de": "04_modelos/sarima_sel/dulce/2021/info.json (orden elegido con train Y-2 y validacion Y-1)",
+  "train_inicio": "2016-07",
+  "train_fin": "2020-12",
+  "n_train": 54,
+  "avisos": [],
+  "convergio": true,
+  "parametros_invariantes_en_test": true,
+  "modelo": "SARIMA-sel-Y1",
+  "cultivar": "dulce",
+  "anio_test": 2021,
+  "semilla": null,
+  "segundos_unidad": 1.8445265000009385,
+  "utc": "2026-10-31T18:26:40.633572+00:00"
+}

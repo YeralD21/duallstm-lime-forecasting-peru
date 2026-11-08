@@ -1,0 +1,44 @@
+{
+  "unidad": {
+    "modelo": "SARIMA-sel",
+    "cultivar": "sutil",
+    "anio": 2023,
+    "semilla": null
+  },
+  "ventana": {
+    "anio_test": 2023,
+    "origen": "2022-12",
+    "fin_train": "2021-12",
+    "val_inicio": "2022-01",
+    "val_fin": "2022-12",
+    "test_inicio": "2023-01",
+    "test_fin": "2023-12",
+    "en_ranking": true,
+    "en_sensibilidad_2023_2025": true
+  },
+  "n_train": 66,
+  "train_inicio": "2016-07",
+  "train_fin": "2021-12",
+  "convergio": true,
+  "aic_train": 1406.2950967972918,
+  "parametros_invariantes": true,
+  "avisos": [],
+  "order": [
+    1,
+    1,
+    3
+  ],
+  "seasonal_order": [
+    2,
+    1,
+    1,
+    12
+  ],
+  "posicion_aic_elegido": 2,
+  "aic_elegido": 1406.2950967972918,
+  "MAE_val_elegido": 2514.291474262967,
+  "n_ordenes": 576,
+  "n_fallidos": 0,
+  "n_aic_no_finito": 0,
+  "n_no_convergidos_rejilla": 0
+}

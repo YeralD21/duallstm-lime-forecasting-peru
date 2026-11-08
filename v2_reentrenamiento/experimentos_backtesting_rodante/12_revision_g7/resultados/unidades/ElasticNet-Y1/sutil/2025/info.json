@@ -1,0 +1,25 @@
+{
+  "alpha": 0.1,
+  "l1_ratio": 0.5,
+  "hiperparametros_de": "04_modelos/elasticnet/sutil/2025/info.json (validacion Y-1)",
+  "pesos_geograficos_fin": "2024-12",
+  "estandarizador_filas": 101,
+  "train_objetivos": [
+    "2016-08",
+    "2024-12"
+  ],
+  "test_objetivos": [
+    "2025-01",
+    "2025-12"
+  ],
+  "test_x_fecha": [
+    "2024-12",
+    "2025-11"
+  ],
+  "modelo": "ElasticNet-Y1",
+  "cultivar": "sutil",
+  "anio_test": 2025,
+  "semilla": null,
+  "segundos_unidad": 6.039326299996901,
+  "utc": "2026-10-31T18:24:51.943173+00:00"
+}

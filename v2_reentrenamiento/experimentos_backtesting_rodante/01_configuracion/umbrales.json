@@ -1,0 +1,11 @@
+{
+  "definicion_mensual": "r_t = |y_t - y_(t-1)| / y_(t-1); shock si r_t > P_k (comparacion estricta)",
+  "definicion_interanual": "r_t = |y_t - y_(t-12)| / y_(t-12); shock si r_t > P_k (comparacion estricta)",
+  "historia_umbral": "cambios con fecha desde 2016-02 (mensual) o 2017-01 (interanual) hasta el origen (diciembre de Y-1), serie en toneladas; percentil lineal (numpy method='linear')",
+  "percentiles_barrido": [0, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95],
+  "puntos_reporte": [50, 60, 75, 90],
+  "principal": 75,
+  "regla_P0": "P0 = todos los meses de test son shock (umbral 0 con comparacion >=). Verificacion: Delta_s debe ser exactamente 0.",
+  "minimo_shocks_ventana_informativa": 2,
+  "robustez": "primero o empatado con el primero en >=3 de los 4 umbrales mensuales P50, P60, P75, P90; interanual aparte"
+}

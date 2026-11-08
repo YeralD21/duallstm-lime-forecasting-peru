@@ -1,0 +1,4 @@
+Caption (suggested): MAE in shock months with paired bootstrap 95% confidence intervals (i.i.d. over months, stratified by window, B = 10,000) at the reporting thresholds P50, P60, P75 and P90 (monthly), sour lime (limón sutil), 2021–2025.
+
+Reading: At P75 the lowest point estimate is Chronos (4,783.5 t, 95% CI 3,963.0–5,640.8).
+These are marginal intervals; ties are decided with paired CIs of differences (Table T08), not by overlap of these bars.

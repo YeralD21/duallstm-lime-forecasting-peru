@@ -1,0 +1,20 @@
+{
+  "unidad": {
+    "modelo": "Chronos",
+    "cultivar": "dulce",
+    "anio": 2020,
+    "semilla": null
+  },
+  "etapa": "03_modelos_sin_ajuste",
+  "hash_config": "461f56a61c306ab03da341128ceef8b4986a5db1514adb125aa07c28fd3e9d68",
+  "hash_codigo": "a166eb50f84525f3ffd6642da4d9068834731f832880f5beed315d878c721f11",
+  "archivos": {
+    "info.json": "d6e548a6ae8c8d72632f23d4a49ab7192ddf1f68b76b4bffc02bfe36b81ed316",
+    "predicciones.csv": "2d23fd506d1ec16e83bf6b110e7ae20315be059eb776bcaefe4277b0a245d3cb"
+  },
+  "segundos": 0.10779039999943052,
+  "fin": "2026-10-28T19:03:23-05:00",
+  "resumen": {
+    "n_test": 12
+  }
+}

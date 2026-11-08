@@ -1,0 +1,21 @@
+{
+  "unidad": {
+    "modelo": "XGB-43",
+    "cultivar": "sutil",
+    "anio": 2023,
+    "semilla": 4
+  },
+  "etapa": "06_xgb",
+  "hash_config": "461f56a61c306ab03da341128ceef8b4986a5db1514adb125aa07c28fd3e9d68",
+  "hash_codigo": "251e5b3b6607772969fefeda3d503a4b7329688607ed4e8bb0ac91165b4762d4",
+  "archivos": {
+    "info.json": "bb0340b8b173aa31f1d31d7b35ac4a1784071a49c4d5e8dafdc3371854c87893",
+    "model.ubj": "0ace43dc8bd7bfc76e20775fece83aa8273288f236e260e791645b87104f66f1",
+    "predicciones.csv": "0398dc0dec3326a0c0abd0fc5e3d472e23fef27f6027301cb1f0c146c4acc7a1"
+  },
+  "segundos": 0.036465400000452064,
+  "fin": "2026-10-28T19:33:00-05:00",
+  "resumen": {
+    "n_test": 12
+  }
+}

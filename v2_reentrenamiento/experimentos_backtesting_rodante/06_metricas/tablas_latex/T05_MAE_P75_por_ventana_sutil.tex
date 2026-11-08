@@ -1,0 +1,23 @@
+\begin{table}[H]
+\centering
+\small
+\caption{MAE por ventana, P75 mensual, Sutil (t)}
+\label{tab:T05_MAE_P75_por_ventana_sutil}
+\begin{tabular}{llllll}
+\toprule
+modelo & 2021 & 2022 & 2023 & 2024 & 2025 \\
+\midrule
+Naive & 1,986 & 3,762 & 4,590 & 3,078 & 4,704 \\
+Seasonal Naive & 4,590 & 4,136 & 7,638 & 9,850 & 4,160 \\
+Chronos & 2,541 & 2,205 & 3,157 & 2,023 & 3,316 \\
+SARIMA & 3,208 & 3,061 & 3,693 & 2,858 & 3,985 \\
+SARIMA-sel & 2,304 & 2,609 & 3,836 & 3,333 & 3,947 \\
+Ridge & 3,108 & 3,187 & 10,778 & 4,322 & 3,232 \\
+ElasticNet & 3,006 & 2,968 & 10,413 & 4,751 & 3,223 \\
+XGB-37 & 5,211 & 4,552 & 3,785 & 4,957 & 5,902 \\
+GC3 & 3,856 & 5,162 & 6,074 & 8,969 & 7,746 \\
+GE & 3,867 & 5,260 & 5,391 & 9,774 & 9,426 \\
+XGB-43 & 5,333 & 4,664 & 3,679 & 5,466 & 5,918 \\
+\bottomrule
+\end{tabular}
+\end{table}

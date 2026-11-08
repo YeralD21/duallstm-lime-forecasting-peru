@@ -1,0 +1,4 @@
+Caption (suggested): MAE by quartile of the absolute month-on-month relative change |Δy/y| of the test months, sour lime (limón sutil), pooled 2021–2025.
+
+Reading: In the calmest quartile (Q1) the lowest MAE is Naive (411.6 t); in the most volatile (Q4) it is SARIMA-sel (3,552.3 t).
+Quartiles are cut on the pooled 60 test months of each cultivar; tercile results are in Table T13.

@@ -1,0 +1,4 @@
+Caption (suggested): MAE in shock months (monthly P75) by model and test window, sweet lime (limón dulce). n/a = no shock month in that window.
+
+Reading: Windows without P75 shock months (cells n/a): none; the best model per informative window varies: 2021: SARIMA, 2022: SARIMA, 2023: Seasonal Naive, 2024: SARIMA-sel, 2025: SARIMA-sel.
+Per-window values rest on 2–4 months and are descriptive; the ranking uses the pooled months (Table T08).

@@ -1,0 +1,21 @@
+{
+  "unidad": {
+    "modelo": "XGB-37",
+    "cultivar": "dulce",
+    "anio": 2023,
+    "semilla": 7
+  },
+  "etapa": "06_xgb",
+  "hash_config": "461f56a61c306ab03da341128ceef8b4986a5db1514adb125aa07c28fd3e9d68",
+  "hash_codigo": "251e5b3b6607772969fefeda3d503a4b7329688607ed4e8bb0ac91165b4762d4",
+  "archivos": {
+    "info.json": "70aa81b309a95014f76ed75b83e39d9689738c49cfa43bb6237a9b7daf5945e1",
+    "model.ubj": "486e76bae30806d637b831494b968afb60b6eb2f56a2bd560ae299c787f70daa",
+    "predicciones.csv": "f4c992d8ebfe49f4231a61d97ca90a13bd6f37e1f4cef978218bb465d6c5cb97"
+  },
+  "segundos": 0.04010999999991327,
+  "fin": "2026-10-28T19:33:00-05:00",
+  "resumen": {
+    "n_test": 12
+  }
+}

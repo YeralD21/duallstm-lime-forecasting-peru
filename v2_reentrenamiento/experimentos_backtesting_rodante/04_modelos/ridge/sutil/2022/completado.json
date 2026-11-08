@@ -1,0 +1,22 @@
+{
+  "unidad": {
+    "modelo": "Ridge",
+    "cultivar": "sutil",
+    "anio": 2022,
+    "semilla": null
+  },
+  "etapa": "05_lineales",
+  "hash_config": "461f56a61c306ab03da341128ceef8b4986a5db1514adb125aa07c28fd3e9d68",
+  "hash_codigo": "0c1553b8e012c69b721e0ab2acdadea294e33d820f4f45a7dc3b515e5fcc564a",
+  "archivos": {
+    "info.json": "8f0d5c5a8142fd6c80eaeebeed99d8c571b7840d0ae2a03dc40f9a27723bac21",
+    "predicciones.csv": "2b1a3e1f4d6639db9ef5e3a64c202bae69a5f07c8fe0074484ea9f63b2e916ea",
+    "rejilla.csv": "dd5621397ef590b86c2136ec298126cbe89e0a73e5feb1b00348cead402352aa"
+  },
+  "segundos": 0.07174010000017006,
+  "fin": "2026-10-28T19:32:50-05:00",
+  "resumen": {
+    "elegido": "a=10",
+    "MAE_val": 2122.6233
+  }
+}

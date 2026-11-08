@@ -1,0 +1,4 @@
+Caption (suggested): Rank trajectories by MAE_shock across monthly threshold percentiles, sour lime (limón sutil), 2021–2025. Open circles: first place or tied with it (paired bootstrap). Dashed lines: P50, P60, P75, P90.
+
+Reading: Models ranked first at some percentile: Chronos, SARIMA-sel (rank-1 model at P50/P60/P75/P90: SARIMA-sel, SARIMA-sel, Chronos, Chronos).
+Open circles mark the first place and models statistically tied with it; rank changes between adjacent percentiles are a result, not a choice of threshold.

@@ -1,0 +1,22 @@
+\begin{table}[H]
+\centering
+\small
+\caption{MAE por cuartil de |$\Delta$y/y| mensual en test 2021-2025 (15 meses por cuartil), Sutil (t)}
+\label{tab:T13_cuartiles_sutil}
+\begin{tabular}{lllll}
+\toprule
+modelo & Q1 (0.003-0.037) & Q2 (0.037-0.097) & Q3 (0.097-0.192) & Q4 (0.192-0.571) \\
+\midrule
+Naive & 412 & 2,240 & 4,096 & 7,749 \\
+Seasonal Naive & 6,941 & 5,309 & 6,475 & 5,575 \\
+Chronos & 1,799 & 1,854 & 2,642 & 4,299 \\
+SARIMA & 3,073 & 3,334 & 2,904 & 4,132 \\
+SARIMA-sel & 3,517 & 2,730 & 3,024 & 3,552 \\
+Ridge & 3,338 & 2,757 & 4,985 & 8,621 \\
+ElasticNet & 3,296 & 2,598 & 5,252 & 8,341 \\
+XGB-37 & 5,015 & 4,749 & 4,314 & 5,448 \\
+GC3 & 6,628 & 6,527 & 5,598 & 6,693 \\
+GE & 6,998 & 7,823 & 4,976 & 7,177 \\
+\bottomrule
+\end{tabular}
+\end{table}

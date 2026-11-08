@@ -1,0 +1,1 @@
+Diebold-Mariano con corrección HLN (h=1, pérdida absoluta) por pares, global y solo meses de shock P75 mensual. Columna p_holm_exploratorio: Holm por familia de 45 pares (EXPLORATORIO, DESV-07). El MCS no se calculó.

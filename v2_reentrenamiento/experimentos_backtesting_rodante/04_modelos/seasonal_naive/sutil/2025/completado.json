@@ -1,0 +1,20 @@
+{
+  "unidad": {
+    "modelo": "Seasonal Naive",
+    "cultivar": "sutil",
+    "anio": 2025,
+    "semilla": null
+  },
+  "etapa": "03_modelos_sin_ajuste",
+  "hash_config": "461f56a61c306ab03da341128ceef8b4986a5db1514adb125aa07c28fd3e9d68",
+  "hash_codigo": "a166eb50f84525f3ffd6642da4d9068834731f832880f5beed315d878c721f11",
+  "archivos": {
+    "info.json": "c910221af2bbdb6110068581d2d6670cfb3f300041ecf85e1ca13c783d813bc0",
+    "predicciones.csv": "73597569566ae4f0057226a220da1c3dab4182b66e6564b563abf1f8100af81f"
+  },
+  "segundos": 0.007783299999573501,
+  "fin": "2026-10-28T19:03:24-05:00",
+  "resumen": {
+    "n_test": 12
+  }
+}

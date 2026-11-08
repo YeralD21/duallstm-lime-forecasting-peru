@@ -1,0 +1,25 @@
+{
+  "anio_test": 2025,
+  "cultivar": "dulce",
+  "modelo": "GE",
+  "semilla": 6,
+  "n_params": 6657,
+  "n_train": 84,
+  "n_val": 12,
+  "fit_seconds": 5.962136499998451,
+  "epocas_corridas": 43,
+  "mejor_epoca": 28,
+  "determinismo": {
+    "seed": 6,
+    "pythonhashseed": "6",
+    "tf_enable_onednn_opts": "0",
+    "tf_deterministic_ops": "1",
+    "tensorflow_previously_loaded": false,
+    "keras_set_random_seed_used": true,
+    "enable_op_determinism_used": true
+  },
+  "scaler_fechas_ajuste": [
+    "2016-07",
+    "2023-12"
+  ]
+}

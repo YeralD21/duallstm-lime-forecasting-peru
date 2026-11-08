@@ -1,0 +1,18 @@
+{
+  "modulo_chronos": "C:\\Machine-learming\\Machine-Learning-Multimodal--Agro-NLP-Clima-\\v4_benchmark_moderno\\vendor\\chronos\\__init__.py",
+  "segundos_carga": 4.480865900000936,
+  "segundos_por_pronostico_media": 0.00702256666742566,
+  "max_abs_dif_vs_v4": 2.842170943040401e-14,
+  "identico_v4": false,
+  "determinista": true,
+  "MAE": {
+    "dulce": {
+      "nuevo": 34.55715815226235,
+      "v4": 34.55715815226235
+    },
+    "sutil": {
+      "nuevo": 3316.29869140625,
+      "v4": 3316.29869140625
+    }
+  }
+}

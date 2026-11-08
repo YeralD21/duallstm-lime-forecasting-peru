@@ -1,0 +1,25 @@
+{
+  "unidad": {
+    "modelo": "GC3",
+    "cultivar": "sutil",
+    "anio": 2021,
+    "semilla": 3
+  },
+  "etapa": "07_lstm",
+  "hash_config": "461f56a61c306ab03da341128ceef8b4986a5db1514adb125aa07c28fd3e9d68",
+  "hash_codigo": "8eed4b4497106d50210c6e9837669079b42edc24abd53079d642b2983b2df94e",
+  "archivos": {
+    "checkpoint_best.keras": "35be34d71ead942bd5a32a794f391b4882bd49540943e2319a4d00a915d46ffd",
+    "estado_final.json": "9495bff2679fcf75d944ef7809ad3c2bfd68077033c99fa54a7b6e2880f0312b",
+    "history.csv": "e77a63985c68ae1875d07a0e9cf5a7e6c71ae0f65dd1be3cf783a0fc10ffde36",
+    "predicciones.csv": "733463c5a72fc8b7ea18381cc695757f6a05f38651db153d1532dc17c4590afa"
+  },
+  "segundos": 14.73313860000053,
+  "fin": "2026-10-28T19:34:04-05:00",
+  "resumen": {
+    "n_test": 12,
+    "mejor_epoca": 66,
+    "epocas": 81,
+    "fit_seconds": 9.03
+  }
+}

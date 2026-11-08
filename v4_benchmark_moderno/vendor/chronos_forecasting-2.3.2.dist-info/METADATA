@@ -1,0 +1,383 @@
+Metadata-Version: 2.5
+Name: chronos-forecasting
+Version: 2.3.2
+Summary: Chronos: Pretrained models for time series forecasting
+Project-URL: Homepage, https://github.com/amazon-science/chronos-forecasting
+Project-URL: Issues, https://github.com/amazon-science/chronos-forecasting/issues
+Project-URL: Chronos-Paper, https://arxiv.org/abs/2403.07815
+Project-URL: Chronos-2-Paper, https://arxiv.org/abs/2510.15821
+Author-email: Abdul Fatir Ansari <ansarnd@amazon.com>, Lorenzo Stella <stellalo@amazon.com>, Caner Turkmen <atturkm@amazon.com>, Oleksandr Shchur <shchuro@amazon.com>, Jaris Küken <kuekenj@amazon.com>, Andreas Auer <auerand@amazon.com>
+License: 
+                                         Apache License
+                                   Version 2.0, January 2004
+                                http://www.apache.org/licenses/
+        
+           TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+        
+           1. Definitions.
+        
+              "License" shall mean the terms and conditions for use, reproduction,
+              and distribution as defined by Sections 1 through 9 of this document.
+        
+              "Licensor" shall mean the copyright owner or entity authorized by
+              the copyright owner that is granting the License.
+        
+              "Legal Entity" shall mean the union of the acting entity and all
+              other entities that control, are controlled by, or are under common
+              control with that entity. For the purposes of this definition,
+              "control" means (i) the power, direct or indirect, to cause the
+              direction or management of such entity, whether by contract or
+              otherwise, or (ii) ownership of fifty percent (50%) or more of the
+              outstanding shares, or (iii) beneficial ownership of such entity.
+        
+              "You" (or "Your") shall mean an individual or Legal Entity
+              exercising permissions granted by this License.
+        
+              "Source" form shall mean the preferred form for making modifications,
+              including but not limited to software source code, documentation
+              source, and configuration files.
+        
+              "Object" form shall mean any form resulting from mechanical
+              transformation or translation of a Source form, including but
+              not limited to compiled object code, generated documentation,
+              and conversions to other media types.
+        
+              "Work" shall mean the work of authorship, whether in Source or
+              Object form, made available under the License, as indicated by a
+              copyright notice that is included in or attached to the work
+              (an example is provided in the Appendix below).
+        
+              "Derivative Works" shall mean any work, whether in Source or Object
+              form, that is based on (or derived from) the Work and for which the
+              editorial revisions, annotations, elaborations, or other modifications
+              represent, as a whole, an original work of authorship. For the purposes
+              of this License, Derivative Works shall not include works that remain
+              separable from, or merely link (or bind by name) to the interfaces of,
+              the Work and Derivative Works thereof.
+        
+              "Contribution" shall mean any work of authorship, including
+              the original version of the Work and any modifications or additions
+              to that Work or Derivative Works thereof, that is intentionally
+              submitted to Licensor for inclusion in the Work by the copyright owner
+              or by an individual or Legal Entity authorized to submit on behalf of
+              the copyright owner. For the purposes of this definition, "submitted"
+              means any form of electronic, verbal, or written communication sent
+              to the Licensor or its representatives, including but not limited to
+              communication on electronic mailing lists, source code control systems,
+              and issue tracking systems that are managed by, or on behalf of, the
+              Licensor for the purpose of discussing and improving the Work, but
+              excluding communication that is conspicuously marked or otherwise
+              designated in writing by the copyright owner as "Not a Contribution."
+        
+              "Contributor" shall mean Licensor and any individual or Legal Entity
+              on behalf of whom a Contribution has been received by Licensor and
+              subsequently incorporated within the Work.
+        
+           2. Grant of Copyright License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              copyright license to reproduce, prepare Derivative Works of,
+              publicly display, publicly perform, sublicense, and distribute the
+              Work and such Derivative Works in Source or Object form.
+        
+           3. Grant of Patent License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              (except as stated in this section) patent license to make, have made,
+              use, offer to sell, sell, import, and otherwise transfer the Work,
+              where such license applies only to those patent claims licensable
+              by such Contributor that are necessarily infringed by their
+              Contribution(s) alone or by combination of their Contribution(s)
+              with the Work to which such Contribution(s) was submitted. If You
+              institute patent litigation against any entity (including a
+              cross-claim or counterclaim in a lawsuit) alleging that the Work
+              or a Contribution incorporated within the Work constitutes direct
+              or contributory patent infringement, then any patent licenses
+              granted to You under this License for that Work shall terminate
+              as of the date such litigation is filed.
+        
+           4. Redistribution. You may reproduce and distribute copies of the
+              Work or Derivative Works thereof in any medium, with or without
+              modifications, and in Source or Object form, provided that You
+              meet the following conditions:
+        
+              (a) You must give any other recipients of the Work or
+                  Derivative Works a copy of this License; and
+        
+              (b) You must cause any modified files to carry prominent notices
+                  stating that You changed the files; and
+        
+              (c) You must retain, in the Source form of any Derivative Works
+                  that You distribute, all copyright, patent, trademark, and
+                  attribution notices from the Source form of the Work,
+                  excluding those notices that do not pertain to any part of
+                  the Derivative Works; and
+        
+              (d) If the Work includes a "NOTICE" text file as part of its
+                  distribution, then any Derivative Works that You distribute must
+                  include a readable copy of the attribution notices contained
+                  within such NOTICE file, excluding those notices that do not
+                  pertain to any part of the Derivative Works, in at least one
+                  of the following places: within a NOTICE text file distributed
+                  as part of the Derivative Works; within the Source form or
+                  documentation, if provided along with the Derivative Works; or,
+                  within a display generated by the Derivative Works, if and
+                  wherever such third-party notices normally appear. The contents
+                  of the NOTICE file are for informational purposes only and
+                  do not modify the License. You may add Your own attribution
+                  notices within Derivative Works that You distribute, alongside
+                  or as an addendum to the NOTICE text from the Work, provided
+                  that such additional attribution notices cannot be construed
+                  as modifying the License.
+        
+              You may add Your own copyright statement to Your modifications and
+              may provide additional or different license terms and conditions
+              for use, reproduction, or distribution of Your modifications, or
+              for any such Derivative Works as a whole, provided Your use,
+              reproduction, and distribution of the Work otherwise complies with
+              the conditions stated in this License.
+        
+           5. Submission of Contributions. Unless You explicitly state otherwise,
+              any Contribution intentionally submitted for inclusion in the Work
+              by You to the Licensor shall be under the terms and conditions of
+              this License, without any additional terms or conditions.
+              Notwithstanding the above, nothing herein shall supersede or modify
+              the terms of any separate license agreement you may have executed
+              with Licensor regarding such Contributions.
+        
+           6. Trademarks. This License does not grant permission to use the trade
+              names, trademarks, service marks, or product names of the Licensor,
+              except as required for reasonable and customary use in describing the
+              origin of the Work and reproducing the content of the NOTICE file.
+        
+           7. Disclaimer of Warranty. Unless required by applicable law or
+              agreed to in writing, Licensor provides the Work (and each
+              Contributor provides its Contributions) on an "AS IS" BASIS,
+              WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+              implied, including, without limitation, any warranties or conditions
+              of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+              PARTICULAR PURPOSE. You are solely responsible for determining the
+              appropriateness of using or redistributing the Work and assume any
+              risks associated with Your exercise of permissions under this License.
+        
+           8. Limitation of Liability. In no event and under no legal theory,
+              whether in tort (including negligence), contract, or otherwise,
+              unless required by applicable law (such as deliberate and grossly
+              negligent acts) or agreed to in writing, shall any Contributor be
+              liable to You for damages, including any direct, indirect, special,
+              incidental, or consequential damages of any character arising as a
+              result of this License or out of the use or inability to use the
+              Work (including but not limited to damages for loss of goodwill,
+              work stoppage, computer failure or malfunction, or any and all
+              other commercial damages or losses), even if such Contributor
+              has been advised of the possibility of such damages.
+        
+           9. Accepting Warranty or Additional Liability. While redistributing
+              the Work or Derivative Works thereof, You may choose to offer,
+              and charge a fee for, acceptance of support, warranty, indemnity,
+              or other liability obligations and/or rights consistent with this
+              License. However, in accepting such obligations, You may act only
+              on Your own behalf and on Your sole responsibility, not on behalf
+              of any other Contributor, and only if You agree to indemnify,
+              defend, and hold each Contributor harmless for any liability
+              incurred by, or claims asserted against, such Contributor by reason
+              of your accepting any such warranty or additional liability.
+License-File: LICENSE
+License-File: NOTICE
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.10
+Requires-Dist: accelerate<2,>=1.1.0
+Requires-Dist: einops<1,>=0.7.0
+Requires-Dist: numpy<3,>=1.21
+Requires-Dist: pandas<4,>=2.0
+Requires-Dist: torch<3,>=2.2
+Requires-Dist: transformers<6,>=4.41
+Provides-Extra: dev
+Requires-Dist: datasets<5,>=3.0; extra == 'dev'
+Requires-Dist: fev<1,>=0.8.0; extra == 'dev'
+Requires-Dist: gluonts[pro]~=0.16; extra == 'dev'
+Requires-Dist: joblib; extra == 'dev'
+Requires-Dist: rich; extra == 'dev'
+Requires-Dist: tensorboard; extra == 'dev'
+Requires-Dist: typer; extra == 'dev'
+Requires-Dist: typer-config; extra == 'dev'
+Provides-Extra: extras
+Requires-Dist: boto3<2,>=1.10; extra == 'extras'
+Requires-Dist: fev<1,>=0.8.0; extra == 'extras'
+Requires-Dist: pandas[pyarrow]<4,>=2.0; extra == 'extras'
+Requires-Dist: peft<1,>=0.18.1; extra == 'extras'
+Provides-Extra: test
+Requires-Dist: boto3<2,>=1.10; extra == 'test'
+Requires-Dist: fev<1,>=0.8.0; extra == 'test'
+Requires-Dist: peft<1,>=0.18.1; extra == 'test'
+Requires-Dist: pytest~=8.0; extra == 'test'
+Provides-Extra: typecheck
+Requires-Dist: mypy~=1.9; extra == 'typecheck'
+Description-Content-Type: text/markdown
+
+<div align="center">
+
+# Chronos: Pretrained Models for Time Series Forecasting
+
+[![preprint](https://img.shields.io/static/v1?label=Chronos-Paper&message=2403.07815&color=B31B1B&logo=arXiv)](https://arxiv.org/abs/2403.07815)
+[![preprint](https://img.shields.io/static/v1?label=Chronos-2-Report&message=2510.15821&color=B31B1B&logo=arXiv)](https://arxiv.org/abs/2510.15821)
+[![huggingface](https://img.shields.io/badge/%F0%9F%A4%97%20HF-Datasets-FFD21E)](https://huggingface.co/datasets/autogluon/chronos_datasets)
+[![huggingface](https://img.shields.io/badge/%F0%9F%A4%97%20HF-Models-FFD21E)](https://huggingface.co/collections/amazon/chronos-models-65f1791d630a8d57cb718444)
+[![fev](https://img.shields.io/static/v1?label=fev&message=Benchmark&color=B31B1B&logo=github)](https://github.com/autogluon/fev)
+[![aws](https://img.shields.io/static/v1?label=SageMaker&message=Deploy&color=FF9900&logo=amazon-web-services)](notebooks/deploy-chronos-to-amazon-sagemaker.ipynb)
+[![faq](https://img.shields.io/badge/FAQ-Questions%3F-blue)](https://github.com/amazon-science/chronos-forecasting/issues?q=is%3Aissue+label%3AFAQ)
+[![License: MIT](https://img.shields.io/badge/License-Apache--2.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
+
+</div>
+
+
+## 🚀 News
+- **5 Jun 2026**: ☁️ Deploy Chronos-2 to AWS with [AutoGluon-Cloud](https://github.com/autogluon/autogluon-cloud) — real-time, serverless, or batch inference in 3 lines of code, pandas DataFrames in, forecasts out. See the [new deployment guide](https://auto.gluon.ai/cloud/stable/tutorials/foundation-model-timeseries.html).
+- **30 Dec 2025**: 🧠 Deploy Chronos-2 to AWS with Amazon SageMaker JumpStart — production-ready real-time endpoints on CPU or GPU, ready to integrate into your existing AWS workflows. See the [deployment tutorial](notebooks/deploy-chronos-to-amazon-sagemaker.ipynb).
+- **20 Oct 2025**: 🚀 [Chronos-2](https://huggingface.co/amazon/chronos-2) released. It offers _zero-shot_ support for univariate, multivariate, and covariate-informed forecasting tasks. Chronos-2 achieves the best performance on fev-bench, GIFT-Eval and Chronos Benchmark II amongst pretrained models. Check out [this notebook](notebooks/chronos-2-quickstart.ipynb) to get started with Chronos-2.
+- **12 Dec 2024**: 📊 We released [`fev`](https://github.com/autogluon/fev), a lightweight package for benchmarking time series forecasting models based on the [Hugging Face `datasets`](https://huggingface.co/docs/datasets/en/index) library.
+- **26 Nov 2024**: ⚡️ Chronos-Bolt models released [on HuggingFace](https://huggingface.co/collections/amazon/chronos-models-65f1791d630a8d57cb718444). Chronos-Bolt models are more accurate (5% lower error), up to 250x faster and 20x more memory efficient than the original Chronos models of the same size!
+- **13 Mar 2024**: 🚀 Chronos [paper](https://arxiv.org/abs/2403.07815) and inference code released.
+
+## ✨ Introduction
+
+This package provides an interface to the Chronos family of **pretrained time series forecasting models**. The following model types are supported.
+
+- **Chronos-2**: Our latest model with significantly enhanced capabilities. It offers zero-shot support for univariate, multivariate, and covariate-informed forecasting tasks. Chronos-2 delivers state-of-the-art zero-shot performance across multiple benchmarks (including fev-bench and GIFT-Eval), with the largest improvements observed on tasks that include exogenous features. It also achieves a win rate of over 90% against Chronos-Bolt in head-to-head comparisons. To learn more about Chronos, check out the [technical report](https://arxiv.org/abs/2510.15821).
+- **Chronos-Bolt**: A patch-based variant of Chronos. It chunks the historical time series context into patches of multiple observations, which are then input into the encoder. The decoder then uses these representations to directly generate quantile forecasts across multiple future steps—a method known as direct multi-step forecasting. Chronos-Bolt models are up to 250 times faster and 20 times more memory-efficient than the original Chronos models of the same size. To learn more about Chronos-Bolt, check out this [blog post](https://aws.amazon.com/blogs/machine-learning/fast-and-accurate-zero-shot-forecasting-with-chronos-bolt-and-autogluon/).
+- **Chronos**: The original Chronos family which is based on language model architectures. A time series is transformed into a sequence of tokens via scaling and quantization, and a language model is trained on these tokens using the cross-entropy loss. Once trained, probabilistic forecasts are obtained by sampling multiple future trajectories given the historical context. To learn more about Chronos, check out the [publication](https://openreview.net/forum?id=gerNCVqqtR).
+
+### Available Models
+
+<div align="center">
+
+| Model ID                                                               | Parameters |
+| ---------------------------------------------------------------------- | ---------- |
+| [`amazon/chronos-2`](https://huggingface.co/amazon/chronos-2)   | 120M         |
+| [`autogluon/chronos-2-synth`](https://huggingface.co/autogluon/chronos-2-synth)   | 120M         |
+| [`autogluon/chronos-2-small`](https://huggingface.co/autogluon/chronos-2-small)   | 28M         |
+| [`amazon/chronos-bolt-tiny`](https://huggingface.co/amazon/chronos-bolt-tiny)   | 9M         |
+| [`amazon/chronos-bolt-mini`](https://huggingface.co/amazon/chronos-bolt-mini)   | 21M        |
+| [`amazon/chronos-bolt-small`](https://huggingface.co/amazon/chronos-bolt-small) | 48M        |
+| [`amazon/chronos-bolt-base`](https://huggingface.co/amazon/chronos-bolt-base)   | 205M       |
+| [`amazon/chronos-t5-tiny`](https://huggingface.co/amazon/chronos-t5-tiny)   | 8M         |
+| [`amazon/chronos-t5-mini`](https://huggingface.co/amazon/chronos-t5-mini)   | 20M        |
+| [`amazon/chronos-t5-small`](https://huggingface.co/amazon/chronos-t5-small) | 46M        |
+| [`amazon/chronos-t5-base`](https://huggingface.co/amazon/chronos-t5-base)   | 200M       |
+| [`amazon/chronos-t5-large`](https://huggingface.co/amazon/chronos-t5-large) | 710M       |
+
+</div>
+
+## 📈 Usage
+
+To perform inference with Chronos, the easiest way is to install this package through `pip`:
+
+```sh
+pip install chronos-forecasting
+```
+
+> [!TIP]
+> For production use, we recommend deploying Chronos-2 to Amazon SageMaker. Two options:
+> - **[AutoGluon-Cloud](https://auto.gluon.ai/cloud/stable/tutorials/foundation-model-timeseries.html)** (recommended) — high-level Python API. Pandas DataFrames in, forecasts out. Real-time, serverless, and batch inference out of the box.
+> - **[SageMaker JumpStart](notebooks/deploy-chronos-to-amazon-sagemaker.ipynb)** — production-ready real-time endpoints on CPU or GPU, ready to integrate into your existing AWS workflows.
+
+
+### Forecasting
+
+A minimal example showing how to perform forecasting using Chronos-2:
+
+```python
+import pandas as pd  # requires: pip install 'pandas[pyarrow]'
+from chronos import Chronos2Pipeline
+
+pipeline = Chronos2Pipeline.from_pretrained("amazon/chronos-2", device_map="cuda")
+
+# Load historical target values and past values of covariates
+context_df = pd.read_parquet("https://autogluon.s3.amazonaws.com/datasets/timeseries/electricity_price/train.parquet")
+
+# (Optional) Load future values of covariates
+test_df = pd.read_parquet("https://autogluon.s3.amazonaws.com/datasets/timeseries/electricity_price/test.parquet")
+future_df = test_df.drop(columns="target")
+
+# Generate predictions with covariates
+pred_df = pipeline.predict_df(
+    context_df,
+    future_df=future_df,
+    prediction_length=24,  # Number of steps to forecast
+    quantile_levels=[0.1, 0.5, 0.9],  # Quantile for probabilistic forecast
+    id_column="id",  # Column identifying different time series
+    timestamp_column="timestamp",  # Column with datetime information
+    target="target",  # Column(s) with time series values to predict
+)
+```
+
+We can now visualize the forecast:
+
+```python
+import matplotlib.pyplot as plt  # requires: pip install matplotlib
+
+ts_context = context_df.set_index("timestamp")["target"].tail(256)
+ts_pred = pred_df.set_index("timestamp")
+ts_ground_truth = test_df.set_index("timestamp")["target"]
+
+ts_context.plot(label="historical data", color="xkcd:azure", figsize=(12, 3))
+ts_ground_truth.plot(label="future data (ground truth)", color="xkcd:grass green")
+ts_pred["predictions"].plot(label="forecast", color="xkcd:violet")
+plt.fill_between(
+    ts_pred.index,
+    ts_pred["0.1"],
+    ts_pred["0.9"],
+    alpha=0.7,
+    label="prediction interval",
+    color="xkcd:light lavender",
+)
+plt.legend()
+```
+
+## Example Notebooks
+
+- [Chronos-2 Quick Start](notebooks/chronos-2-quickstart.ipynb)
+  &nbsp;
+  <a href="https://studiolab.sagemaker.aws/import/github/amazon-science/chronos-forecasting/blob/main/notebooks/chronos-2-quickstart.ipynb">
+    <img src="https://studiolab.sagemaker.aws/studiolab.svg" alt="Open In SageMaker Studio Lab" height="18" align="absmiddle">
+  </a>
+  &nbsp;
+  <a href="https://colab.research.google.com/github/amazon-science/chronos-forecasting/blob/main/notebooks/chronos-2-quickstart.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="18" align="absmiddle">
+  </a>
+- [Deploy Chronos-2 to AWS with AutoGluon-Cloud](https://auto.gluon.ai/cloud/stable/tutorials/foundation-model-timeseries.html) (recommended)
+- [Deploy Chronos-2 to AWS with SageMaker JumpStart](notebooks/deploy-chronos-to-amazon-sagemaker.ipynb)
+
+## 📝 Citation
+
+If you find Chronos models useful for your research, please consider citing the associated papers:
+
+```
+@article{ansari2024chronos,
+  title={Chronos: Learning the Language of Time Series},
+  author={Ansari, Abdul Fatir and Stella, Lorenzo and Turkmen, Caner and Zhang, Xiyuan, and Mercado, Pedro and Shen, Huibin and Shchur, Oleksandr and Rangapuram, Syama Syndar and Pineda Arango, Sebastian and Kapoor, Shubham and Zschiegner, Jasper and Maddix, Danielle C. and Mahoney, Michael W. and Torkkola, Kari and Gordon Wilson, Andrew and Bohlke-Schneider, Michael and Wang, Yuyang},
+  journal={Transactions on Machine Learning Research},
+  issn={2835-8856},
+  year={2024},
+  url={https://openreview.net/forum?id=gerNCVqqtR}
+}
+
+@article{ansari2025chronos2,
+  title        = {Chronos-2: From Univariate to Universal Forecasting},
+  author       = {Abdul Fatir Ansari and Oleksandr Shchur and Jaris Küken and Andreas Auer and Boran Han and Pedro Mercado and Syama Sundar Rangapuram and Huibin Shen and Lorenzo Stella and Xiyuan Zhang and Mononito Goswami and Shubham Kapoor and Danielle C. Maddix and Pablo Guerron and Tony Hu and Junming Yin and Nick Erickson and Prateek Mutalik Desai and Hao Wang and Huzefa Rangwala and George Karypis and Yuyang Wang and Michael Bohlke-Schneider},
+  journal      = {arXiv preprint arXiv:2510.15821},
+  year         = {2025},
+  url          = {https://arxiv.org/abs/2510.15821}
+}
+```
+
+## 🛡️ Security
+
+See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+
+## 📃 License
+
+This project is licensed under the Apache-2.0 License.

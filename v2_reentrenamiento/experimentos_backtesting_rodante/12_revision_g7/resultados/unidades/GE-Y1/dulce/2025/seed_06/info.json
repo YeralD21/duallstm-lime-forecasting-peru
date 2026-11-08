@@ -1,0 +1,96 @@
+{
+  "n_params": 6657,
+  "entradas_rama_a": [
+    "produccion_t_dulce",
+    "produccion_t_dulce_lag1",
+    "produccion_t_dulce_lag3",
+    "produccion_t_dulce_lag6"
+  ],
+  "entradas_rama_b": [
+    "mes_sin",
+    "mes_cos",
+    "t_index",
+    "T2M_lag1",
+    "T2M_lag3",
+    "T2M_lag6",
+    "T2M_MAX_lag1",
+    "T2M_MAX_lag3",
+    "T2M_MAX_lag6",
+    "WS2M_lag1",
+    "WS2M_lag3",
+    "WS2M_lag6",
+    "PRECTOTCORR_lag1",
+    "PRECTOTCORR_lag3",
+    "PRECTOTCORR_lag6",
+    "RH2M_lag1",
+    "RH2M_lag3",
+    "RH2M_lag6",
+    "num_emergencias_lag1",
+    "num_emergencias_lag3",
+    "num_emergencias_lag6",
+    "personas_afectadas_lag1",
+    "personas_afectadas_lag3",
+    "personas_afectadas_lag6",
+    "personas_damnificadas_lag1",
+    "personas_damnificadas_lag3",
+    "personas_damnificadas_lag6",
+    "hectareas_cultivo_perdidas_lag1",
+    "hectareas_cultivo_perdidas_lag3",
+    "hectareas_cultivo_perdidas_lag6",
+    "hectareas_cultivo_afectadas_lag1",
+    "hectareas_cultivo_afectadas_lag3",
+    "hectareas_cultivo_afectadas_lag6",
+    "avg_sentiment_lag1",
+    "avg_sentiment_lag3",
+    "avg_sentiment_lag6",
+    "n_noticias_lag1",
+    "n_noticias_lag3",
+    "n_noticias_lag6"
+  ],
+  "protocolo": "Y1",
+  "scaler_fechas_ajuste": [
+    "2016-07",
+    "2024-12"
+  ],
+  "pesos_geograficos_fin": "2024-12",
+  "train_objetivos": [
+    "2017-01",
+    "2024-12"
+  ],
+  "train_contexto_max": [
+    "2016-12",
+    "2024-11"
+  ],
+  "val_objetivos": null,
+  "test_objetivos": [
+    "2025-01",
+    "2025-12"
+  ],
+  "test_contexto_max": [
+    "2024-12",
+    "2025-11"
+  ],
+  "fit_seconds": 5.773325399997702,
+  "epocas_fijas": 28,
+  "epocas_de": "04_modelos\\ge_lstm_con_nlp\\dulce\\2025\\seed_06",
+  "lr_por_epoca_de": "04_modelos\\ge_lstm_con_nlp\\dulce\\2025\\seed_06/history.csv (columna learning_rate)",
+  "lr_primera_ultima": [
+    0.0010000000474974,
+    0.0010000000474974
+  ],
+  "determinismo": {
+    "seed": 6,
+    "pythonhashseed": "6",
+    "tf_enable_onednn_opts": "0",
+    "tf_deterministic_ops": "1",
+    "tensorflow_previously_loaded": false,
+    "keras_set_random_seed_used": true,
+    "enable_op_determinism_used": true
+  },
+  "modelo": "GE-Y1",
+  "cultivar": "dulce",
+  "anio_test": 2025,
+  "semilla": 6,
+  "segundos_unidad": 13.682319100000313,
+  "utc": "2026-10-31T18:33:02.563911+00:00"
+}

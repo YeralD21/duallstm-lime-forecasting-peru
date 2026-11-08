@@ -1,0 +1,78 @@
+{
+  "artefacto": "pesos_geograficos_train.csv",
+  "fecha_generacion": "2026-09-07 20:58:23",
+  "decisiones": [
+    "D14 base=verde_actual_ha",
+    "D15 media sobre TRAIN 2016-01..2023-12",
+    "D16 vectores independientes por cultivar (combinado PROHIBIDO)",
+    "D17 sin exclusion / sin piso minimo / sin suavizado",
+    "D19 SHA-256 (convencion nueva de v2)",
+    "D21 interim MIDAGRI tratado como input congelado"
+  ],
+  "variable_base": "verde_actual_ha",
+  "unidad": "ha",
+  "resumen_temporal": "media",
+  "columnas_utilizadas": [
+    "anio",
+    "mes",
+    "departamento",
+    "provincia",
+    "verde_actual_ha"
+  ],
+  "split_utilizado": {
+    "train": "2016-01..2023-12",
+    "val_excluida": "2024-01..2024-12",
+    "test_excluida": "2025-01..2025-12"
+  },
+  "procedencia": {
+    "origen_primario": "data/raw/midagri/sisagri_2015_2026.xlsx",
+    "nota_D21": "La cadena xlsx -> distrito -> provincia NO es reproducible: no existe codigo en el repositorio que la genere. Los CSV provinciales se tratan como inputs congelados y se registran por SHA-256. La reconstruccion completa de Fase 1 queda fuera del alcance de esta correccion."
+  },
+  "fuentes": {
+    "sutil": {
+      "ruta": "v2_reentrenamiento/data/interim/limon_sutil_provincia.csv",
+      "sha256": "74566d396566122ce24780a960d77bdf797de00b0ee6d7fe5916ab8dfbe301d2",
+      "bytes": 646749
+    },
+    "dulce": {
+      "ruta": "v2_reentrenamiento/data/interim/limon_dulce_provincia.csv",
+      "sha256": "06581dd806c5ffd2f3fd8d1286e0bd34e99955c7c8716d4009a48cc711b4d81c",
+      "bytes": 157531
+    }
+  },
+  "por_cultivar": {
+    "sutil": {
+      "n_provincias": 106,
+      "n_provincias_peso_positivo": 106,
+      "top1": 0.38918638652049464,
+      "top5": 0.7318692157113796,
+      "top10": 0.8694426976312916,
+      "hhi": 0.19098767760369484,
+      "n_efectivo": 5.235939891761133,
+      "n_para_50pct": 2,
+      "n_para_80pct": 7,
+      "n_para_90pct": 13,
+      "n_para_95pct": 25,
+      "suma_pesos": 1.0000000000000002
+    },
+    "dulce": {
+      "n_provincias": 28,
+      "n_provincias_peso_positivo": 28,
+      "top1": 0.3310571237586159,
+      "top5": 0.707183070505325,
+      "top10": 0.8736282615537694,
+      "hhi": 0.17234444114934747,
+      "n_efectivo": 5.802333938542503,
+      "n_para_50pct": 2,
+      "n_para_80pct": 8,
+      "n_para_90pct": 12,
+      "n_para_95pct": 17,
+      "suma_pesos": 1.0000000000000002
+    }
+  },
+  "artefacto_generado": {
+    "ruta": "v2_reentrenamiento/resultados_v2_final/pesos/pesos_geograficos_train.csv",
+    "sha256": "6751f5af82b38193dfcf03260165346b4db1fe1d1458eaeff0432aeac2fa7c4f",
+    "bytes": 19935
+  }
+}

@@ -1,0 +1,4 @@
+Caption (suggested): Rolling-origin evaluation design. For each test year Y (2018–2025) the forecast origin is December of Y−1; trained models use data up to December of Y−2 (features from 2016-07; tabular targets from 2016-08; LSTM targets from 2017-01), are tuned and early-stopped on year Y−1, and produce twelve one-step-ahead forecasts for year Y. Trained models require at least 36 training months, so windows 2018–2020 (faded) include only the untrained models (Naive, Seasonal Naive, Chronos). The primary ranking pools the windows 2021–2025; a sensitivity analysis specified in the protocol repeats all conclusions on 2023–2025.
+
+Reading: 118 viable and 42 not-applicable model-window-cultivar combinations (10 models × 8 windows × 2 cultivars; the exploratory XGB-43 is excluded from the count), as specified in the protocol.
+Training lengths on the right are the LSTM (GC3/GE) and tabular (XGB-37) training months of each window; no forecast results are shown.

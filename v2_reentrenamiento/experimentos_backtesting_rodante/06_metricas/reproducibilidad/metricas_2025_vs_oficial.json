@@ -1,0 +1,189 @@
+{
+  "OK": true,
+  "OK_criterio_original": false,
+  "criterio": "relativa <= 1e-6 en cada metrica salvo Delta_s; Delta_s absoluta <= 1e-4 pp (DESV-05)",
+  "meses_shock_oficiales_2025": {
+    "dulce": [
+      "2025-01",
+      "2025-02",
+      "2025-03"
+    ],
+    "sutil": [
+      "2025-01",
+      "2025-07",
+      "2025-11"
+    ]
+  },
+  "mascara_P75_backtesting_2025": {
+    "sutil": [
+      "2025-01",
+      "2025-07",
+      "2025-11"
+    ],
+    "dulce": [
+      "2025-01",
+      "2025-02",
+      "2025-03"
+    ]
+  },
+  "coincide_mascara": {
+    "sutil": true,
+    "dulce": true
+  },
+  "MAE_Naive_t1": {
+    "sutil": {
+      "nuevo": 4704.292916666665,
+      "oficial": 4704.292916666665
+    },
+    "dulce": {
+      "nuevo": 84.70083333333332,
+      "oficial": 84.70083333333334
+    }
+  },
+  "sha256_archivos_oficiales": {
+    "gc3_ge_test": "399dedca72b301fd1dfd719a76cde7f0190de8c87308edf7d43523913e70dae4",
+    "gc3_ge_manifest": "5771bd7e6a9ecee7d558591816241b0165c2532d2cf6cb152c8bea34a9427428",
+    "xgb_test": "3976a2af8941663fb5511b06f661ea8e1e59b13afa4f5bc3efb82a00266df177",
+    "xgb_shock": "4645332eee2f40dfce83dfe9a1c361cda2469bb45234798aee0a5ad9ede2e575",
+    "sarima_test": "f9e7dfdf8181053756cd6330cf58af7e0ff3c3dc2d5df1d26a968766b93202df",
+    "sarima_shock": "7658af7a30e18c8f4f525fa23e569823191b0ab12522a7b20d8b148a3299043d"
+  },
+  "resumen": [
+    {
+      "cultivar": "sutil",
+      "modelo": "GC3",
+      "n_corridas": 10,
+      "maxdif_MAE": 0.00035948380445915973,
+      "maxdif_RMSE": 0.00037979093758622184,
+      "maxdif_R2": 6.470304170225205e-08,
+      "maxdif_MASE_1": 1.0652724480308962e-07,
+      "maxdif_RMSSE_1": 8.770989179396338e-08,
+      "maxdif_RelMAE_N1": 7.641611832198691e-08,
+      "maxdif_MAE_shock": 0.0003395124776943703,
+      "maxdif_MAE_nonshock": 0.00037279801654221956,
+      "maxdif_Delta_s": 4.694431488871942e-06,
+      "max_dif_relativa": 1.4416597678795578e-07,
+      "OK_criterio_original_rel_1e-6": true,
+      "OK": true
+    },
+    {
+      "cultivar": "sutil",
+      "modelo": "GE",
+      "n_corridas": 10,
+      "maxdif_MAE": 0.000399426444346318,
+      "maxdif_RMSE": 0.0003124377153653768,
+      "maxdif_R2": 5.960707954999478e-08,
+      "maxdif_MASE_1": 1.1836360402917023e-07,
+      "maxdif_RMSSE_1": 7.215516606429162e-08,
+      "maxdif_RelMAE_N1": 8.49067971486761e-08,
+      "maxdif_MAE_shock": 0.0004793117318513396,
+      "maxdif_MAE_nonshock": 0.00037279801563272486,
+      "maxdif_Delta_s": 3.6857589122973877e-06,
+      "max_dif_relativa": 2.1710304596565304e-07,
+      "OK_criterio_original_rel_1e-6": true,
+      "OK": true
+    },
+    {
+      "cultivar": "sutil",
+      "modelo": "XGB-37",
+      "n_corridas": 10,
+      "maxdif_MAE": 2.7284841053187847e-12,
+      "maxdif_RMSE": 1.8189894035458565e-12,
+      "maxdif_R2": 3.885780586188048e-16,
+      "maxdif_MASE_1": 8.881784197001252e-16,
+      "maxdif_RMSSE_1": 4.440892098500626e-16,
+      "maxdif_RelMAE_N1": 6.661338147750939e-16,
+      "maxdif_MAE_shock": 5.4569682106375694e-12,
+      "maxdif_MAE_nonshock": 1.8189894035458565e-12,
+      "maxdif_Delta_s": 9.237055564881302e-14,
+      "max_dif_relativa": 2.240894036192648e-15,
+      "OK_criterio_original_rel_1e-6": true,
+      "OK": true
+    },
+    {
+      "cultivar": "sutil",
+      "modelo": "SARIMA",
+      "n_corridas": 1,
+      "maxdif_MAE": 9.094947017729282e-13,
+      "maxdif_RMSE": 1.8189894035458565e-12,
+      "maxdif_R2": 2.220446049250313e-16,
+      "maxdif_MASE_1": 2.220446049250313e-16,
+      "maxdif_RMSSE_1": 4.440892098500626e-16,
+      "maxdif_RelMAE_N1": 2.220446049250313e-16,
+      "maxdif_MAE_shock": 0.0,
+      "maxdif_MAE_nonshock": 1.3642420526593924e-12,
+      "maxdif_Delta_s": 5.684341886080802e-14,
+      "max_dif_relativa": 5.899952107624786e-16,
+      "OK_criterio_original_rel_1e-6": true,
+      "OK": true
+    },
+    {
+      "cultivar": "dulce",
+      "modelo": "GC3",
+      "n_corridas": 10,
+      "maxdif_MAE": 3.581328208213108e-06,
+      "maxdif_RMSE": 8.278482013679422e-06,
+      "maxdif_R2": 4.057655877964805e-08,
+      "maxdif_MASE_1": 4.8833186161445497e-08,
+      "maxdif_RMSSE_1": 9.620424978873388e-08,
+      "maxdif_RelMAE_N1": 4.2282089496303854e-08,
+      "maxdif_MAE_shock": 8.595187750870537e-06,
+      "maxdif_MAE_nonshock": 5.371992344294085e-06,
+      "maxdif_Delta_s": 6.035803629345082e-06,
+      "max_dif_relativa": 1.1812050380659054e-06,
+      "OK_criterio_original_rel_1e-6": false,
+      "OK": true
+    },
+    {
+      "cultivar": "dulce",
+      "modelo": "GE",
+      "n_corridas": 10,
+      "maxdif_MAE": 3.9842276464696624e-06,
+      "maxdif_RMSE": 5.545953726482367e-06,
+      "maxdif_R2": 3.971788409273813e-08,
+      "maxdif_MASE_1": 5.432691985163274e-08,
+      "maxdif_RMSSE_1": 6.444953526418828e-08,
+      "maxdif_RelMAE_N1": 4.7038824169121085e-08,
+      "maxdif_MAE_shock": 7.162656402215362e-06,
+      "maxdif_MAE_nonshock": 5.849502727528488e-06,
+      "maxdif_Delta_s": 7.102305401573972e-06,
+      "max_dif_relativa": 1.4332163738154222e-06,
+      "OK_criterio_original_rel_1e-6": false,
+      "OK": true
+    },
+    {
+      "cultivar": "dulce",
+      "modelo": "XGB-37",
+      "n_corridas": 10,
+      "maxdif_MAE": 2.842170943040401e-14,
+      "maxdif_RMSE": 2.842170943040401e-14,
+      "maxdif_R2": 1.1102230246251565e-16,
+      "maxdif_MASE_1": 4.440892098500626e-16,
+      "maxdif_RMSSE_1": 3.3306690738754696e-16,
+      "maxdif_RelMAE_N1": 3.3306690738754696e-16,
+      "maxdif_MAE_shock": 5.684341886080802e-14,
+      "maxdif_MAE_nonshock": 2.842170943040401e-14,
+      "maxdif_Delta_s": 9.947598300641403e-14,
+      "max_dif_relativa": 1.8284275726167842e-15,
+      "OK_criterio_original_rel_1e-6": true,
+      "OK": true
+    },
+    {
+      "cultivar": "dulce",
+      "modelo": "SARIMA",
+      "n_corridas": 1,
+      "maxdif_MAE": 0.0,
+      "maxdif_RMSE": 3.552713678800501e-15,
+      "maxdif_R2": 1.1102230246251565e-16,
+      "maxdif_MASE_1": 0.0,
+      "maxdif_RMSSE_1": 5.551115123125783e-17,
+      "maxdif_RelMAE_N1": 5.551115123125783e-17,
+      "maxdif_MAE_shock": 2.1316282072803006e-14,
+      "maxdif_MAE_nonshock": 1.0658141036401503e-14,
+      "maxdif_Delta_s": 9.237055564881302e-14,
+      "max_dif_relativa": 1.97834921955132e-15,
+      "OK_criterio_original_rel_1e-6": true,
+      "OK": true
+    }
+  ]
+}

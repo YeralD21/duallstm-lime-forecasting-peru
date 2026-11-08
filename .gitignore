@@ -1,0 +1,41 @@
+# Python and Jupyter caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+
+# Raw data that is not redistributed (see README, "Raw data")
+v2_reentrenamiento/data/raw/midagri/
+v2_reentrenamiento/data/raw/indeci/
+v2_reentrenamiento/data/raw/noticias/
+v2_reentrenamiento/data/interim/noticias/*
+!v2_reentrenamiento/data/interim/noticias/sentimiento_mensual_2016_2025.csv
+
+# Trained model binaries (not distributed; predictions and training histories are)
+checkpoint_best.keras
+*.keras
+*.h5
+model.ubj
+*.ubj
+
+# Outputs written when the pipeline runs
+v2_reentrenamiento/experimentos_backtesting_rodante/10_logs/
+v2_reentrenamiento/experimentos_backtesting_rodante/08_graficos/paper_mdpi/
+_reference_before_retrain/
+reproduction_report.json
+
+# Downloads made by the ETL and caches
+etl_v2_salida/
+*.geojson.tmp
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local working notes (not published)
+CLAUDE.md
+INFORME_FASE6.md

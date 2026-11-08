@@ -1,0 +1,4 @@
+Caption (suggested): Validation/training MAE ratio for each trained model, window and seed (points), sweet lime (limón dulce); grey bars: same ratio for the Naive forecast on the training and validation months of the tabular models (on the LSTM months, which start in 2017-01, it differs by at most 0.015); dashed line: overfitting flag at 2.0, specified in the protocol.
+
+Reading: Runs with ratio > 2: Ridge 0/5, ElasticNet 0/5, XGB-37 50/50, GC3 12/50, GE 19/50; the Naive ratio in the same months ranges 0.90–1.18.
+As specified in the protocol, the 2.0 flag marks almost all XGB runs; it must be read against the Naive ratio, not on its own.

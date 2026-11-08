@@ -1,0 +1,4 @@
+Caption (suggested): Shock months per test window and threshold percentile, sweet lime (limón dulce): (a) month-on-month, (b) year-on-year. Thresholds are computed with the history up to each origin. † = fewer than 2 shocks (non-informative window).
+
+Reading: At the primary threshold (monthly P75) the non-informative windows (fewer than 2 shocks) are: none.
+† marks fewer than 2 shocks; such windows are flagged in per-window tables but their shock months still count in pooled results (DA5).

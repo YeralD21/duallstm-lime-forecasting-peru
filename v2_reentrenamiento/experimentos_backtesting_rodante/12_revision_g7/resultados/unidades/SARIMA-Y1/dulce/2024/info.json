@@ -1,0 +1,26 @@
+{
+  "order": [
+    1,
+    0,
+    0
+  ],
+  "seasonal_order": [
+    0,
+    1,
+    0,
+    12
+  ],
+  "orden_de": "hiperparametros_congelados.json: sarima_congelado",
+  "train_inicio": "2016-07",
+  "train_fin": "2023-12",
+  "n_train": 90,
+  "avisos": [],
+  "convergio": true,
+  "parametros_invariantes_en_test": true,
+  "modelo": "SARIMA-Y1",
+  "cultivar": "dulce",
+  "anio_test": 2024,
+  "semilla": null,
+  "segundos_unidad": 1.5827911000014865,
+  "utc": "2026-10-31T18:26:37.245198+00:00"
+}

@@ -1,0 +1,4 @@
+Caption (suggested): MAE in normal months (light) and in shock months (hatched; monthly P75 threshold) for each model, sweet lime (limón dulce), pooled 2021–2025, with paired bootstrap 95% CIs.
+
+Reading: Lowest MAE in normal months: SARIMA (19.9 t); lowest in shock months: SARIMA (14.0 t).
+Shock months: 15 of 60; error bars are paired bootstrap 95% CIs (resampling within normal or shock months).

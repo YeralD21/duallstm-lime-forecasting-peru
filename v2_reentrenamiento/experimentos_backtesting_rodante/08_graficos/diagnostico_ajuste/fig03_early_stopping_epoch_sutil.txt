@@ -1,0 +1,4 @@
+Caption (suggested): Distribution over 10 seeds of the best (restored) epoch of GC3 and GE per test window, sour lime (limón sutil); early stopping on validation year Y−1, patience 15, maximum 300 epochs.
+
+Reading: Median best epoch, GC3: 2021 67.5, 2022 48.0, 2023 20.5, 2024 7.5, 2025 43.5; GE: 2021 57.5, 2022 34.5, 2023 24.0, 2024 9.0, 2025 10.5.
+Very early best epochs (e.g. below 10) mean that validation loss stopped improving almost immediately in that window.

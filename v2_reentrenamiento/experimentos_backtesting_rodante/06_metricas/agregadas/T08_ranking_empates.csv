@@ -1,0 +1,1281 @@
+conjunto,cultivar,tipo,percentil,criterio,bootstrap,modelo,MAE,posicion,dif_vs_mejor_lo,dif_vs_mejor_hi,primero,n_meses
+principal_2021_2025,sutil,mensual,50,shock,iid,Naive,6021.010276,5,1646.621179,3696.86626,False,29
+principal_2021_2025,sutil,mensual,50,shock,iid,Seasonal Naive,6077.551552,6,1570.19885,3889.571319,False,29
+principal_2021_2025,sutil,mensual,50,shock,iid,Chronos,3538.684494,2,-663.3764674,1059.165017,True,29
+principal_2021_2025,sutil,mensual,50,shock,iid,SARIMA,3635.765134,3,-532.9520805,1002.688409,True,29
+principal_2021_2025,sutil,mensual,50,shock,iid,SARIMA-sel,3361.656577,1,0,0,True,29
+principal_2021_2025,sutil,mensual,50,shock,iid,Ridge,6887.423775,9,1453.481283,5789.983457,False,29
+principal_2021_2025,sutil,mensual,50,shock,iid,ElasticNet,6898.784736,10,1686.062581,5548.444245,False,29
+principal_2021_2025,sutil,mensual,50,shock,iid,XGB-37,4894.671515,4,523.5764223,2529.365478,False,29
+principal_2021_2025,sutil,mensual,50,shock,iid,GC3,6218.033178,8,1774.833632,3945.955614,False,29
+principal_2021_2025,sutil,mensual,50,shock,iid,GE,6135.792252,7,1680.943823,3902.748952,False,29
+principal_2021_2025,sutil,mensual,50,shock,bloques,Naive,6021.010276,5,1530.479487,3853.046475,False,29
+principal_2021_2025,sutil,mensual,50,shock,bloques,Seasonal Naive,6077.551552,6,1342.855898,4088.698404,False,29
+principal_2021_2025,sutil,mensual,50,shock,bloques,Chronos,3538.684494,2,-727.707289,1028.949642,True,29
+principal_2021_2025,sutil,mensual,50,shock,bloques,SARIMA,3635.765134,3,-402.1344145,988.3027772,True,29
+principal_2021_2025,sutil,mensual,50,shock,bloques,SARIMA-sel,3361.656577,1,0,0,True,29
+principal_2021_2025,sutil,mensual,50,shock,bloques,Ridge,6887.423775,9,1240.848643,6153.568479,False,29
+principal_2021_2025,sutil,mensual,50,shock,bloques,ElasticNet,6898.784736,10,1409.90601,5832.695484,False,29
+principal_2021_2025,sutil,mensual,50,shock,bloques,XGB-37,4894.671515,4,480.0775476,2584.548575,False,29
+principal_2021_2025,sutil,mensual,50,shock,bloques,GC3,6218.033178,8,1581.10577,4189.152927,False,29
+principal_2021_2025,sutil,mensual,50,shock,bloques,GE,6135.792252,7,1441.134523,4166.766247,False,29
+principal_2021_2025,sutil,mensual,50,normal,iid,Naive,1381.771839,1,0,0,True,31
+principal_2021_2025,sutil,mensual,50,normal,iid,Seasonal Naive,6072.392226,8,3284.005652,6051.286048,False,31
+principal_2021_2025,sutil,mensual,50,normal,iid,Chronos,1815.837078,2,-174.1083938,1011.700003,True,31
+principal_2021_2025,sutil,mensual,50,normal,iid,SARIMA,3103.549719,6,807.3716685,2655.191367,False,31
+principal_2021_2025,sutil,mensual,50,normal,iid,SARIMA-sel,3060.146441,4,774.5259618,2615.232416,False,31
+principal_2021_2025,sutil,mensual,50,normal,iid,Ridge,3089.447211,5,849.7283174,2603.225548,False,31
+principal_2021_2025,sutil,mensual,50,normal,iid,ElasticNet,2975.803863,3,718.7143931,2524.210151,False,31
+principal_2021_2025,sutil,mensual,50,normal,iid,XGB-37,4869.080983,7,2380.559435,4641.521667,False,31
+principal_2021_2025,sutil,mensual,50,normal,iid,GC3,6495.332541,9,3601.318137,6775.049899,False,31
+principal_2021_2025,sutil,mensual,50,normal,iid,GE,7312.058854,10,4364.131092,7629.241869,False,31
+principal_2021_2025,sutil,mensual,50,normal,bloques,Naive,1381.771839,1,0,0,True,31
+principal_2021_2025,sutil,mensual,50,normal,bloques,Seasonal Naive,6072.392226,8,2882.970467,6600.920269,False,31
+principal_2021_2025,sutil,mensual,50,normal,bloques,Chronos,1815.837078,2,-121.6378158,1036.643515,True,31
+principal_2021_2025,sutil,mensual,50,normal,bloques,SARIMA,3103.549719,6,811.2851358,2635.32766,False,31
+principal_2021_2025,sutil,mensual,50,normal,bloques,SARIMA-sel,3060.146441,4,840.9301942,2561.785578,False,31
+principal_2021_2025,sutil,mensual,50,normal,bloques,Ridge,3089.447211,5,730.3014011,2784.648728,False,31
+principal_2021_2025,sutil,mensual,50,normal,bloques,ElasticNet,2975.803863,3,561.7623915,2802.609259,False,31
+principal_2021_2025,sutil,mensual,50,normal,bloques,XGB-37,4869.080983,7,2062.659017,4952.350093,False,31
+principal_2021_2025,sutil,mensual,50,normal,bloques,GC3,6495.332541,9,2945.545454,7468.950066,False,31
+principal_2021_2025,sutil,mensual,50,normal,bloques,GE,7312.058854,10,3500.766164,8399.692664,False,31
+principal_2021_2025,sutil,mensual,60,shock,iid,Naive,6433.8144,8,1840.011215,4075.390169,False,25
+principal_2021_2025,sutil,mensual,60,shock,iid,Seasonal Naive,6319.78072,5,1570.146341,4144.209387,False,25
+principal_2021_2025,sutil,mensual,60,shock,iid,Chronos,3773.724415,3,-618.2577311,1246.07747,True,25
+principal_2021_2025,sutil,mensual,60,shock,iid,SARIMA,3524.969487,2,-783.4485979,828.4951932,True,25
+principal_2021_2025,sutil,mensual,60,shock,iid,SARIMA-sel,3477.512816,1,0,0,True,25
+principal_2021_2025,sutil,mensual,60,shock,iid,Ridge,7496.932706,10,1595.045406,6643.577523,False,25
+principal_2021_2025,sutil,mensual,60,shock,iid,ElasticNet,7426.237183,9,1801.489637,6290.072195,False,25
+principal_2021_2025,sutil,mensual,60,shock,iid,XGB-37,5217.448854,4,649.7667088,2814.537897,False,25
+principal_2021_2025,sutil,mensual,60,shock,iid,GC3,6385.458043,6,1724.458333,4091.050452,False,25
+principal_2021_2025,sutil,mensual,60,shock,iid,GE,6401.772808,7,1741.591263,4124.71329,False,25
+principal_2021_2025,sutil,mensual,60,shock,bloques,Naive,6433.8144,8,1754.370302,4230.492931,False,25
+principal_2021_2025,sutil,mensual,60,shock,bloques,Seasonal Naive,6319.78072,5,1335.036369,4459.572991,False,25
+principal_2021_2025,sutil,mensual,60,shock,bloques,Chronos,3773.724415,3,-694.7586614,1232.52565,True,25
+principal_2021_2025,sutil,mensual,60,shock,bloques,SARIMA,3524.969487,2,-793.1571541,901.2143803,True,25
+principal_2021_2025,sutil,mensual,60,shock,bloques,SARIMA-sel,3477.512816,1,0,0,True,25
+principal_2021_2025,sutil,mensual,60,shock,bloques,Ridge,7496.932706,10,1381.275807,7171.433389,False,25
+principal_2021_2025,sutil,mensual,60,shock,bloques,ElasticNet,7426.237183,9,1517.077936,6735.708551,False,25
+principal_2021_2025,sutil,mensual,60,shock,bloques,XGB-37,5217.448854,4,616.068994,2886.774028,False,25
+principal_2021_2025,sutil,mensual,60,shock,bloques,GC3,6385.458043,6,1515.316028,4440.016363,False,25
+principal_2021_2025,sutil,mensual,60,shock,bloques,GE,6401.772808,7,1472.511223,4487.670845,False,25
+principal_2021_2025,sutil,mensual,60,normal,iid,Naive,1617.110429,1,0,0,True,35
+principal_2021_2025,sutil,mensual,60,normal,iid,Seasonal Naive,5899.961029,8,3012.177215,5534.003711,False,35
+principal_2021_2025,sutil,mensual,60,normal,iid,Chronos,1844.848267,2,-336.9290366,795.9595284,True,35
+principal_2021_2025,sutil,mensual,60,normal,iid,SARIMA,3243.514086,6,797.5542702,2485.669593,False,35
+principal_2021_2025,sutil,mensual,60,normal,iid,SARIMA-sel,3011.850285,3,560.0563473,2306.402182,False,35
+principal_2021_2025,sutil,mensual,60,normal,iid,Ridge,3088.138154,5,599.8225806,2377.022218,False,35
+principal_2021_2025,sutil,mensual,60,normal,iid,ElasticNet,3047.392786,4,524.288385,2365.498897,False,35
+principal_2021_2025,sutil,mensual,60,normal,iid,XGB-37,4641.450373,7,1997.867396,4140.940338,False,35
+principal_2021_2025,sutil,mensual,60,normal,iid,GC3,6344.051996,9,3336.700807,6237.07581,False,35
+principal_2021_2025,sutil,mensual,60,normal,iid,GE,6987.642274,10,3916.091086,6952.669573,False,35
+principal_2021_2025,sutil,mensual,60,normal,bloques,Naive,1617.110429,1,0,0,True,35
+principal_2021_2025,sutil,mensual,60,normal,bloques,Seasonal Naive,5899.961029,8,2657.584284,6039.261115,False,35
+principal_2021_2025,sutil,mensual,60,normal,bloques,Chronos,1844.848267,2,-313.8365025,829.5672065,True,35
+principal_2021_2025,sutil,mensual,60,normal,bloques,SARIMA,3243.514086,6,796.617333,2488.657363,False,35
+principal_2021_2025,sutil,mensual,60,normal,bloques,SARIMA-sel,3011.850285,3,580.7516639,2233.427809,False,35
+principal_2021_2025,sutil,mensual,60,normal,bloques,Ridge,3088.138154,5,548.319522,2496.671211,False,35
+principal_2021_2025,sutil,mensual,60,normal,bloques,ElasticNet,3047.392786,4,462.1252183,2568.158328,False,35
+principal_2021_2025,sutil,mensual,60,normal,bloques,XGB-37,4641.450373,7,1720.149495,4415.785188,False,35
+principal_2021_2025,sutil,mensual,60,normal,bloques,GC3,6344.051996,9,2786.093852,6834.30627,False,35
+principal_2021_2025,sutil,mensual,60,normal,bloques,GE,6987.642274,10,3135.304713,7658.866156,False,35
+principal_2021_2025,sutil,mensual,75,shock,iid,Naive,8506.195,9,3101.806559,4319.283687,False,10
+principal_2021_2025,sutil,mensual,75,shock,iid,Seasonal Naive,5034.4498,3,-1966.386011,2657.895265,True,10
+principal_2021_2025,sutil,mensual,75,shock,iid,Chronos,4783.522412,1,0,0,True,10
+principal_2021_2025,sutil,mensual,75,shock,iid,SARIMA,5130.718509,4,-354.520967,1101.942236,True,10
+principal_2021_2025,sutil,mensual,75,shock,iid,SARIMA-sel,4935.734382,2,-1385.200471,1820.692475,True,10
+principal_2021_2025,sutil,mensual,75,shock,iid,Ridge,8556.902413,10,992.5531679,7654.036292,False,10
+principal_2021_2025,sutil,mensual,75,shock,iid,ElasticNet,8153.740083,8,715.5153719,6570.561403,False,10
+principal_2021_2025,sutil,mensual,75,shock,iid,XGB-37,5955.200769,5,-869.235974,2809.947824,True,10
+principal_2021_2025,sutil,mensual,75,shock,iid,GC3,6074.459517,6,-174.8896502,2747.426676,True,10
+principal_2021_2025,sutil,mensual,75,shock,iid,GE,6826.646182,7,78.05358867,3911.162482,False,10
+principal_2021_2025,sutil,mensual,75,shock,bloques,Naive,8506.195,9,2809.417568,4641.985417,False,10
+principal_2021_2025,sutil,mensual,75,shock,bloques,Seasonal Naive,5034.4498,3,-2529.734147,3259.968919,True,10
+principal_2021_2025,sutil,mensual,75,shock,bloques,Chronos,4783.522412,1,0,0,True,10
+principal_2021_2025,sutil,mensual,75,shock,bloques,SARIMA,5130.718509,4,-468.0075789,1080.042729,True,10
+principal_2021_2025,sutil,mensual,75,shock,bloques,SARIMA-sel,4935.734382,2,-1614.030937,1663.640297,True,10
+principal_2021_2025,sutil,mensual,75,shock,bloques,Ridge,8556.902413,10,103.0400478,7408.303705,False,10
+principal_2021_2025,sutil,mensual,75,shock,bloques,ElasticNet,8153.740083,8,-114.4590473,6550.440172,True,10
+principal_2021_2025,sutil,mensual,75,shock,bloques,XGB-37,5955.200769,5,-1307.905732,3145.17594,True,10
+principal_2021_2025,sutil,mensual,75,shock,bloques,GC3,6074.459517,6,-698.0689594,2886.283936,True,10
+principal_2021_2025,sutil,mensual,75,shock,bloques,GE,6826.646182,7,-348.4004907,3818.093999,True,10
+principal_2021_2025,sutil,mensual,75,normal,iid,Naive,2647.6455,2,-163.0344677,994.8361446,True,50
+principal_2021_2025,sutil,mensual,75,normal,iid,Seasonal Naive,6282.97312,8,3069.999636,5044.737503,False,50
+principal_2021_2025,sutil,mensual,75,normal,iid,Chronos,2221.551512,1,0,0,True,50
+principal_2021_2025,sutil,mensual,75,normal,iid,SARIMA,3006.800902,4,131.6023455,1428.644858,False,50
+principal_2021_2025,sutil,mensual,75,normal,iid,SARIMA-sel,2859.904732,3,-61.16883424,1318.337196,True,50
+principal_2021_2025,sutil,mensual,75,normal,iid,Ridge,4198.782578,5,784.1724489,3256.635937,False,50
+principal_2021_2025,sutil,mensual,75,normal,iid,ElasticNet,4215.545525,6,854.8482289,3201.279374,False,50
+principal_2021_2025,sutil,mensual,75,normal,iid,XGB-37,4666.699534,7,1498.242029,3409.604642,False,50
+principal_2021_2025,sutil,mensual,75,normal,iid,GC3,6418.673515,9,2908.92913,5522.250758,False,50
+principal_2021_2025,sutil,mensual,75,normal,iid,GE,6726.906759,10,3145.577646,5923.863487,False,50
+principal_2021_2025,sutil,mensual,75,normal,bloques,Naive,2647.6455,2,-126.1681924,983.3887621,True,50
+principal_2021_2025,sutil,mensual,75,normal,bloques,Seasonal Naive,6282.97312,8,2720.058556,5375.167099,False,50
+principal_2021_2025,sutil,mensual,75,normal,bloques,Chronos,2221.551512,1,0,0,True,50
+principal_2021_2025,sutil,mensual,75,normal,bloques,SARIMA,3006.800902,4,192.2807003,1380.220856,False,50
+principal_2021_2025,sutil,mensual,75,normal,bloques,SARIMA-sel,2859.904732,3,21.55886425,1244.423513,False,50
+principal_2021_2025,sutil,mensual,75,normal,bloques,Ridge,4198.782578,5,775.7268303,3330.888611,False,50
+principal_2021_2025,sutil,mensual,75,normal,bloques,ElasticNet,4215.545525,6,769.8525606,3373.8249,False,50
+principal_2021_2025,sutil,mensual,75,normal,bloques,XGB-37,4666.699534,7,1241.350488,3741.269878,False,50
+principal_2021_2025,sutil,mensual,75,normal,bloques,GC3,6418.673515,9,2373.745445,6147.660471,False,50
+principal_2021_2025,sutil,mensual,75,normal,bloques,GE,6726.906759,10,2480.803152,6619.191111,False,50
+principal_2021_2025,sutil,mensual,90,shock,iid,Naive,8695.623,7,2624.312173,4190.569589,False,6
+principal_2021_2025,sutil,mensual,90,shock,iid,Seasonal Naive,7309.129333,4,-1359.316096,5104.857813,True,6
+principal_2021_2025,sutil,mensual,90,shock,iid,Chronos,5436.358475,1,0,0,True,6
+principal_2021_2025,sutil,mensual,90,shock,iid,SARIMA,6764.375744,2,987.2634936,1545.143031,False,6
+principal_2021_2025,sutil,mensual,90,shock,iid,SARIMA-sel,7095.584445,3,97.72255279,3574.509643,False,6
+principal_2021_2025,sutil,mensual,90,shock,iid,Ridge,11681.95309,10,2866.126677,11601.46346,False,6
+principal_2021_2025,sutil,mensual,90,shock,iid,ElasticNet,10856.23466,9,2525.649421,9574.759605,False,6
+principal_2021_2025,sutil,mensual,90,shock,iid,XGB-37,7964.134202,6,1929.269631,3106.661137,False,6
+principal_2021_2025,sutil,mensual,90,shock,iid,GC3,7906.909597,5,805.271497,4407.90003,False,6
+principal_2021_2025,sutil,mensual,90,shock,iid,GE,8942.23765,8,2113.77039,5124.96529,False,6
+principal_2021_2025,sutil,mensual,90,shock,bloques,Naive,8695.623,7,1808.636316,4811.412874,False,6
+principal_2021_2025,sutil,mensual,90,shock,bloques,Seasonal Naive,7309.129333,4,-2944.705875,6156.36868,True,6
+principal_2021_2025,sutil,mensual,90,shock,bloques,Chronos,5436.358475,1,0,0,True,6
+principal_2021_2025,sutil,mensual,90,shock,bloques,SARIMA,6764.375744,2,991.8425025,1570.247369,False,6
+principal_2021_2025,sutil,mensual,90,shock,bloques,SARIMA-sel,7095.584445,3,138.9697619,3234.588619,False,6
+principal_2021_2025,sutil,mensual,90,shock,bloques,Ridge,11681.95309,10,534.7448584,14581.82747,False,6
+principal_2021_2025,sutil,mensual,90,shock,bloques,ElasticNet,10856.23466,9,-96.34760961,12376.12533,True,6
+principal_2021_2025,sutil,mensual,90,shock,bloques,XGB-37,7964.134202,6,790.6495476,4574.821806,False,6
+principal_2021_2025,sutil,mensual,90,shock,bloques,GC3,7906.909597,5,519.6281593,4730.037443,False,6
+principal_2021_2025,sutil,mensual,90,shock,bloques,GE,8942.23765,8,1646.236666,4956.607819,False,6
+principal_2021_2025,sutil,mensual,90,normal,iid,Naive,3060.564574,4,141.9595742,1318.702883,False,54
+principal_2021_2025,sutil,mensual,90,normal,iid,Seasonal Naive,5937.747741,8,2602.217193,4572.460241,False,54
+principal_2021_2025,sutil,mensual,90,normal,iid,Chronos,2338.789794,1,0,0,True,54
+principal_2021_2025,sutil,mensual,90,normal,iid,SARIMA,2982.610662,3,27.77812233,1275.60277,False,54
+principal_2021_2025,sutil,mensual,90,normal,iid,SARIMA-sel,2773.68655,2,-236.9745787,1116.587401,True,54
+principal_2021_2025,sutil,mensual,90,normal,iid,Ridge,4174.378417,5,733.4213398,3044.134815,False,54
+principal_2021_2025,sutil,mensual,90,normal,iid,ElasticNet,4206.986465,6,787.6627643,3015.69835,False,54
+principal_2021_2025,sutil,mensual,90,normal,iid,XGB-37,4538.929244,7,1260.259023,3159.322962,False,54
+principal_2021_2025,sutil,mensual,90,normal,iid,GC3,6189.570618,9,2616.963654,5124.45629,False,54
+principal_2021_2025,sutil,mensual,90,normal,iid,GE,6499.229146,10,2825.81705,5516.699341,False,54
+principal_2021_2025,sutil,mensual,90,normal,bloques,Naive,3060.564574,4,134.6028635,1320.012087,False,54
+principal_2021_2025,sutil,mensual,90,normal,bloques,Seasonal Naive,5937.747741,8,2301.681683,4876.879983,False,54
+principal_2021_2025,sutil,mensual,90,normal,bloques,Chronos,2338.789794,1,0,0,True,54
+principal_2021_2025,sutil,mensual,90,normal,bloques,SARIMA,2982.610662,3,102.20769,1197.571058,False,54
+principal_2021_2025,sutil,mensual,90,normal,bloques,SARIMA-sel,2773.68655,2,-147.5663865,999.0120724,True,54
+principal_2021_2025,sutil,mensual,90,normal,bloques,Ridge,4174.378417,5,718.511472,3087.6252,False,54
+principal_2021_2025,sutil,mensual,90,normal,bloques,ElasticNet,4206.986465,6,720.0613723,3174.975734,False,54
+principal_2021_2025,sutil,mensual,90,normal,bloques,XGB-37,4538.929244,7,1034.310825,3449.436885,False,54
+principal_2021_2025,sutil,mensual,90,normal,bloques,GC3,6189.570618,9,2120.202315,5702.221161,False,54
+principal_2021_2025,sutil,mensual,90,normal,bloques,GE,6499.229146,10,2248.214122,6157.559656,False,54
+principal_2021_2025,sutil,interanual,50,shock,iid,Naive,3679.64484,2,-422.379379,1435.119438,True,25
+principal_2021_2025,sutil,interanual,50,shock,iid,Seasonal Naive,10057.02048,10,5783.795219,7941.901856,False,25
+principal_2021_2025,sutil,interanual,50,shock,iid,Chronos,3191.475762,1,0,0,True,25
+principal_2021_2025,sutil,interanual,50,shock,iid,SARIMA,3941.817905,3,-245.8175763,1670.329425,True,25
+principal_2021_2025,sutil,interanual,50,shock,iid,SARIMA-sel,4063.474697,4,-242.8608005,2008.754839,True,25
+principal_2021_2025,sutil,interanual,50,shock,iid,Ridge,5834.370393,6,951.6612933,4602.452476,False,25
+principal_2021_2025,sutil,interanual,50,shock,iid,ElasticNet,6073.023963,7,1182.942311,4789.494317,False,25
+principal_2021_2025,sutil,interanual,50,shock,iid,XGB-37,5185.590331,5,485.9774643,3537.278024,False,25
+principal_2021_2025,sutil,interanual,50,shock,iid,GC3,7649.417845,9,2436.335236,6537.508168,False,25
+principal_2021_2025,sutil,interanual,50,shock,iid,GE,7639.40091,8,2446.280142,6483.851312,False,25
+principal_2021_2025,sutil,interanual,50,shock,bloques,Naive,3679.64484,2,-634.1785951,1564.417964,True,25
+principal_2021_2025,sutil,interanual,50,shock,bloques,Seasonal Naive,10057.02048,10,5191.121761,8568.291006,False,25
+principal_2021_2025,sutil,interanual,50,shock,bloques,Chronos,3191.475762,1,0,0,True,25
+principal_2021_2025,sutil,interanual,50,shock,bloques,SARIMA,3941.817905,3,-256.2495361,1606.028135,True,25
+principal_2021_2025,sutil,interanual,50,shock,bloques,SARIMA-sel,4063.474697,4,-246.6377051,1925.880918,True,25
+principal_2021_2025,sutil,interanual,50,shock,bloques,Ridge,5834.370393,6,433.073344,5055.16808,False,25
+principal_2021_2025,sutil,interanual,50,shock,bloques,ElasticNet,6073.023963,7,582.6924803,5378.361391,False,25
+principal_2021_2025,sutil,interanual,50,shock,bloques,XGB-37,5185.590331,5,159.3739095,3948.636637,False,25
+principal_2021_2025,sutil,interanual,50,shock,bloques,GC3,7649.417845,9,1699.799636,7590.001553,False,25
+principal_2021_2025,sutil,interanual,50,shock,bloques,GE,7639.40091,8,1704.101325,7558.003295,False,25
+principal_2021_2025,sutil,interanual,50,normal,iid,Naive,3584.3744,5,673.7373456,1975.879295,False,35
+principal_2021_2025,sutil,interanual,50,normal,iid,Seasonal Naive,3230.504057,4,94.01703023,1831.021957,False,35
+principal_2021_2025,sutil,interanual,50,normal,iid,Chronos,2260.740163,1,0,0,True,35
+principal_2021_2025,sutil,interanual,50,normal,iid,SARIMA,2945.765216,3,63.89737264,1309.96452,False,35
+principal_2021_2025,sutil,interanual,50,normal,iid,SARIMA-sel,2593.306085,2,-326.3562007,967.1325059,True,35
+principal_2021_2025,sutil,interanual,50,normal,iid,Ridge,4275.682663,7,544.0022963,3589.235374,False,35
+principal_2021_2025,sutil,interanual,50,normal,iid,ElasticNet,4013.973657,6,410.3665217,3187.908297,False,35
+principal_2021_2025,sutil,interanual,50,normal,iid,XGB-37,4664.206461,8,1417.846717,3354.456437,False,35
+principal_2021_2025,sutil,interanual,50,normal,iid,GC3,5441.223566,9,1846.182331,4475.516459,False,35
+principal_2021_2025,sutil,interanual,50,normal,iid,GE,6103.622201,10,2352.131411,5276.883504,False,35
+principal_2021_2025,sutil,interanual,50,normal,bloques,Naive,3584.3744,5,698.5160935,1956.902017,False,35
+principal_2021_2025,sutil,interanual,50,normal,bloques,Seasonal Naive,3230.504057,4,289.3738173,1724.503992,False,35
+principal_2021_2025,sutil,interanual,50,normal,bloques,Chronos,2260.740163,1,0,0,True,35
+principal_2021_2025,sutil,interanual,50,normal,bloques,SARIMA,2945.765216,3,125.5993282,1305.692712,False,35
+principal_2021_2025,sutil,interanual,50,normal,bloques,SARIMA-sel,2593.306085,2,-153.7348061,783.940349,True,35
+principal_2021_2025,sutil,interanual,50,normal,bloques,Ridge,4275.682663,7,406.4363215,4077.860881,False,35
+principal_2021_2025,sutil,interanual,50,normal,bloques,ElasticNet,4013.973657,6,262.6102753,3583.173154,False,35
+principal_2021_2025,sutil,interanual,50,normal,bloques,XGB-37,4664.206461,8,1417.122912,3428.566662,False,35
+principal_2021_2025,sutil,interanual,50,normal,bloques,GC3,5441.223566,9,1695.329374,4658.508669,False,35
+principal_2021_2025,sutil,interanual,50,normal,bloques,GE,6103.622201,10,1930.556229,5675.991968,False,35
+principal_2021_2025,sutil,interanual,60,shock,iid,Naive,3373.593,2,-433.5250565,1801.063567,True,18
+principal_2021_2025,sutil,interanual,60,shock,iid,Seasonal Naive,10963.06783,10,6897.262901,9612.484761,False,18
+principal_2021_2025,sutil,interanual,60,shock,iid,Chronos,2710.426047,1,0,0,True,18
+principal_2021_2025,sutil,interanual,60,shock,iid,SARIMA,3665.976713,3,-396.1357157,2203.521865,True,18
+principal_2021_2025,sutil,interanual,60,shock,iid,SARIMA-sel,4227.913581,4,20.90556113,2969.480599,False,18
+principal_2021_2025,sutil,interanual,60,shock,iid,Ridge,5893.280781,6,972.3704425,5711.893749,False,18
+principal_2021_2025,sutil,interanual,60,shock,iid,ElasticNet,6208.985719,7,1268.10921,5976.44386,False,18
+principal_2021_2025,sutil,interanual,60,shock,iid,XGB-37,5011.339668,5,788.4895255,3958.101204,False,18
+principal_2021_2025,sutil,interanual,60,shock,iid,GC3,7969.970086,8,2864.621078,7828.936241,False,18
+principal_2021_2025,sutil,interanual,60,shock,iid,GE,8171.084035,9,3180.759085,7912.190001,False,18
+principal_2021_2025,sutil,interanual,60,shock,bloques,Naive,3373.593,2,-817.1305355,2088.118553,True,18
+principal_2021_2025,sutil,interanual,60,shock,bloques,Seasonal Naive,10963.06783,10,6197.440922,10464.52439,False,18
+principal_2021_2025,sutil,interanual,60,shock,bloques,Chronos,2710.426047,1,0,0,True,18
+principal_2021_2025,sutil,interanual,60,shock,bloques,SARIMA,3665.976713,3,-385.7336354,1926.333864,True,18
+principal_2021_2025,sutil,interanual,60,shock,bloques,SARIMA-sel,4227.913581,4,133.9069393,2815.711939,False,18
+principal_2021_2025,sutil,interanual,60,shock,bloques,Ridge,5893.280781,6,112.2678991,6389.278616,False,18
+principal_2021_2025,sutil,interanual,60,shock,bloques,ElasticNet,6208.985719,7,275.6863745,6865.833494,False,18
+principal_2021_2025,sutil,interanual,60,shock,bloques,XGB-37,5011.339668,5,309.8932624,4708.575112,False,18
+principal_2021_2025,sutil,interanual,60,shock,bloques,GC3,7969.970086,8,1734.172878,9449.499259,False,18
+principal_2021_2025,sutil,interanual,60,shock,bloques,GE,8171.084035,9,2147.523357,9592.31976,False,18
+principal_2021_2025,sutil,interanual,60,normal,iid,Naive,3731.417881,4,491.4793825,1713.546422,False,42
+principal_2021_2025,sutil,interanual,60,normal,iid,Seasonal Naive,3979.950786,5,556.1546051,2141.861904,False,42
+principal_2021_2025,sutil,interanual,60,normal,iid,Chronos,2622.026926,1,0,0,True,42
+principal_2021_2025,sutil,interanual,60,normal,iid,SARIMA,3229.991651,3,47.87138053,1182.348003,False,42
+principal_2021_2025,sutil,interanual,60,normal,iid,SARIMA-sel,2767.86038,2,-463.8220682,750.1776316,True,42
+principal_2021_2025,sutil,interanual,60,normal,iid,Ridge,4510.216642,7,642.3866169,3241.102164,False,42
+principal_2021_2025,sutil,interanual,60,normal,iid,ElasticNet,4298.879384,6,537.1415333,2907.674293,False,42
+principal_2021_2025,sutil,interanual,60,normal,iid,XGB-37,4825.782628,8,1189.446482,3196.798487,False,42
+principal_2021_2025,sutil,interanual,60,normal,iid,GC3,5671.876414,9,1854.475748,4265.180578,False,42
+principal_2021_2025,sutil,interanual,60,normal,iid,GE,6131.721123,10,2101.778397,4893.310811,False,42
+principal_2021_2025,sutil,interanual,60,normal,bloques,Naive,3731.417881,4,527.3678923,1699.362444,False,42
+principal_2021_2025,sutil,interanual,60,normal,bloques,Seasonal Naive,3979.950786,5,623.5304189,2136.592652,False,42
+principal_2021_2025,sutil,interanual,60,normal,bloques,Chronos,2622.026926,1,0,0,True,42
+principal_2021_2025,sutil,interanual,60,normal,bloques,SARIMA,3229.991651,3,101.6314436,1168.563687,False,42
+principal_2021_2025,sutil,interanual,60,normal,bloques,SARIMA-sel,2767.86038,2,-379.015575,627.9240037,True,42
+principal_2021_2025,sutil,interanual,60,normal,bloques,Ridge,4510.216642,7,468.4143605,3642.19217,False,42
+principal_2021_2025,sutil,interanual,60,normal,bloques,ElasticNet,4298.879384,6,384.7130319,3234.692495,False,42
+principal_2021_2025,sutil,interanual,60,normal,bloques,XGB-37,4825.782628,8,1053.326156,3410.390692,False,42
+principal_2021_2025,sutil,interanual,60,normal,bloques,GC3,5671.876414,9,1662.327975,4504.2105,False,42
+principal_2021_2025,sutil,interanual,60,normal,bloques,GE,6131.721123,10,1681.462056,5385.346966,False,42
+principal_2021_2025,sutil,interanual,75,shock,iid,Naive,3171.846,2,-90.07685391,2851.978229,True,10
+principal_2021_2025,sutil,interanual,75,shock,iid,Seasonal Naive,12508.0675,10,8351.591815,12904.86668,False,10
+principal_2021_2025,sutil,interanual,75,shock,iid,Chronos,1864.113148,1,0,0,True,10
+principal_2021_2025,sutil,interanual,75,shock,iid,SARIMA,3232.720422,3,399.1070334,2223.818831,False,10
+principal_2021_2025,sutil,interanual,75,shock,iid,SARIMA-sel,4078.830436,4,115.0273274,4343.427025,False,10
+principal_2021_2025,sutil,interanual,75,shock,iid,Ridge,4946.067579,6,1092.54299,5265.941753,False,10
+principal_2021_2025,sutil,interanual,75,shock,iid,ElasticNet,5403.723474,7,1279.184305,6034.041081,False,10
+principal_2021_2025,sutil,interanual,75,shock,iid,XGB-37,4816.485139,5,446.459663,5673.369461,False,10
+principal_2021_2025,sutil,interanual,75,shock,iid,GC3,9166.116354,8,3189.903037,11742.24654,False,10
+principal_2021_2025,sutil,interanual,75,shock,iid,GE,9796.026741,9,3968.769072,12152.72083,False,10
+principal_2021_2025,sutil,interanual,75,shock,bloques,Naive,3171.846,2,-636.758048,3088.766206,True,10
+principal_2021_2025,sutil,interanual,75,shock,bloques,Seasonal Naive,12508.0675,10,7882.978518,13501.15679,False,10
+principal_2021_2025,sutil,interanual,75,shock,bloques,Chronos,1864.113148,1,0,0,True,10
+principal_2021_2025,sutil,interanual,75,shock,bloques,SARIMA,3232.720422,3,456.3445532,2095.911558,False,10
+principal_2021_2025,sutil,interanual,75,shock,bloques,SARIMA-sel,4078.830436,4,424.6503354,4127.118805,False,10
+principal_2021_2025,sutil,interanual,75,shock,bloques,Ridge,4946.067579,6,94.27171591,6871.999545,False,10
+principal_2021_2025,sutil,interanual,75,shock,bloques,ElasticNet,5403.723474,7,198.1908623,7714.674118,False,10
+principal_2021_2025,sutil,interanual,75,shock,bloques,XGB-37,4816.485139,5,-535.5569451,7391.955731,True,10
+principal_2021_2025,sutil,interanual,75,shock,bloques,GC3,9166.116354,8,1629.451791,14389.52706,False,10
+principal_2021_2025,sutil,interanual,75,shock,bloques,GE,9796.026741,9,2542.033633,14809.46405,False,10
+principal_2021_2025,sutil,interanual,75,normal,iid,Naive,3714.5153,4,280.0043792,1538.024193,False,50
+principal_2021_2025,sutil,interanual,75,normal,iid,Seasonal Naive,4788.24958,6,1187.366639,2754.158442,False,50
+principal_2021_2025,sutil,interanual,75,normal,iid,Chronos,2805.433365,1,0,0,True,50
+principal_2021_2025,sutil,interanual,75,normal,iid,SARIMA,3386.400519,3,-60.40410844,1213.916459,True,50
+principal_2021_2025,sutil,interanual,75,normal,iid,SARIMA-sel,3031.285521,2,-401.4654768,834.7016223,True,50
+principal_2021_2025,sutil,interanual,75,normal,iid,Ridge,4920.949545,8,824.03646,3533.721679,False,50
+principal_2021_2025,sutil,interanual,75,normal,iid,ElasticNet,4765.548847,5,779.5093275,3251.004863,False,50
+principal_2021_2025,sutil,interanual,75,normal,iid,XGB-37,4894.44266,7,1181.634729,2984.011108,False,50
+principal_2021_2025,sutil,interanual,75,normal,iid,GC3,5800.342148,9,1893.088684,4073.825409,False,50
+principal_2021_2025,sutil,interanual,75,normal,iid,GE,6133.030647,10,2104.372719,4515.324121,False,50
+principal_2021_2025,sutil,interanual,75,normal,bloques,Naive,3714.5153,4,384.0369516,1424.729195,False,50
+principal_2021_2025,sutil,interanual,75,normal,bloques,Seasonal Naive,4788.24958,6,1130.094085,2852.561953,False,50
+principal_2021_2025,sutil,interanual,75,normal,bloques,Chronos,2805.433365,1,0,0,True,50
+principal_2021_2025,sutil,interanual,75,normal,bloques,SARIMA,3386.400519,3,3.73206762,1169.129251,False,50
+principal_2021_2025,sutil,interanual,75,normal,bloques,SARIMA-sel,3031.285521,2,-280.6426557,710.0342164,True,50
+principal_2021_2025,sutil,interanual,75,normal,bloques,Ridge,4920.949545,8,787.8490483,3597.15109,False,50
+principal_2021_2025,sutil,interanual,75,normal,bloques,ElasticNet,4765.548847,5,739.7710692,3271.630153,False,50
+principal_2021_2025,sutil,interanual,75,normal,bloques,XGB-37,4894.44266,7,1088.454993,3103.4556,False,50
+principal_2021_2025,sutil,interanual,75,normal,bloques,GC3,5800.342148,9,1722.560123,4359.889014,False,50
+principal_2021_2025,sutil,interanual,75,normal,bloques,GE,6133.030647,10,1759.838201,4940.695848,False,50
+principal_2021_2025,sutil,interanual,90,shock,iid,Naive,1538.943,2,-872.2322187,1946.963355,True,4
+principal_2021_2025,sutil,interanual,90,shock,iid,Seasonal Naive,15258.75025,10,10697.83407,16638.53233,False,4
+principal_2021_2025,sutil,interanual,90,shock,iid,Chronos,1116.203695,1,0,0,True,4
+principal_2021_2025,sutil,interanual,90,shock,iid,SARIMA,3725.435098,3,1722.092449,3294.134567,False,4
+principal_2021_2025,sutil,interanual,90,shock,iid,SARIMA-sel,5506.387593,6,2270.738515,6509.629281,False,4
+principal_2021_2025,sutil,interanual,90,shock,iid,Ridge,4169.104267,4,348.1792823,5942.953642,False,4
+principal_2021_2025,sutil,interanual,90,shock,iid,ElasticNet,4817.704278,5,439.9131023,6974.821822,False,4
+principal_2021_2025,sutil,interanual,90,shock,iid,XGB-37,5555.69086,7,-322.9300131,9201.904343,True,4
+principal_2021_2025,sutil,interanual,90,shock,iid,GC3,10211.61472,8,1533.800495,16657.02156,False,4
+principal_2021_2025,sutil,interanual,90,shock,iid,GE,11299.37805,9,3132.744644,17233.60407,False,4
+principal_2021_2025,sutil,interanual,90,shock,bloques,Naive,1538.943,2,-981.8995573,2070.81651,True,4
+principal_2021_2025,sutil,interanual,90,shock,bloques,Seasonal Naive,15258.75025,10,10746.50145,16867.31381,False,4
+principal_2021_2025,sutil,interanual,90,shock,bloques,Chronos,1116.203695,1,0,0,True,4
+principal_2021_2025,sutil,interanual,90,shock,bloques,SARIMA,3725.435098,3,1722.092449,3294.134567,False,4
+principal_2021_2025,sutil,interanual,90,shock,bloques,SARIMA-sel,5506.387593,6,2270.738515,6509.629281,False,4
+principal_2021_2025,sutil,interanual,90,shock,bloques,Ridge,4169.104267,4,187.5933447,6387.51207,False,4
+principal_2021_2025,sutil,interanual,90,shock,bloques,ElasticNet,4817.704278,5,248.0828698,7629.156874,False,4
+principal_2021_2025,sutil,interanual,90,shock,bloques,XGB-37,5555.69086,7,-553.4936165,10058.8165,True,4
+principal_2021_2025,sutil,interanual,90,shock,bloques,GC3,10211.61472,8,1334.293449,17406.37199,False,4
+principal_2021_2025,sutil,interanual,90,shock,bloques,GE,11299.37805,9,2878.973702,17961.35914,False,4
+principal_2021_2025,sutil,interanual,90,normal,iid,Naive,3773.008089,4,421.1976428,1627.168863,False,56
+principal_2021_2025,sutil,interanual,90,normal,iid,Seasonal Naive,5418.895589,8,1790.879946,3479.271488,False,56
+principal_2021_2025,sutil,interanual,90,normal,iid,Chronos,2757.999731,1,0,0,True,56
+principal_2021_2025,sutil,interanual,90,normal,iid,SARIMA,3334.740889,3,-8.331270463,1142.716257,True,56
+principal_2021_2025,sutil,interanual,90,normal,iid,SARIMA-sel,3041.554108,2,-332.7864383,888.3631817,True,56
+principal_2021_2025,sutil,interanual,90,normal,iid,Ridge,4979.138142,7,1050.864233,3508.323573,False,56
+principal_2021_2025,sutil,interanual,90,normal,iid,ElasticNet,4875.783214,6,1006.7558,3291.650415,False,56
+principal_2021_2025,sutil,interanual,90,normal,iid,XGB-37,4833.28966,5,1216.223437,2920.737426,False,56
+principal_2021_2025,sutil,interanual,90,normal,iid,GC3,6086.282358,9,2184.015047,4466.532678,False,56
+principal_2021_2025,sutil,interanual,90,normal,iid,GE,6418.112278,10,2425.986489,4880.930691,False,56
+principal_2021_2025,sutil,interanual,90,normal,bloques,Naive,3773.008089,4,439.5449594,1588.337957,False,56
+principal_2021_2025,sutil,interanual,90,normal,bloques,Seasonal Naive,5418.895589,8,1756.951378,3551.292533,False,56
+principal_2021_2025,sutil,interanual,90,normal,bloques,Chronos,2757.999731,1,0,0,True,56
+principal_2021_2025,sutil,interanual,90,normal,bloques,SARIMA,3334.740889,3,56.31131276,1086.200269,False,56
+principal_2021_2025,sutil,interanual,90,normal,bloques,SARIMA-sel,3041.554108,2,-244.9891574,792.0508822,True,56
+principal_2021_2025,sutil,interanual,90,normal,bloques,Ridge,4979.138142,7,845.7197995,3638.051191,False,56
+principal_2021_2025,sutil,interanual,90,normal,bloques,ElasticNet,4875.783214,6,810.4219626,3444.11223,False,56
+principal_2021_2025,sutil,interanual,90,normal,bloques,XGB-37,4833.28966,5,1107.053551,3047.128363,False,56
+principal_2021_2025,sutil,interanual,90,normal,bloques,GC3,6086.282358,9,1950.669208,4809.672491,False,56
+principal_2021_2025,sutil,interanual,90,normal,bloques,GE,6418.112278,10,2052.952231,5305.847993,False,56
+principal_2021_2025,dulce,mensual,50,shock,iid,Naive,117.0166786,10,87.55568684,117.3464273,False,28
+principal_2021_2025,dulce,mensual,50,shock,iid,Seasonal Naive,20.36578571,3,0.9117097125,10.26602748,False,28
+principal_2021_2025,dulce,mensual,50,shock,iid,Chronos,39.45969278,4,15.73518092,33.54821498,False,28
+principal_2021_2025,dulce,mensual,50,shock,iid,SARIMA,14.63063555,1,0,0,True,28
+principal_2021_2025,dulce,mensual,50,shock,iid,SARIMA-sel,17.55293357,2,-1.167692518,5.790813391,True,28
+principal_2021_2025,dulce,mensual,50,shock,iid,Ridge,57.74566401,9,27.91317537,59.45754584,False,28
+principal_2021_2025,dulce,mensual,50,shock,iid,ElasticNet,54.06343991,8,24.11568267,55.80754292,False,28
+principal_2021_2025,dulce,mensual,50,shock,iid,XGB-37,47.6887851,5,19.72354082,46.81817269,False,28
+principal_2021_2025,dulce,mensual,50,shock,iid,GC3,49.17795765,7,22.25242596,47.59333114,False,28
+principal_2021_2025,dulce,mensual,50,shock,iid,GE,47.7681813,6,20.95751022,46.0837746,False,28
+principal_2021_2025,dulce,mensual,50,shock,bloques,Naive,117.0166786,10,86.33530425,117.5796602,False,28
+principal_2021_2025,dulce,mensual,50,shock,bloques,Seasonal Naive,20.36578571,3,0.08909547199,10.64019617,False,28
+principal_2021_2025,dulce,mensual,50,shock,bloques,Chronos,39.45969278,4,14.36786588,34.05774647,False,28
+principal_2021_2025,dulce,mensual,50,shock,bloques,SARIMA,14.63063555,1,0,0,True,28
+principal_2021_2025,dulce,mensual,50,shock,bloques,SARIMA-sel,17.55293357,2,-1.777395026,7.409464958,True,28
+principal_2021_2025,dulce,mensual,50,shock,bloques,Ridge,57.74566401,9,26.6842656,60.87667295,False,28
+principal_2021_2025,dulce,mensual,50,shock,bloques,ElasticNet,54.06343991,8,22.67140433,57.25103773,False,28
+principal_2021_2025,dulce,mensual,50,shock,bloques,XGB-37,47.6887851,5,17.22653394,47.04064868,False,28
+principal_2021_2025,dulce,mensual,50,shock,bloques,GC3,49.17795765,7,19.69734418,50.17273504,False,28
+principal_2021_2025,dulce,mensual,50,shock,bloques,GE,47.7681813,6,19.85949158,46.88626739,False,28
+principal_2021_2025,dulce,mensual,50,normal,iid,Naive,42.96471875,5,12.27498527,30.05067588,False,32
+principal_2021_2025,dulce,mensual,50,normal,iid,Seasonal Naive,28.123125,4,1.432470976,11.10864175,False,32
+principal_2021_2025,dulce,mensual,50,normal,iid,Chronos,23.25799401,2,-5.696004535,8.236824151,True,32
+principal_2021_2025,dulce,mensual,50,normal,iid,SARIMA,21.72082367,1,0,0,True,32
+principal_2021_2025,dulce,mensual,50,normal,iid,SARIMA-sel,23.31999759,3,-2.636327695,6.120989771,True,32
+principal_2021_2025,dulce,mensual,50,normal,iid,Ridge,48.9784184,8,15.08590012,39.22311283,False,32
+principal_2021_2025,dulce,mensual,50,normal,iid,ElasticNet,46.90952883,6,13.01223483,36.85884547,False,32
+principal_2021_2025,dulce,mensual,50,normal,iid,XGB-37,48.76072451,7,14.80336578,38.93840408,False,32
+principal_2021_2025,dulce,mensual,50,normal,iid,GC3,63.22428627,9,26.3666299,56.44131004,False,32
+principal_2021_2025,dulce,mensual,50,normal,iid,GE,64.57998465,10,28.14368403,57.59402734,False,32
+principal_2021_2025,dulce,mensual,50,normal,bloques,Naive,42.96471875,5,13.50886555,28.33674982,False,32
+principal_2021_2025,dulce,mensual,50,normal,bloques,Seasonal Naive,28.123125,4,0.6682626311,12.24896408,False,32
+principal_2021_2025,dulce,mensual,50,normal,bloques,Chronos,23.25799401,2,-5.046347308,7.645760722,True,32
+principal_2021_2025,dulce,mensual,50,normal,bloques,SARIMA,21.72082367,1,0,0,True,32
+principal_2021_2025,dulce,mensual,50,normal,bloques,SARIMA-sel,23.31999759,3,-3.080169516,6.428375198,True,32
+principal_2021_2025,dulce,mensual,50,normal,bloques,Ridge,48.9784184,8,13.51565714,40.78662549,False,32
+principal_2021_2025,dulce,mensual,50,normal,bloques,ElasticNet,46.90952883,6,11.5614197,38.65645878,False,32
+principal_2021_2025,dulce,mensual,50,normal,bloques,XGB-37,48.76072451,7,12.06085075,41.95015811,False,32
+principal_2021_2025,dulce,mensual,50,normal,bloques,GC3,63.22428627,9,20.28225835,63.64649449,False,32
+principal_2021_2025,dulce,mensual,50,normal,bloques,GE,64.57998465,10,22.63223198,63.63049905,False,32
+principal_2021_2025,dulce,mensual,60,shock,iid,Naive,125.0664348,10,96.3035109,125.8540126,False,23
+principal_2021_2025,dulce,mensual,60,shock,iid,Seasonal Naive,21.90795652,3,3.803200652,11.98361751,False,23
+principal_2021_2025,dulce,mensual,60,shock,iid,Chronos,41.93950922,4,19.25625229,36.55448577,False,23
+principal_2021_2025,dulce,mensual,60,shock,iid,SARIMA,13.89287669,1,0,0,True,23
+principal_2021_2025,dulce,mensual,60,shock,iid,SARIMA-sel,16.18395791,2,-2.442203739,5.434982648,True,23
+principal_2021_2025,dulce,mensual,60,shock,iid,Ridge,56.90372626,9,28.70403914,58.50578197,False,23
+principal_2021_2025,dulce,mensual,60,shock,iid,ElasticNet,54.05349413,8,25.70567688,56.05919961,False,23
+principal_2021_2025,dulce,mensual,60,shock,iid,XGB-37,53.11473361,6,24.95691614,53.91347176,False,23
+principal_2021_2025,dulce,mensual,60,shock,iid,GC3,53.24725934,7,26.63369523,52.82721546,False,23
+principal_2021_2025,dulce,mensual,60,shock,iid,GE,50.46029613,5,23.85510203,50.34352339,False,23
+principal_2021_2025,dulce,mensual,60,shock,bloques,Naive,125.0664348,10,96.48523145,125.8047897,False,23
+principal_2021_2025,dulce,mensual,60,shock,bloques,Seasonal Naive,21.90795652,3,2.917472392,12.83311758,False,23
+principal_2021_2025,dulce,mensual,60,shock,bloques,Chronos,41.93950922,4,18.23632334,36.42361233,False,23
+principal_2021_2025,dulce,mensual,60,shock,bloques,SARIMA,13.89287669,1,0,0,True,23
+principal_2021_2025,dulce,mensual,60,shock,bloques,SARIMA-sel,16.18395791,2,-2.915776555,7.992071216,True,23
+principal_2021_2025,dulce,mensual,60,shock,bloques,Ridge,56.90372626,9,27.64093562,59.69391136,False,23
+principal_2021_2025,dulce,mensual,60,shock,bloques,ElasticNet,54.05349413,8,23.96020211,56.69514913,False,23
+principal_2021_2025,dulce,mensual,60,shock,bloques,XGB-37,53.11473361,6,22.84538696,52.8911109,False,23
+principal_2021_2025,dulce,mensual,60,shock,bloques,GC3,53.24725934,7,23.76380828,55.65916253,False,23
+principal_2021_2025,dulce,mensual,60,shock,bloques,GE,50.46029613,5,22.16615682,51.04941518,False,23
+principal_2021_2025,dulce,mensual,60,normal,iid,Naive,47.96783784,7,17.17511137,36.20699537,False,37
+principal_2021_2025,dulce,mensual,60,normal,iid,Seasonal Naive,26.11618919,4,-0.13037999,9.698317153,True,37
+principal_2021_2025,dulce,mensual,60,normal,iid,Chronos,23.90590524,3,-4.331396674,9.482089411,True,37
+principal_2021_2025,dulce,mensual,60,normal,iid,SARIMA,21.221297,1,0,0,True,37
+principal_2021_2025,dulce,mensual,60,normal,iid,SARIMA-sel,23.39164948,2,-1.828472265,6.127040824,True,37
+principal_2021_2025,dulce,mensual,60,normal,iid,Ridge,50.68654803,8,16.89006546,42.46246117,False,37
+principal_2021_2025,dulce,mensual,60,normal,iid,ElasticNet,47.88245609,6,14.26294915,39.38229336,False,37
+principal_2021_2025,dulce,mensual,60,normal,iid,XGB-37,45.24298093,5,12.68246804,35.42147578,False,37
+principal_2021_2025,dulce,mensual,60,normal,iid,GC3,58.79656784,9,23.05638623,51.83984724,False,37
+principal_2021_2025,dulce,mensual,60,normal,iid,GE,60.63464255,10,25.23079398,53.3133287,False,37
+principal_2021_2025,dulce,mensual,60,normal,bloques,Naive,47.96783784,7,19.0682217,34.17701237,False,37
+principal_2021_2025,dulce,mensual,60,normal,bloques,Seasonal Naive,26.11618919,4,-0.9738920134,10.98190431,True,37
+principal_2021_2025,dulce,mensual,60,normal,bloques,Chronos,23.90590524,3,-4.347645914,9.306556633,True,37
+principal_2021_2025,dulce,mensual,60,normal,bloques,SARIMA,21.221297,1,0,0,True,37
+principal_2021_2025,dulce,mensual,60,normal,bloques,SARIMA-sel,23.39164948,2,-2.044605519,6.178234449,True,37
+principal_2021_2025,dulce,mensual,60,normal,bloques,Ridge,50.68654803,8,14.56473137,44.2238221,False,37
+principal_2021_2025,dulce,mensual,60,normal,bloques,ElasticNet,47.88245609,6,11.8125695,41.14741984,False,37
+principal_2021_2025,dulce,mensual,60,normal,bloques,XGB-37,45.24298093,5,9.794479983,38.9982981,False,37
+principal_2021_2025,dulce,mensual,60,normal,bloques,GC3,58.79656784,9,18.50588768,59.1648672,False,37
+principal_2021_2025,dulce,mensual,60,normal,bloques,GE,60.63464255,10,20.92434724,59.8045297,False,37
+principal_2021_2025,dulce,mensual,75,shock,iid,Naive,131.6219333,10,103.013764,133.3754489,False,15
+principal_2021_2025,dulce,mensual,75,shock,iid,Seasonal Naive,24.50273333,3,7.208316123,13.52945034,False,15
+principal_2021_2025,dulce,mensual,75,shock,iid,Chronos,48.19885271,4,24.85498639,42.6930126,False,15
+principal_2021_2025,dulce,mensual,75,shock,iid,SARIMA,13.97793977,1,0,0,True,15
+principal_2021_2025,dulce,mensual,75,shock,iid,SARIMA-sel,19.6907612,2,4.474550564,7.128629086,False,15
+principal_2021_2025,dulce,mensual,75,shock,iid,Ridge,69.69398928,9,38.91363728,74.3417311,False,15
+principal_2021_2025,dulce,mensual,75,shock,iid,ElasticNet,67.22970635,8,35.76761372,72.47127289,False,15
+principal_2021_2025,dulce,mensual,75,shock,iid,XGB-37,65.84926089,7,37.12677174,66.76870797,False,15
+principal_2021_2025,dulce,mensual,75,shock,iid,GC3,60.74803513,6,32.45213631,61.86579944,False,15
+principal_2021_2025,dulce,mensual,75,shock,iid,GE,57.88306913,5,27.91218289,61.09050467,False,15
+principal_2021_2025,dulce,mensual,75,shock,bloques,Naive,131.6219333,10,103.3665315,132.1082582,False,15
+principal_2021_2025,dulce,mensual,75,shock,bloques,Seasonal Naive,24.50273333,3,4.752750019,14.77810322,False,15
+principal_2021_2025,dulce,mensual,75,shock,bloques,Chronos,48.19885271,4,22.97462877,43.28163981,False,15
+principal_2021_2025,dulce,mensual,75,shock,bloques,SARIMA,13.97793977,1,0,0,True,15
+principal_2021_2025,dulce,mensual,75,shock,bloques,SARIMA-sel,19.6907612,2,-0.8510688055,13.77649254,True,15
+principal_2021_2025,dulce,mensual,75,shock,bloques,Ridge,69.69398928,9,36.24956688,77.88203172,False,15
+principal_2021_2025,dulce,mensual,75,shock,bloques,ElasticNet,67.22970635,8,33.39736746,74.81344508,False,15
+principal_2021_2025,dulce,mensual,75,shock,bloques,XGB-37,65.84926089,7,34.45857345,66.78762088,False,15
+principal_2021_2025,dulce,mensual,75,shock,bloques,GC3,60.74803513,6,25.28693492,70.07328058,False,15
+principal_2021_2025,dulce,mensual,75,shock,bloques,GE,57.88306913,5,24.26532456,64.11355839,False,15
+principal_2021_2025,dulce,mensual,75,normal,iid,Naive,59.48908889,10,27.00942806,52.69199482,False,45
+principal_2021_2025,dulce,mensual,75,normal,iid,Seasonal Naive,24.50313333,3,0.3895307514,8.703188943,False,45
+principal_2021_2025,dulce,mensual,75,normal,iid,Chronos,25.02543146,4,-1.436411461,11.62003432,True,45
+principal_2021_2025,dulce,mensual,75,normal,iid,SARIMA,19.89011237,1,0,0,True,45
+principal_2021_2025,dulce,mensual,75,normal,iid,SARIMA-sel,20.94134766,2,-2.589766676,4.735143219,True,45
+principal_2021_2025,dulce,mensual,75,normal,iid,Ridge,47.52840316,7,16.95991766,38.27404024,False,45
+principal_2021_2025,dulce,mensual,75,normal,iid,ElasticNet,44.58745877,6,14.26778284,35.1994026,False,45
+principal_2021_2025,dulce,mensual,75,normal,iid,XGB-37,42.3975612,5,12.55868262,33.13045342,False,45
+principal_2021_2025,dulce,mensual,75,normal,iid,GC3,55.30976551,8,23.23425093,47.82435394,False,45
+principal_2021_2025,dulce,mensual,75,normal,iid,GE,56.35161218,9,24.65644936,48.37015495,False,45
+principal_2021_2025,dulce,mensual,75,normal,bloques,Naive,59.48908889,10,29.92445997,49.52502276,False,45
+principal_2021_2025,dulce,mensual,75,normal,bloques,Seasonal Naive,24.50313333,3,-0.9983047723,10.25779634,True,45
+principal_2021_2025,dulce,mensual,75,normal,bloques,Chronos,25.02543146,4,-1.466243156,11.56708319,True,45
+principal_2021_2025,dulce,mensual,75,normal,bloques,SARIMA,19.89011237,1,0,0,True,45
+principal_2021_2025,dulce,mensual,75,normal,bloques,SARIMA-sel,20.94134766,2,-2.025795496,4.052967056,True,45
+principal_2021_2025,dulce,mensual,75,normal,bloques,Ridge,47.52840316,7,15.06385882,41.16449866,False,45
+principal_2021_2025,dulce,mensual,75,normal,bloques,ElasticNet,44.58745877,6,12.36219577,37.95923686,False,45
+principal_2021_2025,dulce,mensual,75,normal,bloques,XGB-37,42.3975612,5,10.47858547,35.80079803,False,45
+principal_2021_2025,dulce,mensual,75,normal,bloques,GC3,55.30976551,8,18.42211978,54.3401615,False,45
+principal_2021_2025,dulce,mensual,75,normal,bloques,GE,56.35161218,9,20.28909384,54.57520611,False,45
+principal_2021_2025,dulce,mensual,90,shock,iid,Naive,110.7278,10,78.44282557,127.1489615,False,5
+principal_2021_2025,dulce,mensual,90,shock,iid,Seasonal Naive,21.412,2,10.30482557,11.07542695,False,5
+principal_2021_2025,dulce,mensual,90,shock,iid,Chronos,38.0227054,4,17.0716497,39.88636429,False,5
+principal_2021_2025,dulce,mensual,90,shock,iid,SARIMA,10.71492867,1,0,0,True,5
+principal_2021_2025,dulce,mensual,90,shock,iid,SARIMA-sel,29.10102108,3,15.10864628,22.87217436,False,5
+principal_2021_2025,dulce,mensual,90,shock,iid,Ridge,46.58649318,8,24.41383674,47.19937282,False,5
+principal_2021_2025,dulce,mensual,90,shock,iid,ElasticNet,45.87595023,7,27.54332775,44.78358969,False,5
+principal_2021_2025,dulce,mensual,90,shock,iid,XGB-37,56.94971289,9,27.3872866,65.03949846,False,5
+principal_2021_2025,dulce,mensual,90,shock,iid,GC3,39.42351212,5,18.80224928,39.99325621,False,5
+principal_2021_2025,dulce,mensual,90,shock,iid,GE,39.55924817,6,15.08535603,51.13234791,False,5
+principal_2021_2025,dulce,mensual,90,shock,bloques,Naive,110.7278,10,74.53933915,133.2578467,False,5
+principal_2021_2025,dulce,mensual,90,shock,bloques,Seasonal Naive,21.412,2,2.359339154,16.11537928,False,5
+principal_2021_2025,dulce,mensual,90,shock,bloques,Chronos,38.0227054,4,17.58003059,39.73431079,False,5
+principal_2021_2025,dulce,mensual,90,shock,bloques,SARIMA,10.71492867,1,0,0,True,5
+principal_2021_2025,dulce,mensual,90,shock,bloques,SARIMA-sel,29.10102108,3,0,32.43539542,True,5
+principal_2021_2025,dulce,mensual,90,shock,bloques,Ridge,46.58649318,8,12.71430571,54.70205774,False,5
+principal_2021_2025,dulce,mensual,90,shock,bloques,ElasticNet,45.87595023,7,12.46034042,48.90474507,False,5
+principal_2021_2025,dulce,mensual,90,shock,bloques,XGB-37,56.94971289,9,24.49566276,70.43758358,False,5
+principal_2021_2025,dulce,mensual,90,shock,bloques,GC3,39.42351212,5,8.145034333,45.26318804,False,5
+principal_2021_2025,dulce,mensual,90,shock,bloques,GE,39.55924817,6,11.15799594,50.95213222,False,5
+principal_2021_2025,dulce,mensual,90,normal,iid,Naive,74.50361818,10,42.03053749,69.10504711,False,55
+principal_2021_2025,dulce,mensual,90,normal,iid,Seasonal Naive,24.78403636,3,1.891155684,9.226258139,False,55
+principal_2021_2025,dulce,mensual,90,normal,iid,Chronos,30.16388508,4,4.154808033,17.57072217,False,55
+principal_2021_2025,dulce,mensual,90,normal,iid,SARIMA,19.11180926,1,0,0,True,55
+principal_2021_2025,dulce,mensual,90,normal,iid,SARIMA-sel,19.85849013,2,-2.240661688,3.771911598,True,55
+principal_2021_2025,dulce,mensual,90,normal,iid,Ridge,53.65919119,7,23.87354636,45.39909687,False,55
+principal_2021_2025,dulce,mensual,90,normal,iid,ElasticNet,50.64548162,6,20.86410811,42.38248788,False,55
+principal_2021_2025,dulce,mensual,90,normal,iid,XGB-37,47.47055641,5,18.24507073,38.32250378,False,55
+principal_2021_2025,dulce,mensual,90,normal,iid,GC3,58.2371348,8,27.93355008,50.09638653,False,55
+principal_2021_2025,dulce,mensual,90,normal,iid,GE,58.29586081,9,28.30371313,49.96813892,False,55
+principal_2021_2025,dulce,mensual,90,normal,bloques,Naive,74.50361818,10,42.96537286,68.30997159,False,55
+principal_2021_2025,dulce,mensual,90,normal,bloques,Seasonal Naive,24.78403636,3,1.037940338,10.16330329,False,55
+principal_2021_2025,dulce,mensual,90,normal,bloques,Chronos,30.16388508,4,3.192895793,18.65232103,False,55
+principal_2021_2025,dulce,mensual,90,normal,bloques,SARIMA,19.11180926,1,0,0,True,55
+principal_2021_2025,dulce,mensual,90,normal,bloques,SARIMA-sel,19.85849013,2,-1.778022479,3.176190951,True,55
+principal_2021_2025,dulce,mensual,90,normal,bloques,Ridge,53.65919119,7,21.59752819,48.03606891,False,55
+principal_2021_2025,dulce,mensual,90,normal,bloques,ElasticNet,50.64548162,6,18.42260117,45.31046259,False,55
+principal_2021_2025,dulce,mensual,90,normal,bloques,XGB-37,47.47055641,5,15.11459171,41.35787868,False,55
+principal_2021_2025,dulce,mensual,90,normal,bloques,GC3,58.2371348,8,22.86933556,55.8908559,False,55
+principal_2021_2025,dulce,mensual,90,normal,bloques,GE,58.29586081,9,23.74519396,55.14714659,False,55
+principal_2021_2025,dulce,interanual,50,shock,iid,Naive,81.29234483,10,37.51687155,77.02695525,False,29
+principal_2021_2025,dulce,interanual,50,shock,iid,Seasonal Naive,37.60506897,4,8.657035034,17.68712609,False,29
+principal_2021_2025,dulce,interanual,50,shock,iid,Chronos,31.74534249,3,-1.98086259,16.40406509,True,29
+principal_2021_2025,dulce,interanual,50,shock,iid,SARIMA,24.2119507,1,0,0,True,29
+principal_2021_2025,dulce,interanual,50,shock,iid,SARIMA-sel,24.85074088,2,-3.782574984,4.971401491,True,29
+principal_2021_2025,dulce,interanual,50,shock,iid,Ridge,64.90945696,8,26.43871921,54.97736959,False,29
+principal_2021_2025,dulce,interanual,50,shock,iid,ElasticNet,59.4713504,6,21.0776619,49.73356812,False,29
+principal_2021_2025,dulce,interanual,50,shock,iid,XGB-37,53.0691219,5,14.52104126,43.08678641,False,29
+principal_2021_2025,dulce,interanual,50,shock,iid,GC3,67.13423255,9,27.77313138,57.56663655,False,29
+principal_2021_2025,dulce,interanual,50,shock,iid,GE,64.90236975,7,25.80110821,55.0949125,False,29
+principal_2021_2025,dulce,interanual,50,shock,bloques,Naive,81.29234483,10,40.46540685,73.64497441,False,29
+principal_2021_2025,dulce,interanual,50,shock,bloques,Seasonal Naive,37.60506897,4,9.029957413,17.83568951,False,29
+principal_2021_2025,dulce,interanual,50,shock,bloques,Chronos,31.74534249,3,-2.231554423,17.4840355,True,29
+principal_2021_2025,dulce,interanual,50,shock,bloques,SARIMA,24.2119507,1,0,0,True,29
+principal_2021_2025,dulce,interanual,50,shock,bloques,SARIMA-sel,24.85074088,2,-3.243462918,5.025748893,True,29
+principal_2021_2025,dulce,interanual,50,shock,bloques,Ridge,64.90945696,8,27.33836909,56.18771609,False,29
+principal_2021_2025,dulce,interanual,50,shock,bloques,ElasticNet,59.4713504,6,21.15376536,51.34262561,False,29
+principal_2021_2025,dulce,interanual,50,shock,bloques,XGB-37,53.0691219,5,12.11855887,45.47793006,False,29
+principal_2021_2025,dulce,interanual,50,shock,bloques,GC3,67.13423255,9,24.54010487,62.48037031,False,29
+principal_2021_2025,dulce,interanual,50,shock,bloques,GE,64.90236975,7,23.54143401,59.34477117,False,29
+principal_2021_2025,dulce,interanual,50,normal,iid,Naive,73.99548387,10,45.22940887,79.191225,False,31
+principal_2021_2025,dulce,interanual,50,normal,iid,Seasonal Naive,12.24629032,1,0,0,True,31
+principal_2021_2025,dulce,interanual,50,normal,iid,Chronos,29.95200884,4,11.08037425,24.63452538,False,31
+principal_2021_2025,dulce,interanual,50,normal,iid,SARIMA,12.98637364,2,-3.745537212,5.474782417,True,31
+principal_2021_2025,dulce,interanual,50,normal,iid,SARIMA-sel,16.67905088,3,-0.8506788837,9.615088009,True,31
+principal_2021_2025,dulce,interanual,50,normal,iid,Ridge,41.99399127,6,18.17443772,43.20830622,False,31
+principal_2021_2025,dulce,interanual,50,normal,iid,ElasticNet,41.61974446,5,18.23361825,42.16705388,False,31
+principal_2021_2025,dulce,interanual,50,normal,iid,XGB-37,43.76208491,7,22.29501924,41.05510353,False,31
+principal_2021_2025,dulce,interanual,50,normal,iid,GC3,46.8795881,8,24.90236926,45.51005951,False,31
+principal_2021_2025,dulce,interanual,50,normal,iid,GE,49.09354395,9,27.47508511,47.33199095,False,31
+principal_2021_2025,dulce,interanual,50,normal,bloques,Naive,73.99548387,10,46.54505661,77.65042581,False,31
+principal_2021_2025,dulce,interanual,50,normal,bloques,Seasonal Naive,12.24629032,1,0,0,True,31
+principal_2021_2025,dulce,interanual,50,normal,bloques,Chronos,29.95200884,4,11.05015263,23.65077292,False,31
+principal_2021_2025,dulce,interanual,50,normal,bloques,SARIMA,12.98637364,2,-4.367277107,5.988582692,True,31
+principal_2021_2025,dulce,interanual,50,normal,bloques,SARIMA-sel,16.67905088,3,-1.107035827,10.23533823,True,31
+principal_2021_2025,dulce,interanual,50,normal,bloques,Ridge,41.99399127,6,17.75495532,43.4190975,False,31
+principal_2021_2025,dulce,interanual,50,normal,bloques,ElasticNet,41.61974446,5,17.84694249,42.5007257,False,31
+principal_2021_2025,dulce,interanual,50,normal,bloques,XGB-37,43.76208491,7,21.83384882,41.59169175,False,31
+principal_2021_2025,dulce,interanual,50,normal,bloques,GC3,46.8795881,8,23.00704242,48.28934654,False,31
+principal_2021_2025,dulce,interanual,50,normal,bloques,GE,49.09354395,9,25.74666554,49.69497782,False,31
+principal_2021_2025,dulce,interanual,60,shock,iid,Naive,78.51386957,10,29.13215453,74.45164523,False,23
+principal_2021_2025,dulce,interanual,60,shock,iid,Seasonal Naive,40.06104348,4,7.230510559,19.42604804,False,23
+principal_2021_2025,dulce,interanual,60,shock,iid,Chronos,30.37056799,3,-6.739616856,13.79230731,True,23
+principal_2021_2025,dulce,interanual,60,shock,iid,SARIMA,27.15248757,2,-4.237689624,4.060729364,True,23
+principal_2021_2025,dulce,interanual,60,shock,iid,SARIMA-sel,26.38504824,1,0,0,True,23
+principal_2021_2025,dulce,interanual,60,shock,iid,Ridge,66.53951775,9,23.48267985,56.6295589,False,23
+principal_2021_2025,dulce,interanual,60,shock,iid,ElasticNet,59.82045421,6,16.70100778,50.35594795,False,23
+principal_2021_2025,dulce,interanual,60,shock,iid,XGB-37,50.74541671,5,8.848824595,40.27068798,False,23
+principal_2021_2025,dulce,interanual,60,shock,iid,GC3,65.34430662,8,22.36597874,55.32307894,False,23
+principal_2021_2025,dulce,interanual,60,shock,iid,GE,62.70369407,7,20.37648881,52.09490405,False,23
+principal_2021_2025,dulce,interanual,60,shock,bloques,Naive,78.51386957,10,34.96458635,69.94958593,False,23
+principal_2021_2025,dulce,interanual,60,shock,bloques,Seasonal Naive,40.06104348,4,7.92715617,19.75575913,False,23
+principal_2021_2025,dulce,interanual,60,shock,bloques,Chronos,30.37056799,3,-5.443695846,14.69396922,True,23
+principal_2021_2025,dulce,interanual,60,shock,bloques,SARIMA,27.15248757,2,-2.510935581,3.929153072,True,23
+principal_2021_2025,dulce,interanual,60,shock,bloques,SARIMA-sel,26.38504824,1,0,0,True,23
+principal_2021_2025,dulce,interanual,60,shock,bloques,Ridge,66.53951775,9,24.50299839,59.57218813,False,23
+principal_2021_2025,dulce,interanual,60,shock,bloques,ElasticNet,59.82045421,6,17.57755336,53.42705864,False,23
+principal_2021_2025,dulce,interanual,60,shock,bloques,XGB-37,50.74541671,5,7.067018295,44.11014532,False,23
+principal_2021_2025,dulce,interanual,60,shock,bloques,GC3,65.34430662,8,21.11531852,60.18673206,False,23
+principal_2021_2025,dulce,interanual,60,shock,bloques,GE,62.70369407,7,20.02955487,55.50457599,False,23
+principal_2021_2025,dulce,interanual,60,normal,iid,Naive,76.90591892,10,48.26649982,80.49645424,False,37
+principal_2021_2025,dulce,interanual,60,normal,iid,Seasonal Naive,14.83183784,2,-2.588121582,5.982561419,True,37
+principal_2021_2025,dulce,interanual,60,normal,iid,Chronos,31.09740925,4,11.16011399,25.15458706,False,37
+principal_2021_2025,dulce,interanual,60,normal,iid,SARIMA,12.97883618,1,0,0,True,37
+principal_2021_2025,dulce,interanual,60,normal,iid,SARIMA-sel,17.05043116,3,0.5077538657,7.421506541,False,37
+principal_2021_2025,dulce,interanual,60,normal,iid,Ridge,44.6967317,6,19.8720956,44.89776965,False,37
+principal_2021_2025,dulce,interanual,60,normal,iid,ElasticNet,44.29758901,5,19.55492491,44.13846693,False,37
+principal_2021_2025,dulce,interanual,60,normal,iid,XGB-37,46.71579954,7,22.4434348,45.39349356,False,37
+principal_2021_2025,dulce,interanual,60,normal,iid,GC3,51.27678169,8,24.98697621,51.70820455,False,37
+principal_2021_2025,dulce,interanual,60,normal,iid,GE,53.02388167,9,27.05535655,53.16819877,False,37
+principal_2021_2025,dulce,interanual,60,normal,bloques,Naive,76.90591892,10,48.60517908,79.99070346,False,37
+principal_2021_2025,dulce,interanual,60,normal,bloques,Seasonal Naive,14.83183784,2,-3.469920766,6.857522676,True,37
+principal_2021_2025,dulce,interanual,60,normal,bloques,Chronos,31.09740925,4,10.74819042,24.95976976,False,37
+principal_2021_2025,dulce,interanual,60,normal,bloques,SARIMA,12.97883618,1,0,0,True,37
+principal_2021_2025,dulce,interanual,60,normal,bloques,SARIMA-sel,17.05043116,3,0.9404573705,7.279193589,False,37
+principal_2021_2025,dulce,interanual,60,normal,bloques,Ridge,44.6967317,6,17.87833169,46.11905393,False,37
+principal_2021_2025,dulce,interanual,60,normal,bloques,ElasticNet,44.29758901,5,17.69405946,45.45718542,False,37
+principal_2021_2025,dulce,interanual,60,normal,bloques,XGB-37,46.71579954,7,21.00894894,46.2784268,False,37
+principal_2021_2025,dulce,interanual,60,normal,bloques,GC3,51.27678169,8,21.8568157,55.57075164,False,37
+principal_2021_2025,dulce,interanual,60,normal,bloques,GE,53.02388167,9,24.15160755,56.65764414,False,37
+principal_2021_2025,dulce,interanual,75,shock,iid,Naive,83.175625,10,28.49344774,83.35222615,False,16
+principal_2021_2025,dulce,interanual,75,shock,iid,Seasonal Naive,42.392625,5,7.276371074,21.99220087,False,16
+principal_2021_2025,dulce,interanual,75,shock,iid,Chronos,33.1953354,3,-6.944723267,18.00232835,True,16
+principal_2021_2025,dulce,interanual,75,shock,iid,SARIMA,27.39060809,1,0,0,True,16
+principal_2021_2025,dulce,interanual,75,shock,iid,SARIMA-sel,28.37674997,2,-3.614133802,5.678019173,True,16
+principal_2021_2025,dulce,interanual,75,shock,iid,Ridge,66.41668914,9,20.65819627,57.66086018,False,16
+principal_2021_2025,dulce,interanual,75,shock,iid,ElasticNet,57.32178888,7,11.35454192,49.47880512,False,16
+principal_2021_2025,dulce,interanual,75,shock,iid,XGB-37,42.31164714,4,0.509110345,29.58364439,False,16
+principal_2021_2025,dulce,interanual,75,shock,iid,GC3,58.19148482,8,14.00350091,47.18541684,False,16
+principal_2021_2025,dulce,interanual,75,shock,iid,GE,56.06192508,6,12.0836727,44.76305573,False,16
+principal_2021_2025,dulce,interanual,75,shock,bloques,Naive,83.175625,10,36.14331267,80.73572335,False,16
+principal_2021_2025,dulce,interanual,75,shock,bloques,Seasonal Naive,42.392625,5,8.818392722,22.46663643,False,16
+principal_2021_2025,dulce,interanual,75,shock,bloques,Chronos,33.1953354,3,-5.212152283,21.35466158,True,16
+principal_2021_2025,dulce,interanual,75,shock,bloques,SARIMA,27.39060809,1,0,0,True,16
+principal_2021_2025,dulce,interanual,75,shock,bloques,SARIMA-sel,28.37674997,2,-2.362714827,4.566241557,True,16
+principal_2021_2025,dulce,interanual,75,shock,bloques,Ridge,66.41668914,9,23.43749208,64.21807157,False,16
+principal_2021_2025,dulce,interanual,75,shock,bloques,ElasticNet,57.32178888,7,15.18932812,55.32573213,False,16
+principal_2021_2025,dulce,interanual,75,shock,bloques,XGB-37,42.31164714,4,1.193753064,35.25614763,False,16
+principal_2021_2025,dulce,interanual,75,shock,bloques,GC3,58.19148482,8,15.38813786,51.17638765,False,16
+principal_2021_2025,dulce,interanual,75,shock,bloques,GE,56.06192508,6,14.97912304,47.27495775,False,16
+principal_2021_2025,dulce,interanual,75,normal,iid,Naive,75.46654545,10,45.64262831,75.41128506,False,44
+principal_2021_2025,dulce,interanual,75,normal,iid,Seasonal Naive,17.99772727,3,-1.114832988,6.47049754,True,44
+principal_2021_2025,dulce,interanual,75,normal,iid,Chronos,29.95458727,4,8.12286256,21.55129463,False,44
+principal_2021_2025,dulce,interanual,75,normal,iid,SARIMA,15.14714599,1,0,0,True,44
+principal_2021_2025,dulce,interanual,75,normal,iid,SARIMA-sel,17.81122871,2,-0.9081187099,6.084075761,True,44
+principal_2021_2025,dulce,interanual,75,normal,iid,Ridge,48.21638534,6,22.42818654,44.05907129,False,44
+principal_2021_2025,dulce,interanual,75,normal,iid,ElasticNet,47.67574132,5,22.13935524,43.26171509,False,44
+principal_2021_2025,dulce,interanual,75,normal,iid,XGB-37,50.42370029,7,25.12500248,45.56527364,False,44
+principal_2021_2025,dulce,interanual,75,normal,iid,GC3,56.11582313,8,28.88290875,52.85923166,False,44
+principal_2021_2025,dulce,interanual,75,normal,iid,GE,56.97904054,9,29.88315922,53.78047044,False,44
+principal_2021_2025,dulce,interanual,75,normal,bloques,Naive,75.46654545,10,44.91613374,76.25010674,False,44
+principal_2021_2025,dulce,interanual,75,normal,bloques,Seasonal Naive,17.99772727,3,-2.314735268,7.487871327,True,44
+principal_2021_2025,dulce,interanual,75,normal,bloques,Chronos,29.95458727,4,7.355718295,21.70208834,False,44
+principal_2021_2025,dulce,interanual,75,normal,bloques,SARIMA,15.14714599,1,0,0,True,44
+principal_2021_2025,dulce,interanual,75,normal,bloques,SARIMA-sel,17.81122871,2,-0.5869505781,5.820433158,True,44
+principal_2021_2025,dulce,interanual,75,normal,bloques,Ridge,48.21638534,6,19.2375825,46.19477761,False,44
+principal_2021_2025,dulce,interanual,75,normal,bloques,ElasticNet,47.67574132,5,19.08498993,45.23411764,False,44
+principal_2021_2025,dulce,interanual,75,normal,bloques,XGB-37,50.42370029,7,21.97135696,47.60691731,False,44
+principal_2021_2025,dulce,interanual,75,normal,bloques,GC3,56.11582313,8,22.55579174,58.88035224,False,44
+principal_2021_2025,dulce,interanual,75,normal,bloques,GE,56.97904054,9,24.68224738,58.48641606,False,44
+principal_2021_2025,dulce,interanual,90,shock,iid,Naive,60.26,8,-1.009546753,58.03411633,True,4
+principal_2021_2025,dulce,interanual,90,shock,iid,Seasonal Naive,68.645,10,28.62820325,45.16636633,False,4
+principal_2021_2025,dulce,interanual,90,shock,iid,Chronos,31.74771521,1,0,0,True,4
+principal_2021_2025,dulce,interanual,90,shock,iid,SARIMA,59.26418499,6,17.07247191,37.96046765,False,4
+principal_2021_2025,dulce,interanual,90,shock,iid,SARIMA-sel,53.60733732,4,11.85378986,31.86545436,False,4
+principal_2021_2025,dulce,interanual,90,shock,iid,Ridge,56.54611816,5,17.96157013,31.63523578,False,4
+principal_2021_2025,dulce,interanual,90,shock,iid,ElasticNet,49.41007463,3,10.37493391,24.94978494,False,4
+principal_2021_2025,dulce,interanual,90,shock,iid,XGB-37,43.59073365,2,-5.579198546,29.26523543,True,4
+principal_2021_2025,dulce,interanual,90,shock,iid,GC3,67.52654492,9,31.99605341,39.56160602,False,4
+principal_2021_2025,dulce,interanual,90,shock,iid,GE,59.39665534,7,23.9525937,31.34528657,False,4
+principal_2021_2025,dulce,interanual,90,shock,bloques,Naive,60.26,8,-12.6298717,69.65444128,True,4
+principal_2021_2025,dulce,interanual,90,shock,bloques,Seasonal Naive,68.645,10,24.6412782,49.15329138,False,4
+principal_2021_2025,dulce,interanual,90,shock,bloques,Chronos,31.74771521,1,0,0,True,4
+principal_2021_2025,dulce,interanual,90,shock,bloques,SARIMA,59.26418499,6,1.822726811,65.55642355,False,4
+principal_2021_2025,dulce,interanual,90,shock,bloques,SARIMA-sel,53.60733732,4,-3.106080921,68.39291909,True,4
+principal_2021_2025,dulce,interanual,90,shock,bloques,Ridge,56.54611816,5,0.6492474268,41.96389856,False,4
+principal_2021_2025,dulce,interanual,90,shock,bloques,ElasticNet,49.41007463,3,-4.398949344,31.79557084,True,4
+principal_2021_2025,dulce,interanual,90,shock,bloques,XGB-37,43.59073365,2,-6.534615926,32.25246183,True,4
+principal_2021_2025,dulce,interanual,90,shock,bloques,GC3,67.52654492,9,26.49284302,41.99029264,False,4
+principal_2021_2025,dulce,interanual,90,shock,bloques,GE,59.39665534,7,20.46342734,34.83445293,False,4
+principal_2021_2025,dulce,interanual,90,normal,iid,Naive,78.75532143,10,50.49158831,76.62678911,False,56
+principal_2021_2025,dulce,interanual,90,normal,iid,Seasonal Naive,21.35003571,3,2.335412612,9.156140127,False,56
+principal_2021_2025,dulce,interanual,90,normal,iid,Chronos,30.75243474,4,9.44444899,21.12275021,False,56
+principal_2021_2025,dulce,interanual,90,normal,iid,SARIMA,15.49406095,1,0,0,True,56
+principal_2021_2025,dulce,interanual,90,normal,iid,SARIMA-sel,18.27308417,2,-0.1807426509,5.546932423,True,56
+principal_2021_2025,dulce,interanual,90,normal,iid,Ridge,52.82149122,7,27.780017,47.38995977,False,56
+principal_2021_2025,dulce,interanual,90,normal,iid,ElasticNet,50.30787396,6,25.38027546,44.6310629,False,56
+principal_2021_2025,dulce,interanual,90,normal,iid,XGB-37,48.59403987,5,23.96089707,42.40437371,False,56
+principal_2021_2025,dulce,interanual,90,normal,iid,GC3,55.89381777,8,30.22456307,50.53041283,False,56
+principal_2021_2025,dulce,interanual,90,normal,iid,GE,56.54432078,9,31.15853997,51.07414684,False,56
+principal_2021_2025,dulce,interanual,90,normal,bloques,Naive,78.75532143,10,50.54355051,76.74305735,False,56
+principal_2021_2025,dulce,interanual,90,normal,bloques,Seasonal Naive,21.35003571,3,1.548046378,9.93428306,False,56
+principal_2021_2025,dulce,interanual,90,normal,bloques,Chronos,30.75243474,4,8.867687414,21.48773551,False,56
+principal_2021_2025,dulce,interanual,90,normal,bloques,SARIMA,15.49406095,1,0,0,True,56
+principal_2021_2025,dulce,interanual,90,normal,bloques,SARIMA-sel,18.27308417,2,-0.1401946555,5.376401421,True,56
+principal_2021_2025,dulce,interanual,90,normal,bloques,Ridge,52.82149122,7,26.13991471,48.79853731,False,56
+principal_2021_2025,dulce,interanual,90,normal,bloques,ElasticNet,50.30787396,6,23.49715418,46.48689374,False,56
+principal_2021_2025,dulce,interanual,90,normal,bloques,XGB-37,48.59403987,5,21.82859509,43.78427376,False,56
+principal_2021_2025,dulce,interanual,90,normal,bloques,GC3,55.89381777,8,25.0027625,55.68843473,False,56
+principal_2021_2025,dulce,interanual,90,normal,bloques,GE,56.54432078,9,26.55811442,55.34983477,False,56
+sensibilidad_2023_2025,sutil,mensual,50,shock,iid,Naive,6216.39025,5,1409.392773,3819.518694,False,20
+sensibilidad_2023_2025,sutil,mensual,50,shock,iid,Seasonal Naive,6928.8312,6,1789.581849,4928.737719,False,20
+sensibilidad_2023_2025,sutil,mensual,50,shock,iid,Chronos,3634.064449,2,-1017.190326,1147.624834,True,20
+sensibilidad_2023_2025,sutil,mensual,50,shock,iid,SARIMA,3733.411768,3,-895.2481923,1108.675598,True,20
+sensibilidad_2023_2025,sutil,mensual,50,shock,iid,SARIMA-sel,3586.351805,1,0,0,True,20
+sensibilidad_2023_2025,sutil,mensual,50,shock,iid,Ridge,8638.746045,9,2051.530304,8281.93507,False,20
+sensibilidad_2023_2025,sutil,mensual,50,shock,iid,ElasticNet,8639.917046,10,2314.027083,7945.439069,False,20
+sensibilidad_2023_2025,sutil,mensual,50,shock,iid,XGB-37,5098.999809,4,202.4156447,2774.085947,False,20
+sensibilidad_2023_2025,sutil,mensual,50,shock,iid,GC3,6994.287551,8,1911.034547,4951.729379,False,20
+sensibilidad_2023_2025,sutil,mensual,50,shock,iid,GE,6943.305023,7,1880.021643,4896.684313,False,20
+sensibilidad_2023_2025,sutil,mensual,50,shock,bloques,Naive,6216.39025,5,1205.577889,4126.371465,False,20
+sensibilidad_2023_2025,sutil,mensual,50,shock,bloques,Seasonal Naive,6928.8312,6,1477.549519,5124.718532,False,20
+sensibilidad_2023_2025,sutil,mensual,50,shock,bloques,Chronos,3634.064449,2,-1136.786621,1117.16941,True,20
+sensibilidad_2023_2025,sutil,mensual,50,shock,bloques,SARIMA,3733.411768,3,-773.7428801,1075.500393,True,20
+sensibilidad_2023_2025,sutil,mensual,50,shock,bloques,SARIMA-sel,3586.351805,1,0,0,True,20
+sensibilidad_2023_2025,sutil,mensual,50,shock,bloques,Ridge,8638.746045,9,1752.372186,8782.204921,False,20
+sensibilidad_2023_2025,sutil,mensual,50,shock,bloques,ElasticNet,8639.917046,10,2018.937004,8371.551145,False,20
+sensibilidad_2023_2025,sutil,mensual,50,shock,bloques,XGB-37,5098.999809,4,173.0403753,2801.125003,False,20
+sensibilidad_2023_2025,sutil,mensual,50,shock,bloques,GC3,6994.287551,8,1650.251574,5159.592735,False,20
+sensibilidad_2023_2025,sutil,mensual,50,shock,bloques,GE,6943.305023,7,1549.839217,5147.378604,False,20
+sensibilidad_2023_2025,sutil,mensual,50,normal,iid,Naive,1508.571313,1,0,0,True,16
+sensibilidad_2023_2025,sutil,mensual,50,normal,iid,Seasonal Naive,7574.741125,8,3785.777414,8205.456267,False,16
+sensibilidad_2023_2025,sutil,mensual,50,normal,iid,Chronos,1830.049864,2,-524.5897147,1102.784342,True,16
+sensibilidad_2023_2025,sutil,mensual,50,normal,iid,SARIMA,3234.627435,5,636.1935826,2783.134396,False,16
+sensibilidad_2023_2025,sutil,mensual,50,normal,iid,SARIMA-sel,3853.672333,6,1148.512616,3586.340809,False,16
+sensibilidad_2023_2025,sutil,mensual,50,normal,iid,Ridge,2949.769416,3,260.4561148,2782.655343,False,16
+sensibilidad_2023_2025,sutil,mensual,50,normal,iid,ElasticNet,2989.580934,4,199.0871675,2981.561825,False,16
+sensibilidad_2023_2025,sutil,mensual,50,normal,iid,XGB-37,4609.566115,7,1503.87806,4912.423361,False,16
+sensibilidad_2023_2025,sutil,mensual,50,normal,iid,GC3,8348.592676,9,4268.099456,9721.42351,False,16
+sensibilidad_2023_2025,sutil,mensual,50,normal,iid,GE,9764.060935,10,5545.401289,11184.37052,False,16
+sensibilidad_2023_2025,sutil,mensual,50,normal,bloques,Naive,1508.571313,1,0,0,True,16
+sensibilidad_2023_2025,sutil,mensual,50,normal,bloques,Seasonal Naive,7574.741125,8,3052.259023,9516.158731,False,16
+sensibilidad_2023_2025,sutil,mensual,50,normal,bloques,Chronos,1830.049864,2,-492.2940658,1117.516519,True,16
+sensibilidad_2023_2025,sutil,mensual,50,normal,bloques,SARIMA,3234.627435,5,533.260689,2829.990414,False,16
+sensibilidad_2023_2025,sutil,mensual,50,normal,bloques,SARIMA-sel,3853.672333,6,1342.966208,3324.723924,False,16
+sensibilidad_2023_2025,sutil,mensual,50,normal,bloques,Ridge,2949.769416,3,83.49753873,3177.389559,False,16
+sensibilidad_2023_2025,sutil,mensual,50,normal,bloques,ElasticNet,2989.580934,4,-5.10520728,3709.921592,True,16
+sensibilidad_2023_2025,sutil,mensual,50,normal,bloques,XGB-37,4609.566115,7,944.2912264,5485.584247,False,16
+sensibilidad_2023_2025,sutil,mensual,50,normal,bloques,GC3,8348.592676,9,3101.579767,11136.63863,False,16
+sensibilidad_2023_2025,sutil,mensual,50,normal,bloques,GE,9764.060935,10,4119.608157,12601.8913,False,16
+sensibilidad_2023_2025,sutil,mensual,60,shock,iid,Naive,6402.303211,5,2045.489757,3520.093064,False,19
+sensibilidad_2023_2025,sutil,mensual,60,shock,iid,Seasonal Naive,6925.633632,6,1379.562851,5209.917856,False,19
+sensibilidad_2023_2025,sutil,mensual,60,shock,iid,Chronos,3815.774666,3,-666.7355399,1186.066183,True,19
+sensibilidad_2023_2025,sutil,mensual,60,shock,iid,SARIMA,3635.683933,1,0,0,True,19
+sensibilidad_2023_2025,sutil,mensual,60,shock,iid,SARIMA-sel,3642.782958,2,-988.7284959,1081.837464,True,19
+sensibilidad_2023_2025,sutil,mensual,60,shock,iid,Ridge,8616.338224,10,2243.328741,8019.976986,False,19
+sensibilidad_2023_2025,sutil,mensual,60,shock,iid,ElasticNet,8548.545484,9,2398.072373,7655.676305,False,19
+sensibilidad_2023_2025,sutil,mensual,60,shock,iid,XGB-37,5208.669167,4,-64.70777631,3052.671399,True,19
+sensibilidad_2023_2025,sutil,mensual,60,shock,iid,GC3,6950.722651,7,1360.376842,5181.734115,False,19
+sensibilidad_2023_2025,sutil,mensual,60,shock,iid,GE,6985.459852,8,1511.583657,5068.385021,False,19
+sensibilidad_2023_2025,sutil,mensual,60,shock,bloques,Naive,6402.303211,5,1948.939975,3558.894276,False,19
+sensibilidad_2023_2025,sutil,mensual,60,shock,bloques,Seasonal Naive,6925.633632,6,971.8835225,5569.175192,False,19
+sensibilidad_2023_2025,sutil,mensual,60,shock,bloques,Chronos,3815.774666,3,-782.2693174,1286.968965,True,19
+sensibilidad_2023_2025,sutil,mensual,60,shock,bloques,SARIMA,3635.683933,1,0,0,True,19
+sensibilidad_2023_2025,sutil,mensual,60,shock,bloques,SARIMA-sel,3642.782958,2,-1030.915777,1106.3126,True,19
+sensibilidad_2023_2025,sutil,mensual,60,shock,bloques,Ridge,8616.338224,10,1758.393269,8545.794886,False,19
+sensibilidad_2023_2025,sutil,mensual,60,shock,bloques,ElasticNet,8548.545484,9,1930.361105,8087.613314,False,19
+sensibilidad_2023_2025,sutil,mensual,60,shock,bloques,XGB-37,5208.669167,4,-103.9414854,3247.976421,True,19
+sensibilidad_2023_2025,sutil,mensual,60,shock,bloques,GC3,6950.722651,7,1218.416365,5628.450987,False,19
+sensibilidad_2023_2025,sutil,mensual,60,shock,bloques,GE,6985.459852,8,1334.499281,5581.729465,False,19
+sensibilidad_2023_2025,sutil,mensual,60,normal,iid,Naive,1577.716765,1,0,0,True,17
+sensibilidad_2023_2025,sutil,mensual,60,normal,iid,Seasonal Naive,7540.320176,8,3762.925701,8040.187374,False,17
+sensibilidad_2023_2025,sutil,mensual,60,normal,iid,Chronos,1733.08048,2,-669.4654366,923.2632701,True,17
+sensibilidad_2023_2025,sutil,mensual,60,normal,iid,SARIMA,3373.192917,4,753.8482591,2783.972836,False,17
+sensibilidad_2023_2025,sutil,mensual,60,normal,iid,SARIMA-sel,3774.877484,6,1020.932391,3394.196505,False,17
+sensibilidad_2023_2025,sutil,mensual,60,normal,iid,Ridge,3309.459135,3,526.007198,3089.500909,False,17
+sensibilidad_2023_2025,sutil,mensual,60,normal,iid,ElasticNet,3424.074804,5,518.0319715,3353.886514,False,17
+sensibilidad_2023_2025,sutil,mensual,60,normal,iid,XGB-37,4515.784697,7,1438.808968,4629.652335,False,17
+sensibilidad_2023_2025,sutil,mensual,60,normal,iid,GC3,8317.617851,9,4276.517351,9456.875515,False,17
+sensibilidad_2023_2025,sutil,mensual,60,normal,iid,GE,9551.019896,10,5416.432135,10755.69613,False,17
+sensibilidad_2023_2025,sutil,mensual,60,normal,bloques,Naive,1577.716765,1,0,0,True,17
+sensibilidad_2023_2025,sutil,mensual,60,normal,bloques,Seasonal Naive,7540.320176,8,3140.867642,9214.498665,False,17
+sensibilidad_2023_2025,sutil,mensual,60,normal,bloques,Chronos,1733.08048,2,-650.7688683,950.5779491,True,17
+sensibilidad_2023_2025,sutil,mensual,60,normal,bloques,SARIMA,3373.192917,4,654.9025114,2835.406897,False,17
+sensibilidad_2023_2025,sutil,mensual,60,normal,bloques,SARIMA-sel,3774.877484,6,1216.066837,3167.75515,False,17
+sensibilidad_2023_2025,sutil,mensual,60,normal,bloques,Ridge,3309.459135,3,323.1572685,3432.5983,False,17
+sensibilidad_2023_2025,sutil,mensual,60,normal,bloques,ElasticNet,3424.074804,5,218.1891278,4051.933258,False,17
+sensibilidad_2023_2025,sutil,mensual,60,normal,bloques,XGB-37,4515.784697,7,914.6362908,5197.008018,False,17
+sensibilidad_2023_2025,sutil,mensual,60,normal,bloques,GC3,8317.617851,9,3198.71366,10806.15907,False,17
+sensibilidad_2023_2025,sutil,mensual,60,normal,bloques,GE,9551.019896,10,4093.508712,12090.73633,False,17
+sensibilidad_2023_2025,sutil,mensual,75,shock,iid,Naive,8499.329,8,2886.69434,4575.155007,False,7
+sensibilidad_2023_2025,sutil,mensual,75,shock,iid,Seasonal Naive,5275.644143,3,-2468.551092,3761.003435,True,7
+sensibilidad_2023_2025,sutil,mensual,75,shock,iid,Chronos,4754.106137,1,0,0,True,7
+sensibilidad_2023_2025,sutil,mensual,75,shock,iid,SARIMA,5655.990061,4,200.8767254,1466.313756,False,7
+sensibilidad_2023_2025,sutil,mensual,75,shock,iid,SARIMA-sel,5248.202719,2,-1247.670529,2528.541017,True,7
+sensibilidad_2023_2025,sutil,mensual,75,shock,iid,Ridge,10341.02439,10,1802.928292,11163.33206,False,7
+sensibilidad_2023_2025,sutil,mensual,75,shock,iid,ElasticNet,9927.637123,9,1555.732323,9682.41187,False,7
+sensibilidad_2023_2025,sutil,mensual,75,shock,iid,XGB-37,6264.362438,5,-1476.514899,3501.154105,True,7
+sensibilidad_2023_2025,sutil,mensual,75,shock,iid,GC3,6570.976327,6,-74.28518854,3582.614998,True,7
+sensibilidad_2023_2025,sutil,mensual,75,shock,iid,GE,7523.011765,7,272.8571524,5020.211593,False,7
+sensibilidad_2023_2025,sutil,mensual,75,shock,bloques,Naive,8499.329,8,2457.288567,5054.10562,False,7
+sensibilidad_2023_2025,sutil,mensual,75,shock,bloques,Seasonal Naive,5275.644143,3,-3523.198247,4774.043669,True,7
+sensibilidad_2023_2025,sutil,mensual,75,shock,bloques,Chronos,4754.106137,1,0,0,True,7
+sensibilidad_2023_2025,sutil,mensual,75,shock,bloques,SARIMA,5655.990061,4,262.7893255,1424.132569,False,7
+sensibilidad_2023_2025,sutil,mensual,75,shock,bloques,SARIMA-sel,5248.202719,2,-1309.61326,2519.740979,True,7
+sensibilidad_2023_2025,sutil,mensual,75,shock,bloques,Ridge,10341.02439,10,689.5406303,9911.621669,False,7
+sensibilidad_2023_2025,sutil,mensual,75,shock,bloques,ElasticNet,9927.637123,9,592.6899357,8848.805338,False,7
+sensibilidad_2023_2025,sutil,mensual,75,shock,bloques,XGB-37,6264.362438,5,-1786.567367,4262.488483,True,7
+sensibilidad_2023_2025,sutil,mensual,75,shock,bloques,GC3,6570.976327,6,-893.2253322,3967.74658,True,7
+sensibilidad_2023_2025,sutil,mensual,75,shock,bloques,GE,7523.011765,7,-78.41606075,4931.584526,True,7
+sensibilidad_2023_2025,sutil,mensual,75,normal,iid,Naive,3067.918724,3,-65.51289101,1496.605351,True,29
+sensibilidad_2023_2025,sutil,mensual,75,normal,iid,Seasonal Naive,7684.240448,8,3796.320463,6877.78643,False,29
+sensibilidad_2023_2025,sutil,mensual,75,normal,iid,Chronos,2368.391167,1,0,0,True,29
+sensibilidad_2023_2025,sutil,mensual,75,normal,iid,SARIMA,2994.149789,2,-310.765661,1550.293656,True,29
+sensibilidad_2023_2025,sutil,mensual,75,normal,iid,SARIMA-sel,3332.702566,4,-79.54048354,2015.582868,True,29
+sensibilidad_2023_2025,sutil,mensual,75,normal,iid,Ridge,5089.105546,6,861.0581024,4775.526177,False,29
+sensibilidad_2023_2025,sutil,mensual,75,normal,iid,ElasticNet,5211.661241,7,1044.404021,4790.37401,False,29
+sensibilidad_2023_2025,sutil,mensual,75,normal,iid,XGB-37,4547.672999,5,905.4582299,3492.890599,False,29
+sensibilidad_2023_2025,sutil,mensual,75,normal,iid,GC3,7843.66895,9,3475.915239,7571.884291,False,29
+sensibilidad_2023_2025,sutil,mensual,75,normal,iid,GE,8359.654933,10,3882.930734,8146.59408,False,29
+sensibilidad_2023_2025,sutil,mensual,75,normal,bloques,Naive,3067.918724,3,-104.8157426,1538.546548,True,29
+sensibilidad_2023_2025,sutil,mensual,75,normal,bloques,Seasonal Naive,7684.240448,8,3149.826915,7391.9867,False,29
+sensibilidad_2023_2025,sutil,mensual,75,normal,bloques,Chronos,2368.391167,1,0,0,True,29
+sensibilidad_2023_2025,sutil,mensual,75,normal,bloques,SARIMA,2994.149789,2,-282.9864933,1564.943329,True,29
+sensibilidad_2023_2025,sutil,mensual,75,normal,bloques,SARIMA-sel,3332.702566,4,28.6887376,1877.602083,False,29
+sensibilidad_2023_2025,sutil,mensual,75,normal,bloques,Ridge,5089.105546,6,753.2969127,4954.86247,False,29
+sensibilidad_2023_2025,sutil,mensual,75,normal,bloques,ElasticNet,5211.661241,7,805.973042,5167.507667,False,29
+sensibilidad_2023_2025,sutil,mensual,75,normal,bloques,XGB-37,4547.672999,5,500.7361793,4035.188752,False,29
+sensibilidad_2023_2025,sutil,mensual,75,normal,bloques,GC3,7843.66895,9,2534.330084,8694.35141,False,29
+sensibilidad_2023_2025,sutil,mensual,75,normal,bloques,GE,8359.654933,10,2871.089023,9372.563757,False,29
+sensibilidad_2023_2025,sutil,mensual,90,shock,iid,Naive,8354.2978,7,2613.875214,4493.384112,False,5
+sensibilidad_2023_2025,sutil,mensual,90,shock,iid,Seasonal Naive,6932.6134,4,-1924.370709,5832.637981,True,5
+sensibilidad_2023_2025,sutil,mensual,90,shock,iid,Chronos,4978.479764,1,0,0,True,5
+sensibilidad_2023_2025,sutil,mensual,90,shock,iid,SARIMA,6269.935533,2,882.551239,1552.006684,False,5
+sensibilidad_2023_2025,sutil,mensual,90,shock,iid,SARIMA-sel,6508.029448,3,-344.2544165,3827.890091,True,5
+sensibilidad_2023_2025,sutil,mensual,90,shock,iid,Ridge,12141.82004,10,3107.978755,13590.3829,False,5
+sensibilidad_2023_2025,sutil,mensual,90,shock,iid,ElasticNet,11185.92075,9,2734.368866,11193.30109,False,5
+sensibilidad_2023_2025,sutil,mensual,90,shock,iid,XGB-37,7631.079611,6,1934.392532,3347.262339,False,5
+sensibilidad_2023_2025,sutil,mensual,90,shock,iid,GC3,7395.234199,5,418.4188845,4741.573124,False,5
+sensibilidad_2023_2025,sutil,mensual,90,shock,iid,GE,8447.511939,8,1798.501633,5411.935514,False,5
+sensibilidad_2023_2025,sutil,mensual,90,shock,bloques,Naive,8354.2978,7,1583.440445,5167.807578,False,5
+sensibilidad_2023_2025,sutil,mensual,90,shock,bloques,Seasonal Naive,6932.6134,4,-4065.449414,7721.462277,True,5
+sensibilidad_2023_2025,sutil,mensual,90,shock,bloques,Chronos,4978.479764,1,0,0,True,5
+sensibilidad_2023_2025,sutil,mensual,90,shock,bloques,SARIMA,6269.935533,2,961.8446879,1585.325979,False,5
+sensibilidad_2023_2025,sutil,mensual,90,shock,bloques,SARIMA-sel,6508.029448,3,-183.4286482,3462.499292,True,5
+sensibilidad_2023_2025,sutil,mensual,90,shock,bloques,Ridge,12141.82004,10,57.3790723,17539.72624,False,5
+sensibilidad_2023_2025,sutil,mensual,90,shock,bloques,ElasticNet,11185.92075,9,-738.1822836,15000.89725,True,5
+sensibilidad_2023_2025,sutil,mensual,90,shock,bloques,XGB-37,7631.079611,6,426.685807,5414.529987,False,5
+sensibilidad_2023_2025,sutil,mensual,90,shock,bloques,GC3,7395.234199,5,273.3300088,5255.718811,False,5
+sensibilidad_2023_2025,sutil,mensual,90,shock,bloques,GE,8447.511939,8,1205.532688,5422.024576,False,5
+sensibilidad_2023_2025,sutil,mensual,90,normal,iid,Naive,3441.724419,4,161.7303275,1798.681109,False,31
+sensibilidad_2023_2025,sutil,mensual,90,normal,iid,Seasonal Naive,7261.594032,8,3227.508251,6371.23373,False,31
+sensibilidad_2023_2025,sutil,mensual,90,normal,iid,Chronos,2486.118967,1,0,0,True,31
+sensibilidad_2023_2025,sutil,mensual,90,normal,iid,SARIMA,3066.857957,2,-290.5170795,1468.511983,True,31
+sensibilidad_2023_2025,sutil,mensual,90,normal,iid,SARIMA-sel,3253.085361,3,-245.4292111,1782.812262,True,31
+sensibilidad_2023_2025,sutil,mensual,90,normal,iid,Ridge,5137.488108,6,909.2710547,4668.927295,False,31
+sensibilidad_2023_2025,sutil,mensual,90,normal,iid,ElasticNet,5312.968778,7,1118.872255,4749.712795,False,31
+sensibilidad_2023_2025,sutil,mensual,90,normal,iid,XGB-37,4437.988902,5,618.1756801,3316.11795,False,31
+sensibilidad_2023_2025,sutil,mensual,90,normal,iid,GC3,7628.61493,9,3132.598416,7243.360147,False,31
+sensibilidad_2023_2025,sutil,mensual,90,normal,iid,GE,8156.565023,10,3527.077573,7863.427224,False,31
+sensibilidad_2023_2025,sutil,mensual,90,normal,bloques,Naive,3441.724419,4,96.97258285,1823.822192,False,31
+sensibilidad_2023_2025,sutil,mensual,90,normal,bloques,Seasonal Naive,7261.594032,8,2710.714689,6827.904665,False,31
+sensibilidad_2023_2025,sutil,mensual,90,normal,bloques,Chronos,2486.118967,1,0,0,True,31
+sensibilidad_2023_2025,sutil,mensual,90,normal,bloques,SARIMA,3066.857957,2,-248.4462637,1449.114543,True,31
+sensibilidad_2023_2025,sutil,mensual,90,normal,bloques,SARIMA-sel,3253.085361,3,-128.5719401,1656.180113,True,31
+sensibilidad_2023_2025,sutil,mensual,90,normal,bloques,Ridge,5137.488108,6,814.973545,4764.318376,False,31
+sensibilidad_2023_2025,sutil,mensual,90,normal,bloques,ElasticNet,5312.968778,7,889.3357525,5050.131747,False,31
+sensibilidad_2023_2025,sutil,mensual,90,normal,bloques,XGB-37,4437.988902,5,296.9125336,3757.882818,False,31
+sensibilidad_2023_2025,sutil,mensual,90,normal,bloques,GC3,7628.61493,9,2379.591306,8212.194017,False,31
+sensibilidad_2023_2025,sutil,mensual,90,normal,bloques,GE,8156.565023,10,2652.395719,8917.191217,False,31
+sensibilidad_2023_2025,sutil,interanual,50,shock,iid,Naive,3779.682474,3,-159.6230306,2088.925167,True,19
+sensibilidad_2023_2025,sutil,interanual,50,shock,iid,Seasonal Naive,10822.20189,10,6663.701248,9273.671071,False,19
+sensibilidad_2023_2025,sutil,interanual,50,shock,iid,Chronos,2847.893083,1,0,0,True,19
+sensibilidad_2023_2025,sutil,interanual,50,shock,iid,SARIMA,3455.859552,2,-544.596224,1657.466017,True,19
+sensibilidad_2023_2025,sutil,interanual,50,shock,iid,SARIMA-sel,3887.881093,4,-363.4960666,2439.545506,True,19
+sensibilidad_2023_2025,sutil,interanual,50,shock,iid,Ridge,5898.074021,6,947.0581925,5460.550095,False,19
+sensibilidad_2023_2025,sutil,interanual,50,shock,iid,ElasticNet,6327.276983,7,1356.134314,5848.239115,False,19
+sensibilidad_2023_2025,sutil,interanual,50,shock,iid,XGB-37,4544.469764,5,76.96368072,3395.658855,False,19
+sensibilidad_2023_2025,sutil,interanual,50,shock,iid,GC3,8044.488437,9,2752.721696,7773.592424,False,19
+sensibilidad_2023_2025,sutil,interanual,50,shock,iid,GE,8029.482458,8,2832.237324,7657.307004,False,19
+sensibilidad_2023_2025,sutil,interanual,50,shock,bloques,Naive,3779.682474,3,-298.6409281,2079.667935,True,19
+sensibilidad_2023_2025,sutil,interanual,50,shock,bloques,Seasonal Naive,10822.20189,10,5985.255946,10011.5734,False,19
+sensibilidad_2023_2025,sutil,interanual,50,shock,bloques,Chronos,2847.893083,1,0,0,True,19
+sensibilidad_2023_2025,sutil,interanual,50,shock,bloques,SARIMA,3455.859552,2,-606.6917285,1612.154306,True,19
+sensibilidad_2023_2025,sutil,interanual,50,shock,bloques,SARIMA-sel,3887.881093,4,-328.9166053,2361.02747,True,19
+sensibilidad_2023_2025,sutil,interanual,50,shock,bloques,Ridge,5898.074021,6,279.1854716,6215.405743,False,19
+sensibilidad_2023_2025,sutil,interanual,50,shock,bloques,ElasticNet,6327.276983,7,538.6279841,6748.918681,False,19
+sensibilidad_2023_2025,sutil,interanual,50,shock,bloques,XGB-37,4544.469764,5,-419.3048349,4108.36479,True,19
+sensibilidad_2023_2025,sutil,interanual,50,shock,bloques,GC3,8044.488437,9,1783.163239,9154.144352,False,19
+sensibilidad_2023_2025,sutil,interanual,50,shock,bloques,GE,8029.482458,8,1850.696154,9027.463899,False,19
+sensibilidad_2023_2025,sutil,interanual,50,normal,iid,Naive,4508.881118,5,665.1197251,2683.539009,False,17
+sensibilidad_2023_2025,sutil,interanual,50,normal,iid,Seasonal Naive,3185.332118,2,-962.1914118,1705.144039,True,17
+sensibilidad_2023_2025,sutil,interanual,50,normal,iid,Chronos,2814.830485,1,0,0,True,17
+sensibilidad_2023_2025,sutil,interanual,50,normal,iid,SARIMA,3574.173107,4,-120.2199274,1731.005156,True,17
+sensibilidad_2023_2025,sutil,interanual,50,normal,iid,SARIMA-sel,3500.944276,3,-187.7322294,1586.9123,True,17
+sensibilidad_2023_2025,sutil,interanual,50,normal,iid,Ridge,6347.519128,8,782.145093,6518.24084,False,17
+sensibilidad_2023_2025,sutil,interanual,50,normal,iid,ElasticNet,5906.669011,7,645.0480644,5794.529702,False,17
+sensibilidad_2023_2025,sutil,interanual,50,normal,iid,XGB-37,5258.125206,6,919.0608717,3738.433338,False,17
+sensibilidad_2023_2025,sutil,interanual,50,normal,iid,GC3,7095.173737,9,1897.315812,6565.136674,False,17
+sensibilidad_2023_2025,sutil,interanual,50,normal,iid,GE,8384.171101,10,2877.472463,8112.116123,False,17
+sensibilidad_2023_2025,sutil,interanual,50,normal,bloques,Naive,4508.881118,5,718.8036293,2710.611075,False,17
+sensibilidad_2023_2025,sutil,interanual,50,normal,bloques,Seasonal Naive,3185.332118,2,-776.1809518,1436.47418,True,17
+sensibilidad_2023_2025,sutil,interanual,50,normal,bloques,Chronos,2814.830485,1,0,0,True,17
+sensibilidad_2023_2025,sutil,interanual,50,normal,bloques,SARIMA,3574.173107,4,-184.0482636,1839.901661,True,17
+sensibilidad_2023_2025,sutil,interanual,50,normal,bloques,SARIMA-sel,3500.944276,3,-93.14622418,1489.52645,True,17
+sensibilidad_2023_2025,sutil,interanual,50,normal,bloques,Ridge,6347.519128,8,312.3611511,7317.862849,False,17
+sensibilidad_2023_2025,sutil,interanual,50,normal,bloques,ElasticNet,5906.669011,7,110.1745402,6479.936342,False,17
+sensibilidad_2023_2025,sutil,interanual,50,normal,bloques,XGB-37,5258.125206,6,891.8400505,4019.728285,False,17
+sensibilidad_2023_2025,sutil,interanual,50,normal,bloques,GC3,7095.173737,9,1485.566263,6966.124225,False,17
+sensibilidad_2023_2025,sutil,interanual,50,normal,bloques,GE,8384.171101,10,2045.551369,8884.180822,False,17
+sensibilidad_2023_2025,sutil,interanual,60,shock,iid,Naive,3779.636188,3,-42.21893762,2473.755068,True,16
+sensibilidad_2023_2025,sutil,interanual,60,shock,iid,Seasonal Naive,11358.83581,10,7255.964763,10281.94993,False,16
+sensibilidad_2023_2025,sutil,interanual,60,shock,iid,Chronos,2585.287618,1,0,0,True,16
+sensibilidad_2023_2025,sutil,interanual,60,shock,iid,SARIMA,3480.061159,2,-483.4864269,2118.700237,True,16
+sensibilidad_2023_2025,sutil,interanual,60,shock,iid,SARIMA-sel,4091.249636,4,-145.048523,3130.738257,True,16
+sensibilidad_2023_2025,sutil,interanual,60,shock,iid,Ridge,5980.084752,6,909.2507914,6227.125006,False,16
+sensibilidad_2023_2025,sutil,interanual,60,shock,iid,ElasticNet,6447.93153,7,1379.211418,6684.471361,False,16
+sensibilidad_2023_2025,sutil,interanual,60,shock,iid,XGB-37,5050.96228,5,735.3826533,4337.273443,False,16
+sensibilidad_2023_2025,sutil,interanual,60,shock,iid,GC3,8664.074424,8,3401.473926,8992.99333,False,16
+sensibilidad_2023_2025,sutil,interanual,60,shock,iid,GE,8916.530232,9,3768.776061,9090.001106,False,16
+sensibilidad_2023_2025,sutil,interanual,60,shock,bloques,Naive,3779.636188,3,-208.618023,2471.929125,True,16
+sensibilidad_2023_2025,sutil,interanual,60,shock,bloques,Seasonal Naive,11358.83581,10,6611.142548,11114.87424,False,16
+sensibilidad_2023_2025,sutil,interanual,60,shock,bloques,Chronos,2585.287618,1,0,0,True,16
+sensibilidad_2023_2025,sutil,interanual,60,shock,bloques,SARIMA,3480.061159,2,-564.0983549,1911.605535,True,16
+sensibilidad_2023_2025,sutil,interanual,60,shock,bloques,SARIMA-sel,4091.249636,4,-46.92329707,2928.145209,True,16
+sensibilidad_2023_2025,sutil,interanual,60,shock,bloques,Ridge,5980.084752,6,-57.00223769,7079.352427,True,16
+sensibilidad_2023_2025,sutil,interanual,60,shock,bloques,ElasticNet,6447.93153,7,227.684866,7655.502401,False,16
+sensibilidad_2023_2025,sutil,interanual,60,shock,bloques,XGB-37,5050.96228,5,221.9677775,5274.494217,False,16
+sensibilidad_2023_2025,sutil,interanual,60,shock,bloques,GC3,8664.074424,8,2291.26051,10648.94831,False,16
+sensibilidad_2023_2025,sutil,interanual,60,shock,bloques,GE,8916.530232,9,2808.881063,10774.81822,False,16
+sensibilidad_2023_2025,sutil,interanual,60,normal,iid,Naive,4399.53835,5,400.3033843,2351.144271,False,20
+sensibilidad_2023_2025,sutil,interanual,60,normal,iid,Seasonal Naive,3901.55545,4,-424.4823937,2109.212728,True,20
+sensibilidad_2023_2025,sutil,interanual,60,normal,iid,Chronos,3029.874246,1,0,0,True,20
+sensibilidad_2023_2025,sutil,interanual,60,normal,iid,SARIMA,3537.064789,3,-330.1431287,1429.255103,True,20
+sensibilidad_2023_2025,sutil,interanual,60,normal,iid,SARIMA-sel,3396.289964,2,-548.9182269,1289.263506,True,20
+sensibilidad_2023_2025,sutil,interanual,60,normal,iid,Ridge,6214.493777,8,877.4631176,5817.262878,False,20
+sensibilidad_2023_2025,sutil,interanual,60,normal,iid,ElasticNet,5873.23657,7,782.8051015,5192.876564,False,20
+sensibilidad_2023_2025,sutil,interanual,60,normal,iid,XGB-37,4745.882878,6,174.7804318,3133.314629,False,20
+sensibilidad_2023_2025,sutil,interanual,60,normal,iid,GC3,6741.902152,9,1590.358268,5820.241491,False,20
+sensibilidad_2023_2025,sutil,interanual,60,normal,iid,GE,7621.329586,10,2051.861771,7085.614154,False,20
+sensibilidad_2023_2025,sutil,interanual,60,normal,bloques,Naive,4399.53835,5,471.6836216,2261.210439,False,20
+sensibilidad_2023_2025,sutil,interanual,60,normal,bloques,Seasonal Naive,3901.55545,4,-245.8061006,2008.173656,True,20
+sensibilidad_2023_2025,sutil,interanual,60,normal,bloques,Chronos,3029.874246,1,0,0,True,20
+sensibilidad_2023_2025,sutil,interanual,60,normal,bloques,SARIMA,3537.064789,3,-363.3544201,1566.742239,True,20
+sensibilidad_2023_2025,sutil,interanual,60,normal,bloques,SARIMA-sel,3396.289964,2,-555.5742715,1232.973646,True,20
+sensibilidad_2023_2025,sutil,interanual,60,normal,bloques,Ridge,6214.493777,8,525.1555216,6468.626333,False,20
+sensibilidad_2023_2025,sutil,interanual,60,normal,bloques,ElasticNet,5873.23657,7,371.1730211,5677.138405,False,20
+sensibilidad_2023_2025,sutil,interanual,60,normal,bloques,XGB-37,4745.882878,6,124.2702604,3331.569916,False,20
+sensibilidad_2023_2025,sutil,interanual,60,normal,bloques,GC3,6741.902152,9,1331.286379,6325.452931,False,20
+sensibilidad_2023_2025,sutil,interanual,60,normal,bloques,GE,7621.329586,10,1347.108355,8008.052461,False,20
+sensibilidad_2023_2025,sutil,interanual,75,shock,iid,Naive,3171.846,2,-90.07685391,2851.978229,True,10
+sensibilidad_2023_2025,sutil,interanual,75,shock,iid,Seasonal Naive,12508.0675,10,8351.591815,12904.86668,False,10
+sensibilidad_2023_2025,sutil,interanual,75,shock,iid,Chronos,1864.113148,1,0,0,True,10
+sensibilidad_2023_2025,sutil,interanual,75,shock,iid,SARIMA,3232.720422,3,399.1070334,2223.818831,False,10
+sensibilidad_2023_2025,sutil,interanual,75,shock,iid,SARIMA-sel,4078.830436,4,115.0273274,4343.427025,False,10
+sensibilidad_2023_2025,sutil,interanual,75,shock,iid,Ridge,4946.067579,6,1092.54299,5265.941753,False,10
+sensibilidad_2023_2025,sutil,interanual,75,shock,iid,ElasticNet,5403.723474,7,1279.184305,6034.041081,False,10
+sensibilidad_2023_2025,sutil,interanual,75,shock,iid,XGB-37,4816.485139,5,446.459663,5673.369461,False,10
+sensibilidad_2023_2025,sutil,interanual,75,shock,iid,GC3,9166.116354,8,3189.903037,11742.24654,False,10
+sensibilidad_2023_2025,sutil,interanual,75,shock,iid,GE,9796.026741,9,3968.769072,12152.72083,False,10
+sensibilidad_2023_2025,sutil,interanual,75,shock,bloques,Naive,3171.846,2,-595.2899922,3081.497595,True,10
+sensibilidad_2023_2025,sutil,interanual,75,shock,bloques,Seasonal Naive,12508.0675,10,7883.01529,13501.15679,False,10
+sensibilidad_2023_2025,sutil,interanual,75,shock,bloques,Chronos,1864.113148,1,0,0,True,10
+sensibilidad_2023_2025,sutil,interanual,75,shock,bloques,SARIMA,3232.720422,3,456.3782558,2101.621352,False,10
+sensibilidad_2023_2025,sutil,interanual,75,shock,bloques,SARIMA-sel,4078.830436,4,368.9772665,4129.582907,False,10
+sensibilidad_2023_2025,sutil,interanual,75,shock,bloques,Ridge,4946.067579,6,152.0769824,6829.303498,False,10
+sensibilidad_2023_2025,sutil,interanual,75,shock,bloques,ElasticNet,5403.723474,7,197.6952478,7703.620949,False,10
+sensibilidad_2023_2025,sutil,interanual,75,shock,bloques,XGB-37,4816.485139,5,-559.5870569,7435.545082,True,10
+sensibilidad_2023_2025,sutil,interanual,75,shock,bloques,GC3,9166.116354,8,1634.966809,14627.13888,False,10
+sensibilidad_2023_2025,sutil,interanual,75,shock,bloques,GE,9796.026741,9,2458.695624,15084.6399,False,10
+sensibilidad_2023_2025,sutil,interanual,75,normal,iid,Naive,4490.249462,4,357.5295902,2189.591102,False,26
+sensibilidad_2023_2025,sutil,interanual,75,normal,iid,Seasonal Naive,5180.454115,6,719.6574444,3169.634063,False,26
+sensibilidad_2023_2025,sutil,interanual,75,normal,iid,Chronos,3204.652128,1,0,0,True,26
+sensibilidad_2023_2025,sutil,interanual,75,normal,iid,SARIMA,3619.041158,3,-601.7861359,1391.830914,True,26
+sensibilidad_2023_2025,sutil,interanual,75,normal,iid,SARIMA-sel,3561.441888,2,-584.3629545,1256.411785,True,26
+sensibilidad_2023_2025,sutil,interanual,75,normal,iid,Ridge,6558.098299,8,1050.075937,5883.727612,False,26
+sensibilidad_2023_2025,sutil,interanual,75,normal,iid,ElasticNet,6407.476966,7,1131.072574,5470.210976,False,26
+sensibilidad_2023_2025,sutil,interanual,75,normal,iid,XGB-37,4906.469333,5,444.4927926,2866.276503,False,26
+sensibilidad_2023_2025,sutil,interanual,75,normal,iid,GC3,6992.387319,9,2029.299443,5544.13172,False,26
+sensibilidad_2023_2025,sutil,interanual,75,normal,iid,GE,7581.954154,10,2395.180771,6319.583771,False,26
+sensibilidad_2023_2025,sutil,interanual,75,normal,bloques,Naive,4490.249462,4,526.6547534,2036.757286,False,26
+sensibilidad_2023_2025,sutil,interanual,75,normal,bloques,Seasonal Naive,5180.454115,6,676.1459889,3328.654592,False,26
+sensibilidad_2023_2025,sutil,interanual,75,normal,bloques,Chronos,3204.652128,1,0,0,True,26
+sensibilidad_2023_2025,sutil,interanual,75,normal,bloques,SARIMA,3619.041158,3,-526.2283206,1437.4617,True,26
+sensibilidad_2023_2025,sutil,interanual,75,normal,bloques,SARIMA-sel,3561.441888,2,-455.5975569,1180.199588,True,26
+sensibilidad_2023_2025,sutil,interanual,75,normal,bloques,Ridge,6558.098299,8,894.1976074,6096.521756,False,26
+sensibilidad_2023_2025,sutil,interanual,75,normal,bloques,ElasticNet,6407.476966,7,926.3509844,5706.836869,False,26
+sensibilidad_2023_2025,sutil,interanual,75,normal,bloques,XGB-37,4906.469333,5,413.3579093,2904.437292,False,26
+sensibilidad_2023_2025,sutil,interanual,75,normal,bloques,GC3,6992.387319,9,1768.912709,6028.155307,False,26
+sensibilidad_2023_2025,sutil,interanual,75,normal,bloques,GE,7581.954154,10,1861.181718,7027.831062,False,26
+sensibilidad_2023_2025,sutil,interanual,90,shock,iid,Naive,1538.943,2,-872.2322187,1946.963355,True,4
+sensibilidad_2023_2025,sutil,interanual,90,shock,iid,Seasonal Naive,15258.75025,10,10697.83407,16638.53233,False,4
+sensibilidad_2023_2025,sutil,interanual,90,shock,iid,Chronos,1116.203695,1,0,0,True,4
+sensibilidad_2023_2025,sutil,interanual,90,shock,iid,SARIMA,3725.435098,3,1722.092449,3294.134567,False,4
+sensibilidad_2023_2025,sutil,interanual,90,shock,iid,SARIMA-sel,5506.387593,6,2270.738515,6509.629281,False,4
+sensibilidad_2023_2025,sutil,interanual,90,shock,iid,Ridge,4169.104267,4,348.1792823,5942.953642,False,4
+sensibilidad_2023_2025,sutil,interanual,90,shock,iid,ElasticNet,4817.704278,5,439.9131023,6974.821822,False,4
+sensibilidad_2023_2025,sutil,interanual,90,shock,iid,XGB-37,5555.69086,7,-322.9300131,9201.904343,True,4
+sensibilidad_2023_2025,sutil,interanual,90,shock,iid,GC3,10211.61472,8,1533.800495,16657.02156,False,4
+sensibilidad_2023_2025,sutil,interanual,90,shock,iid,GE,11299.37805,9,3132.744644,17233.60407,False,4
+sensibilidad_2023_2025,sutil,interanual,90,shock,bloques,Naive,1538.943,2,-981.8995573,2070.81651,True,4
+sensibilidad_2023_2025,sutil,interanual,90,shock,bloques,Seasonal Naive,15258.75025,10,10746.50145,16867.31381,False,4
+sensibilidad_2023_2025,sutil,interanual,90,shock,bloques,Chronos,1116.203695,1,0,0,True,4
+sensibilidad_2023_2025,sutil,interanual,90,shock,bloques,SARIMA,3725.435098,3,1722.092449,3294.134567,False,4
+sensibilidad_2023_2025,sutil,interanual,90,shock,bloques,SARIMA-sel,5506.387593,6,2270.738515,6509.629281,False,4
+sensibilidad_2023_2025,sutil,interanual,90,shock,bloques,Ridge,4169.104267,4,187.5933447,6387.51207,False,4
+sensibilidad_2023_2025,sutil,interanual,90,shock,bloques,ElasticNet,4817.704278,5,248.0828698,7629.156874,False,4
+sensibilidad_2023_2025,sutil,interanual,90,shock,bloques,XGB-37,5555.69086,7,-553.4936165,10058.8165,True,4
+sensibilidad_2023_2025,sutil,interanual,90,shock,bloques,GC3,10211.61472,8,1334.293449,17406.37199,False,4
+sensibilidad_2023_2025,sutil,interanual,90,shock,bloques,GE,11299.37805,9,2878.973702,17961.35914,False,4
+sensibilidad_2023_2025,sutil,interanual,90,normal,iid,Naive,4447.161687,4,549.4233695,2261.601444,False,32
+sensibilidad_2023_2025,sutil,interanual,90,normal,iid,Seasonal Naive,6210.546281,6,1863.148448,4487.985079,False,32
+sensibilidad_2023_2025,sutil,interanual,90,normal,iid,Chronos,3046.789751,1,0,0,True,32
+sensibilidad_2023_2025,sutil,interanual,90,normal,iid,SARIMA,3485.016685,3,-414.4534351,1245.909682,True,32
+sensibilidad_2023_2025,sutil,interanual,90,normal,iid,SARIMA-sel,3480.007596,2,-470.1208348,1302.399838,True,32
+sensibilidad_2023_2025,sutil,interanual,90,normal,iid,Ridge,6352.962953,8,1366.053863,5448.646073,False,32
+sensibilidad_2023_2025,sutil,interanual,90,normal,iid,ElasticNet,6292.525586,7,1444.570867,5200.012855,False,32
+sensibilidad_2023_2025,sutil,interanual,90,normal,iid,XGB-37,4797.196581,5,608.7052284,2847.850589,False,32
+sensibilidad_2023_2025,sutil,interanual,90,normal,iid,GC3,7269.274217,9,2518.363372,5967.382324,False,32
+sensibilidad_2023_2025,sutil,interanual,90,normal,iid,GE,7809.17385,10,2924.431509,6614.561351,False,32
+sensibilidad_2023_2025,sutil,interanual,90,normal,bloques,Naive,4447.161687,4,581.4270993,2234.644657,False,32
+sensibilidad_2023_2025,sutil,interanual,90,normal,bloques,Seasonal Naive,6210.546281,6,1786.435992,4550.467051,False,32
+sensibilidad_2023_2025,sutil,interanual,90,normal,bloques,Chronos,3046.789751,1,0,0,True,32
+sensibilidad_2023_2025,sutil,interanual,90,normal,bloques,SARIMA,3485.016685,3,-349.1922805,1219.352629,True,32
+sensibilidad_2023_2025,sutil,interanual,90,normal,bloques,SARIMA-sel,3480.007596,2,-351.8811812,1230.877945,True,32
+sensibilidad_2023_2025,sutil,interanual,90,normal,bloques,Ridge,6352.962953,8,955.6648375,5627.066188,False,32
+sensibilidad_2023_2025,sutil,interanual,90,normal,bloques,ElasticNet,6292.525586,7,1015.990148,5451.37662,False,32
+sensibilidad_2023_2025,sutil,interanual,90,normal,bloques,XGB-37,4797.196581,5,497.318086,3012.351835,False,32
+sensibilidad_2023_2025,sutil,interanual,90,normal,bloques,GC3,7269.274217,9,2082.974768,6574.376192,False,32
+sensibilidad_2023_2025,sutil,interanual,90,normal,bloques,GE,7809.17385,10,2341.303377,7293.159078,False,32
+sensibilidad_2023_2025,dulce,mensual,50,shock,iid,Naive,118.9443889,10,84.47843132,122.365548,False,18
+sensibilidad_2023_2025,dulce,mensual,50,shock,iid,Seasonal Naive,20.44677778,3,-0.9843709587,10.37421768,True,18
+sensibilidad_2023_2025,dulce,mensual,50,shock,iid,Chronos,41.84758716,4,15.81158567,36.54786413,False,18
+sensibilidad_2023_2025,dulce,mensual,50,shock,iid,SARIMA,16.60800077,2,-0.4738865299,2.663433921,True,18
+sensibilidad_2023_2025,dulce,mensual,50,shock,iid,SARIMA-sel,15.53024555,1,0,0,True,18
+sensibilidad_2023_2025,dulce,mensual,50,shock,iid,Ridge,65.96558451,9,29.94564447,73.64864177,False,18
+sensibilidad_2023_2025,dulce,mensual,50,shock,iid,ElasticNet,59.68040982,8,23.11090901,67.54869224,False,18
+sensibilidad_2023_2025,dulce,mensual,50,shock,iid,XGB-37,47.87926576,5,15.6974283,49.03418354,False,18
+sensibilidad_2023_2025,dulce,mensual,50,shock,iid,GC3,57.07678456,7,24.30406949,60.2128625,False,18
+sensibilidad_2023_2025,dulce,mensual,50,shock,iid,GE,55.14837633,6,23.4332227,57.33294477,False,18
+sensibilidad_2023_2025,dulce,mensual,50,shock,bloques,Naive,118.9443889,10,82.96776323,123.6145364,False,18
+sensibilidad_2023_2025,dulce,mensual,50,shock,bloques,Seasonal Naive,20.44677778,3,-1.629732483,11.04393233,True,18
+sensibilidad_2023_2025,dulce,mensual,50,shock,bloques,Chronos,41.84758716,4,13.56438501,37.13691959,False,18
+sensibilidad_2023_2025,dulce,mensual,50,shock,bloques,SARIMA,16.60800077,2,-0.2804374068,2.77612884,True,18
+sensibilidad_2023_2025,dulce,mensual,50,shock,bloques,SARIMA-sel,15.53024555,1,0,0,True,18
+sensibilidad_2023_2025,dulce,mensual,50,shock,bloques,Ridge,65.96558451,9,27.12834682,75.11422143,False,18
+sensibilidad_2023_2025,dulce,mensual,50,shock,bloques,ElasticNet,59.68040982,8,20.3844469,69.45712938,False,18
+sensibilidad_2023_2025,dulce,mensual,50,shock,bloques,XGB-37,47.87926576,5,12.07339539,49.62869376,False,18
+sensibilidad_2023_2025,dulce,mensual,50,shock,bloques,GC3,57.07678456,7,21.03146361,64.17476164,False,18
+sensibilidad_2023_2025,dulce,mensual,50,shock,bloques,GE,55.14837633,6,21.60633767,58.62387989,False,18
+sensibilidad_2023_2025,dulce,mensual,50,normal,iid,Naive,45.37161111,5,4.882013284,32.15585687,False,18
+sensibilidad_2023_2025,dulce,mensual,50,normal,iid,Seasonal Naive,35.67166667,4,2.447887623,15.42264866,False,18
+sensibilidad_2023_2025,dulce,mensual,50,normal,iid,Chronos,28.07172945,3,-10.67164938,12.8304597,True,18
+sensibilidad_2023_2025,dulce,mensual,50,normal,iid,SARIMA,27.40041839,2,0.2391221853,1.91299835,False,18
+sensibilidad_2023_2025,dulce,mensual,50,normal,iid,SARIMA-sel,26.34223536,1,0,0,True,18
+sensibilidad_2023_2025,dulce,mensual,50,normal,iid,Ridge,61.9705103,8,16.43603143,53.60462956,False,18
+sensibilidad_2023_2025,dulce,mensual,50,normal,iid,ElasticNet,59.30914046,6,13.50422582,51.03325594,False,18
+sensibilidad_2023_2025,dulce,mensual,50,normal,iid,XGB-37,60.93126351,7,12.9082069,55.66958385,False,18
+sensibilidad_2023_2025,dulce,mensual,50,normal,iid,GC3,82.69474894,10,30.68807927,81.44609369,False,18
+sensibilidad_2023_2025,dulce,mensual,50,normal,iid,GE,81.56667046,9,30.58136506,79.21945384,False,18
+sensibilidad_2023_2025,dulce,mensual,50,normal,bloques,Naive,45.37161111,5,7.916614891,28.63132425,False,18
+sensibilidad_2023_2025,dulce,mensual,50,normal,bloques,Seasonal Naive,35.67166667,4,1.197884502,17.03131547,False,18
+sensibilidad_2023_2025,dulce,mensual,50,normal,bloques,Chronos,28.07172945,3,-9.580922531,12.5674191,True,18
+sensibilidad_2023_2025,dulce,mensual,50,normal,bloques,SARIMA,27.40041839,2,0.4033436443,1.679634989,False,18
+sensibilidad_2023_2025,dulce,mensual,50,normal,bloques,SARIMA-sel,26.34223536,1,0,0,True,18
+sensibilidad_2023_2025,dulce,mensual,50,normal,bloques,Ridge,61.9705103,8,14.92466106,54.81807558,False,18
+sensibilidad_2023_2025,dulce,mensual,50,normal,bloques,ElasticNet,59.30914046,6,11.80127634,52.45879761,False,18
+sensibilidad_2023_2025,dulce,mensual,50,normal,bloques,XGB-37,60.93126351,7,8.852692158,59.25682209,False,18
+sensibilidad_2023_2025,dulce,mensual,50,normal,bloques,GC3,82.69474894,10,22.50148651,91.1138763,False,18
+sensibilidad_2023_2025,dulce,mensual,50,normal,bloques,GE,81.56667046,9,23.13056878,87.59365985,False,18
+sensibilidad_2023_2025,dulce,mensual,60,shock,iid,Naive,133.2042857,10,100.6717409,135.8431857,False,14
+sensibilidad_2023_2025,dulce,mensual,60,shock,iid,Seasonal Naive,22.47228571,3,2.281681829,13.31002088,False,14
+sensibilidad_2023_2025,dulce,mensual,60,shock,iid,Chronos,48.36817916,4,24.20444341,43.22758812,False,14
+sensibilidad_2023_2025,dulce,mensual,60,shock,iid,SARIMA,15.7321651,2,0.3838751478,1.773658027,False,14
+sensibilidad_2023_2025,dulce,mensual,60,shock,iid,SARIMA-sel,14.6572831,1,0,0,True,14
+sensibilidad_2023_2025,dulce,mensual,60,shock,iid,Ridge,66.24217034,9,32.0936402,72.97183986,False,14
+sensibilidad_2023_2025,dulce,mensual,60,shock,iid,ElasticNet,61.31200059,7,26.40234835,68.80841303,False,14
+sensibilidad_2023_2025,dulce,mensual,60,shock,iid,XGB-37,55.82208664,5,23.82117167,58.19274212,False,14
+sensibilidad_2023_2025,dulce,mensual,60,shock,iid,GC3,63.91581053,8,29.83324436,69.38194106,False,14
+sensibilidad_2023_2025,dulce,mensual,60,shock,iid,GE,60.11864631,6,27.54881614,65.11411114,False,14
+sensibilidad_2023_2025,dulce,mensual,60,shock,bloques,Naive,133.2042857,10,100.9954332,136.3971052,False,14
+sensibilidad_2023_2025,dulce,mensual,60,shock,bloques,Seasonal Naive,22.47228571,3,1.376199433,14.67338231,False,14
+sensibilidad_2023_2025,dulce,mensual,60,shock,bloques,Chronos,48.36817916,4,22.47451856,42.0132293,False,14
+sensibilidad_2023_2025,dulce,mensual,60,shock,bloques,SARIMA,15.7321651,2,0.3528939523,1.954194264,False,14
+sensibilidad_2023_2025,dulce,mensual,60,shock,bloques,SARIMA-sel,14.6572831,1,0,0,True,14
+sensibilidad_2023_2025,dulce,mensual,60,shock,bloques,Ridge,66.24217034,9,29.73352256,74.44187751,False,14
+sensibilidad_2023_2025,dulce,mensual,60,shock,bloques,ElasticNet,61.31200059,7,23.13038295,69.60490271,False,14
+sensibilidad_2023_2025,dulce,mensual,60,shock,bloques,XGB-37,55.82208664,5,20.05430505,56.63180327,False,14
+sensibilidad_2023_2025,dulce,mensual,60,shock,bloques,GC3,63.91581053,8,26.0666601,73.16125939,False,14
+sensibilidad_2023_2025,dulce,mensual,60,shock,bloques,GE,60.11864631,6,25.4570397,65.18979676,False,14
+sensibilidad_2023_2025,dulce,mensual,60,normal,iid,Naive,49.674,5,11.96164284,36.65004856,False,22
+sensibilidad_2023_2025,dulce,mensual,60,normal,iid,Seasonal Naive,31.61454545,4,0.1805678557,12.6774736,False,22
+sensibilidad_2023_2025,dulce,mensual,60,normal,iid,Chronos,26.42696321,3,-8.940216508,10.96860227,True,22
+sensibilidad_2023_2025,dulce,mensual,60,normal,iid,SARIMA,25.99551061,2,-0.3308481896,2.525404446,True,22
+sensibilidad_2023_2025,dulce,mensual,60,normal,iid,SARIMA-sel,24.93194059,1,0,0,True,22
+sensibilidad_2023_2025,dulce,mensual,60,normal,iid,Ridge,62.52087826,8,18.7457956,57.23397468,False,22
+sensibilidad_2023_2025,dulce,mensual,60,normal,iid,ElasticNet,58.33835895,7,14.68393312,52.83574187,False,22
+sensibilidad_2023_2025,dulce,mensual,60,normal,iid,XGB-37,53.50365063,6,10.01314204,47.0275593,False,22
+sensibilidad_2023_2025,dulce,mensual,60,normal,iid,GC3,73.68482979,10,26.05385399,71.23570214,False,22
+sensibilidad_2023_2025,dulce,mensual,60,normal,iid,GE,73.60044518,9,26.94854027,70.13797475,False,22
+sensibilidad_2023_2025,dulce,mensual,60,normal,bloques,Naive,49.674,5,17.68182119,32.00207166,False,22
+sensibilidad_2023_2025,dulce,mensual,60,normal,bloques,Seasonal Naive,31.61454545,4,-1.332969311,14.68768937,True,22
+sensibilidad_2023_2025,dulce,mensual,60,normal,bloques,Chronos,26.42696321,3,-7.834022167,10.648077,True,22
+sensibilidad_2023_2025,dulce,mensual,60,normal,bloques,SARIMA,25.99551061,2,-0.1127563679,2.168521956,True,22
+sensibilidad_2023_2025,dulce,mensual,60,normal,bloques,SARIMA-sel,24.93194059,1,0,0,True,22
+sensibilidad_2023_2025,dulce,mensual,60,normal,bloques,Ridge,62.52087826,8,15.19070146,58.96022707,False,22
+sensibilidad_2023_2025,dulce,mensual,60,normal,bloques,ElasticNet,58.33835895,7,10.95520319,55.00432945,False,22
+sensibilidad_2023_2025,dulce,mensual,60,normal,bloques,XGB-37,53.50365063,6,5.818594026,53.21178964,False,22
+sensibilidad_2023_2025,dulce,mensual,60,normal,bloques,GC3,73.68482979,10,19.5172822,82.41020842,False,22
+sensibilidad_2023_2025,dulce,mensual,60,normal,bloques,GE,73.60044518,9,21.0111167,80.07384312,False,22
+sensibilidad_2023_2025,dulce,mensual,75,shock,iid,Naive,138.1755556,10,103.9497104,139.8452564,False,9
+sensibilidad_2023_2025,dulce,mensual,75,shock,iid,Seasonal Naive,25.01555556,3,3.396584329,12.59347456,False,9
+sensibilidad_2023_2025,dulce,mensual,75,shock,iid,Chronos,55.33192719,4,25.80183363,50.21862143,False,9
+sensibilidad_2023_2025,dulce,mensual,75,shock,iid,SARIMA,17.55493663,2,-0.221474558,1.636345591,True,9
+sensibilidad_2023_2025,dulce,mensual,75,shock,iid,SARIMA-sel,16.88757415,1,0,0,True,9
+sensibilidad_2023_2025,dulce,mensual,75,shock,iid,Ridge,84.15532785,9,44.9842545,93.14107187,False,9
+sensibilidad_2023_2025,dulce,mensual,75,shock,iid,ElasticNet,79.72646967,8,39.77177604,90.73606922,False,9
+sensibilidad_2023_2025,dulce,mensual,75,shock,iid,XGB-37,69.12385103,6,34.21395981,70.64123818,False,9
+sensibilidad_2023_2025,dulce,mensual,75,shock,iid,GC3,71.91236343,7,33.20150887,79.18605605,False,9
+sensibilidad_2023_2025,dulce,mensual,75,shock,iid,GE,67.63910094,5,27.53777515,76.78513988,False,9
+sensibilidad_2023_2025,dulce,mensual,75,shock,bloques,Naive,138.1755556,10,102.2574461,138.3047987,False,9
+sensibilidad_2023_2025,dulce,mensual,75,shock,bloques,Seasonal Naive,25.01555556,3,-0.2068682327,13.72617499,True,9
+sensibilidad_2023_2025,dulce,mensual,75,shock,bloques,Chronos,55.33192719,4,20.70690877,48.83790677,False,9
+sensibilidad_2023_2025,dulce,mensual,75,shock,bloques,SARIMA,17.55493663,2,-0.3247824208,2.018345835,True,9
+sensibilidad_2023_2025,dulce,mensual,75,shock,bloques,SARIMA-sel,16.88757415,1,0,0,True,9
+sensibilidad_2023_2025,dulce,mensual,75,shock,bloques,Ridge,84.15532785,9,38.75246661,95.80871315,False,9
+sensibilidad_2023_2025,dulce,mensual,75,shock,bloques,ElasticNet,79.72646967,8,32.19071069,91.30931125,False,9
+sensibilidad_2023_2025,dulce,mensual,75,shock,bloques,XGB-37,69.12385103,6,24.16937856,72.05113918,False,9
+sensibilidad_2023_2025,dulce,mensual,75,shock,bloques,GC3,71.91236343,7,17.96818992,88.82254701,False,9
+sensibilidad_2023_2025,dulce,mensual,75,shock,bloques,GE,67.63910094,5,17.94038482,79.28838791,False,9
+sensibilidad_2023_2025,dulce,mensual,75,normal,iid,Naive,63.48548148,8,24.04331527,59.69012857,False,27
+sensibilidad_2023_2025,dulce,mensual,75,normal,iid,Seasonal Naive,29.07377778,4,1.208070723,12.07095518,False,27
+sensibilidad_2023_2025,dulce,mensual,75,normal,iid,Chronos,28.16890201,3,-3.480845366,14.31697876,True,27
+sensibilidad_2023_2025,dulce,mensual,75,normal,iid,SARIMA,23.48730056,2,0.03943537236,2.390658563,False,27
+sensibilidad_2023_2025,dulce,mensual,75,normal,iid,SARIMA-sel,22.28579589,1,0,0,True,27
+sensibilidad_2023_2025,dulce,mensual,75,normal,iid,Ridge,57.23895392,7,19.30195546,51.73644787,False,27
+sensibilidad_2023_2025,dulce,mensual,75,normal,iid,ElasticNet,52.75087696,6,15.01439309,47.21035001,False,27
+sensibilidad_2023_2025,dulce,mensual,75,normal,iid,XGB-37,49.49906917,5,11.24441387,43.49044109,False,27
+sensibilidad_2023_2025,dulce,mensual,75,normal,iid,GC3,69.21023452,10,28.3687452,66.2355336,False,27
+sensibilidad_2023_2025,dulce,mensual,75,normal,iid,GE,68.59699755,9,28.69435088,64.7257034,False,27
+sensibilidad_2023_2025,dulce,mensual,75,normal,bloques,Naive,63.48548148,8,28.95872873,53.64332063,False,27
+sensibilidad_2023_2025,dulce,mensual,75,normal,bloques,Seasonal Naive,29.07377778,4,-1.234136327,14.33409491,True,27
+sensibilidad_2023_2025,dulce,mensual,75,normal,bloques,Chronos,28.16890201,3,-2.119689862,13.80515149,True,27
+sensibilidad_2023_2025,dulce,mensual,75,normal,bloques,SARIMA,23.48730056,2,0.2102644639,2.131479777,False,27
+sensibilidad_2023_2025,dulce,mensual,75,normal,bloques,SARIMA-sel,22.28579589,1,0,0,True,27
+sensibilidad_2023_2025,dulce,mensual,75,normal,bloques,Ridge,57.23895392,7,15.83109821,54.4258321,False,27
+sensibilidad_2023_2025,dulce,mensual,75,normal,bloques,ElasticNet,52.75087696,6,11.94202334,49.74758286,False,27
+sensibilidad_2023_2025,dulce,mensual,75,normal,bloques,XGB-37,49.49906917,5,8.866462678,48.48871593,False,27
+sensibilidad_2023_2025,dulce,mensual,75,normal,bloques,GC3,69.21023452,10,20.904266,76.14181459,False,27
+sensibilidad_2023_2025,dulce,mensual,75,normal,bloques,GE,68.59699755,9,22.12919332,73.80668491,False,27
+sensibilidad_2023_2025,dulce,mensual,90,shock,iid,Naive,98.11,10,74.53933915,74.53933915,False,1
+sensibilidad_2023_2025,dulce,mensual,90,shock,iid,Seasonal Naive,25.93,3,2.359339154,2.359339154,False,1
+sensibilidad_2023_2025,dulce,mensual,90,shock,iid,Chronos,61.80352417,6,38.23286332,38.23286332,False,1
+sensibilidad_2023_2025,dulce,mensual,90,shock,iid,SARIMA,23.57066085,1,0,0,True,1
+sensibilidad_2023_2025,dulce,mensual,90,shock,iid,SARIMA-sel,23.80253905,2,0.2318782052,0.2318782052,False,1
+sensibilidad_2023_2025,dulce,mensual,90,shock,iid,Ridge,77.37785309,8,53.80719225,53.80719225,False,1
+sensibilidad_2023_2025,dulce,mensual,90,shock,iid,ElasticNet,69.30768036,7,45.73701952,45.73701952,False,1
+sensibilidad_2023_2025,dulce,mensual,90,shock,iid,XGB-37,94.00824442,9,70.43758358,70.43758358,False,1
+sensibilidad_2023_2025,dulce,mensual,90,shock,iid,GC3,31.71569518,4,8.145034333,8.145034333,False,1
+sensibilidad_2023_2025,dulce,mensual,90,shock,iid,GE,38.17527441,5,14.60461356,14.60461356,False,1
+sensibilidad_2023_2025,dulce,mensual,90,shock,bloques,Naive,98.11,10,74.53933915,74.53933915,False,1
+sensibilidad_2023_2025,dulce,mensual,90,shock,bloques,Seasonal Naive,25.93,3,2.359339154,2.359339154,False,1
+sensibilidad_2023_2025,dulce,mensual,90,shock,bloques,Chronos,61.80352417,6,38.23286332,38.23286332,False,1
+sensibilidad_2023_2025,dulce,mensual,90,shock,bloques,SARIMA,23.57066085,1,0,0,True,1
+sensibilidad_2023_2025,dulce,mensual,90,shock,bloques,SARIMA-sel,23.80253905,2,0.2318782052,0.2318782052,False,1
+sensibilidad_2023_2025,dulce,mensual,90,shock,bloques,Ridge,77.37785309,8,53.80719225,53.80719225,False,1
+sensibilidad_2023_2025,dulce,mensual,90,shock,bloques,ElasticNet,69.30768036,7,45.73701952,45.73701952,False,1
+sensibilidad_2023_2025,dulce,mensual,90,shock,bloques,XGB-37,94.00824442,9,70.43758358,70.43758358,False,1
+sensibilidad_2023_2025,dulce,mensual,90,shock,bloques,GC3,31.71569518,4,8.145034333,8.145034333,False,1
+sensibilidad_2023_2025,dulce,mensual,90,shock,bloques,GE,38.17527441,5,14.60461356,14.60461356,False,1
+sensibilidad_2023_2025,dulce,mensual,90,normal,iid,Naive,81.70222857,10,42.35116565,79.20617614,False,35
+sensibilidad_2023_2025,dulce,mensual,90,normal,iid,Seasonal Naive,28.12005714,3,2.446354185,11.58634794,False,35
+sensibilidad_2023_2025,dulce,mensual,90,normal,iid,Chronos,34.19269071,4,4.018559616,21.91372228,False,35
+sensibilidad_2023_2025,dulce,mensual,90,normal,iid,SARIMA,21.95945383,2,0.1557386814,2.077797865,False,35
+sensibilidad_2023_2025,dulce,mensual,90,normal,iid,SARIMA-sel,20.85434621,1,0,0,True,35
+sensibilidad_2023_2025,dulce,mensual,90,normal,iid,Ridge,63.5849101,7,28.27709054,57.63586757,False,35
+sensibilidad_2023_2025,dulce,mensual,90,normal,iid,ElasticNet,59.21440642,6,23.80580791,53.49384046,False,35
+sensibilidad_2023_2025,dulce,mensual,90,normal,iid,XGB-37,53.27375093,5,18.07694158,46.53132327,False,35
+sensibilidad_2023_2025,dulce,mensual,90,normal,iid,GC3,70.97634022,9,34.03900947,66.38970842,False,35
+sensibilidad_2023_2025,dulce,mensual,90,normal,iid,GE,69.21987337,8,32.91818568,63.91527012,False,35
+sensibilidad_2023_2025,dulce,mensual,90,normal,bloques,Naive,81.70222857,10,44.49489588,78.04674479,False,35
+sensibilidad_2023_2025,dulce,mensual,90,normal,bloques,Seasonal Naive,28.12005714,3,1.351888061,12.74307855,False,35
+sensibilidad_2023_2025,dulce,mensual,90,normal,bloques,Chronos,34.19269071,4,2.903941758,23.56282602,False,35
+sensibilidad_2023_2025,dulce,mensual,90,normal,bloques,SARIMA,21.95945383,2,0.4096248735,1.815623237,False,35
+sensibilidad_2023_2025,dulce,mensual,90,normal,bloques,SARIMA-sel,20.85434621,1,0,0,True,35
+sensibilidad_2023_2025,dulce,mensual,90,normal,bloques,Ridge,63.5849101,7,24.70276041,60.7189664,False,35
+sensibilidad_2023_2025,dulce,mensual,90,normal,bloques,ElasticNet,59.21440642,6,19.52706358,57.21112624,False,35
+sensibilidad_2023_2025,dulce,mensual,90,normal,bloques,XGB-37,53.27375093,5,13.76503501,50.61195977,False,35
+sensibilidad_2023_2025,dulce,mensual,90,normal,bloques,GC3,70.97634022,9,26.17314941,74.34030716,False,35
+sensibilidad_2023_2025,dulce,mensual,90,normal,bloques,GE,69.21987337,8,26.29593937,71.21915375,False,35
+sensibilidad_2023_2025,dulce,interanual,50,shock,iid,Naive,86.272,10,32.34262453,85.29494001,False,19
+sensibilidad_2023_2025,dulce,interanual,50,shock,iid,Seasonal Naive,41.94342105,4,8.144499933,20.65608165,False,19
+sensibilidad_2023_2025,dulce,interanual,50,shock,iid,Chronos,35.23016566,3,-4.880359259,19.83292756,True,19
+sensibilidad_2023_2025,dulce,interanual,50,shock,iid,SARIMA,27.46145627,2,-0.9986438084,1.57035714,True,19
+sensibilidad_2023_2025,dulce,interanual,50,shock,iid,SARIMA-sel,27.09748361,1,0,0,True,19
+sensibilidad_2023_2025,dulce,interanual,50,shock,iid,Ridge,77.96229713,8,30.89990591,70.26125176,False,19
+sensibilidad_2023_2025,dulce,interanual,50,shock,iid,ElasticNet,69.88598049,6,22.67354724,62.80790059,False,19
+sensibilidad_2023_2025,dulce,interanual,50,shock,iid,XGB-37,56.86482582,5,9.79075158,49.32723733,False,19
+sensibilidad_2023_2025,dulce,interanual,50,shock,iid,GC3,80.92660234,9,31.96892066,74.90226915,False,19
+sensibilidad_2023_2025,dulce,interanual,50,shock,iid,GE,77.56818577,7,29.41486792,70.68434277,False,19
+sensibilidad_2023_2025,dulce,interanual,50,shock,bloques,Naive,86.272,10,39.05681646,80.41875255,False,19
+sensibilidad_2023_2025,dulce,interanual,50,shock,bloques,Seasonal Naive,41.94342105,4,8.382005231,21.7593719,False,19
+sensibilidad_2023_2025,dulce,interanual,50,shock,bloques,Chronos,35.23016566,3,-3.823844212,21.49307151,True,19
+sensibilidad_2023_2025,dulce,interanual,50,shock,bloques,SARIMA,27.46145627,2,-0.712262464,1.31993485,True,19
+sensibilidad_2023_2025,dulce,interanual,50,shock,bloques,SARIMA-sel,27.09748361,1,0,0,True,19
+sensibilidad_2023_2025,dulce,interanual,50,shock,bloques,Ridge,77.96229713,8,32.41832389,72.74697144,False,19
+sensibilidad_2023_2025,dulce,interanual,50,shock,bloques,ElasticNet,69.88598049,6,23.71921152,66.05698929,False,19
+sensibilidad_2023_2025,dulce,interanual,50,shock,bloques,XGB-37,56.86482582,5,8.266130523,51.96565613,False,19
+sensibilidad_2023_2025,dulce,interanual,50,shock,bloques,GC3,80.92660234,9,26.80911784,81.43337479,False,19
+sensibilidad_2023_2025,dulce,interanual,50,shock,bloques,GE,77.56818577,7,26.13674771,75.85392837,False,19
+sensibilidad_2023_2025,dulce,interanual,50,normal,iid,Naive,77.56,10,42.82663235,88.79783971,False,17
+sensibilidad_2023_2025,dulce,interanual,50,normal,iid,Seasonal Naive,12.54158824,1,0,0,True,17
+sensibilidad_2023_2025,dulce,interanual,50,normal,iid,Chronos,34.65732656,4,13.70565115,30.489679,False,17
+sensibilidad_2023_2025,dulce,interanual,50,normal,iid,SARIMA,15.90493386,3,-2.91109974,10.31977716,True,17
+sensibilidad_2023_2025,dulce,interanual,50,normal,iid,SARIMA-sel,14.05014516,2,-3.87153845,7.211657635,True,17
+sensibilidad_2023_2025,dulce,interanual,50,normal,iid,Ridge,48.32741535,6,18.56269425,57.38046433,False,17
+sensibilidad_2023_2025,dulce,interanual,50,normal,iid,ElasticNet,47.88107505,5,18.12927358,56.49586613,False,17
+sensibilidad_2023_2025,dulce,interanual,50,normal,iid,XGB-37,51.65634331,7,24.0638016,54.49592789,False,17
+sensibilidad_2023_2025,dulce,interanual,50,normal,iid,GC3,57.54600932,8,28.12191835,64.37219643,False,17
+sensibilidad_2023_2025,dulce,interanual,50,normal,iid,GE,58.06325368,9,29.51487837,63.67867904,False,17
+sensibilidad_2023_2025,dulce,interanual,50,normal,bloques,Naive,77.56,10,44.51294896,86.3852206,False,17
+sensibilidad_2023_2025,dulce,interanual,50,normal,bloques,Seasonal Naive,12.54158824,1,0,0,True,17
+sensibilidad_2023_2025,dulce,interanual,50,normal,bloques,Chronos,34.65732656,4,13.69043979,29.75131399,False,17
+sensibilidad_2023_2025,dulce,interanual,50,normal,bloques,SARIMA,15.90493386,3,-3.592594946,10.8493467,True,17
+sensibilidad_2023_2025,dulce,interanual,50,normal,bloques,SARIMA-sel,14.05014516,2,-4.41697052,7.686122781,True,17
+sensibilidad_2023_2025,dulce,interanual,50,normal,bloques,Ridge,48.32741535,6,16.69748353,58.65227127,False,17
+sensibilidad_2023_2025,dulce,interanual,50,normal,bloques,ElasticNet,47.88107505,5,16.56008778,57.3045192,False,17
+sensibilidad_2023_2025,dulce,interanual,50,normal,bloques,XGB-37,51.65634331,7,23.76622101,54.19916367,False,17
+sensibilidad_2023_2025,dulce,interanual,50,normal,bloques,GC3,57.54600932,8,25.32538206,67.00943577,False,17
+sensibilidad_2023_2025,dulce,interanual,50,normal,bloques,GE,58.06325368,9,26.87095865,66.2923042,False,17
+sensibilidad_2023_2025,dulce,interanual,60,shock,iid,Naive,87.5618125,10,27.75900857,87.7846568,False,16
+sensibilidad_2023_2025,dulce,interanual,60,shock,iid,Seasonal Naive,44.5458125,4,7.203692171,21.64242591,False,16
+sensibilidad_2023_2025,dulce,interanual,60,shock,iid,Chronos,35.18182361,3,-8.880579773,18.7220874,True,16
+sensibilidad_2023_2025,dulce,interanual,60,shock,iid,SARIMA,29.94371702,2,-1.224023374,1.509375,True,16
+sensibilidad_2023_2025,dulce,interanual,60,shock,iid,SARIMA-sel,29.62818562,1,0,0,True,16
+sensibilidad_2023_2025,dulce,interanual,60,shock,iid,Ridge,83.97700367,9,31.56705793,76.59051686,False,16
+sensibilidad_2023_2025,dulce,interanual,60,shock,iid,ElasticNet,74.38741902,6,21.59992025,67.7785709,False,16
+sensibilidad_2023_2025,dulce,interanual,60,shock,iid,XGB-37,57.75670247,5,6.400868836,49.84514856,False,16
+sensibilidad_2023_2025,dulce,interanual,60,shock,iid,GC3,79.50218609,8,26.62847153,71.91322873,False,16
+sensibilidad_2023_2025,dulce,interanual,60,shock,iid,GE,75.70399429,7,24.35569401,66.48946824,False,16
+sensibilidad_2023_2025,dulce,interanual,60,shock,bloques,Naive,87.5618125,10,35.98345319,81.2865914,False,16
+sensibilidad_2023_2025,dulce,interanual,60,shock,bloques,Seasonal Naive,44.5458125,4,7.830539561,22.43084014,False,16
+sensibilidad_2023_2025,dulce,interanual,60,shock,bloques,Chronos,35.18182361,3,-6.143325817,19.93220288,True,16
+sensibilidad_2023_2025,dulce,interanual,60,shock,bloques,SARIMA,29.94371702,2,-0.7776089457,1.227852337,True,16
+sensibilidad_2023_2025,dulce,interanual,60,shock,bloques,SARIMA-sel,29.62818562,1,0,0,True,16
+sensibilidad_2023_2025,dulce,interanual,60,shock,bloques,Ridge,83.97700367,9,33.29036973,79.86187076,False,16
+sensibilidad_2023_2025,dulce,interanual,60,shock,bloques,ElasticNet,74.38741902,6,23.10611481,72.69389601,False,16
+sensibilidad_2023_2025,dulce,interanual,60,shock,bloques,XGB-37,57.75670247,5,5.401408054,55.19958743,False,16
+sensibilidad_2023_2025,dulce,interanual,60,shock,bloques,GC3,79.50218609,8,25.69326548,76.8832256,False,16
+sensibilidad_2023_2025,dulce,interanual,60,shock,bloques,GE,75.70399429,7,24.98679625,70.21189358,False,16
+sensibilidad_2023_2025,dulce,interanual,60,normal,iid,Naive,77.83495,10,42.6818569,86.49202416,False,20
+sensibilidad_2023_2025,dulce,interanual,60,normal,iid,Seasonal Naive,14.86995,2,-4.630909413,6.024732039,True,20
+sensibilidad_2023_2025,dulce,interanual,60,normal,iid,Chronos,34.78192606,4,10.86340731,30.39477369,False,20
+sensibilidad_2023_2025,dulce,interanual,60,normal,iid,SARIMA,15.65260363,3,0.6311371401,2.953060749,False,20
+sensibilidad_2023_2025,dulce,interanual,60,normal,iid,SARIMA-sel,13.98268433,1,0,0,True,20
+sensibilidad_2023_2025,dulce,interanual,60,normal,iid,Ridge,47.96088239,6,16.95334113,54.00941602,False,20
+sensibilidad_2023_2025,dulce,interanual,60,normal,iid,ElasticNet,47.58066004,5,16.53307536,53.26301742,False,20
+sensibilidad_2023_2025,dulce,interanual,60,normal,iid,XGB-37,51.72411437,7,20.23972682,55.11107446,False,20
+sensibilidad_2023_2025,dulce,interanual,60,normal,iid,GC3,62.19263128,8,26.92012554,70.45874556,False,20
+sensibilidad_2023_2025,dulce,interanual,60,normal,iid,GE,62.48034668,9,27.88934979,69.71820585,False,20
+sensibilidad_2023_2025,dulce,interanual,60,normal,bloques,Naive,77.83495,10,43.45406297,85.66208811,False,20
+sensibilidad_2023_2025,dulce,interanual,60,normal,bloques,Seasonal Naive,14.86995,2,-5.674558242,6.97607595,True,20
+sensibilidad_2023_2025,dulce,interanual,60,normal,bloques,Chronos,34.78192606,4,10.12778199,30.64055242,False,20
+sensibilidad_2023_2025,dulce,interanual,60,normal,bloques,SARIMA,15.65260363,3,0.6253779277,2.9395822,False,20
+sensibilidad_2023_2025,dulce,interanual,60,normal,bloques,SARIMA-sel,13.98268433,1,0,0,True,20
+sensibilidad_2023_2025,dulce,interanual,60,normal,bloques,Ridge,47.96088239,6,12.93103921,56.91274066,False,20
+sensibilidad_2023_2025,dulce,interanual,60,normal,bloques,ElasticNet,47.58066004,5,13.17554607,55.704249,False,20
+sensibilidad_2023_2025,dulce,interanual,60,normal,bloques,XGB-37,51.72411437,7,19.02442727,56.27062254,False,20
+sensibilidad_2023_2025,dulce,interanual,60,normal,bloques,GC3,62.19263128,8,21.54556743,77.01655673,False,20
+sensibilidad_2023_2025,dulce,interanual,60,normal,bloques,GE,62.48034668,9,23.07257539,76.00103414,False,20
+sensibilidad_2023_2025,dulce,interanual,75,shock,iid,Naive,92.57925,10,26.73473863,99.40674599,False,12
+sensibilidad_2023_2025,dulce,interanual,75,shock,iid,Seasonal Naive,46.3435,4,7.117322423,25.62389125,False,12
+sensibilidad_2023_2025,dulce,interanual,75,shock,iid,Chronos,37.99987846,3,-7.653202285,23.74044957,True,12
+sensibilidad_2023_2025,dulce,interanual,75,shock,iid,SARIMA,29.41972195,1,0,0,True,12
+sensibilidad_2023_2025,dulce,interanual,75,shock,iid,SARIMA-sel,29.69497917,2,-1.222944555,2.213359501,True,12
+sensibilidad_2023_2025,dulce,interanual,75,shock,iid,Ridge,80.4460164,9,26.70292916,75.66794442,False,12
+sensibilidad_2023_2025,dulce,interanual,75,shock,iid,ElasticNet,68.26263203,7,14.10630687,64.78875939,False,12
+sensibilidad_2023_2025,dulce,interanual,75,shock,iid,XGB-37,47.28133537,5,-0.2638630652,35.4802738,True,12
+sensibilidad_2023_2025,dulce,interanual,75,shock,iid,GC3,68.69636088,8,17.39361045,60.99584702,False,12
+sensibilidad_2023_2025,dulce,interanual,75,shock,iid,GE,67.37949371,6,16.28133654,59.00558696,False,12
+sensibilidad_2023_2025,dulce,interanual,75,shock,bloques,Naive,92.57925,10,38.10161928,95.87520568,False,12
+sensibilidad_2023_2025,dulce,interanual,75,shock,bloques,Seasonal Naive,46.3435,4,8.856716915,26.31835674,False,12
+sensibilidad_2023_2025,dulce,interanual,75,shock,bloques,Chronos,37.99987846,3,-4.815151243,28.72517656,True,12
+sensibilidad_2023_2025,dulce,interanual,75,shock,bloques,SARIMA,29.41972195,1,0,0,True,12
+sensibilidad_2023_2025,dulce,interanual,75,shock,bloques,SARIMA-sel,29.69497917,2,-0.8480378259,1.540459273,True,12
+sensibilidad_2023_2025,dulce,interanual,75,shock,bloques,Ridge,80.4460164,9,29.8295467,88.84739122,False,12
+sensibilidad_2023_2025,dulce,interanual,75,shock,bloques,ElasticNet,68.26263203,7,19.11769165,78.16235659,False,12
+sensibilidad_2023_2025,dulce,interanual,75,shock,bloques,XGB-37,47.28133537,5,1.152316844,44.51304573,False,12
+sensibilidad_2023_2025,dulce,interanual,75,shock,bloques,GC3,68.69636088,8,18.89158745,65.60601419,False,12
+sensibilidad_2023_2025,dulce,interanual,75,shock,bloques,GE,67.37949371,6,20.29940118,62.11656075,False,12
+sensibilidad_2023_2025,dulce,interanual,75,normal,iid,Naive,76.947375,10,41.03450486,80.91928988,False,24
+sensibilidad_2023_2025,dulce,interanual,75,normal,iid,Seasonal Naive,18.91708333,3,-2.348516102,6.736957688,True,24
+sensibilidad_2023_2025,dulce,interanual,75,normal,iid,Chronos,33.43954823,4,7.426538892,26.35775941,False,24
+sensibilidad_2023_2025,dulce,interanual,75,normal,iid,SARIMA,18.29645339,2,0.8089928375,2.838416226,False,24
+sensibilidad_2023_2025,dulce,interanual,75,normal,iid,SARIMA-sel,16.5568711,1,0,0,True,24
+sensibilidad_2023_2025,dulce,interanual,75,normal,iid,Ridge,55.7290629,6,23.98632071,56.42447227,False,24
+sensibilidad_2023_2025,dulce,interanual,75,normal,iid,ElasticNet,55.1108467,5,23.50393552,55.38408897,False,24
+sensibilidad_2023_2025,dulce,interanual,75,normal,iid,XGB-37,57.96722927,7,25.80299268,57.67308752,False,24
+sensibilidad_2023_2025,dulce,interanual,75,normal,iid,GC3,70.48046968,9,34.08366227,74.01005965,False,24
+sensibilidad_2023_2025,dulce,interanual,75,normal,iid,GE,68.84653824,8,33.29868923,71.78771593,False,24
+sensibilidad_2023_2025,dulce,interanual,75,normal,bloques,Naive,76.947375,10,39.54359695,82.21154246,False,24
+sensibilidad_2023_2025,dulce,interanual,75,normal,bloques,Seasonal Naive,18.91708333,3,-4.384430707,7.9779214,True,24
+sensibilidad_2023_2025,dulce,interanual,75,normal,bloques,Chronos,33.43954823,4,5.887419019,26.79544498,False,24
+sensibilidad_2023_2025,dulce,interanual,75,normal,bloques,SARIMA,18.29645339,2,0.8708912241,2.910102196,False,24
+sensibilidad_2023_2025,dulce,interanual,75,normal,bloques,SARIMA-sel,16.5568711,1,0,0,True,24
+sensibilidad_2023_2025,dulce,interanual,75,normal,bloques,Ridge,55.7290629,6,17.47583063,58.89802965,False,24
+sensibilidad_2023_2025,dulce,interanual,75,normal,bloques,ElasticNet,55.1108467,5,17.12043071,57.55164997,False,24
+sensibilidad_2023_2025,dulce,interanual,75,normal,bloques,XGB-37,57.96722927,7,20.60977203,60.10237761,False,24
+sensibilidad_2023_2025,dulce,interanual,75,normal,bloques,GC3,70.48046968,9,23.2192494,82.95933043,False,24
+sensibilidad_2023_2025,dulce,interanual,75,normal,bloques,GE,68.84653824,8,24.2053683,79.87874335,False,24
+sensibilidad_2023_2025,dulce,interanual,90,shock,iid,Naive,57.05366667,3,-23.59002995,55.13485417,True,3
+sensibilidad_2023_2025,dulce,interanual,90,shock,iid,Seasonal Naive,80.95333333,10,28.64663672,50.69752083,False,3
+sensibilidad_2023_2025,dulce,interanual,90,shock,iid,Chronos,41.28125456,1,0,0,True,3
+sensibilidad_2023_2025,dulce,interanual,90,shock,iid,SARIMA,67.13361305,5,11.92702799,39.77768899,False,3
+sensibilidad_2023_2025,dulce,interanual,90,shock,iid,SARIMA-sel,67.57627204,6,12.95390782,39.63612715,False,3
+sensibilidad_2023_2025,dulce,interanual,90,shock,iid,Ridge,68.2359702,7,17.83893854,36.07049273,False,3
+sensibilidad_2023_2025,dulce,interanual,90,shock,iid,ElasticNet,58.0748598,4,7.077037883,26.5101726,False,3
+sensibilidad_2023_2025,dulce,interanual,90,shock,iid,XGB-37,55.87038521,2,-8.640491996,37.81875331,True,3
+sensibilidad_2023_2025,dulce,interanual,90,shock,iid,GC3,80.15541317,9,33.83045687,43.91786036,False,3
+sensibilidad_2023_2025,dulce,interanual,90,shock,iid,GE,71.32419016,8,25.11447369,34.97139752,False,3
+sensibilidad_2023_2025,dulce,interanual,90,shock,bloques,Naive,57.05366667,3,-45.51034644,72.57697974,True,3
+sensibilidad_2023_2025,dulce,interanual,90,shock,bloques,Seasonal Naive,80.95333333,10,20.70965356,53.78597974,False,3
+sensibilidad_2023_2025,dulce,interanual,90,shock,bloques,Chronos,41.28125456,1,0,0,True,3
+sensibilidad_2023_2025,dulce,interanual,90,shock,bloques,SARIMA,67.13361305,5,-14.88766979,65.55642355,True,3
+sensibilidad_2023_2025,dulce,interanual,90,shock,bloques,SARIMA-sel,67.57627204,6,-14.76559782,68.39291909,True,3
+sensibilidad_2023_2025,dulce,interanual,90,shock,bloques,Ridge,68.2359702,7,0.6492474268,53.78111539,False,3
+sensibilidad_2023_2025,dulce,interanual,90,shock,bloques,ElasticNet,58.0748598,4,-4.398949344,41.96473357,True,3
+sensibilidad_2023_2025,dulce,interanual,90,shock,bloques,XGB-37,55.87038521,2,-12.85224413,56.83662382,True,3
+sensibilidad_2023_2025,dulce,interanual,90,shock,bloques,GC3,80.15541317,9,32.64189057,47.7729958,False,3
+sensibilidad_2023_2025,dulce,interanual,90,shock,bloques,GE,71.32419016,8,20.45990096,35.2452867,False,3
+sensibilidad_2023_2025,dulce,interanual,90,normal,iid,Naive,84.44021212,10,50.33823293,85.56807302,False,33
+sensibilidad_2023_2025,dulce,interanual,90,normal,iid,Seasonal Naive,23.25066667,3,2.274061832,10.53556508,False,33
+sensibilidad_2023_2025,dulce,interanual,90,normal,iid,Chronos,34.38496774,4,10.01288185,25.26773477,False,33
+sensibilidad_2023_2025,dulce,interanual,90,normal,iid,SARIMA,17.90153654,2,0.2445439973,2.199699121,False,33
+sensibilidad_2023_2025,dulce,interanual,90,normal,iid,SARIMA-sel,16.69623759,1,0,0,True,33
+sensibilidad_2023_2025,dulce,interanual,90,normal,iid,Ridge,63.58005442,7,33.53351149,60.93765664,False,33
+sensibilidad_2023_2025,dulce,interanual,90,normal,iid,ElasticNet,59.62385835,6,29.3903193,57.1707732,False,33
+sensibilidad_2023_2025,dulce,interanual,90,normal,iid,XGB-37,54.27207186,5,23.91386719,51.22117431,False,33
+sensibilidad_2023_2025,dulce,interanual,90,normal,iid,GC3,68.95216253,9,36.5384074,67.95945935,False,33
+sensibilidad_2023_2025,dulce,interanual,90,normal,iid,GE,68.08782642,8,36.32619764,66.39802099,False,33
+sensibilidad_2023_2025,dulce,interanual,90,normal,bloques,Naive,84.44021212,10,51.25312583,84.90876814,False,33
+sensibilidad_2023_2025,dulce,interanual,90,normal,bloques,Seasonal Naive,23.25066667,3,1.125625599,11.37549459,False,33
+sensibilidad_2023_2025,dulce,interanual,90,normal,bloques,Chronos,34.38496774,4,8.712698727,26.21843652,False,33
+sensibilidad_2023_2025,dulce,interanual,90,normal,bloques,SARIMA,17.90153654,2,0.4386447952,2.116966702,False,33
+sensibilidad_2023_2025,dulce,interanual,90,normal,bloques,SARIMA-sel,16.69623759,1,0,0,True,33
+sensibilidad_2023_2025,dulce,interanual,90,normal,bloques,Ridge,63.58005442,7,30.42579837,63.24496343,False,33
+sensibilidad_2023_2025,dulce,interanual,90,normal,bloques,ElasticNet,59.62385835,6,26.07262151,59.69462181,False,33
+sensibilidad_2023_2025,dulce,interanual,90,normal,bloques,XGB-37,54.27207186,5,21.29788226,53.21087351,False,33
+sensibilidad_2023_2025,dulce,interanual,90,normal,bloques,GC3,68.95216253,9,28.46727707,75.39831483,False,33
+sensibilidad_2023_2025,dulce,interanual,90,normal,bloques,GE,68.08782642,8,29.60997325,73.03384174,False,33

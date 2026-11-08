@@ -1,0 +1,4 @@
+Caption (suggested): MAE in shock months versus threshold percentile for each model, month-on-month (solid) versus year-on-year (dashed) shock definition, sweet lime (limón dulce), 2021–2025. Each panel has its own y-axis.
+
+Reading: At P75 the lowest MAE_shock is SARIMA with month-on-month shocks and SARIMA with year-on-year shocks.
+The two shock definitions select different months, so model comparisons can differ; the year-on-year results are reported separately.

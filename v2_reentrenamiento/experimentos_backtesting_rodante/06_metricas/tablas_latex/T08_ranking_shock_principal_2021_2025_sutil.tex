@@ -1,0 +1,22 @@
+\begin{table}[H]
+\centering
+\small
+\caption{Ranking por MAE\_shock (2021-2025, Sutil): posición; * = primero o empatado con el primero (IC95 iid de la diferencia contiene 0)}
+\label{tab:T08_ranking_shock_principal_2021_2025_sutil}
+\begin{tabular}{llllllllllllll}
+\toprule
+modelo & sh-men-P50 & sh-men-P60 & sh-men-P75 & sh-men-P90 & sh-men primero en & sh-int-P50 & sh-int-P60 & sh-int-P75 & sh-int-P90 & sh-int primero en & robusto men & robusto int & robusto men (bloques) \\
+\midrule
+Naive & 5 & 8 & 9 & 7 & 0 & 2* & 2* & 2* & 2* & 4 & no & sí & no \\
+Seasonal Naive & 6 & 5 & 3* & 4* & 2 & 10 & 10 & 10 & 10 & 0 & no & no & no \\
+Chronos & 2* & 3* & 1* & 1* & 4 & 1* & 1* & 1* & 1* & 4 & sí & sí & sí \\
+SARIMA & 3* & 2* & 4* & 2 & 3 & 3* & 3* & 3 & 3 & 2 & sí & no & sí \\
+SARIMA-sel & 1* & 1* & 2* & 3 & 3 & 4* & 4 & 4 & 6 & 1 & sí & no & sí \\
+Ridge & 9 & 10 & 10 & 10 & 0 & 6 & 6 & 6 & 4 & 0 & no & no & no \\
+ElasticNet & 10 & 9 & 8 & 9 & 0 & 7 & 7 & 7 & 5 & 0 & no & no & no \\
+XGB-37 & 4 & 4 & 5* & 6 & 1 & 5 & 5 & 5 & 7* & 1 & no & no & no \\
+GC3 & 8 & 6 & 6* & 5 & 1 & 9 & 8 & 8 & 8 & 0 & no & no & no \\
+GE & 7 & 7 & 7 & 8 & 0 & 8 & 9 & 9 & 9 & 0 & no & no & no \\
+\bottomrule
+\end{tabular}
+\end{table}

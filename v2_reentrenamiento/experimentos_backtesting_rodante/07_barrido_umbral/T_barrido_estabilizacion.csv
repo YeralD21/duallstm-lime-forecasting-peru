@@ -1,0 +1,5 @@
+cultivar,tipo,primer_lugar_estable_desde,modelo_estable,todos_empatan_desde
+sutil,mensual,75,Chronos,
+sutil,interanual,0,Chronos,
+dulce,mensual,0,SARIMA,
+dulce,interanual,95,Naive,

@@ -1,0 +1,22 @@
+{
+ "segundos_total": 10.19476769999892,
+ "procesos": 2,
+ "unidades": [
+  {
+   "modelo": "LSTM-U-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 9.49
+  },
+  {
+   "modelo": "GC3-R-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 10.19
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+cultivar,tipo,comprobaciones,max_abs_Delta_s,todos_cero_exacto
+dulce,interanual,60,0,True
+dulce,mensual,60,0,True
+sutil,interanual,60,0,True
+sutil,mensual,60,0,True

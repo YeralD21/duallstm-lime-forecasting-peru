@@ -1,0 +1,20 @@
+{
+  "unidad": {
+    "modelo": "Seasonal Naive",
+    "cultivar": "dulce",
+    "anio": 2018,
+    "semilla": null
+  },
+  "etapa": "03_modelos_sin_ajuste",
+  "hash_config": "461f56a61c306ab03da341128ceef8b4986a5db1514adb125aa07c28fd3e9d68",
+  "hash_codigo": "a166eb50f84525f3ffd6642da4d9068834731f832880f5beed315d878c721f11",
+  "archivos": {
+    "info.json": "f7b7263a3f41efaadd869c4f66c2082ebdb1afcc9ee64f4d4185f725b07dcf33",
+    "predicciones.csv": "720e0afbed4cfbacd14e229e9b5bbd4e444559489eec65d27972d755c3decedd"
+  },
+  "segundos": 0.006902299999637762,
+  "fin": "2026-10-28T19:03:22-05:00",
+  "resumen": {
+    "n_test": 12
+  }
+}

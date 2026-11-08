@@ -1,0 +1,194 @@
+{
+  "artefacto": "fase2_v2_regenerada",
+  "fecha_generacion": "2026-09-07 20:59:19",
+  "convencion_sha256": "NUEVA en v2 (D19). No existia en v1 ni en la Fase 2 v2 original.",
+  "split": {
+    "train": [
+      "2016-07",
+      "2023-12"
+    ],
+    "val": [
+      "2024-01",
+      "2024-12"
+    ],
+    "test": [
+      "2025-01",
+      "2025-12"
+    ]
+  },
+  "n": {
+    "train": 90,
+    "val": 12,
+    "test": 12
+  },
+  "scaler": {
+    "sutil": {
+      "n_features_in_": 44,
+      "n_samples_seen_": 90,
+      "columnas_escaladas": [
+        "produccion_t_sutil",
+        "t_index",
+        "produccion_t_sutil_lag1",
+        "produccion_t_sutil_lag3",
+        "produccion_t_sutil_lag6",
+        "T2M_lag1",
+        "T2M_lag3",
+        "T2M_lag6",
+        "T2M_MAX_lag1",
+        "T2M_MAX_lag3",
+        "T2M_MAX_lag6",
+        "WS2M_lag1",
+        "WS2M_lag3",
+        "WS2M_lag6",
+        "PRECTOTCORR_lag1",
+        "PRECTOTCORR_lag3",
+        "PRECTOTCORR_lag6",
+        "RH2M_lag1",
+        "RH2M_lag3",
+        "RH2M_lag6",
+        "num_emergencias_lag1",
+        "num_emergencias_lag3",
+        "num_emergencias_lag6",
+        "personas_afectadas_lag1",
+        "personas_afectadas_lag3",
+        "personas_afectadas_lag6",
+        "personas_damnificadas_lag1",
+        "personas_damnificadas_lag3",
+        "personas_damnificadas_lag6",
+        "total_afectados_lag1",
+        "total_afectados_lag3",
+        "total_afectados_lag6",
+        "hectareas_cultivo_perdidas_lag1",
+        "hectareas_cultivo_perdidas_lag3",
+        "hectareas_cultivo_perdidas_lag6",
+        "hectareas_cultivo_afectadas_lag1",
+        "hectareas_cultivo_afectadas_lag3",
+        "hectareas_cultivo_afectadas_lag6",
+        "avg_sentiment_lag1",
+        "avg_sentiment_lag3",
+        "avg_sentiment_lag6",
+        "n_noticias_lag1",
+        "n_noticias_lag3",
+        "n_noticias_lag6"
+      ],
+      "columnas_no_escaladas": [
+        "anio",
+        "mes",
+        "mes_sin",
+        "mes_cos"
+      ]
+    },
+    "dulce": {
+      "n_features_in_": 44,
+      "n_samples_seen_": 90,
+      "columnas_escaladas": [
+        "produccion_t_dulce",
+        "t_index",
+        "produccion_t_dulce_lag1",
+        "produccion_t_dulce_lag3",
+        "produccion_t_dulce_lag6",
+        "T2M_lag1",
+        "T2M_lag3",
+        "T2M_lag6",
+        "T2M_MAX_lag1",
+        "T2M_MAX_lag3",
+        "T2M_MAX_lag6",
+        "WS2M_lag1",
+        "WS2M_lag3",
+        "WS2M_lag6",
+        "PRECTOTCORR_lag1",
+        "PRECTOTCORR_lag3",
+        "PRECTOTCORR_lag6",
+        "RH2M_lag1",
+        "RH2M_lag3",
+        "RH2M_lag6",
+        "num_emergencias_lag1",
+        "num_emergencias_lag3",
+        "num_emergencias_lag6",
+        "personas_afectadas_lag1",
+        "personas_afectadas_lag3",
+        "personas_afectadas_lag6",
+        "personas_damnificadas_lag1",
+        "personas_damnificadas_lag3",
+        "personas_damnificadas_lag6",
+        "total_afectados_lag1",
+        "total_afectados_lag3",
+        "total_afectados_lag6",
+        "hectareas_cultivo_perdidas_lag1",
+        "hectareas_cultivo_perdidas_lag3",
+        "hectareas_cultivo_perdidas_lag6",
+        "hectareas_cultivo_afectadas_lag1",
+        "hectareas_cultivo_afectadas_lag3",
+        "hectareas_cultivo_afectadas_lag6",
+        "avg_sentiment_lag1",
+        "avg_sentiment_lag3",
+        "avg_sentiment_lag6",
+        "n_noticias_lag1",
+        "n_noticias_lag3",
+        "n_noticias_lag6"
+      ],
+      "columnas_no_escaladas": [
+        "anio",
+        "mes",
+        "mes_sin",
+        "mes_cos"
+      ]
+    }
+  },
+  "hashes": {
+    "sutil": {
+      "maestro": {
+        "ruta": "v2_reentrenamiento/data/processed/master_dataset_sutil_v2.csv",
+        "sha256": "220d9a9aabf6e41a31ee5950223eab3a74ddeadba18b8a8e281021b2af84b3f8",
+        "bytes": 13586
+      },
+      "features": {
+        "ruta": "v2_reentrenamiento/data/processed/master_dataset_sutil_v2_features.csv",
+        "sha256": "a6f23d0eb3178514c75f6851f3c2039837a192acc5f2b008bc445dda35968cc9",
+        "bytes": 43303
+      },
+      "escalado": {
+        "ruta": "v2_reentrenamiento/data/processed/master_dataset_sutil_v2_escalado.csv",
+        "sha256": "d664fd728798d52e5c1bbe702745d40d49b8761513cef148e0a56f2481ca7941",
+        "bytes": 105898
+      },
+      "scaler": {
+        "ruta": "v2_reentrenamiento/resultados_v2_final/scalers/scaler_sutil_v2c.joblib",
+        "sha256": "ba51666f00ded716c63698dd04e29068d58d3cab064202384bfbd4435fbf350e",
+        "bytes": 2823
+      },
+      "parametros": {
+        "ruta": "v2_reentrenamiento/resultados_v2_final/scalers/scaler_sutil_v2c_parametros.csv",
+        "sha256": "4e4d0e1fa6555d605e71cf9c378c4a33e6a8a6b0d238024be6d447f813fee80e",
+        "bytes": 3355
+      }
+    },
+    "dulce": {
+      "maestro": {
+        "ruta": "v2_reentrenamiento/data/processed/master_dataset_dulce_v2.csv",
+        "sha256": "547443d1a117217b8f01f723f345749d530597b45210922a7e609469521934d0",
+        "bytes": 13140
+      },
+      "features": {
+        "ruta": "v2_reentrenamiento/data/processed/master_dataset_dulce_v2_features.csv",
+        "sha256": "c0e7cbe99fdf514cf3bde3c3f735b7d14fc63b27c7f3f163ec665ae25696a188",
+        "bytes": 41761
+      },
+      "escalado": {
+        "ruta": "v2_reentrenamiento/data/processed/master_dataset_dulce_v2_escalado.csv",
+        "sha256": "38466a4f9581f7d8058962248161d7cb1d467a82e7c2092de73364920dd84f80",
+        "bytes": 105111
+      },
+      "scaler": {
+        "ruta": "v2_reentrenamiento/resultados_v2_final/scalers/scaler_dulce_v2c.joblib",
+        "sha256": "1bf919b4c00d236801f12df420b79a16f47c4fe4df3b711472cdc36428eb962b",
+        "bytes": 2823
+      },
+      "parametros": {
+        "ruta": "v2_reentrenamiento/resultados_v2_final/scalers/scaler_dulce_v2c_parametros.csv",
+        "sha256": "e62e44ba9e60c79ed4f72b242fe0c90e7ade5648613b6025f61e4a8b2aac3f64",
+        "bytes": 3371
+      }
+    }
+  }
+}

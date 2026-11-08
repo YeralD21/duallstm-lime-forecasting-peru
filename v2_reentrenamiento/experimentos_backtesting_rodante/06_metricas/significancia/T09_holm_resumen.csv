@@ -1,0 +1,9 @@
+conjunto,cultivar,alcance,pares,p_menor_005,holm_menor_005
+principal_2021_2025,dulce,global,45,33,28
+principal_2021_2025,dulce,shock_P75_mensual,45,31,24
+principal_2021_2025,sutil,global,45,28,17
+principal_2021_2025,sutil,shock_P75_mensual,45,4,1
+sensibilidad_2023_2025,dulce,global,45,34,24
+sensibilidad_2023_2025,dulce,shock_P75_mensual,45,28,10
+sensibilidad_2023_2025,sutil,global,45,24,12
+sensibilidad_2023_2025,sutil,shock_P75_mensual,45,2,0

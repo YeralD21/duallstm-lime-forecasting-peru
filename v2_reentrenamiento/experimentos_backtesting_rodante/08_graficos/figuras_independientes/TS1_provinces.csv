@@ -1,0 +1,111 @@
+﻿Department,Province,Latitude,Longitude,Coordinate,Category,Sour lime 2016-2025 (t),Sour lime share (%),Months with sour lime > 0 (of 120),Sweet lime 2016-2025 (t),Sweet lime share (%),Months with sweet lime > 0 (of 120)
+PIURA,PIURA,-5.1525,-80.6578,province,Sour lime only,926666.0,30.58,120.0,0.0,0.0,0.0
+PIURA,SULLANA,-4.8906,-80.6878,province,Sour lime only,678010.0,22.37,120.0,0.0,0.0,0.0
+LAMBAYEQUE,LAMBAYEQUE,-6.7069,-79.8953,province,Sour lime only,386555.0,12.76,120.0,0.0,0.0,0.0
+TUMBES,ZARUMILLA,-3.5011,-80.2756,province,Sour lime only,361442.1,11.93,120.0,0.0,0.0,0.0
+PIURA,MORROPON,-5.0972,-80.1603,province,Sour lime only,132988.0,4.39,120.0,0.0,0.0,0.0
+TUMBES,TUMBES,-3.5711,-80.4592,province,Sour lime only,74185.4,2.45,120.0,0.0,0.0,0.0
+UCAYALI,CORONEL PORTILLO,-8.3681,-74.5433,province,Sour lime only,61919.7,2.04,120.0,0.0,0.0,0.0
+LORETO,MAYNAS,-3.7481,-73.2442,province,Both cultivars,55277.0,1.82,120.0,942.0,1.92,40.0
+AMAZONAS,UTCUBAMBA,-5.7547,-78.4428,province,Both cultivars,52073.8,1.72,120.0,3150.1,6.43,120.0
+UCAYALI,PADRE ABAD,-9.0336,-75.5075,province,Sour lime only,32399.9,1.07,120.0,0.0,0.0,0.0
+LORETO,ALTO AMAZONAS,-5.8842,-76.1281,province,Both cultivars,26941.0,0.89,120.0,67.0,0.14,39.0
+JUNIN,SATIPO,-11.2539,-74.6361,province,Both cultivars,25734.8,0.85,120.0,14818.6,30.25,104.0
+TUMBES,CONTRALMIRANTE VILLAR,-3.6775,-80.6681,province,Sour lime only,16441.3,0.54,120.0,0.0,0.0,0.0
+CUSCO,LA CONVENCION,-12.8628,-72.6933,province,Sour lime only,16102.8,0.53,118.0,0.0,0.0,0.0
+UCAYALI,ATALAYA,-10.7297,-73.7553,province,Sour lime only,16010.2,0.53,120.0,0.0,0.0,0.0
+LORETO,UCAYALI,-7.3506,-75.0097,province,Sour lime only,10926.0,0.36,120.0,0.0,0.0,0.0
+SAN MARTIN,SAN MARTIN,-6.4894,-76.3603,province,Sour lime only,9544.1,0.31,120.0,0.0,0.0,0.0
+SAN MARTIN,PICOTA,-6.92,-76.3303,province,Sour lime only,8634.6,0.28,120.0,0.0,0.0,0.0
+HUANUCO,LEONCIO PRADO,-9.2981,-76.0006,province,Sour lime only,8021.6,0.26,119.0,0.0,0.0,0.0
+SAN MARTIN,LAMAS,-6.4239,-76.5233,province,Sour lime only,7705.3,0.25,120.0,0.0,0.0,0.0
+JUNIN,CHANCHAMAYO,-11.0567,-75.3275,province,Both cultivars,7518.1,0.25,120.0,20007.6,40.84,120.0
+ICA,ICA,-14.0636,-75.7292,province,Sour lime only,6788.4,0.22,74.0,0.0,0.0,0.0
+LORETO,LORETO,-4.5014,-73.5694,province,Sour lime only,5785.0,0.19,120.0,0.0,0.0,0.0
+SAN MARTIN,HUALLAGA,-6.9367,-76.7722,province,Sour lime only,4744.0,0.16,120.0,0.0,0.0,0.0
+LORETO,MARISCAL RAMON CASTILLA,-3.9061,-70.5169,province,Sour lime only,4463.0,0.15,110.0,0.0,0.0,0.0
+ANCASH,CASMA,-9.4758,-78.3064,province,Both cultivars,4240.0,0.14,120.0,358.0,0.73,74.0
+LORETO,REQUENA,-5.0639,-73.8567,province,Both cultivars,3935.0,0.13,120.0,1094.0,2.23,120.0
+ICA,PISCO,-13.71,-76.2017,province,Sour lime only,3862.8,0.13,54.0,0.0,0.0,0.0
+ICA,NASCA,-14.0678,-75.7286,department reference,Sour lime only,3794.0,0.13,31.0,0.0,0.0,0.0
+MADRE DE DIOS,TAMBOPATA,-12.5936,-69.1767,province,Sour lime only,3780.2,0.12,120.0,0.0,0.0,0.0
+SAN MARTIN,MARISCAL CACERES,-7.1767,-76.7239,province,Both cultivars,3678.7,0.12,111.0,199.8,0.41,84.0
+PIURA,AYABACA,-4.6406,-79.7153,province,Both cultivars,3610.9,0.12,113.0,1.0,0.0,1.0
+LORETO,DATEM DEL MARAÑON,-3.7491,-73.2538,department reference,Sour lime only,3254.0,0.11,110.0,0.0,0.0,0.0
+SAN MARTIN,BELLAVISTA,-7.0522,-76.5897,province,Sour lime only,3180.0,0.1,120.0,0.0,0.0,0.0
+SAN MARTIN,MOYOBAMBA,-6.0347,-76.9742,province,Sour lime only,2903.8,0.1,84.0,0.0,0.0,0.0
+SAN MARTIN,TOCACHE,-8.1883,-76.5094,province,Sour lime only,2898.8,0.1,109.0,0.0,0.0,0.0
+AMAZONAS,LUYA,-6.1392,-77.9522,province,Both cultivars,2812.7,0.09,120.0,330.9,0.68,120.0
+AMAZONAS,BAGUA,-5.6389,-78.5311,province,Both cultivars,2484.9,0.08,120.0,951.7,1.94,120.0
+AMAZONAS,CHACHAPOYAS,-6.2294,-77.8728,province,Sour lime only,2427.0,0.08,120.0,0.0,0.0,0.0
+SAN MARTIN,RIOJA,-6.0625,-77.1683,province,Sour lime only,2318.8,0.08,109.0,0.0,0.0,0.0
+PIURA,HUANCABAMBA,-5.2386,-79.4503,province,Both cultivars,2031.2,0.07,118.0,30.2,0.06,9.0
+UCAYALI,PURUS,-9.7722,-70.7097,province,Sour lime only,2029.8,0.07,120.0,0.0,0.0,0.0
+CAJAMARCA,SAN MIGUEL,-7.0,-78.85,province,Sour lime only,1909.7,0.06,77.0,0.0,0.0,0.0
+SAN MARTIN,EL DORADO,-6.6139,-76.6953,province,Sour lime only,1855.7,0.06,114.0,0.0,0.0,0.0
+LA LIBERTAD,VIRU,-8.4144,-78.7528,province,Sour lime only,1720.9,0.06,120.0,0.0,0.0,0.0
+ANCASH,HUAYLAS,-9.0486,-77.8047,province,Sour lime only,1701.0,0.06,120.0,0.0,0.0,0.0
+CAJAMARCA,CHOTA,-6.5597,-78.6469,province,Both cultivars,1634.0,0.05,92.0,956.0,1.95,77.0
+HUANUCO,HUAMALIES,-9.5497,-76.8186,province,Sour lime only,1543.5,0.05,118.0,0.0,0.0,0.0
+PIURA,PAITA,-5.0931,-81.0994,province,Sour lime only,1444.0,0.05,110.0,0.0,0.0,0.0
+MADRE DE DIOS,MANU,-12.8372,-71.3653,province,Sour lime only,1404.0,0.05,120.0,0.0,0.0,0.0
+LORETO,PUTUMAYO,-2.4469,-72.6681,province,Sour lime only,1398.0,0.05,120.0,0.0,0.0,0.0
+LAMBAYEQUE,FERREÑAFE,-6.6389,-79.7883,province,Both cultivars,1376.8,0.05,54.0,71.0,0.14,10.0
+APURIMAC,ABANCAY,-13.6289,-72.8861,province,Sour lime only,1375.0,0.05,113.0,0.0,0.0,0.0
+CAJAMARCA,JAEN,-5.7089,-78.8092,province,Both cultivars,1253.3,0.04,120.0,1528.1,3.12,96.0
+MADRE DE DIOS,TAHUAMANU,-10.945,-69.5767,province,Sour lime only,1240.4,0.04,120.0,0.0,0.0,0.0
+JUNIN,HUANCAYO,-12.0708,-75.2089,province,Sour lime only,1196.7,0.04,120.0,0.0,0.0,0.0
+AYACUCHO,LA MAR,-13.0128,-73.9811,province,Sour lime only,1176.8,0.04,113.0,0.0,0.0,0.0
+PASCO,OXAPAMPA,-10.575,-75.4047,province,Sour lime only,1030.3,0.03,28.0,0.0,0.0,0.0
+HUANCAVELICA,TAYACAJA,-12.3992,-74.8683,province,Both cultivars,952.1,0.03,52.0,170.7,0.35,27.0
+LA LIBERTAD,BOLIVAR,-7.1539,-77.7022,province,Sour lime only,799.8,0.03,104.0,0.0,0.0,0.0
+APURIMAC,CHINCHEROS,-13.5183,-73.7228,province,Sour lime only,787.4,0.03,43.0,0.0,0.0,0.0
+APURIMAC,ANDAHUAYLAS,-13.6561,-73.3897,province,Sour lime only,751.4,0.02,46.0,0.0,0.0,0.0
+HUANUCO,HUANUCO,-9.93,-76.2397,province,Sour lime only,676.6,0.02,115.0,0.0,0.0,0.0
+LA LIBERTAD,PATAZ,-8.275,-77.2961,province,Sour lime only,664.1,0.02,91.0,0.0,0.0,0.0
+CAJAMARCA,CAJABAMBA,-7.6231,-78.0461,province,Sour lime only,661.9,0.02,118.0,0.0,0.0,0.0
+AYACUCHO,HUANTA,-12.9394,-74.2481,province,Sour lime only,656.5,0.02,83.0,0.0,0.0,0.0
+ANCASH,SANTA,-9.0417,-78.6078,province,Both cultivars,634.0,0.02,119.0,910.0,1.86,112.0
+ANCASH,HUARMEY,-10.0689,-78.1517,province,Both cultivars,537.0,0.02,115.0,301.0,0.61,72.0
+AYACUCHO,LUCANAS,-14.6942,-74.1244,province,Sour lime only,534.0,0.02,54.0,0.0,0.0,0.0
+HUANUCO,PUERTO INCA,-9.3789,-74.9658,province,Sour lime only,520.6,0.02,110.0,0.0,0.0,0.0
+HUANUCO,HUACAYBAMBA,-9.0381,-76.9525,province,Sour lime only,507.2,0.02,46.0,0.0,0.0,0.0
+LA LIBERTAD,CHEPEN,-7.2275,-79.4294,province,Sour lime only,499.5,0.02,67.0,0.0,0.0,0.0
+AYACUCHO,PAUCAR DEL SARA SARA,-15.2786,-73.3442,province,Sour lime only,496.0,0.02,44.0,0.0,0.0,0.0
+AYACUCHO,VILCAS HUAMAN,-13.6525,-73.9539,province,Sour lime only,479.6,0.02,69.0,0.0,0.0,0.0
+LA LIBERTAD,SANCHEZ CARRION,-7.8111,-78.0467,province,Sour lime only,465.8,0.02,108.0,0.0,0.0,0.0
+PIURA,SECHURA,-5.5572,-80.8222,province,Sour lime only,464.0,0.02,109.0,0.0,0.0,0.0
+PUNO,SANDIA,-14.3222,-69.4664,province,Sour lime only,459.7,0.02,51.0,0.0,0.0,0.0
+HUANUCO,MARAÑON,-9.9306,-76.2422,department reference,Sour lime only,458.5,0.02,80.0,0.0,0.0,0.0
+CAJAMARCA,SAN IGNACIO,-5.1461,-79.0047,province,Both cultivars,425.7,0.01,76.0,1274.5,2.6,84.0
+MOQUEGUA,GENERAL SANCHEZ CERRO,-16.6736,-70.9706,province,Sour lime only,394.4,0.01,37.0,0.0,0.0,0.0
+MOQUEGUA,MARISCAL NIETO,-17.1942,-70.9333,province,Sour lime only,359.7,0.01,35.0,0.0,0.0,0.0
+HUANCAVELICA,CHURCAMPA,-12.7392,-74.3872,province,Both cultivars,336.4,0.01,60.0,141.9,0.29,49.0
+CAJAMARCA,SAN MARCOS,-7.3358,-78.17,province,Sour lime only,324.9,0.01,108.0,0.0,0.0,0.0
+LIMA,HUAURA,-11.1081,-77.6103,province,Sour lime only,308.9,0.01,20.0,0.0,0.0,0.0
+CAJAMARCA,SANTA CRUZ,-6.6258,-78.9442,province,Sour lime only,305.0,0.01,50.0,0.0,0.0,0.0
+AREQUIPA,LA UNION,-15.2128,-72.8894,province,Sour lime only,281.3,0.01,10.0,0.0,0.0,0.0
+ICA,PALPA,-14.5339,-75.185,province,Sour lime only,258.9,0.01,25.0,0.0,0.0,0.0
+HUANCAVELICA,ACOBAMBA,-12.8431,-74.5692,province,Sour lime only,229.6,0.01,51.0,0.0,0.0,0.0
+APURIMAC,AYMARAES,-14.2944,-73.2447,province,Sour lime only,189.5,0.01,117.0,0.0,0.0,0.0
+AYACUCHO,SUCRE,-14.0117,-73.8386,province,Sour lime only,177.0,0.01,22.0,0.0,0.0,0.0
+AYACUCHO,HUAMANGA,-13.1603,-74.2253,province,Sour lime only,175.2,0.01,118.0,0.0,0.0,0.0
+AREQUIPA,CARAVELI,-15.7725,-73.3658,province,Sour lime only,165.9,0.01,17.0,0.0,0.0,0.0
+HUANCAVELICA,ANGARAES,-12.9828,-74.7183,province,Sour lime only,158.9,0.01,50.0,0.0,0.0,0.0
+HUANCAVELICA,HUAYTARA,-13.6047,-75.3531,province,Sour lime only,150.9,0.0,66.0,0.0,0.0,0.0
+LA LIBERTAD,GRAN CHIMU,-7.4794,-78.8197,province,Sour lime only,143.9,0.0,70.0,0.0,0.0,0.0
+AYACUCHO,PARINACOCHAS,-15.0169,-73.7814,province,Sour lime only,131.0,0.0,40.0,0.0,0.0,0.0
+HUANCAVELICA,CASTROVIRREYNA,-13.2833,-75.3183,province,Sour lime only,127.7,0.0,79.0,0.0,0.0,0.0
+LA LIBERTAD,ASCOPE,-8.1091,-79.0285,department reference,Sour lime only,121.7,0.0,52.0,0.0,0.0,0.0
+PUNO,CARABAYA,-14.0686,-70.4311,province,Sour lime only,107.0,0.0,40.0,0.0,0.0,0.0
+LA LIBERTAD,OTUZCO,-7.9022,-78.5656,province,Sour lime only,106.9,0.0,73.0,0.0,0.0,0.0
+APURIMAC,GRAU,-14.105,-72.7078,province,Sour lime only,80.0,0.0,51.0,0.0,0.0,0.0
+ICA,CHINCHA,-13.4183,-76.1325,province,Sour lime only,76.4,0.0,13.0,0.0,0.0,0.0
+CAJAMARCA,CUTERVO,-6.3772,-78.8181,province,Both cultivars,21.0,0.0,4.0,309.0,0.63,37.0
+ANCASH,CARHUAZ,-9.5261,-77.5289,department reference,Sweet lime only,0.0,0.0,0.0,753.0,1.54,117.0
+ANCASH,YUNGAY,-9.5261,-77.5289,department reference,Sweet lime only,0.0,0.0,0.0,628.0,1.28,119.0
+LAMBAYEQUE,CHICLAYO,-6.7711,-79.8441,department reference,No harvest recorded,0.0,0.0,0.0,0.0,0.0,0.0
+LIMA,CAÑETE,-12.0464,-77.0428,department reference,No harvest recorded,0.0,0.0,0.0,0.0,0.0,0.0
+LIMA,LIMA,-12.0464,-77.0428,department reference,No harvest recorded,0.0,0.0,0.0,0.0,0.0,0.0
+PIURA,TALARA,-5.1945,-80.6328,department reference,No harvest recorded,0.0,0.0,0.0,0.0,0.0,0.0
+TOTAL,,,,,,3030543.6,100.0,,48994.1,100.0,

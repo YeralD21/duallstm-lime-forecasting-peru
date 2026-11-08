@@ -1,0 +1,20 @@
+{
+  "unidad": {
+    "modelo": "Chronos",
+    "cultivar": "sutil",
+    "anio": 2025,
+    "semilla": null
+  },
+  "etapa": "03_modelos_sin_ajuste",
+  "hash_config": "461f56a61c306ab03da341128ceef8b4986a5db1514adb125aa07c28fd3e9d68",
+  "hash_codigo": "a166eb50f84525f3ffd6642da4d9068834731f832880f5beed315d878c721f11",
+  "archivos": {
+    "info.json": "163f15e4be6f1f4c8fdb34087308322cbfdcf328b9895d91380f70003734c68f",
+    "predicciones.csv": "ebd17ee26b4209a46ae079320b8ee6afc5e5db0a8a535f4627273d8ac50a6cdf"
+  },
+  "segundos": 0.11291170000004058,
+  "fin": "2026-10-28T19:03:24-05:00",
+  "resumen": {
+    "n_test": 12
+  }
+}

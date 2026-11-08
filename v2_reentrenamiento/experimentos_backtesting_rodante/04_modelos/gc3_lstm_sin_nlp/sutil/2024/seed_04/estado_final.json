@@ -1,0 +1,25 @@
+{
+  "anio_test": 2024,
+  "cultivar": "sutil",
+  "modelo": "GC3",
+  "semilla": 4,
+  "n_params": 6273,
+  "n_train": 72,
+  "n_val": 12,
+  "fit_seconds": 3.4582545999983267,
+  "epocas_corridas": 21,
+  "mejor_epoca": 6,
+  "determinismo": {
+    "seed": 4,
+    "pythonhashseed": "4",
+    "tf_enable_onednn_opts": "0",
+    "tf_deterministic_ops": "1",
+    "tensorflow_previously_loaded": false,
+    "keras_set_random_seed_used": true,
+    "enable_op_determinism_used": true
+  },
+  "scaler_fechas_ajuste": [
+    "2016-07",
+    "2022-12"
+  ]
+}

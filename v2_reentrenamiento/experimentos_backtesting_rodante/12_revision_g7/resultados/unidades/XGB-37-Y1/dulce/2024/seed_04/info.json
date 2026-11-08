@@ -1,0 +1,42 @@
+{
+  "params": {
+    "objective": "reg:squarederror",
+    "eval_metric": "mae",
+    "booster": "gbtree",
+    "max_depth": 2,
+    "min_child_weight": 1,
+    "learning_rate": 0.05,
+    "n_estimators": 200,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 0.0,
+    "reg_lambda": 1.0,
+    "gamma": 0.0,
+    "tree_method": "hist",
+    "n_jobs": 1,
+    "random_state": 4
+  },
+  "scaler_fechas_ajuste": [
+    "2016-07",
+    "2023-12"
+  ],
+  "pesos_geograficos_fin": "2023-12",
+  "train_objetivos": [
+    "2016-08",
+    "2023-12"
+  ],
+  "test_objetivos": [
+    "2024-01",
+    "2024-12"
+  ],
+  "test_x_fecha": [
+    "2023-12",
+    "2024-11"
+  ],
+  "modelo": "XGB-37-Y1",
+  "cultivar": "dulce",
+  "anio_test": 2024,
+  "semilla": 4,
+  "segundos_unidad": 5.9830813000007765,
+  "utc": "2026-10-31T18:26:21.511662+00:00"
+}

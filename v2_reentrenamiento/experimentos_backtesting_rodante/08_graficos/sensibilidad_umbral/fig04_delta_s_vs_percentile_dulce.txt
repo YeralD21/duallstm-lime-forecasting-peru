@@ -1,0 +1,4 @@
+Caption (suggested): Relative shock penalty Δs versus shock-threshold percentile (P0–P95), sweet lime (limón dulce), pooled test windows 2021–2025. Dashed lines mark the reporting points P50, P60, P75 (primary) and P90.
+
+Reading: At P75, Δs ranges from -24.1% (SARIMA) to 69.8% (Naive); at P0 it is 0 for every model by construction.
+A low Δs alone is not evidence of resilience (amendment E-BR1): read it together with MAE_shock in tonnes (Fig. 5).

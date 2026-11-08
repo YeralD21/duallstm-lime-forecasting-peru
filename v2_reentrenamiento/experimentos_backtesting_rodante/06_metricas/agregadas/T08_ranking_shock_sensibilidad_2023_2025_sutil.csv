@@ -1,0 +1,11 @@
+modelo,sh-men-P50,sh-men-P60,sh-men-P75,sh-men-P90,sh-men primero en,sh-int-P50,sh-int-P60,sh-int-P75,sh-int-P90,sh-int primero en,robusto men,robusto int,robusto men (bloques)
+Naive,5,5,8,7,0,3*,3*,2*,2*,4,False,True,False
+Seasonal Naive,6,6,3*,4*,2,10,10,10,10,0,False,False,False
+Chronos,2*,3*,1*,1*,4,1*,1*,1*,1*,4,True,True,True
+SARIMA,3*,1*,4,2,2,2*,2*,3,3,2,False,False,False
+SARIMA-sel,1*,2*,2*,3*,4,4*,4*,4,6,2,True,False,True
+Ridge,9,10,10,10,0,6,6,6,4,0,False,False,False
+ElasticNet,10,9,9,9,0,7,7,7,5,0,False,False,False
+XGB-37,4,4*,5*,6,2,5,5,5,7*,1,False,False,False
+GC3,8,7,6*,5,1,9,8,8,8,0,False,False,False
+GE,7,8,7,8,0,8,9,9,9,0,False,False,False

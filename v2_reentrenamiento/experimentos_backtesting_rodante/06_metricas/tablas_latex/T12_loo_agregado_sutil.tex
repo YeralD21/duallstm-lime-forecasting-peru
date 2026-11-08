@@ -1,0 +1,22 @@
+\begin{table}[H]
+\centering
+\small
+\caption{$\Delta$s (\%) agregado 2021-2025 quitando un mes de shock P75 a la vez, Sutil}
+\label{tab:T12_loo_agregado_sutil}
+\begin{tabular}{llllll}
+\toprule
+modelo & n\_shock & Delta\_s & Delta\_s\_loo\_min & Delta\_s\_loo\_max & mes\_que\_mas\_cambia \\
+\midrule
+Naive & 10 & 134.7 & 132.9 & 148.2 & 2023-09 \\
+Seasonal Naive & 10 & -17.1 & -31.3 & -9.7 & 2023-08 \\
+Chronos & 10 & 80.6 & 73.9 & 91.2 & 2022-12 \\
+SARIMA & 10 & 52.7 & 43.3 & 66.7 & 2022-12 \\
+SARIMA-sel & 10 & 54.0 & 40.6 & 67.9 & 2023-12 \\
+Ridge & 10 & 73.7 & 43.8 & 87.1 & 2023-11 \\
+ElasticNet & 10 & 67.4 & 42.3 & 80.6 & 2023-11 \\
+XGB-37 & 10 & 22.0 & 10.2 & 32.4 & 2025-01 \\
+GC3 & 10 & -4.5 & -13.8 & 2.6 & 2023-08 \\
+GE & 10 & 1.2 & -6.6 & 8.2 & 2025-01 \\
+\bottomrule
+\end{tabular}
+\end{table}

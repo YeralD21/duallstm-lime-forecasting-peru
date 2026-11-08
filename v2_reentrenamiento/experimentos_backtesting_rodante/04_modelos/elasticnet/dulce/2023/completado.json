@@ -1,0 +1,22 @@
+{
+  "unidad": {
+    "modelo": "ElasticNet",
+    "cultivar": "dulce",
+    "anio": 2023,
+    "semilla": null
+  },
+  "etapa": "05_lineales",
+  "hash_config": "461f56a61c306ab03da341128ceef8b4986a5db1514adb125aa07c28fd3e9d68",
+  "hash_codigo": "0c1553b8e012c69b721e0ab2acdadea294e33d820f4f45a7dc3b515e5fcc564a",
+  "archivos": {
+    "info.json": "935daa7060271063b813a76fcf90b6730d457657c5d9f26e04e86eba931bef82",
+    "predicciones.csv": "67e2564ca4323d9d0df9f3bfbbca1b116cc4328126cd939aac5ee9de12fc9fa5",
+    "rejilla.csv": "560eb9f5dcc423061729a27443d3172589884c68c67fb509c87473837fa2c0be"
+  },
+  "segundos": 0.03278159999899799,
+  "fin": "2026-10-28T19:32:51-05:00",
+  "resumen": {
+    "elegido": "a=0.1,l1=0.8",
+    "MAE_val": 26.2225
+  }
+}

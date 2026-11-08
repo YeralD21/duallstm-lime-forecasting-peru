@@ -1,0 +1,82 @@
+{
+  "unidad": {
+    "modelo": "Ridge",
+    "cultivar": "dulce",
+    "anio": 2025,
+    "semilla": null
+  },
+  "ventana": {
+    "anio_test": 2025,
+    "origen": "2024-12",
+    "fin_train": "2023-12",
+    "val_inicio": "2024-01",
+    "val_fin": "2024-12",
+    "test_inicio": "2025-01",
+    "test_fin": "2025-12",
+    "en_ranking": true,
+    "en_sensibilidad_2023_2025": true
+  },
+  "alpha": 100,
+  "l1_ratio": null,
+  "MAE_val_elegido": 63.536637047532246,
+  "orden_rejilla_elegido": 5,
+  "n": {
+    "train": 89,
+    "val": 12,
+    "test": 12
+  },
+  "train_objetivos": [
+    "2016-08",
+    "2023-12"
+  ],
+  "intercepto": 390.807786516854,
+  "coeficientes": {
+    "produccion_t_dulce": 19.040483167828864,
+    "produccion_t_dulce_lag1": 5.636705862475314,
+    "produccion_t_dulce_lag3": -13.305039442562304,
+    "produccion_t_dulce_lag6": -12.169138582703606,
+    "mes_sin": 18.1123376024709,
+    "mes_cos": -7.607687421775085,
+    "t_index": 2.9674328055395085,
+    "T2M_lag1": -5.180982142672179,
+    "T2M_lag3": 4.356525680027031,
+    "T2M_lag6": 1.6454555465779623,
+    "T2M_MAX_lag1": -7.834947512922864,
+    "T2M_MAX_lag3": 2.4014001963393925,
+    "T2M_MAX_lag6": 3.879236294388733,
+    "WS2M_lag1": -7.443224484878087,
+    "WS2M_lag3": -12.451106418892953,
+    "WS2M_lag6": 9.223413143787983,
+    "PRECTOTCORR_lag1": 6.419278764411693,
+    "PRECTOTCORR_lag3": 7.8709755743854775,
+    "PRECTOTCORR_lag6": -2.2675765812855793,
+    "RH2M_lag1": 11.145962484198815,
+    "RH2M_lag3": 9.372251817785564,
+    "RH2M_lag6": -10.896301479131672,
+    "num_emergencias_lag1": 5.769529110586686,
+    "num_emergencias_lag3": -1.6083616347402532,
+    "num_emergencias_lag6": 1.3434449392656043,
+    "personas_afectadas_lag1": -1.278690945644311,
+    "personas_afectadas_lag3": -0.6264010114328564,
+    "personas_afectadas_lag6": 1.2692942534120926,
+    "personas_damnificadas_lag1": 1.6545333280281682,
+    "personas_damnificadas_lag3": -1.362103240292959,
+    "personas_damnificadas_lag6": 5.140847235790631,
+    "hectareas_cultivo_perdidas_lag1": 1.975545024354194,
+    "hectareas_cultivo_perdidas_lag3": -5.726349562462991,
+    "hectareas_cultivo_perdidas_lag6": -3.6994435735717404,
+    "hectareas_cultivo_afectadas_lag1": -0.550862423162949,
+    "hectareas_cultivo_afectadas_lag3": 0.6964688688343289,
+    "hectareas_cultivo_afectadas_lag6": 0.6629231240515335
+  },
+  "avisos": [],
+  "n_avisos": 0,
+  "control_2025_v3": {
+    "valores_v3": {
+      "alpha": 100
+    },
+    "coincide_con_elegido": true,
+    "MAE_test_con_valores_v3": 50.593348513788065,
+    "MAE_test_elegido_menos_v3": 0.0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "unidad": {
+    "modelo": "Ridge",
+    "cultivar": "dulce",
+    "anio": 2024,
+    "semilla": null
+  },
+  "etapa": "05_lineales",
+  "hash_config": "461f56a61c306ab03da341128ceef8b4986a5db1514adb125aa07c28fd3e9d68",
+  "hash_codigo": "0c1553b8e012c69b721e0ab2acdadea294e33d820f4f45a7dc3b515e5fcc564a",
+  "archivos": {
+    "info.json": "6d54db34c19253953a1e1de830450417db6699fe12cac032bb6b0cc87ec5a5cd",
+    "predicciones.csv": "f4906540e6d45bac0c0395615d2f617e966a2058681ab45ac5560d2314f05312",
+    "rejilla.csv": "cb7db333e6a99a46683fd1f31460c3fdafeee1c04147dcffa2245a35631c64c1"
+  },
+  "segundos": 0.06978279999930237,
+  "fin": "2026-10-28T19:32:51-05:00",
+  "resumen": {
+    "elegido": "a=10",
+    "MAE_val": 40.9262
+  }
+}

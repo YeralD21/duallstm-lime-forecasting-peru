@@ -1,0 +1,23 @@
+\begin{table}[H]
+\centering
+\small
+\caption{MAE\_shock por ventana, P75 mensual, Sutil (t)}
+\label{tab:T05_MAE_shock_P75_por_ventana_sutil}
+\begin{tabular}{llllll}
+\toprule
+modelo & 2021 (n=0) & 2022 (n=3) & 2023 (n=4) & 2024 (n=0) & 2025 (n=3) \\
+\midrule
+Naive & -- & 8,522 & 6,129 & -- & 11,660 \\
+Seasonal Naive & -- & 4,472 & 6,135 & -- & 4,130 \\
+Chronos & -- & 4,852 & 3,454 & -- & 6,487 \\
+SARIMA & -- & 3,905 & 4,030 & -- & 7,824 \\
+SARIMA-sel & -- & 4,207 & 4,158 & -- & 6,701 \\
+Ridge & -- & 4,394 & 12,714 & -- & 7,177 \\
+ElasticNet & -- & 4,015 & 11,806 & -- & 7,423 \\
+XGB-37 & -- & 5,234 & 4,740 & -- & 8,297 \\
+GC3 & -- & 4,916 & 7,304 & -- & 5,594 \\
+GE & -- & 5,202 & 7,234 & -- & 7,908 \\
+XGB-43 & -- & 5,374 & 4,656 & -- & 8,408 \\
+\bottomrule
+\end{tabular}
+\end{table}

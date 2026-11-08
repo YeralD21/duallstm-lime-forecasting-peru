@@ -1,0 +1,3 @@
+Caption (suggested): Lime-producing provinces of Peru (109), January 2016–December 2025 (MIDAGRI–SISAGRI (accessed [____])). Tonnes are cumulative production 2016–2025; shares are relative to the national total of each cultivar (sour lime 3,030,544 t; sweet lime 48,994 t); months with production count the months with production > 0 out of 120. 'department reference' marks provinces located at their department's reference coordinate.
+
+Reading: sorted by sour-lime production; the last row gives the national totals.

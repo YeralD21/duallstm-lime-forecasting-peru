@@ -1,0 +1,94 @@
+{
+ "segundos_total": 37.00408569999854,
+ "procesos": 4,
+ "unidades": [
+  {
+   "modelo": "SARIMA-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 7.61
+  },
+  {
+   "modelo": "ElasticNet-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 8.13
+  },
+  {
+   "modelo": "Ridge-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 8.22
+  },
+  {
+   "modelo": "SARIMA-sel-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 2.09
+  },
+  {
+   "modelo": "XGB-37-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 10.38
+  },
+  {
+   "modelo": "GC3-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 11.56
+  },
+  {
+   "modelo": "GE-Y1",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 11.47
+  },
+  {
+   "modelo": "LSTM-U",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 13.88
+  },
+  {
+   "modelo": "GC3-R",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": 0,
+   "estado": "ok",
+   "segundos": 13.45
+  },
+  {
+   "modelo": "Chronos-small",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 16.7
+  },
+  {
+   "modelo": "Chronos-base",
+   "cultivar": "sutil",
+   "anio": 2024,
+   "semilla": null,
+   "estado": "ok",
+   "segundos": 17.32
+  }
+ ]
+}

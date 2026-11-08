@@ -1,0 +1,4 @@
+Caption (suggested): MAE in shock months (monthly P75) by model and test window, sour lime (limón sutil). n/a = no shock month in that window.
+
+Reading: Windows without P75 shock months (cells n/a): 2021, 2024; the best model per informative window varies: 2022: SARIMA, 2023: Chronos, 2025: Seasonal Naive.
+Per-window values rest on 2–4 months and are descriptive; the ranking uses the pooled months (Table T08).

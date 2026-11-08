@@ -1,0 +1,51 @@
+anio_test,modelo,n_shock,MAE_shock,informativa
+2021,Naive,0,,False
+2022,Naive,3,8522.215667,True
+2023,Naive,4,6128.70775,True
+2024,Naive,0,,False
+2025,Naive,3,11660.15733,True
+2021,Seasonal Naive,0,,False
+2022,Seasonal Naive,3,4471.663,True
+2023,Seasonal Naive,4,6135.113,True
+2024,Seasonal Naive,0,,False
+2025,Seasonal Naive,3,4129.685667,True
+2021,Chronos,0,,False
+2022,Chronos,3,4852.160385,True
+2023,Chronos,4,3454.185049,True
+2024,Chronos,0,,False
+2025,Chronos,3,6487.334255,True
+2021,SARIMA,0,,False
+2022,SARIMA,3,3905.084888,True
+2023,SARIMA,4,4029.680428,True
+2024,SARIMA,0,,False
+2025,SARIMA,3,7824.402904,True
+2021,SARIMA-sel,0,,False
+2022,SARIMA-sel,3,4206.641596,True
+2023,SARIMA-sel,4,4158.346457,True
+2024,SARIMA-sel,0,,False
+2025,SARIMA-sel,3,6701.344401,True
+2021,Ridge,0,,False
+2022,Ridge,3,4393.951139,True
+2023,Ridge,4,12714.13651,True
+2024,Ridge,0,,False
+2025,Ridge,3,7176.874886,True
+2021,ElasticNet,0,,False
+2022,ElasticNet,3,4014.64699,True
+2023,ElasticNet,4,11806.43821,True
+2024,ElasticNet,0,,False
+2025,ElasticNet,3,7422.569013,True
+2021,XGB-37,0,,False
+2022,XGB-37,3,5233.823542,True
+2023,XGB-37,4,4739.961879,True
+2024,XGB-37,0,,False
+2025,XGB-37,3,8296.896516,True
+2021,GC3,0,,False
+2022,GC3,3,4915.920291,True
+2023,GC3,4,7303.626881,True
+2024,GC3,0,,False
+2025,GC3,3,5594.108923,True
+2021,GE,0,,False
+2022,GE,3,5201.793156,True
+2023,GE,4,7233.904626,True
+2024,GE,0,,False
+2025,GE,3,7908.48795,True

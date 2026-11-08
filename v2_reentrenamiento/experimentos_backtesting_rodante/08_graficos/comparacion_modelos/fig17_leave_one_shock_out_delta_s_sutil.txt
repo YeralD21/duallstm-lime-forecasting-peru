@@ -1,0 +1,4 @@
+Caption (suggested): Δs with all shock months (marker) and its range when one shock month is removed at a time (bar), sour lime (limón sutil), pooled 2021–2025, monthly P75.
+
+Reading: Dropping one shock month at a time, the widest Δs range is Ridge (43.8% to 87.1%); the narrowest is GE.
+Models whose range crosses 0 can change the sign of Δs by removing a single month.
