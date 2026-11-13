@@ -5,8 +5,19 @@ El código original no existe en el repositorio ni en su historial (D21); las re
 DECISIONES_METODOLOGICAS.md ("Deduplicación Ayacucho", "Agregación distrito->provincia") y se fijaron
 comparando con los CSV congelados. Ver README.md.
 
+Fuente: MIDAGRI, SISAGRI (estadística de cultivos), tablero "Perfil Productivo Regional":
+    https://app.powerbi.com/view?r=eyJrIjoiN2U3NTdkYTktOTk5Ny00NjQ5LTg0ZjEtMmIzYzlmZWIwMDhlIiwidCI6IjdmMDg0NjI3LTdmNDAtNDg3OS04OTE3LTk0Yjg2ZmQzNWYzZiJ9
+Archivo crudo: v2_reentrenamiento/data/raw/midagri/sisagri_2015_2026.xlsx (exportación distrital de todos los
+cultivos, 2015-2026, 5 hojas; no se redistribuye). Tamaño, SHA-256 y fechas en data_sources.json (entrada
+"midagri_sisagri"). Si falta, el script indica el link y la ruta esperada; si el SHA-256 no coincide, advierte
+que no es el archivo usado en el artículo (con --estricto, se detiene).
+
+Produce (por cultivo c = sutil, dulce), en --salida:
+    limon_{c}_distrito_crudo.csv, limon_{c}_distrito_dedup.csv, limon_{c}_provincia.csv,
+    limon_{c}_nacional_mensual.csv, la caché _sisagri_limon_filas.csv y comparacion_01_sisagri.json.
+
 Uso:
-    python etl/01_sisagri_a_series.py [--excel RUTA] [--salida CARPETA] [--cache-limon CSV]
+    python etl/01_sisagri_a_series.py [--excel RUTA] [--salida CARPETA] [--cache-limon CSV] [--estricto]
 
 Escribe en --salida (por defecto <TEMP>/etl_v2_salida; nunca en data/interim) y compara con los congelados.
 """
@@ -22,7 +33,8 @@ import numpy as np
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _comun import INTERIM, RAW, carpeta_salida, comparar, escribir_csv, informe  # noqa: E402
+from _comun import (INTERIM, carpeta_salida, comparar, escribir_csv, informe, ruta_esperada,  # noqa: E402
+                    verificar_crudo)
 
 COLUMNAS = ["AÑO", "MES", "COD_UBIGEO", "DEPARTAMENTO", "PROVINCIA", "DISTRITO", "COD_PRODUCTO", "PRODUCTO",
             "SIEMBRA", "COSECHA", "PRODUCCION", "VERDE_ACTUAL", "PRECIO_CHACRA"]
@@ -149,10 +161,12 @@ def nacional(provincia_csv: Path) -> pd.DataFrame:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--excel", default=str(RAW / "midagri" / "sisagri_2015_2026.xlsx"))
+    ap.add_argument("--excel", default=str(ruta_esperada("midagri_sisagri", "sisagri_2015_2026.xlsx")))
     ap.add_argument("--salida", default=None, help="carpeta de salida (por defecto <TEMP>/etl_v2_salida)")
     ap.add_argument("--cache-limon", default=None,
                     help="CSV intermedio con las filas de limón del Excel; si existe se usa en lugar de leer el Excel (~9 min)")
+    ap.add_argument("--estricto", action="store_true",
+                    help="detenerse si el SHA-256 del Excel no coincide con data_sources.json")
     a = ap.parse_args()
     sal = carpeta_salida(a.salida)
 
@@ -162,8 +176,7 @@ def main() -> None:
         limon = leer_cache(cache)
     else:
         excel = Path(a.excel)
-        if not excel.exists():
-            raise SystemExit(f"Falta el Excel crudo de MIDAGRI-SISAGRI: {excel}")
+        verificar_crudo("midagri_sisagri", "sisagri_2015_2026.xlsx", excel, a.estricto)
         print(f"Leyendo {excel} (todas las hojas)...")
         limon = leer_excel_limon(excel)
         guardar_cache(limon, cache)

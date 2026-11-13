@@ -1,0 +1,89 @@
+grupo,cultivo,definicion,modelo,n_primero_de_4,consistently_top_ranked
+10_modelos,dulce,MoM,Chronos,0,False
+10_modelos,dulce,MoM,ElasticNet,0,False
+10_modelos,dulce,MoM,GC3,0,False
+10_modelos,dulce,MoM,GE,0,False
+10_modelos,dulce,MoM,Naive,0,False
+10_modelos,dulce,MoM,Ridge,0,False
+10_modelos,dulce,MoM,SARIMA,4,True
+10_modelos,dulce,MoM,SARIMA-sel,2,False
+10_modelos,dulce,MoM,Seasonal Naive,0,False
+10_modelos,dulce,MoM,XGB-37,0,False
+10_modelos,dulce,YoY,Chronos,4,True
+10_modelos,dulce,YoY,ElasticNet,0,False
+10_modelos,dulce,YoY,GC3,0,False
+10_modelos,dulce,YoY,GE,0,False
+10_modelos,dulce,YoY,Naive,1,False
+10_modelos,dulce,YoY,Ridge,0,False
+10_modelos,dulce,YoY,SARIMA,3,True
+10_modelos,dulce,YoY,SARIMA-sel,3,True
+10_modelos,dulce,YoY,Seasonal Naive,0,False
+10_modelos,dulce,YoY,XGB-37,1,False
+10_modelos,sutil,MoM,Chronos,4,True
+10_modelos,sutil,MoM,ElasticNet,0,False
+10_modelos,sutil,MoM,GC3,1,False
+10_modelos,sutil,MoM,GE,0,False
+10_modelos,sutil,MoM,Naive,0,False
+10_modelos,sutil,MoM,Ridge,0,False
+10_modelos,sutil,MoM,SARIMA,3,True
+10_modelos,sutil,MoM,SARIMA-sel,3,True
+10_modelos,sutil,MoM,Seasonal Naive,2,False
+10_modelos,sutil,MoM,XGB-37,1,False
+10_modelos,sutil,YoY,Chronos,4,True
+10_modelos,sutil,YoY,ElasticNet,0,False
+10_modelos,sutil,YoY,GC3,0,False
+10_modelos,sutil,YoY,GE,0,False
+10_modelos,sutil,YoY,Naive,4,True
+10_modelos,sutil,YoY,Ridge,0,False
+10_modelos,sutil,YoY,SARIMA,2,False
+10_modelos,sutil,YoY,SARIMA-sel,1,False
+10_modelos,sutil,YoY,Seasonal Naive,0,False
+10_modelos,sutil,YoY,XGB-37,1,False
+12_modelos,dulce,MoM,Chronos,0,False
+12_modelos,dulce,MoM,ETS,1,False
+12_modelos,dulce,MoM,ElasticNet,0,False
+12_modelos,dulce,MoM,GC3,0,False
+12_modelos,dulce,MoM,GE,0,False
+12_modelos,dulce,MoM,Naive,0,False
+12_modelos,dulce,MoM,Ridge,0,False
+12_modelos,dulce,MoM,SARIMA,4,True
+12_modelos,dulce,MoM,SARIMA-sel,2,False
+12_modelos,dulce,MoM,Seasonal Naive,0,False
+12_modelos,dulce,MoM,Theta,1,False
+12_modelos,dulce,MoM,XGB-37,0,False
+12_modelos,dulce,YoY,Chronos,4,True
+12_modelos,dulce,YoY,ETS,0,False
+12_modelos,dulce,YoY,ElasticNet,0,False
+12_modelos,dulce,YoY,GC3,0,False
+12_modelos,dulce,YoY,GE,0,False
+12_modelos,dulce,YoY,Naive,0,False
+12_modelos,dulce,YoY,Ridge,0,False
+12_modelos,dulce,YoY,SARIMA,3,True
+12_modelos,dulce,YoY,SARIMA-sel,3,True
+12_modelos,dulce,YoY,Seasonal Naive,0,False
+12_modelos,dulce,YoY,Theta,4,True
+12_modelos,dulce,YoY,XGB-37,0,False
+12_modelos,sutil,MoM,Chronos,4,True
+12_modelos,sutil,MoM,ETS,4,True
+12_modelos,sutil,MoM,ElasticNet,0,False
+12_modelos,sutil,MoM,GC3,1,False
+12_modelos,sutil,MoM,GE,0,False
+12_modelos,sutil,MoM,Naive,0,False
+12_modelos,sutil,MoM,Ridge,0,False
+12_modelos,sutil,MoM,SARIMA,3,True
+12_modelos,sutil,MoM,SARIMA-sel,3,True
+12_modelos,sutil,MoM,Seasonal Naive,2,False
+12_modelos,sutil,MoM,Theta,3,True
+12_modelos,sutil,MoM,XGB-37,1,False
+12_modelos,sutil,YoY,Chronos,4,True
+12_modelos,sutil,YoY,ETS,4,True
+12_modelos,sutil,YoY,ElasticNet,0,False
+12_modelos,sutil,YoY,GC3,0,False
+12_modelos,sutil,YoY,GE,0,False
+12_modelos,sutil,YoY,Naive,4,True
+12_modelos,sutil,YoY,Ridge,0,False
+12_modelos,sutil,YoY,SARIMA,1,False
+12_modelos,sutil,YoY,SARIMA-sel,1,False
+12_modelos,sutil,YoY,Seasonal Naive,0,False
+12_modelos,sutil,YoY,Theta,4,True
+12_modelos,sutil,YoY,XGB-37,1,False

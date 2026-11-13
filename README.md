@@ -101,12 +101,17 @@ The raw files are not redistributed. Download them, place them in the paths belo
 and run the three ETL scripts. Each script writes to a temporary folder (never over `data/interim/`) and compares its
 output, cell by cell and by SHA-256, with the frozen table.
 
+[`data_sources.json`](data_sources.json) lists every data source (MIDAGRI–SISAGRI, INDECI, NASA POWER, geoBoundaries,
+Agraria.pe) with its link, access date (or "not recorded"), expected file, path, size in bytes and SHA-256. The ETL
+scripts read it: if a raw file is missing they print the link and the expected path; if its SHA-256 differs they warn
+that it is not the file used in the article and continue (add `--estricto` to stop instead).
+
 | Source | Raw file | Where to get it | Script |
 |---|---|---|---|
 | MIDAGRI, SISAGRI (crop statistics) | `v2_reentrenamiento/data/raw/midagri/sisagri_2015_2026.xlsx` (229,208,492 bytes; SHA-256 `b7dec236a0d65c7aada297118cab584104863e6f21430fe60e279cf5293e3283`) | [MIDAGRI Regional Productive Profile dashboard (SISAGRI)](https://app.powerbi.com/view?r=eyJrIjoiN2U3NTdkYTktOTk5Ny00NjQ5LTg0ZjEtMmIzYzlmZWIwMDhlIiwidCI6IjdmMDg0NjI3LTdmNDAtNDg3OS04OTE3LTk0Yjg2ZmQzNWYzZiJ9), district-level export of all crops, 2015–2026 (5 sheets) | `python v2_reentrenamiento/etl/01_sisagri_a_series.py [--excel PATH]` (~10 min) |
 | INDECI (emergency records) | `v2_reentrenamiento/data/raw/indeci/oficial_2016_2018/BD_2003-2025_EMERGENCIAS.csv` (27,040,446 bytes; SHA-256 `a1fe63f0a7c836b8ff7dd1c87271d3bd3144f8444e41f93b7db205c85fef2687`) | Peruvian open-data portal (datosabiertos.gob.pe), consolidated INDECI emergencies dataset 2003–2025 | `python v2_reentrenamiento/etl/02_indeci_a_panel.py [--crudo PATH]` |
 | Province coordinates | included (`data/interim/nasa/clima_dataset_final.csv`, `notebooks/fase2/_build_act02_time.py`) | validated against [geoBoundaries](https://www.geoboundaries.org) gbOpen PER ADM2 (downloaded by the script, commit `90a1d52`) | `python v2_reentrenamiento/etl/03_coordenadas.py` |
-| NASA POWER (climate) | included (`data/raw/nasa_power/por_provincia/clima_nasa_power_2016_2025.csv`) | NASA POWER monthly point API (`https://power.larc.nasa.gov/api/temporal/monthly/point`) | `v2_reentrenamiento/src/data_collection/nasa_power_downloader_v2.py` |
+| NASA POWER (climate) | included (`data/raw/nasa_power/por_provincia/clima_nasa_power_2016_2025.csv`) | [NASA POWER](https://power.larc.nasa.gov) monthly point API (endpoint `https://power.larc.nasa.gov/api/temporal/monthly/point`) | `v2_reentrenamiento/src/data_collection/nasa_power_downloader_v2.py` |
 
 Download dates: the manuscript cites the MIDAGRI dashboard as accessed on 25 June 2026; the workbook used here has a
 file date of 29 August 2026. The INDECI dataset was described as updated on 26 August 2026. The exact download URLs

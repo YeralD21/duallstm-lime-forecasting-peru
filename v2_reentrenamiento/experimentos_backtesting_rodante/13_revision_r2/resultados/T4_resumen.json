@@ -1,0 +1,184 @@
+{
+ "tabulares_n_predictores": 37,
+ "tabulares_rezagos_de_y": [
+  1,
+  2,
+  4,
+  7
+ ],
+ "tabulares_y_T_menos_12": false,
+ "tabulares_rezago_maximo_cualquier_variable": 7,
+ "GC3_sutil": {
+  "lookback": 6,
+  "rama_A": [
+   "produccion_t_sutil",
+   "produccion_t_sutil_lag1",
+   "produccion_t_sutil_lag3",
+   "produccion_t_sutil_lag6"
+  ],
+  "rezagos_y_rama_A": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "y_T_menos_12_en_rama_A": true,
+  "n_entradas_rama_B": 33,
+  "rezagos_columna_exogenas_rama_B": [
+   1,
+   3,
+   6
+  ],
+  "rango_meses_exogenas_rama_B": "T-2 .. T-12",
+  "y_en_rama_B": false
+ },
+ "GE_sutil": {
+  "lookback": 6,
+  "rama_A": [
+   "produccion_t_sutil",
+   "produccion_t_sutil_lag1",
+   "produccion_t_sutil_lag3",
+   "produccion_t_sutil_lag6"
+  ],
+  "rezagos_y_rama_A": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "y_T_menos_12_en_rama_A": true,
+  "n_entradas_rama_B": 39,
+  "rezagos_columna_exogenas_rama_B": [
+   1,
+   3,
+   6
+  ],
+  "rango_meses_exogenas_rama_B": "T-2 .. T-12",
+  "y_en_rama_B": false
+ },
+ "GC3_dulce": {
+  "lookback": 6,
+  "rama_A": [
+   "produccion_t_dulce",
+   "produccion_t_dulce_lag1",
+   "produccion_t_dulce_lag3",
+   "produccion_t_dulce_lag6"
+  ],
+  "rezagos_y_rama_A": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "y_T_menos_12_en_rama_A": true,
+  "n_entradas_rama_B": 33,
+  "rezagos_columna_exogenas_rama_B": [
+   1,
+   3,
+   6
+  ],
+  "rango_meses_exogenas_rama_B": "T-2 .. T-12",
+  "y_en_rama_B": false
+ },
+ "GE_dulce": {
+  "lookback": 6,
+  "rama_A": [
+   "produccion_t_dulce",
+   "produccion_t_dulce_lag1",
+   "produccion_t_dulce_lag3",
+   "produccion_t_dulce_lag6"
+  ],
+  "rezagos_y_rama_A": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "y_T_menos_12_en_rama_A": true,
+  "n_entradas_rama_B": 39,
+  "rezagos_columna_exogenas_rama_B": [
+   1,
+   3,
+   6
+  ],
+  "rango_meses_exogenas_rama_B": "T-2 .. T-12",
+  "y_en_rama_B": false
+ },
+ "fig20_en_paquete": {
+  "posicion_en_PRINCIPAL": [
+   11
+  ],
+  "n_figuras_PRINCIPAL": 13,
+  "entrada": [
+   [
+    "predicciones/fig20_real_vs_pred_2025_sutil",
+    "predicciones/fig20_real_vs_pred_2025_dulce"
+   ]
+  ],
+  "main_en_paquete": false
+ },
+ "fig20_pie_txt": {
+  "sutil": "Caption (suggested): Observed national production and one-step-ahead forecasts of each model, test year 2025, sour lime (limón sutil). Grey: shock months (monthly P75, history to origin). Seeded models: one line per seed (10 seeds). Observed: thick black line; Seasonal Naive: dashed black line with open squares.",
+  "dulce": "Caption (suggested): Observed national production and one-step-ahead forecasts of each model, test year 2025, sweet lime (limón dulce). Grey: shock months (monthly P75, history to origin). Seeded models: one line per seed (10 seeds). Observed: thick black line; Seasonal Naive: dashed black line with open squares."
+ },
+ "seasonal_naive_dulce": {
+  "prediccion_es_y_t_menos_12_en_60_meses": true,
+  "mascara_publicada_igual_a_recalculada": true,
+  "n_meses": 60,
+  "n_shock": 15,
+  "MAE_todos": 24.503033333333324,
+  "MAE_shock": 24.502733333333325,
+  "MAE_normal": 24.503133333333324,
+  "Delta_s_pct": -0.0012243382111846056,
+  "suma_ae_shock": 367.5409999999999,
+  "suma_ae_normal": 1102.6409999999996,
+  "MAE_shock_mascara_desplazada_-1_mes": 26.892285714285702,
+  "MAE_shock_mascara_desplazada_+1_mes": 28.228199999999983,
+  "MAE_shock_otros_modelos": {
+   "Naive": {
+    "MAE_todos": 77.5223,
+    "MAE_shock": 131.62193333333332
+   },
+   "SARIMA": {
+    "MAE_todos": 18.412069215681875,
+    "MAE_shock": 13.97793976721227
+   },
+   "Chronos": {
+    "MAE_todos": 30.81878676961263,
+    "MAE_shock": 48.19885270996092
+   }
+  }
+ }
+}

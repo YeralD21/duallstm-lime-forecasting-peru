@@ -32,6 +32,10 @@ venv\Scripts\python.exe v2_reentrenamiento\etl\03_coordenadas.py        # descar
   método 2 de `hashes_congelados.json` (CRLF → LF) y se compara con el archivo en disco y con el valor
   registrado en `hashes_congelados.json` cuando existe. El resultado se escribe en
   `comparacion_0X_*.json`, en la carpeta de salida.
+- **Fuentes:** el link, la ruta esperada, el tamaño y el SHA-256 de cada archivo crudo están en
+  `data_sources.json` (raíz del repositorio). Si falta el crudo, el script termina con un mensaje que indica el
+  link y la ruta. Si el SHA-256 no coincide, advierte que no es el archivo usado en el artículo y sigue;
+  `--estricto` lo detiene.
 - `01` guarda las filas de limón del Excel en `_sisagri_limon_filas.csv` (caché). Si la caché existe, se
   reutiliza; `--cache-limon` indica otra ruta.
 

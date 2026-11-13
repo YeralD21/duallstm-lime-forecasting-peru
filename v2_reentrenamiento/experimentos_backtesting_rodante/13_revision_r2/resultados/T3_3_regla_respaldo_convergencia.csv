@@ -1,0 +1,11 @@
+cultivo,anio_test,orden_elegido,posicion_aic_elegido,convergio_protocolo_original,convergio_E1_Y1,regla_aplicada,intentos,posicion_aic_respaldo,orden_respaldo,alternativa_B_intentos,alternativa_B_posicion,alternativa_B_orden
+sutil,2021,"(2, 1, 0)(2, 1, 1, 12)",3,True,False,True,"[{""posicion_aic"": 4, ""orden"": ""(1, 1, 0)(2, 1, 1, 12)"", ""convergio"": false, ""avisos"": [""ConvergenceWarning""]}, {""posicion_aic"": 5, ""orden"": ""(0, 1, 0)(2, 1, 1, 12)"", ""convergio"": false, ""avisos"": [""ConvergenceWarning""]}, {""posicion_aic"": 2, ""orden"": ""(0, 1, 0)(1, 1, 0, 12)"", ""convergio"": true, ""avisos"": []}]",2,"(0, 1, 0)(1, 1, 0, 12)","[{""posicion_aic"": 1, ""orden"": ""(3, 1, 2)(2, 1, 1, 12)"", ""convergio"": true, ""avisos"": []}]",1,"(3, 1, 2)(2, 1, 1, 12)"
+sutil,2022,"(3, 1, 2)(2, 1, 2, 12)",4,True,True,False,,,,,,
+sutil,2023,"(1, 1, 3)(2, 1, 1, 12)",2,True,True,False,,,,,,
+sutil,2024,"(1, 1, 2)(2, 1, 1, 12)",1,True,True,False,,,,,,
+sutil,2025,"(1, 1, 3)(2, 1, 0, 12)",4,True,True,False,,,,,,
+dulce,2021,"(2, 0, 3)(0, 0, 0, 12)",2,True,True,False,,,,,,
+dulce,2022,"(1, 0, 0)(0, 1, 0, 12)",2,True,True,False,,,,,,
+dulce,2023,"(2, 0, 0)(0, 1, 0, 12)",4,True,True,False,,,,,,
+dulce,2024,"(2, 0, 0)(0, 1, 0, 12)",2,True,True,False,,,,,,
+dulce,2025,"(2, 0, 1)(0, 1, 0, 12)",4,True,True,False,,,,,,

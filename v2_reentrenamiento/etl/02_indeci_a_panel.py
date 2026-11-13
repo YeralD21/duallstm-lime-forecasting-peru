@@ -4,8 +4,14 @@ Reconstrucción (revisión G7, observación 12) de data/interim/indeci_limpio_20
 no está en el repositorio; las reglas salen de DECISIONES_METODOLOGICAS.md ("Fuente INDECI — reemplazo por
 dataset consolidado oficial") y se fijaron comparando con el CSV congelado. Ver README.md.
 
-Fuente: data/raw/indeci/oficial_2016_2018/BD_2003-2025_EMERGENCIAS.csv (datosabiertos.gob.pe, consolidado
-2003-2025; latin-1, separador ';'). Pese al nombre de la carpeta, el archivo cubre 2003-2025.
+Fuente: INDECI (registros de emergencias), dataset consolidado de emergencias 2003-2025 del portal de datos
+abiertos del Perú: https://www.datosabiertos.gob.pe
+Archivo crudo: data/raw/indeci/oficial_2016_2018/BD_2003-2025_EMERGENCIAS.csv (latin-1, separador ';'; no se
+redistribuye). Pese al nombre de la carpeta, el archivo cubre 2003-2025. Tamaño, SHA-256 y fechas en
+data_sources.json (entrada "indeci"). Si falta, el script indica el link y la ruta esperada; si el SHA-256 no
+coincide, advierte que no es el archivo usado en el artículo (con --estricto, se detiene).
+
+Produce, en --salida: indeci_limpio_2016_2025.csv y comparacion_02_indeci.json.
 
 Reglas:
  1. Años 2016-2025 (columna AÑO) y mes por nombre (columna MES: ENERO..DICIEMBRE).
@@ -22,7 +28,7 @@ Reglas:
  6. Orden: departamento, provincia, anio, mes.
 
 Uso:
-    python etl/02_indeci_a_panel.py [--crudo CSV] [--provincias CSV] [--salida CARPETA]
+    python etl/02_indeci_a_panel.py [--crudo CSV] [--provincias CSV] [--salida CARPETA] [--estricto]
 """
 from __future__ import annotations
 
@@ -33,7 +39,8 @@ from pathlib import Path
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _comun import INTERIM, RAW, carpeta_salida, comparar, escribir_csv, informe  # noqa: E402
+from _comun import (INTERIM, carpeta_salida, comparar, escribir_csv, informe, ruta_esperada,  # noqa: E402
+                    verificar_crudo)
 
 PELIGROS_CLIMATICOS = ["LLUVIA INTENSA", "VIENTOS FUERTES", "BAJAS TEMPERATURAS", "INUNDACION", "DESLIZAMIENTO",
                        "HUAYCO", "SEQUIA", "EROSION", "TORMENTA ELECTRICA", "MAREJADA"]
@@ -91,15 +98,16 @@ def panel(r: pd.DataFrame, universo: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--crudo", default=str(RAW / "indeci" / "oficial_2016_2018" / "BD_2003-2025_EMERGENCIAS.csv"))
+    ap.add_argument("--crudo", default=str(ruta_esperada("indeci", "BD_2003-2025_EMERGENCIAS.csv")))
     ap.add_argument("--provincias", default=str(INTERIM / "limon_sutil_provincia.csv"),
                     help="CSV con columnas departamento, provincia que define el universo (solo lectura)")
     ap.add_argument("--salida", default=None)
+    ap.add_argument("--estricto", action="store_true",
+                    help="detenerse si el SHA-256 del crudo no coincide con data_sources.json")
     a = ap.parse_args()
     sal = carpeta_salida(a.salida)
     crudo = Path(a.crudo)
-    if not crudo.exists():
-        raise SystemExit(f"Falta el archivo crudo de INDECI: {crudo}")
+    verificar_crudo("indeci", "BD_2003-2025_EMERGENCIAS.csv", crudo, a.estricto)
     universo = (pd.read_csv(a.provincias, usecols=["departamento", "provincia"])
                 .drop_duplicates().sort_values(["departamento", "provincia"]).reset_index(drop=True))
     p, info = panel(leer_crudo(crudo), universo)

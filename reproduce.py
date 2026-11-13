@@ -14,6 +14,8 @@ Wall-clock run-time columns (TIMING_COLUMNS) are excluded from that comparison a
 The 15 tables of 09_reportes/revision_g7/fase1/ are not in expected_outputs_sha256.json: g7_fase1.py regenerates
 them in a temporary folder (the published files are never overwritten) and compares them cell by cell with the
 published ones; its result goes to the "g7_fase1_tables" entry of the report.
+The second-round review analyses (13_revision_r2/, post-protocol) run after the existing steps; their outputs are
+not part of expected_outputs_sha256.json.
 The report is written to reproduction_report.json.
 
 --retrain moves the shipped 04_modelos/, 05_predicciones/ and 12_revision_g7/resultados/unidades/ to
@@ -37,6 +39,7 @@ BR = ROOT / "v2_reentrenamiento" / "experimentos_backtesting_rodante"
 S = BR / "02_scripts"
 G7 = BR / "12_revision_g7"
 FASE1 = BR / "09_reportes" / "revision_g7" / "fase1"
+R2 = BR / "13_revision_r2"
 EXPECTED = ROOT / "expected_outputs_sha256.json"
 REPORT = ROOT / "reproduction_report.json"
 ENV = {**os.environ, "PYTHONHASHSEED": "42", "TF_ENABLE_ONEDNN_OPTS": "0", "TF_DETERMINISTIC_OPS": "1",
@@ -149,6 +152,12 @@ def main() -> None:
         run("phase D2: figures (run_all.py --fase D2)", [str(S / "run_all.py"), "--fase", "D2"], log)
         for f in ("11_figuras_d3.py", "13_figura_workflow.py", "14_fig20_reducida_2025.py"):
             run(f"figures: {f}", [str(S / f)], log)
+    # second-round review (R2): post-protocol robustness and diagnostics; writes only to 13_revision_r2/resultados/
+    for f, name in (("t1_ets_theta.py", "ETS and Theta, rolling origin 2021-2025"),
+                    ("t1_t2_evaluar.py", "ETS/Theta metrics, 12-model ranking and 2025-only ranking"),
+                    ("t3_sarima.py", "SARIMA constant, no-constant sensitivity and SARIMA-sel fallback rule"),
+                    ("t4_verificaciones.py", "predictor lags, fig20 content and Seasonal Naive check")):
+        run(f"review R2 (13_revision_r2): {name} ({f})", [str(R2 / "scripts" / f)], log)
 
     results = {}
     for rel, h in expected.items():

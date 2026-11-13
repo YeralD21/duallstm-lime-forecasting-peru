@@ -1,0 +1,29 @@
+cultivo,version,archivo,modelo,n_lineas,promedio_de_semillas,n_meses
+sutil,fig20 (paquete del artículo),fig20_real_vs_pred_2025_sutil.csv,Naive,1,False,12
+sutil,fig20 (paquete del artículo),fig20_real_vs_pred_2025_sutil.csv,Seasonal Naive,1,False,12
+sutil,fig20 (paquete del artículo),fig20_real_vs_pred_2025_sutil.csv,Chronos,1,False,12
+sutil,fig20 (paquete del artículo),fig20_real_vs_pred_2025_sutil.csv,SARIMA,1,False,12
+sutil,fig20 (paquete del artículo),fig20_real_vs_pred_2025_sutil.csv,SARIMA-sel,1,False,12
+sutil,fig20 (paquete del artículo),fig20_real_vs_pred_2025_sutil.csv,Ridge,1,False,12
+sutil,fig20 (paquete del artículo),fig20_real_vs_pred_2025_sutil.csv,ElasticNet,1,False,12
+sutil,fig20 (paquete del artículo),fig20_real_vs_pred_2025_sutil.csv,XGB-37,10,False,12
+sutil,fig20 (paquete del artículo),fig20_real_vs_pred_2025_sutil.csv,GC3,10,False,12
+sutil,fig20 (paquete del artículo),fig20_real_vs_pred_2025_sutil.csv,GE,10,False,12
+sutil,"fig20 main (reducida, 14_fig20_reducida_2025.py)",fig20_real_vs_pred_2025_main_sutil.csv,GC3,1,True,12
+sutil,"fig20 main (reducida, 14_fig20_reducida_2025.py)",fig20_real_vs_pred_2025_main_sutil.csv,Chronos,1,False,12
+sutil,"fig20 main (reducida, 14_fig20_reducida_2025.py)",fig20_real_vs_pred_2025_main_sutil.csv,SARIMA,1,False,12
+sutil,"fig20 main (reducida, 14_fig20_reducida_2025.py)",fig20_real_vs_pred_2025_main_sutil.csv,Seasonal Naive,1,False,12
+dulce,fig20 (paquete del artículo),fig20_real_vs_pred_2025_dulce.csv,Naive,1,False,12
+dulce,fig20 (paquete del artículo),fig20_real_vs_pred_2025_dulce.csv,Seasonal Naive,1,False,12
+dulce,fig20 (paquete del artículo),fig20_real_vs_pred_2025_dulce.csv,Chronos,1,False,12
+dulce,fig20 (paquete del artículo),fig20_real_vs_pred_2025_dulce.csv,SARIMA,1,False,12
+dulce,fig20 (paquete del artículo),fig20_real_vs_pred_2025_dulce.csv,SARIMA-sel,1,False,12
+dulce,fig20 (paquete del artículo),fig20_real_vs_pred_2025_dulce.csv,Ridge,1,False,12
+dulce,fig20 (paquete del artículo),fig20_real_vs_pred_2025_dulce.csv,ElasticNet,1,False,12
+dulce,fig20 (paquete del artículo),fig20_real_vs_pred_2025_dulce.csv,XGB-37,10,False,12
+dulce,fig20 (paquete del artículo),fig20_real_vs_pred_2025_dulce.csv,GC3,10,False,12
+dulce,fig20 (paquete del artículo),fig20_real_vs_pred_2025_dulce.csv,GE,10,False,12
+dulce,"fig20 main (reducida, 14_fig20_reducida_2025.py)",fig20_real_vs_pred_2025_main_dulce.csv,GC3,1,True,12
+dulce,"fig20 main (reducida, 14_fig20_reducida_2025.py)",fig20_real_vs_pred_2025_main_dulce.csv,Chronos,1,False,12
+dulce,"fig20 main (reducida, 14_fig20_reducida_2025.py)",fig20_real_vs_pred_2025_main_dulce.csv,SARIMA,1,False,12
+dulce,"fig20 main (reducida, 14_fig20_reducida_2025.py)",fig20_real_vs_pred_2025_main_dulce.csv,Seasonal Naive,1,False,12

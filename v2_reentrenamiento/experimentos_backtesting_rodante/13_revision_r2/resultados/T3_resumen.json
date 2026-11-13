@@ -1,0 +1,6 @@
+{
+ "DD12_de_t2": 24.0,
+ "SARIMA_con_c_reproduce_congelado_dif_max_t": 1.4551915228366852e-11,
+ "regla": "Si el ajuste final del orden elegido por SARIMA-sel no converge (mle_retvals['converged'] = False), se toma el siguiente orden en el orden de AIC entre los 5 preseleccionados (posiciones k+1, ..., 5 y, si ninguno converge, k-1, ..., 1, con k la posicion del elegido) cuyo ajuste, con las mismas opciones y datos, si converja. Si ninguno converge se conserva el elegido y se marca.",
+ "alternativa_B": "Lectura alternativa (sensibilidad): el primer orden que converge recorriendo los 5 preseleccionados desde la posicion 1 de AIC, excluido el elegido."
+}

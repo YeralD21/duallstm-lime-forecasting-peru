@@ -1,0 +1,7 @@
+cultivo,criterio,n_meses_2025,1º 2025 (12 mod.),1º pool (12 mod.),1º 2025 (10 mod.),1º pool (10 mod.),mismo 1º (12),mismo 1º (10),empatados con el 1º en 2025
+sutil,todos,12,ElasticNet,Chronos,ElasticNet,Chronos,No,No,"ElasticNet, Ridge, Chronos, ETS, Theta, SARIMA-sel, SARIMA, Seasonal Naive, XGB-37"
+sutil,shock_MoM_P75,3,Seasonal Naive,ETS,Seasonal Naive,Chronos,No,No,"Seasonal Naive, GC3, Theta, Chronos, Ridge, ElasticNet, SARIMA, XGB-37"
+sutil,shock_YoY_P75,0,— (sin meses),Chronos,— (sin meses),Chronos,—,—,—
+dulce,todos,12,ETS,SARIMA,SARIMA-sel,SARIMA,No,No,"ETS, Theta, SARIMA-sel, SARIMA, Chronos"
+dulce,shock_MoM_P75,3,Theta,SARIMA,SARIMA-sel,SARIMA,No,No,"Theta, ETS, SARIMA-sel"
+dulce,shock_YoY_P75,3,Theta,SARIMA,XGB-37,SARIMA,No,No,"Theta, XGB-37, ElasticNet, Ridge, ETS, SARIMA-sel, SARIMA"

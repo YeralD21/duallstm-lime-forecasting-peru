@@ -22,14 +22,22 @@ debe caer dentro del polígono de esa provincia. Para las 10 de fallback se info
 (se espera la provincia capital del departamento). El GeoJSON se descarga a la carpeta de salida si no se da
 --adm2, y se verifica su SHA-256.
 
+Fuentes: las dos entradas de v1 están incluidas en el repositorio. Límites para la validación: geoBoundaries,
+https://www.geoboundaries.org (URL de descarga, SHA-256 y fechas en data_sources.json, entrada
+"geoboundaries"). Si el GeoJSON falta (--adm2 inexistente o descarga fallida), el script indica el link y la URL
+de descarga; si su SHA-256 no coincide, advierte que no es el archivo usado en el artículo (con --estricto, se
+detiene).
+
+Produce, en --salida: coordenadas_provincias_completo.csv, validacion_coordenadas_adm2.csv,
+geoBoundaries-PER-ADM2_simplified.geojson (descargado) y comparacion_03_coordenadas.json.
+
 Uso:
-    python etl/03_coordenadas.py [--salida CARPETA] [--adm2 GEOJSON] [--sin-validar]
+    python etl/03_coordenadas.py [--salida CARPETA] [--adm2 GEOJSON] [--sin-validar] [--estricto]
 """
 from __future__ import annotations
 
 import argparse
 import ast
-import hashlib
 import re
 import sys
 import unicodedata
@@ -39,13 +47,13 @@ from pathlib import Path
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _comun import INTERIM, RAIZ, carpeta_salida, comparar, escribir_csv, informe  # noqa: E402
+from _comun import (INTERIM, RAIZ, archivo_fuente, carpeta_salida, comparar, escribir_csv,  # noqa: E402
+                    informe, verificar_crudo)
 
 V1_CLIMA = RAIZ / "data" / "interim" / "nasa" / "clima_dataset_final.csv"
 V1_DICT = RAIZ / "notebooks" / "fase2" / "_build_act02_time.py"
-ADM2_URL = ("https://github.com/wmgeolab/geoBoundaries/raw/90a1d52/releaseData/gbOpen/PER/ADM2/"
-            "geoBoundaries-PER-ADM2_simplified.geojson")
-ADM2_SHA256 = "4986d514b9898f7c415febd47d2ae302f79f5a0d23434cc81fb2bdbfaec623a3"
+ADM2_NOMBRE = "geoBoundaries-PER-ADM2_simplified.geojson"
+ADM2_URL = archivo_fuente("geoboundaries", ADM2_NOMBRE)["download_url"]  # commit 90a1d52 (data_sources.json)
 
 
 def coords_depto_v1() -> dict[str, tuple[float, float]]:
@@ -112,14 +120,16 @@ def validar(t: pd.DataFrame, adm2: Path) -> pd.DataFrame:
     return v.drop(columns=["provincia_norm"])
 
 
-def obtener_adm2(ruta: str | None, sal: Path) -> Path:
-    p = Path(ruta) if ruta else sal / "geoBoundaries-PER-ADM2_simplified.geojson"
-    if not p.exists():
+def obtener_adm2(ruta: str | None, sal: Path, estricto: bool = False) -> Path:
+    p = Path(ruta) if ruta else sal / ADM2_NOMBRE
+    if not p.exists() and not ruta:
         print(f"Descargando {ADM2_URL}")
-        urllib.request.urlretrieve(ADM2_URL, p)
-    h = hashlib.sha256(p.read_bytes()).hexdigest()
-    if h != ADM2_SHA256:
-        raise SystemExit(f"SHA-256 de {p} = {h}; se esperaba {ADM2_SHA256}")
+        try:
+            urllib.request.urlretrieve(ADM2_URL, p)
+        except OSError as e:
+            p.unlink(missing_ok=True)
+            print(f"No se pudo descargar el GeoJSON ADM2: {e}")
+    verificar_crudo("geoboundaries", ADM2_NOMBRE, p, estricto)
     return p
 
 
@@ -128,6 +138,8 @@ def main() -> None:
     ap.add_argument("--salida", default=None)
     ap.add_argument("--adm2", default=None, help="GeoJSON geoBoundaries PER ADM2 ya descargado")
     ap.add_argument("--sin-validar", action="store_true")
+    ap.add_argument("--estricto", action="store_true",
+                    help="detenerse si el SHA-256 del GeoJSON ADM2 no coincide con data_sources.json")
     a = ap.parse_args()
     sal = carpeta_salida(a.salida)
     t = construir()
@@ -135,7 +147,7 @@ def main() -> None:
     f = escribir_csv(t, sal / "coordenadas_provincias_completo.csv")
     res = comparar(f, INTERIM / f.name, f"v2_reentrenamiento/data/interim/{f.name}")
     if not a.sin_validar:
-        v = validar(t, obtener_adm2(a.adm2, sal))
+        v = validar(t, obtener_adm2(a.adm2, sal, a.estricto))
         escribir_csv(v, sal / "validacion_coordenadas_adm2.csv")
         res["validacion_adm2"] = {
             fu: {"n": int((v.fuente == fu).sum()), "dentro_de_su_provincia": int(v[v.fuente == fu].dentro_de_su_provincia.sum())}

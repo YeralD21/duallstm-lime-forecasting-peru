@@ -1,0 +1,114 @@
+{
+  "_description": "Data sources of the pipeline. Read by v2_reentrenamiento/etl/_comun.py: if a raw file is missing, the ETL scripts print the link and the expected path; if its SHA-256 differs from the one recorded here, they warn that it is not the file used in the article (and stop with --estricto).",
+  "_fields": {
+    "access_date": "date the source was accessed or downloaded, or \"not recorded\"",
+    "path": "path relative to the repository root (null when the file is not stored in the repository)",
+    "size_bytes": "size in bytes; for text files tracked in git, size of the checked-out file with LF line endings",
+    "sha256": "SHA-256; for text files tracked in git, method 2 of 01_configuracion/hashes_congelados.json (CRLF -> LF, then SHA-256); otherwise the bytes as they are. null when not recorded"
+  },
+  "sources": {
+    "midagri_sisagri": {
+      "name": "MIDAGRI, SISAGRI (crop statistics): Regional Productive Profile dashboard",
+      "link": "https://app.powerbi.com/view?r=eyJrIjoiN2U3NTdkYTktOTk5Ny00NjQ5LTg0ZjEtMmIzYzlmZWIwMDhlIiwidCI6IjdmMDg0NjI3LTdmNDAtNDg3OS04OTE3LTk0Yjg2ZmQzNWYzZiJ9",
+      "access_date": "not recorded",
+      "access_date_notes": "The manuscript cites the dashboard as accessed on 25 June 2026; the workbook used has a file date of 29 August 2026. The exact download date was not recorded.",
+      "files": [
+        {
+          "role": "raw (not redistributed)",
+          "expected_file": "sisagri_2015_2026.xlsx",
+          "path": "v2_reentrenamiento/data/raw/midagri/sisagri_2015_2026.xlsx",
+          "size_bytes": 229208492,
+          "sha256": "b7dec236a0d65c7aada297118cab584104863e6f21430fe60e279cf5293e3283",
+          "description": "District-level export of all crops, 2015-2026 (5 sheets)"
+        }
+      ],
+      "script": "v2_reentrenamiento/etl/01_sisagri_a_series.py"
+    },
+    "indeci": {
+      "name": "INDECI (emergency records): consolidated emergencies dataset 2003-2025, Peruvian open-data portal",
+      "link": "https://www.datosabiertos.gob.pe",
+      "access_date": "not recorded",
+      "access_date_notes": "The dataset was described as updated on 26 August 2026. The exact download URL and date were not recorded.",
+      "files": [
+        {
+          "role": "raw (not redistributed)",
+          "expected_file": "BD_2003-2025_EMERGENCIAS.csv",
+          "path": "v2_reentrenamiento/data/raw/indeci/oficial_2016_2018/BD_2003-2025_EMERGENCIAS.csv",
+          "size_bytes": 27040446,
+          "sha256": "a1fe63f0a7c836b8ff7dd1c87271d3bd3144f8444e41f93b7db205c85fef2687",
+          "description": "Consolidated INDECI emergencies 2003-2025 (latin-1, separator ';')"
+        }
+      ],
+      "script": "v2_reentrenamiento/etl/02_indeci_a_panel.py"
+    },
+    "nasa_power": {
+      "name": "NASA POWER (climate): monthly point API, community AG",
+      "link": "https://power.larc.nasa.gov",
+      "api_endpoint": "https://power.larc.nasa.gov/api/temporal/monthly/point",
+      "access_date": "not recorded",
+      "files": [
+        {
+          "role": "included in the repository",
+          "expected_file": "clima_nasa_power_2016_2025.csv",
+          "path": "v2_reentrenamiento/data/raw/nasa_power/por_provincia/clima_nasa_power_2016_2025.csv",
+          "size_bytes": 1626332,
+          "sha256": "bf8b3db0a2a6fba000eed090d2aca3a5a79c454372e2c445f0db59b9176a58b0",
+          "description": "Monthly climate by province (T2M, T2M_MAX, WS2M, PRECTOTCORR, RH2M), 2016-2025"
+        }
+      ],
+      "script": "v2_reentrenamiento/src/data_collection/nasa_power_downloader_v2.py"
+    },
+    "geoboundaries": {
+      "name": "geoBoundaries gbOpen, Peru (PER), commit 90a1d52 of wmgeolab/geoBoundaries",
+      "link": "https://www.geoboundaries.org",
+      "access_date": "not recorded",
+      "access_date_notes": "ADM2: downloaded by etl/03_coordenadas.py on each run (pinned commit, SHA-256 verified). ADM1: downloaded on 2026-10-30T00:32:44Z (UTC), see 11_geometria_externa/README.md.",
+      "files": [
+        {
+          "role": "downloaded by the script (not stored)",
+          "expected_file": "geoBoundaries-PER-ADM2_simplified.geojson",
+          "path": null,
+          "download_url": "https://github.com/wmgeolab/geoBoundaries/raw/90a1d52/releaseData/gbOpen/PER/ADM2/geoBoundaries-PER-ADM2_simplified.geojson",
+          "size_bytes": 4310497,
+          "sha256": "4986d514b9898f7c415febd47d2ae302f79f5a0d23434cc81fb2bdbfaec623a3",
+          "description": "Province boundaries (ADM2, boundaryID PER-ADM2-86281439, 196 provinces; IGN Peru via OCHA ROLAC/HDX, CC BY 3.0 IGO), used to validate the province coordinates. Saved to the --salida folder of etl/03 unless --adm2 is given."
+        },
+        {
+          "role": "not in git (study-area map only)",
+          "expected_file": "geoBoundaries-PER-ADM1_simplified.geojson",
+          "path": "v2_reentrenamiento/experimentos_backtesting_rodante/11_geometria_externa/geoboundaries_PER_ADM1/geoBoundaries-PER-ADM1_simplified.geojson",
+          "download_url": "https://github.com/wmgeolab/geoBoundaries/raw/90a1d52/releaseData/gbOpen/PER/ADM1/geoBoundaries-PER-ADM1_simplified.geojson",
+          "access_date": "2026-10-30T00:32:44Z",
+          "size_bytes": 326575,
+          "sha256": "df5bbc9e4eabae9dcf9fe163180be85c1ef297bb1633e250b6f0c5bab5deebdf",
+          "description": "Department boundaries (ADM1, boundaryID PER-ADM1-1875124, public domain), used only for the study-area map (fig29)"
+        }
+      ],
+      "script": "v2_reentrenamiento/etl/03_coordenadas.py"
+    },
+    "agraria_pe": {
+      "name": "Agraria.pe news (agronegocios section)",
+      "link": "https://agraria.pe",
+      "access_date": "not recorded",
+      "files": [
+        {
+          "role": "raw (not redistributed)",
+          "expected_file": "agro_news_{year}.csv",
+          "path": null,
+          "size_bytes": null,
+          "sha256": null,
+          "description": "News corpus written by the scraper (fecha, titular, cuerpo_completo, fuente, url); 2,883 items, 2016-2025. The texts are not redistributed."
+        },
+        {
+          "role": "derived, included in the repository",
+          "expected_file": "sentimiento_mensual_2016_2025.csv",
+          "path": "v2_reentrenamiento/data/interim/noticias/sentimiento_mensual_2016_2025.csv",
+          "size_bytes": 2102,
+          "sha256": "5548e3d43241a1bd6dcfef33d38e5cf751c5d569bfd26a838a269db0a6d2b4da",
+          "description": "Monthly mean sentiment (RoBERTuito via pysentimiento 0.7.3) and number of news items, 2016-2025"
+        }
+      ],
+      "script": "v2_reentrenamiento/src/data_collection/agraria_scraper_v2.py"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+ "modelo": "Theta",
+ "cultivar": "dulce",
+ "anio_test": 2023,
+ "semilla": null,
+ "ventana": {
+  "anio_test": 2023,
+  "origen": "2022-12",
+  "fin_train": "2021-12",
+  "val_inicio": "2022-01",
+  "val_fin": "2022-12",
+  "test_inicio": "2023-01",
+  "test_fin": "2023-12",
+  "en_ranking": true,
+  "en_sensibilidad_2023_2025": true
+ },
+ "b0": -0.08996307852591895,
+ "alpha": 0.5915924907586424,
+ "theta": 2.0,
+ "desestacionaliza": true,
+ "metodo_estacional": "mul",
+ "factores_estacionales": [
+  1.161675410889119,
+  0.9420740894561662,
+  0.8945571691848515,
+  0.7716561751323098,
+  0.5038763084652905,
+  0.44357211882052694,
+  0.6658045720516791,
+  0.9380171103585212,
+  1.2613430387214226,
+  1.5057801183326693,
+  1.4815555366195634,
+  1.4300883519678804
+ ],
+ "n_train": 66,
+ "train_inicio": "2016-07",
+ "train_fin": "2021-12",
+ "opciones": "ThetaModel(period=12) por defecto: deseasonalize=True, use_test=True, method='auto'; fit(use_mle=False)"
+}

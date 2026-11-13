@@ -1,0 +1,13 @@
+indice,modelo,error,trend,damped_trend,seasonal,aicc,aic,convergio,avisos,error_ajuste
+0,"ETS(A,N,A)",add,None,False,add,545.7404425,531.0377398,True,,
+1,"ETS(A,N,M)",add,None,False,mul,549.2221613,534.5194586,True,,
+2,"ETS(A,A,A)",add,add,False,add,554.1520078,534.6091506,True,,
+3,"ETS(A,A,M)",add,add,False,mul,558.0491637,538.5063066,True,,
+4,"ETS(A,Ad,A)",add,add,True,add,557.5510331,535.1980919,True,,
+5,"ETS(A,Ad,M)",add,add,True,mul,559.2904265,536.9374853,True,,
+6,"ETS(M,N,A)",mul,None,False,add,538.6967746,523.9940719,True,,
+7,"ETS(M,N,M)",mul,None,False,mul,548.9120099,534.2093072,True,,
+8,"ETS(M,A,A)",mul,add,False,add,706.2825206,686.7396634,True,,
+9,"ETS(M,A,M)",mul,add,False,mul,557.6313502,538.0884931,True,,
+10,"ETS(M,Ad,A)",mul,add,True,add,706.7526542,684.399713,True,,
+11,"ETS(M,Ad,M)",mul,add,True,mul,561.8251511,539.4722099,True,,

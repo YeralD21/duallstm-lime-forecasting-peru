@@ -1,0 +1,40 @@
+{
+ "modelo": "Theta",
+ "cultivar": "sutil",
+ "anio_test": 2023,
+ "semilla": null,
+ "ventana": {
+  "anio_test": 2023,
+  "origen": "2022-12",
+  "fin_train": "2021-12",
+  "val_inicio": "2022-01",
+  "val_fin": "2022-12",
+  "test_inicio": "2023-01",
+  "test_fin": "2023-12",
+  "en_ranking": true,
+  "en_sensibilidad_2023_2025": true
+ },
+ "b0": 200.76713786240464,
+ "alpha": 0.9998553835448218,
+ "theta": 2.0,
+ "desestacionaliza": true,
+ "metodo_estacional": "mul",
+ "factores_estacionales": [
+  0.7159818212166652,
+  0.5893545131819309,
+  0.5986670545892753,
+  0.6394564758254309,
+  0.7599508998291893,
+  1.0836123101168935,
+  1.2263874334811333,
+  1.3360816406494673,
+  1.3436621296462403,
+  1.3148433000401258,
+  1.3007724064995216,
+  1.0912300149241256
+ ],
+ "n_train": 66,
+ "train_inicio": "2016-07",
+ "train_fin": "2021-12",
+ "opciones": "ThetaModel(period=12) por defecto: deseasonalize=True, use_test=True, method='auto'; fit(use_mle=False)"
+}

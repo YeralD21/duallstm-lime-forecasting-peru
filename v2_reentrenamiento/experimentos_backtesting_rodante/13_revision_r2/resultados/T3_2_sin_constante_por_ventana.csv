@@ -1,0 +1,6 @@
+anio_test,convergio_con_c,convergio_sin_c,MAE_con_c,MAE_sin_c,avisos_sin_c
+2021,True,True,3207.91701,3033.192397,
+2022,True,True,3060.829313,2926.761423,
+2023,True,True,3692.521156,3696.38792,
+2024,True,True,2857.651897,2822.212524,
+2025,True,True,3985.016474,3984.170073,
