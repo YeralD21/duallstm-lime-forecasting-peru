@@ -103,9 +103,9 @@ output, cell by cell and by SHA-256, with the frozen table.
 
 | Source | Raw file | Where to get it | Script |
 |---|---|---|---|
-| MIDAGRI, SISAGRI (crop statistics) | `v2_reentrenamiento/data/raw/midagri/sisagri_2015_2026.xlsx` (229,208,492 bytes; SHA-256 `b7dec236a0d65c7aada297118cab584104863e6f21430fe60e279cf5293e3283`) | MIDAGRI Regional Productive Profile dashboard (SISAGRI), district-level export of all crops, 2015–2026 (5 sheets) | `python v2_reentrenamiento/etl/01_sisagri_a_series.py [--excel PATH]` (~10 min) |
+| MIDAGRI, SISAGRI (crop statistics) | `v2_reentrenamiento/data/raw/midagri/sisagri_2015_2026.xlsx` (229,208,492 bytes; SHA-256 `b7dec236a0d65c7aada297118cab584104863e6f21430fe60e279cf5293e3283`) | [MIDAGRI Regional Productive Profile dashboard (SISAGRI)](https://app.powerbi.com/view?r=eyJrIjoiN2U3NTdkYTktOTk5Ny00NjQ5LTg0ZjEtMmIzYzlmZWIwMDhlIiwidCI6IjdmMDg0NjI3LTdmNDAtNDg3OS04OTE3LTk0Yjg2ZmQzNWYzZiJ9), district-level export of all crops, 2015–2026 (5 sheets) | `python v2_reentrenamiento/etl/01_sisagri_a_series.py [--excel PATH]` (~10 min) |
 | INDECI (emergency records) | `v2_reentrenamiento/data/raw/indeci/oficial_2016_2018/BD_2003-2025_EMERGENCIAS.csv` (27,040,446 bytes; SHA-256 `a1fe63f0a7c836b8ff7dd1c87271d3bd3144f8444e41f93b7db205c85fef2687`) | Peruvian open-data portal (datosabiertos.gob.pe), consolidated INDECI emergencies dataset 2003–2025 | `python v2_reentrenamiento/etl/02_indeci_a_panel.py [--crudo PATH]` |
-| Province coordinates | included (`data/interim/nasa/clima_dataset_final.csv`, `notebooks/fase2/_build_act02_time.py`) | validated against geoBoundaries gbOpen PER ADM2 (downloaded by the script, commit `90a1d52`) | `python v2_reentrenamiento/etl/03_coordenadas.py` |
+| Province coordinates | included (`data/interim/nasa/clima_dataset_final.csv`, `notebooks/fase2/_build_act02_time.py`) | validated against [geoBoundaries](https://www.geoboundaries.org) gbOpen PER ADM2 (downloaded by the script, commit `90a1d52`) | `python v2_reentrenamiento/etl/03_coordenadas.py` |
 | NASA POWER (climate) | included (`data/raw/nasa_power/por_provincia/clima_nasa_power_2016_2025.csv`) | NASA POWER monthly point API (`https://power.larc.nasa.gov/api/temporal/monthly/point`) | `v2_reentrenamiento/src/data_collection/nasa_power_downloader_v2.py` |
 
 Download dates: the manuscript cites the MIDAGRI dashboard as accessed on 25 June 2026; the workbook used here has a
@@ -115,7 +115,7 @@ limitations of each ETL step are documented in `v2_reentrenamiento/etl/README.md
 
 ## News data
 
-The texts of the Agraria.pe news items (headlines, bodies or excerpts) are **not redistributed**. The repository
+The texts of the [Agraria.pe](https://agraria.pe) news items (headlines, bodies or excerpts) are **not redistributed**. The repository
 contains only the monthly aggregates used by the models,
 `v2_reentrenamiento/data/interim/noticias/sentimiento_mensual_2016_2025.csv`: mean sentiment score
 (`avg_sentiment`, RoBERTuito via pysentimiento 0.7.3, rounded to 4 decimals) and number of news items (`n_noticias`)
