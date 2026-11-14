@@ -158,3 +158,42 @@ resultados/T5_*..T10_*       tablas en CSV; tablas_T5.md ... tablas_T10.md (gene
    dulce SARIMA.
 9. **Chronos (T9, T10):** se carga con la revisión fijada en `hiperparametros_congelados.json` (`r2lib.ChronosFijo`),
    igual que `12_revision_g7`, porque `lib/modelo_chronos.py` no pasa la revisión y sin red falla.
+
+---
+
+# Día 3 (T11–T16): cierre y material para el manuscrito
+
+Informe: [`INFORME_DIA3.md`](INFORME_DIA3.md). Mismas reglas: todo es posterior al protocolo, no modifica el ranking
+principal y no se toca ningún archivo congelado ni publicado.
+
+## Scripts nuevos
+
+```
+scripts/
+  t11_fig20_main.py          T11: Figura 7 reducida (2025) -> figuras/ (reutiliza 02_scripts/14_fig20_reducida_2025.py)
+  t12_ventanas_2018_2020.py  T12: Naive, Seasonal Naive y Chronos en 2018-2020 con IC bootstrap
+  t13_cobertura_datos.py     T13: primer y ultimo mes de cada tabla de entrada congelada
+  t14_historial_protocolo.py T14: historial git del protocolo en el repositorio antiguo (--repo; no va en reproduce.py)
+  t15_latex.py               T15: tablas LaTeX en ingles -> latex/tab_r2_*.tex
+  t16_cifras_clave.py        T16: CIFRAS_CLAVE.md
+  empaquetar_manuscrito.py   paquete_manuscrito.zip (zip determinista)
+figuras/                     fig20_real_vs_pred_2025_main_{sutil,dulce}.{pdf,png,csv,txt}
+latex/                       tablas del manuscrito (booktabs; paquetes booktabs, graphicx, float)
+HISTORIAL_PROTOCOLO.md       T14 (aqui y no en 01_configuracion/, que esta congelada)
+CIFRAS_CLAVE.md              T16
+```
+
+En `reproduce.py`, después de T10: `t12`, `t13`, `t11` (solo con figuras), `t15` y `t16`. `t14` necesita el clon
+privado y `empaquetar_manuscrito.py` se corre a mano:
+
+```bash
+venv\Scripts\python.exe v2_reentrenamiento\experimentos_backtesting_rodante\13_revision_r2\scripts\t14_historial_protocolo.py --repo <clon del repositorio antiguo>
+venv\Scripts\python.exe v2_reentrenamiento\experimentos_backtesting_rodante\13_revision_r2\scripts\empaquetar_manuscrito.py
+```
+
+## Controles (el script se detiene si fallan)
+
+- **T11:** el CSV de datos dibujados es idéntico (SHA-256) al publicado en `08_graficos/predicciones/`.
+- **T12:** MAE, MAE_shock y n_shock coinciden con `06_metricas/agregadas/T17_descriptivo_2018_2020_*.csv`.
+- **T13:** cada tabla leída tiene el SHA-256 de `hashes_congelados.json` (si está registrada).
+- **T15:** las cifras de E1 de `T3_3` (Día 1) y `T5` (Día 2) coinciden; la regla de respaldo actúa en una sola unidad.

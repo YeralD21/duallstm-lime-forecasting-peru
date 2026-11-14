@@ -162,7 +162,15 @@ def main() -> None:
                     ("t7_sarimax.py", "SARIMAX with lagged exogenous variables"),
                     ("t8_ex_ante.py", "ex-ante large-change months and El Nino costero months"),
                     ("t9_h2.py", "two-step-ahead horizon"),
-                    ("t10_crps.py", "CRPS and threshold-weighted CRPS")):
+                    ("t10_crps.py", "CRPS and threshold-weighted CRPS"),
+                    ("t12_ventanas_2018_2020.py", "models without training in the 2018-2020 windows, with bootstrap CIs"),
+                    ("t13_cobertura_datos.py", "first and last month of each frozen input table")):
+        run(f"review R2 (13_revision_r2): {name} ({f})", [str(R2 / "scripts" / f)], log)
+    if figures:
+        run("review R2 (13_revision_r2): reduced Figure 7, test year 2025 (t11_fig20_main.py)",
+            [str(R2 / "scripts" / "t11_fig20_main.py")], log)
+    for f, name in (("t15_latex.py", "LaTeX tables for the manuscript"),
+                    ("t16_cifras_clave.py", "key figures for the manuscript text")):
         run(f"review R2 (13_revision_r2): {name} ({f})", [str(R2 / "scripts" / f)], log)
 
     results = {}

@@ -1,0 +1,4 @@
+Caption (suggested): Observed national production and one-step-ahead forecasts of GC3, Chronos, SARIMA and Seasonal Naive, test year 2025, sweet lime (limón dulce). Grey: shock months (monthly P75, history to origin). GC3: mean of the 10 seed forecasts in each month. Observed: thick black line; Seasonal Naive: dashed black line with open squares.
+
+Reading: Test year 2025: 3 shock month(s) at monthly P75 (01, 02, 03), computed with the history up to December 2024.
+Reduced version of fig20 for the main text: four models; the full ten-model figure is in the supplementary material.

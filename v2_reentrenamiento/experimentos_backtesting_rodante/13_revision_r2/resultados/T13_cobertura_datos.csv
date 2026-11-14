@@ -1,0 +1,8 @@
+fuente,archivo,sha256_vs_hashes_congelados,primer_mes,ultimo_mes,n_meses,meses_faltantes,primer_mes_con_valor_positivo,meses_con_valor_0,nota
+produccion nacional sutil (MIDAGRI-SISAGRI),v2_reentrenamiento/data/interim/limon_sutil_nacional_mensual.csv,coincide,2016-01,2025-12,120,,2016-01,,valor = produccion_t_nacional (t)
+"produccion distrital sutil (MIDAGRI-SISAGRI, filtrada por el ETL)",v2_reentrenamiento/data/interim/limon_sutil_distrito_crudo.csv,no registrado,2016-01,2025-12,120,,2016-01,,valor = suma de PRODUCCION de los distritos (t)
+produccion nacional dulce (MIDAGRI-SISAGRI),v2_reentrenamiento/data/interim/limon_dulce_nacional_mensual.csv,coincide,2016-01,2025-12,120,,2016-01,,valor = produccion_t_nacional (t)
+"produccion distrital dulce (MIDAGRI-SISAGRI, filtrada por el ETL)",v2_reentrenamiento/data/interim/limon_dulce_distrito_crudo.csv,no registrado,2016-01,2025-12,120,,2016-01,,valor = suma de PRODUCCION de los distritos (t)
+clima NASA POWER (109 provincias),v2_reentrenamiento/data/raw/nasa_power/por_provincia/clima_nasa_power_2016_2025.csv,coincide,2016-01,2025-12,120,,,,109 provincias; cada provincia tiene 120 a 120 meses
+emergencias INDECI/SINPAD (panel provincia x mes),v2_reentrenamiento/data/interim/indeci_limpio_2016_2025.csv,coincide,2016-01,2025-12,120,,2016-01,,valor = num_emergencias sumado sobre provincias
+noticias Agraria.pe (sentimiento mensual),v2_reentrenamiento/data/interim/noticias/sentimiento_mensual_2016_2025.csv,coincide,2016-01,2025-12,120,,2016-03,2016-01;2016-02,valor = n_noticias; el corpus de textos no se redistribuye

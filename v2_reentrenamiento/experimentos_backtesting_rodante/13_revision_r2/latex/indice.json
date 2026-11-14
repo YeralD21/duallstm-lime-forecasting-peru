@@ -1,0 +1,16 @@
+{
+ "tablas": [
+  "tab_r2_2018_2020.tex",
+  "tab_r2_2025.tex",
+  "tab_r2_accuracy.tex",
+  "tab_r2_crps.tex",
+  "tab_r2_e5_ablation.tex",
+  "tab_r2_exante.tex",
+  "tab_r2_h2.tex",
+  "tab_r2_ranking.tex",
+  "tab_r2_sarima_sel_fallback.tex",
+  "tab_r2_sarimax.tex"
+ ],
+ "fuente": "13_revision_r2/resultados/*.csv",
+ "generador": "13_revision_r2/scripts/t15_latex.py"
+}
