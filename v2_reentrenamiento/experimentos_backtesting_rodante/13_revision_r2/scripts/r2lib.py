@@ -70,19 +70,17 @@ def _ajustar_ets(y: np.ndarray, spec: dict):
     return fit, conv, sorted({a.category.__name__ for a in avisos})
 
 
-def _pronostico_ets(y_hasta: np.ndarray, spec: dict, params: np.ndarray) -> float:
+def _pronostico_ets(y_hasta: np.ndarray, spec: dict, params: np.ndarray, h: int = 1) -> float:
     from statsmodels.tsa.exponential_smoothing.ets import ETSModel
 
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
         r = ETSModel(y_hasta, seasonal_periods=PERIODO, initialization_method="estimated", **spec).smooth(params)
-        return float(np.asarray(r.forecast(1), dtype=float)[0])
+        return float(np.asarray(r.forecast(h), dtype=float)[-1])
 
 
-def ets_rolling(serie: pd.Series, ventana) -> tuple[pd.DataFrame, dict, pd.DataFrame]:
-    """Seleccion por AICc en train entre las 12 especificaciones; val y test a 1 paso con parametros fijos."""
-    s, train, val = particiones(serie, ventana)
-    y = train.to_numpy()
+def seleccionar_ets(y: np.ndarray):
+    """Minimo AICc en train entre las 12 especificaciones (empate: orden de la rejilla)."""
     filas, ajustes = [], {}
     for i, spec in enumerate(REJILLA_ETS):
         fila = {"indice": i, "modelo": nombre_ets(spec), **{k: str(v) for k, v in spec.items()}, "aicc": np.nan, "aic": np.nan,
@@ -98,6 +96,14 @@ def ets_rolling(serie: pd.Series, ventana) -> tuple[pd.DataFrame, dict, pd.DataF
     validos = rejilla[np.isfinite(rejilla.aicc)]
     elegido = validos.sort_values(["aicc", "indice"], kind="mergesort").iloc[0]
     spec, fit = REJILLA_ETS[int(elegido.indice)], ajustes[int(elegido.indice)]
+    return spec, fit, rejilla, elegido
+
+
+def ets_rolling(serie: pd.Series, ventana) -> tuple[pd.DataFrame, dict, pd.DataFrame]:
+    """Seleccion por AICc en train entre las 12 especificaciones; val y test a 1 paso con parametros fijos."""
+    s, train, val = particiones(serie, ventana)
+    y = train.to_numpy()
+    spec, fit, rejilla, elegido = seleccionar_ets(y)
     params = np.asarray(fit.params, dtype=float).copy()
     # control: smooth con los parametros de train reproduce el pronostico del ajuste
     f0 = float(np.asarray(fit.forecast(1), dtype=float)[0])
@@ -158,11 +164,13 @@ class ThetaFijo:
         self.nivel = self.alpha * x + (1 - self.alpha) * self.nivel
         self.n += 1
 
-    def pronostico(self) -> float:
-        h = 1 / self.alpha - (1 - self.alpha) ** self.n / self.alpha if self.alpha > 0 else 0.0
-        f = 0.5 * self.b0 * h + self.nivel
+    def pronostico(self, h: int = 1) -> float:
+        """Pronostico a h pasos desde el estado actual (theta.py: forecast_components y forecast)."""
+        hh = (h - 1) + (1 / self.alpha - (1 - self.alpha) ** self.n / self.alpha if self.alpha > 0 else 0.0)
+        f = 0.5 * self.b0 * hh + self.nivel
+        i = self.n + h - 1
         if self.desestacionaliza:
-            f = f * self._factor(self.n) if self.metodo.startswith("mul") else f + self._factor(self.n)
+            f = f * self._factor(i) if self.metodo.startswith("mul") else f + self._factor(i)
         return float(f)
 
 
@@ -195,3 +203,214 @@ def escribir(df: pd.DataFrame, ruta: Path) -> None:
 def escribir_json(d: dict, ruta: Path) -> None:
     ruta.parent.mkdir(parents=True, exist_ok=True)
     ruta.write_text(json.dumps(d, indent=1, ensure_ascii=False, default=float), encoding="utf-8", newline="\n")
+
+
+# ============================================================================= Dia 2
+def per(f: str, k: int) -> str:
+    """Mes 'YYYY-MM' desplazado k meses hacia atras."""
+    return str(pd.Period(f, "M") - k)
+
+
+# ----------------------------------------------------------------------------- horizonte h (T9)
+def ets_h(serie: pd.Series, ventana, h: int) -> tuple[pd.DataFrame, dict]:
+    """ETS elegido por AICc en train (igual que T1); pronostico del mes t con datos hasta t-h, parametros fijos."""
+    s, train, _ = particiones(serie, ventana)
+    spec, fit, _, _ = seleccionar_ets(train.to_numpy())
+    params = np.asarray(fit.params, dtype=float).copy()
+    filas = []
+    for m in ventana.meses_test:
+        hist = s[(s.index >= "2016-07") & (s.index <= per(m, h))].to_numpy()
+        filas.append({"particion": "test", "fecha": m, "origen": per(m, h), "y_true": float(s[m]),
+                      "y_pred": _pronostico_ets(hist, spec, params, h)})
+    return pd.DataFrame(filas), {"especificacion": nombre_ets(spec)}
+
+
+def theta_h(serie: pd.Series, ventana, h: int) -> tuple[pd.DataFrame, dict]:
+    """Theta con parametros fijos de train; el estado incorpora los datos hasta t-h antes de pronosticar t."""
+    s, train, _ = particiones(serie, ventana)
+    th = ThetaFijo(train.to_numpy())
+    if not np.isclose(th.pronostico(h), float(np.asarray(th.res.forecast(h))[-1]), rtol=1e-9, atol=1e-6):
+        raise AssertionError("Theta: el pronostico manual a h pasos no reproduce ThetaModelResults.forecast(h)")
+    pend = [m for m in s.index if m > train.index.max()]
+    filas = []
+    for m in ventana.meses_test:
+        while pend and pend[0] <= per(m, h):
+            th.agregar(float(s[pend.pop(0)]))
+        filas.append({"particion": "test", "fecha": m, "origen": per(m, h), "y_true": float(s[m]), "y_pred": th.pronostico(h)})
+    return pd.DataFrame(filas), {"alpha": th.alpha, "b0": th.b0}
+
+
+# ----------------------------------------------------------------------------- regla de respaldo de SARIMA-sel (T5)
+REGLA_RESPALDO = ("Si el orden elegido por MAE de validacion entre los 5 de menor AIC no converge en el ajuste final, se usa el "
+                  "siguiente con menor MAE de validacion (empate: menor AIC de la rejilla, luego orden de la rejilla) entre los "
+                  "que convergen. Si ninguno converge se conserva el elegido y se marca.")
+
+
+def _orden(txt: str) -> list:
+    return json.loads(txt.replace("(", "[").replace(")", "]"))
+
+
+def elegir_con_respaldo(candidatos: pd.DataFrame, ajustar_final) -> dict:
+    """Regla general para cualquier ventana y protocolo.
+
+    candidatos: candidatos.csv de SARIMA-sel (posicion_aic, order, seasonal_order, aic_rejilla_maxiter200, indice_rejilla, MAE_val).
+    ajustar_final(order, seasonal_order) -> (fit, convergio): el ajuste final del protocolo (original: el mismo ajuste de
+    train con maxiter 500; E1: reajuste con datos hasta Y-1).
+    """
+    orden = candidatos.sort_values(["MAE_val", "aic_rejilla_maxiter200", "indice_rejilla"], kind="mergesort")
+    intentos = []
+    for r in orden.itertuples():
+        o, so = _orden(r.order), _orden(r.seasonal_order)
+        fit, conv = ajustar_final(o, so)
+        intentos.append({"posicion_aic": int(r.posicion_aic), "orden": f"{tuple(o)}{tuple(so)}", "MAE_val": float(r.MAE_val),
+                         "convergio": conv})
+        if conv:
+            return {"fit": fit, "order": o, "seasonal_order": so, "posicion_aic": int(r.posicion_aic), "intentos": intentos,
+                    "respaldo_usado": len(intentos) > 1, "sin_convergencia": False}
+    r = orden.iloc[0]
+    o, so = _orden(r.order), _orden(r.seasonal_order)
+    return {"fit": ajustar_final(o, so)[0], "order": o, "seasonal_order": so, "posicion_aic": int(r.posicion_aic),
+            "intentos": intentos, "respaldo_usado": False, "sin_convergencia": True}
+
+
+# ----------------------------------------------------------------------------- tabulares (T6, T7, T9)
+BLOQUES = {
+    "produccion": lambda c: (f"produccion_t_{c}", f"produccion_t_{c}_lag1", f"produccion_t_{c}_lag3", f"produccion_t_{c}_lag6"),
+    "calendario": lambda c: ("mes_sin", "mes_cos", "t_index"),
+    "clima": lambda c: tuple(f"{v}_lag{k}" for v in ("T2M", "T2M_MAX", "WS2M", "PRECTOTCORR", "RH2M") for k in (1, 3, 6)),
+    "emergencias": lambda c: tuple(f"{v}_lag{k}" for v in ("num_emergencias", "personas_afectadas", "personas_damnificadas",
+                                                            "hectareas_cultivo_perdidas", "hectareas_cultivo_afectadas") for k in (1, 3, 6)),
+    "noticias": lambda c: tuple(f"{v}_lag{k}" for v in ("avg_sentiment", "n_noticias") for k in (1, 3, 6)),
+}
+
+
+def col_y12(c: str) -> str:
+    return f"produccion_t_{c}_y12"
+
+
+def con_y12(feats: pd.DataFrame, serie: pd.Series, c: str, h: int) -> pd.DataFrame:
+    """Agrega la columna y_(T-12) para el par fila t -> objetivo T = t+h: su valor en la fila t es y_(t+h-12)."""
+    f = feats.copy()
+    clave = f["año"].astype(int).astype(str) + "-" + f["mes"].astype(int).map("{:02d}".format)
+    f[col_y12(c)] = [float(serie[per(k, 12 - h)]) if per(k, 12 - h) in serie.index else np.nan for k in clave]
+    return f
+
+
+def pares_h(frame: pd.DataFrame, predictores, objetivo: str, ventana, h: int = 1, filtro_col: str | None = None) -> dict:
+    """Pares X_t -> y_(t+h) (lib/preparacion.pares_tabulares con h); particion por el anio del objetivo.
+
+    Se descartan los pares con NaN en los predictores (o en filtro_col, para comparar con las mismas filas)."""
+    from lib.datos import con_fecha
+    from lib.preparacion import Particion
+
+    df = con_fecha(frame)
+    P = df.loc[:, list(predictores)].to_numpy(dtype=float)
+    F = df.loc[:, [filtro_col]].to_numpy(dtype=float) if filtro_col else np.zeros((len(df), 1))
+    Y = df.loc[:, objetivo].to_numpy(dtype=float)
+    fechas = df["fecha"].reset_index(drop=True)
+    xs, ys, xd, yd = [], [], [], []
+    for i in range(len(df) - h):
+        a, b = fechas.iloc[i], fechas.iloc[i + h]
+        if b != a + pd.DateOffset(months=h):
+            raise ValueError(f"Par no consecutivo: {a} -> {b}")
+        if not (np.isfinite(P[i]).all() and np.isfinite(F[i]).all()):
+            continue
+        xs.append(P[i]); ys.append(float(Y[i + h])); xd.append(a); yd.append(b)
+    X, y = np.stack(xs).astype(float), np.asarray(ys, dtype=float)
+    xd_s, yd_s = pd.Series(xd, name="x_fecha"), pd.Series(yd, name="fecha")
+    if not ((yd_s.dt.year * 12 + yd_s.dt.month) - (xd_s.dt.year * 12 + xd_s.dt.month) == h).all():
+        raise AssertionError("Fuga: algun par no tiene exactamente h meses entre predictores y objetivo")
+    anio = yd_s.dt.year
+
+    def parte(m):
+        m = np.asarray(m)
+        return Particion(None, None, X[m], y[m], yd_s[m].reset_index(drop=True), xd_s[m].reset_index(drop=True))
+
+    return {"train": parte(anio <= ventana.anio_fin_train), "val": parte(anio == ventana.anio - 1), "test": parte(anio == ventana.anio)}
+
+
+def correr_tabular(datos, c: str, ventana, familia: str, predictores, h: int = 1, semillas=tuple(range(10)),
+                   filtro_y12: bool = False, nombre: str | None = None) -> tuple[pd.DataFrame, list[dict]]:
+    """Ridge / ElasticNet (05_lineales.py) o XGB (06_xgb.py) con otro conjunto de predictores y/o horizonte h.
+
+    Ridge/EN: X sin escalar -> EstandarizadorV3 del train; alpha (y l1) por MAE de validacion en la rejilla de v3.
+    XGB: features escaladas con EscaladorVentana (train de la ventana), parametros oficiales, semillas 0..9.
+    Devuelve predicciones de test (toneladas) e info por unidad."""
+    from lib.modelos_lineales import EstandarizadorV3, predecir, seleccionar_por_validacion
+    from lib.preparacion import EscaladorVentana
+
+    nombre = nombre or familia
+    y = f"produccion_t_{c}"
+    serie = datos.serie(c)
+    feats = datos.features(c, ventana.anio_fin_train)
+    if col_y12(c) in predictores or filtro_y12:
+        feats = con_y12(feats, serie, c, h)
+    filtro = col_y12(c) if filtro_y12 else None
+    filas, infos = [], []
+    if familia in ("Ridge", "ElasticNet"):
+        HPL = json.loads((BR / "01_configuracion" / "hiperparametros_congelados.json").read_text(encoding="utf-8"))["rejilla_v3_lineales"]
+        p = pares_h(feats, predictores, y, ventana, h, filtro)
+        sc = EstandarizadorV3().ajustar(p["train"].X)
+        X = {k: sc.transformar(p[k].X) for k in ("train", "val", "test")}
+        with warnings.catch_warnings():
+            warnings.simplefilter("ignore")
+            mejor, _ = seleccionar_por_validacion(familia, X["train"], p["train"].y, X["val"], p["val"].y, HPL["alphas"], HPL["l1_ratios"])
+        yp = predecir(mejor["b"], mejor["w"], X["test"])
+        filas += [{"modelo": nombre, "cultivar": c, "anio_test": ventana.anio, "semilla": None, "particion": "test",
+                   "fecha": f"{f:%Y-%m}", "x_fecha": f"{x:%Y-%m}", "y_true": float(a), "y_pred": float(b)}
+                  for f, x, a, b in zip(p["test"].fechas_objetivo, p["test"].fechas_contexto_max, p["test"].y, yp)]
+        infos.append({"modelo": nombre, "cultivar": c, "anio_test": ventana.anio, "alpha": mejor["alpha"], "l1_ratio": mejor["l1_ratio"],
+                      "MAE_val": mejor["MAE_val"], "n_train": len(p["train"].y), "n_pred": len(predictores),
+                      "train_objetivos": f"{p['train'].fechas_objetivo.min():%Y-%m}..{p['train'].fechas_objetivo.max():%Y-%m}"})
+    else:
+        from xgboost import XGBRegressor
+
+        from v2_reentrenamiento.src.training.config_gc2_xgboost import OFFICIAL_GC2_XGB_CONFIG
+
+        esc = EscaladorVentana(ventana)
+        df = esc.ajustar_transformar(feats)
+        p = pares_h(df, predictores, y, ventana, h, filtro)
+        q = p["test"]
+        for sem in semillas:
+            m = XGBRegressor(**OFFICIAL_GC2_XGB_CONFIG.xgb_params(sem))
+            m.fit(p["train"].X, p["train"].y)
+            yt, yp = esc.invertir(y, q.y), esc.invertir(y, m.predict(q.X))
+            filas += [{"modelo": nombre, "cultivar": c, "anio_test": ventana.anio, "semilla": sem, "particion": "test",
+                       "fecha": f"{f:%Y-%m}", "x_fecha": f"{x:%Y-%m}", "y_true": float(a), "y_pred": float(b)}
+                      for f, x, a, b in zip(q.fechas_objetivo, q.fechas_contexto_max, yt, yp)]
+        infos.append({"modelo": nombre, "cultivar": c, "anio_test": ventana.anio, "n_train": len(p["train"].y), "n_pred": len(predictores),
+                      "semillas": list(semillas),
+                      "train_objetivos": f"{p['train'].fechas_objetivo.min():%Y-%m}..{p['train'].fechas_objetivo.max():%Y-%m}"})
+    return pd.DataFrame(filas), infos
+
+
+# ----------------------------------------------------------------------------- Chronos con la revision fijada (T9, T10)
+class ChronosFijo:
+    """Como lib/modelo_chronos.ChronosZeroShot, pero cargando la revision fijada en hiperparametros_congelados.json
+    (snapshot del cache de Hugging Face), igual que 12_revision_g7/scripts/g7lib.correr_chronos."""
+
+    def __init__(self) -> None:
+        import os
+
+        hp = json.loads((BR / "01_configuracion" / "hiperparametros_congelados.json").read_text(encoding="utf-8"))["chronos"]
+        if os.environ.get("HF_HUB_OFFLINE") != "1":
+            raise RuntimeError("HF_HUB_OFFLINE debe ser 1")
+        vendor = str(RAIZ / hp["vendor"])
+        if vendor not in sys.path:
+            sys.path.insert(0, vendor)
+        import torch
+        from chronos import BaseChronosPipeline
+
+        self.torch = torch
+        torch.set_num_threads(int(hp["torch_threads"]))
+        self.pipeline = BaseChronosPipeline.from_pretrained(hp["model_id"], revision=hp["snapshot"], device_map="cpu", torch_dtype=torch.float32)
+        q = getattr(self.pipeline, "quantiles", None) or getattr(getattr(self.pipeline, "model", None), "quantiles", None)
+        self.cuantiles = [float(x) for x in q]
+        self.i_mediana = self.cuantiles.index(float(hp["cuantil"]))
+
+    def cuantiles_h(self, contexto: np.ndarray, h: int) -> np.ndarray:
+        """Cuantiles (todos los niveles) del paso h."""
+        x = self.torch.tensor(np.asarray(contexto, dtype=float), dtype=self.torch.float32)
+        with self.torch.inference_mode():
+            arr = self.pipeline.predict(x, prediction_length=h).detach().cpu().numpy()
+        return np.asarray(arr[0, :, h - 1] if arr.ndim == 3 else arr[:, h - 1], dtype=float)

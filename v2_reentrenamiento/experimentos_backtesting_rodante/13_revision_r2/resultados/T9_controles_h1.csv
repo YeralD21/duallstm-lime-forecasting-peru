@@ -1,0 +1,101 @@
+modelo,cultivar,anio_test,dif_max_h1_vs_congelado
+Naive,sutil,2021,0
+Seasonal Naive,sutil,2021,0
+Chronos,sutil,2021,0.00390625
+SARIMA,sutil,2021,2.182787284e-11
+SARIMA-sel,sutil,2021,7.275957614e-12
+ETS,sutil,2021,4.963410902e-06
+Theta,sutil,2021,4.936598998e-06
+Ridge,sutil,2021,7.275957614e-12
+ElasticNet,sutil,2021,1.091393642e-11
+XGB-37,sutil,2021,1.091393642e-11
+Naive,sutil,2022,0
+Seasonal Naive,sutil,2022,0
+Chronos,sutil,2022,0.001953125
+SARIMA,sutil,2022,3.637978807e-12
+SARIMA-sel,sutil,2022,7.275957614e-12
+ETS,sutil,2022,4.982201062e-06
+Theta,sutil,2022,3.665412805e-06
+Ridge,sutil,2022,7.275957614e-12
+ElasticNet,sutil,2022,3.637978807e-12
+XGB-37,sutil,2022,1.091393642e-11
+Naive,sutil,2023,0
+Seasonal Naive,sutil,2023,0
+Chronos,sutil,2023,0.001953125
+SARIMA,sutil,2023,7.275957614e-12
+SARIMA-sel,sutil,2023,1.091393642e-11
+ETS,sutil,2023,4.927664122e-06
+Theta,sutil,2023,4.550805897e-06
+Ridge,sutil,2023,7.275957614e-12
+ElasticNet,sutil,2023,7.275957614e-12
+XGB-37,sutil,2023,1.091393642e-11
+Naive,sutil,2024,0
+Seasonal Naive,sutil,2024,0
+Chronos,sutil,2024,0.0078125
+SARIMA,sutil,2024,7.275957614e-12
+SARIMA-sel,sutil,2024,1.455191523e-11
+ETS,sutil,2024,4.336463462e-06
+Theta,sutil,2024,4.843896022e-06
+Ridge,sutil,2024,1.091393642e-11
+ElasticNet,sutil,2024,7.275957614e-12
+XGB-37,sutil,2024,1.091393642e-11
+Naive,sutil,2025,0
+Seasonal Naive,sutil,2025,0
+Chronos,sutil,2025,0.00390625
+SARIMA,sutil,2025,7.275957614e-12
+SARIMA-sel,sutil,2025,7.275957614e-12
+ETS,sutil,2025,3.942433977e-06
+Theta,sutil,2025,4.430832632e-06
+Ridge,sutil,2025,7.275957614e-12
+ElasticNet,sutil,2025,1.091393642e-11
+XGB-37,sutil,2025,1.455191523e-11
+Naive,dulce,2021,0
+Seasonal Naive,dulce,2021,0
+Chronos,dulce,2021,6.103515625e-05
+SARIMA,dulce,2021,1.136868377e-13
+SARIMA-sel,dulce,2021,5.684341886e-14
+ETS,dulce,2021,4.759391459e-08
+Theta,dulce,2021,3.441999752e-08
+Ridge,dulce,2021,1.136868377e-13
+ElasticNet,dulce,2021,5.684341886e-14
+XGB-37,dulce,2021,1.136868377e-13
+Naive,dulce,2022,0
+Seasonal Naive,dulce,2022,0
+Chronos,dulce,2022,6.103515625e-05
+SARIMA,dulce,2022,1.136868377e-13
+SARIMA-sel,dulce,2022,1.136868377e-13
+ETS,dulce,2022,4.698802059e-08
+Theta,dulce,2022,4.907730045e-08
+Ridge,dulce,2022,0
+ElasticNet,dulce,2022,2.842170943e-14
+XGB-37,dulce,2022,1.136868377e-13
+Naive,dulce,2023,0
+Seasonal Naive,dulce,2023,0
+Chronos,dulce,2023,4.577636719e-05
+SARIMA,dulce,2023,5.684341886e-14
+SARIMA-sel,dulce,2023,5.684341886e-14
+ETS,dulce,2023,4.279775112e-08
+Theta,dulce,2023,4.984400448e-08
+Ridge,dulce,2023,5.684341886e-14
+ElasticNet,dulce,2023,5.684341886e-14
+XGB-37,dulce,2023,1.136868377e-13
+Naive,dulce,2024,0
+Seasonal Naive,dulce,2024,0
+Chronos,dulce,2024,0.0001220703125
+SARIMA,dulce,2024,1.136868377e-13
+SARIMA-sel,dulce,2024,5.684341886e-14
+ETS,dulce,2024,4.294639666e-08
+Theta,dulce,2024,4.253917041e-08
+Ridge,dulce,2024,5.684341886e-14
+ElasticNet,dulce,2024,5.684341886e-14
+XGB-37,dulce,2024,1.136868377e-13
+Naive,dulce,2025,1.136868377e-13
+Seasonal Naive,dulce,2025,0
+Chronos,dulce,2025,6.103515614e-05
+SARIMA,dulce,2025,5.684341886e-14
+SARIMA-sel,dulce,2025,5.684341886e-14
+ETS,dulce,2025,4.382604857e-08
+Theta,dulce,2025,4.252700592e-08
+Ridge,dulce,2025,1.136868377e-13
+ElasticNet,dulce,2025,1.136868377e-13
+XGB-37,dulce,2025,1.136868377e-13

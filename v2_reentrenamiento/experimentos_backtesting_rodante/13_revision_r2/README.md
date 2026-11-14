@@ -71,3 +71,90 @@ estimados una sola vez en train; en validación y test, pronóstico a 1 paso y l
    rechaza la ausencia de estacionalidad (ver `info.json`). En esa ventana Theta no desestacionaliza: es el
    comportamiento por defecto, no se forzó.
 4. **No convergencia.** Se registra (`info.json`, `rejilla_ets.csv`), igual que en SARIMA. No se fuerza otro modelo.
+
+---
+
+# Día 2 (T5–T10)
+
+Informe: [`INFORME_DIA2.md`](INFORME_DIA2.md). Mismas reglas que el Día 1: todo es posterior al protocolo y no
+modifica el ranking principal, y no se toca ningún archivo congelado ni publicado.
+
+## Scripts nuevos
+
+```
+scripts/
+  r2eval.py                  evaluación común (bootstrap, DM-HLN, ranking y regla 3 de 4, como 08_metricas.py)
+  t5_respaldo_sarima_sel.py  T5: regla de respaldo de SARIMA-sel por MAE de validación (general; aplicada a E1)
+  t6_t7_tabulares.py         T6 (E5: y_(T-12) en Ridge, ElasticNet, XGB-37) y T7.1 (ablación por bloques)
+  t7_sarimax.py              T7.2: SARIMAX con exógenas rezagadas frente a SARIMA
+  t8_ex_ante.py              T8: meses de cambio grande definidos ex ante; meses de El Niño costero (IGP/ENFEN)
+  t9_h2.py                   T9: horizonte h = 2
+  t10_crps.py                T10: CRPS y CRPS ponderado por umbral (Chronos, SARIMA, SARIMA-sel)
+datos_externos/igp_icen/     ICEN y lista de eventos El Niño/La Niña costeros del IGP (ver FUENTE.md)
+resultados/unidades_d2/      predicciones nuevas (SARIMA-sel-Y1-R, tabulares h=1, SARIMAX, h=2)
+resultados/T5_*..T10_*       tablas en CSV; tablas_T5.md ... tablas_T10.md (generadas; no editar a mano)
+```
+
+`r2lib.py` gana funciones nuevas: `elegir_con_respaldo`, `correr_tabular`, `pares_h`, `ets_h`, `theta_h` y
+`ChronosFijo`. Las funciones del Día 1 conservan su salida byte a byte (comprobado con los hashes de `resultados/`).
+
+## Controles (el script se detiene si fallan)
+
+- **T5:** la regla no cambia ningún SARIMA-sel del protocolo original (todos convergen). Sin respaldo, cada unidad de E1
+  reproduce la publicada.
+- **T6/T7.1:** `correr_tabular`, con los 37 predictores, reproduce las predicciones congeladas de Ridge, ElasticNet y
+  XGB-37 (10 semillas) en las 10 unidades (diferencia ≤ 10⁻⁶ t).
+- **T9:** cada modelo, corrido con h = 1 por el mismo código, reproduce sus predicciones congeladas (o las de T1).
+  - Tolerancia general: el máximo de 10⁻⁶ t y 10⁻⁹·|y|, porque las unidades R2 se guardan con 10 cifras
+    significativas.
+  - Chronos: 2 ULP de float32, porque trabaja en float32.
+- **T10:** la mediana de Chronos y la media de SARIMA / SARIMA-sel reproducen las predicciones puntuales congeladas.
+
+## Decisiones
+
+1. **T5. Regla:** si el orden elegido por MAE de validación entre los 5 de menor AIC no converge en el ajuste final, se
+   usa el siguiente con menor MAE de validación entre los que convergen (empate: AIC, luego orden de la rejilla). Es
+   una función general (`r2lib.elegir_con_respaldo`) que recibe el "ajuste final" del protocolo:
+   - original: el ajuste en train con maxiter 500;
+   - E1: el reajuste con datos hasta Y−1.
+2. **T6. E5:**
+   - **Columna nueva:** `produccion_t_<c>_y12`. En la fila t, para el objetivo T = t+1, vale y_(T−12) = y_(t−11).
+   - **Filas perdidas:** y_(T−12) solo existe desde el objetivo 2017-01, así que se pierden 5 pares de train
+     (objetivos 2016-08..2016-12).
+   - **Control "filas E5":** para separar ese efecto, se corre el modelo original con esas mismas filas.
+   - **Igual que el protocolo:** misma búsqueda de alpha/l1 por MAE de validación, misma estandarización y
+     parámetros XGB oficiales con semillas 0..9.
+   - **XGB:** la columna nueva se escala con el `EscaladorVentana` del train, igual que las demás.
+3. **T7.1. Conjuntos:** el orden de las columnas se eligió para que (c) sea exactamente E5. Así (c) reutiliza las
+   predicciones de E5; XGB depende del orden por `colsample_bytree`. Ridge reelige alpha en cada conjunto.
+4. **T7.2. SARIMAX (fijado ANTES de ver resultados; también en el docstring de `t7_sarimax.py`):**
+   - **Rezagos:** para el objetivo T, x_(T−2), x_(T−4) y x_(T−7), los mismos que los tabulares (columnas lag1/lag3/lag6
+     de la fila T−1).
+   - **Versión principal:** "SARIMAX-PC", con 2 exógenas: la PC1 del clima y la PC1 de las emergencias. La PCA se ajusta
+     solo con el train, y cada componente entra solo en el rezago 1.
+   - **Versión secundaria:** "SARIMAX-30", con las 30 exógenas, marcada como sobreparametrizada (42–90 meses de train).
+     Su train empieza en 2016-08.
+   - **Órdenes y opciones:** los del SARIMA congelado. Ajuste único y append(refit=False).
+5. **T8:**
+   - **Umbrales:** se calculan con la historia hasta el origen (dic Y−1), como las máscaras del artículo (D-BR3).
+   - **Definición B:** usa los pronósticos a 1 paso del SARIMA dentro del train, sin los 13 primeros meses
+     (inicialización difusa con d + 12·D diferencias), y los de validación.
+   - **Definición C (El Niño costero):** no es ex ante. Usa la lista oficial de eventos basada en el ICEN. No se
+     usaron los comunicados de alerta del ENFEN.
+6. **T9 (h = 2):**
+   - **Modelos estadísticos y Chronos:** mismo ajuste; estado o contexto hasta t−2; pronóstico a 2 pasos.
+   - **Tabulares:** estrategia directa (pares X_(t−2) → y_t, reentrenados con la misma búsqueda). `pares_h` verifica que
+     cada par tenga exactamente 2 meses de separación.
+   - **Seasonal Naive:** es igual que en h = 1.
+   - **GC3 y GE:** quedan fuera.
+7. **T10:**
+   - **Representación común:** las tres distribuciones se representan con los mismos 9 cuantiles. Chronos da sus
+     cuantiles nativos; SARIMA y SARIMA-sel, los de la normal de `get_forecast(1)`.
+   - **CRPS:** CRPS_Q = (2/K) Σ pérdida de cuantil.
+   - **twCRPS:** peso 1 si |z/y_(t−1) − 1| > u, con u el umbral P75 MoM de la ventana. Se aplica con la función de
+     encadenamiento v(z) = min(z, r1) + max(z − r2, 0).
+   - **Referencia:** se reporta también el CRPS exacto de la normal.
+8. **Mejor modelo de cada cultivo (DM):** el de menor MAE en todos los meses entre los 10 del artículo: sutil Chronos,
+   dulce SARIMA.
+9. **Chronos (T9, T10):** se carga con la revisión fijada en `hiperparametros_congelados.json` (`r2lib.ChronosFijo`),
+   igual que `12_revision_g7`, porque `lib/modelo_chronos.py` no pasa la revisión y sin red falla.

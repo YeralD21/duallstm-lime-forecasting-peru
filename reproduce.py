@@ -156,7 +156,13 @@ def main() -> None:
     for f, name in (("t1_ets_theta.py", "ETS and Theta, rolling origin 2021-2025"),
                     ("t1_t2_evaluar.py", "ETS/Theta metrics, 12-model ranking and 2025-only ranking"),
                     ("t3_sarima.py", "SARIMA constant, no-constant sensitivity and SARIMA-sel fallback rule"),
-                    ("t4_verificaciones.py", "predictor lags, fig20 content and Seasonal Naive check")):
+                    ("t4_verificaciones.py", "predictor lags, fig20 content and Seasonal Naive check"),
+                    ("t5_respaldo_sarima_sel.py", "SARIMA-sel fallback rule by validation MAE (E1)"),
+                    ("t6_t7_tabulares.py", "E5 (y_t-12 in tabular models) and block ablation"),
+                    ("t7_sarimax.py", "SARIMAX with lagged exogenous variables"),
+                    ("t8_ex_ante.py", "ex-ante large-change months and El Nino costero months"),
+                    ("t9_h2.py", "two-step-ahead horizon"),
+                    ("t10_crps.py", "CRPS and threshold-weighted CRPS")):
         run(f"review R2 (13_revision_r2): {name} ({f})", [str(R2 / "scripts" / f)], log)
 
     results = {}
